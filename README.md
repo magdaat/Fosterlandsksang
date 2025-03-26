@@ -4,6 +4,8 @@
 
 Digitaliseringen av Fosterländsk sång vid Götha Canals öpnande i Hans Maj:t konungens och den kongl. famillens närvaro, den 26 september 1832, är ett projekt som har genomförts inom ramen för kursen Digitalisering för bevarande och tillgänglighet inom masterprogrammet i Biblioteks- och informationsvetenskap år 2025 vid [Borås högskola](https://www.hb.se/).
 
+Slutprodukten går att ses här: [så ska den länkas här]()
+
 ## Om projektet
 Projektet består av..
 
@@ -11,5 +13,3 @@ Projektet består av..
 Projektets tillgängliggörande och publicering har utgått ifrån [Wout Dillens](https://github.com/WoutDLN) mallar som har tagits fram inom ramen för kursen.
 
 Detta repository skapades som undervisningsverktyg inom kursen. Fortsatt utveckling av mallen har gjorts möjlig av [Huminfra](https://www.huminfra.se), svensk nationell infrastruktur som stödjer digital forskning inom humaniora ämnen.
-
-Special thanks to [vincerubinetti](https://github.com/vincerubinetti), whose GitHub Action (mentioned in [this forum comment](https://github.com/orgs/community/discussions/22183#discussioncomment-4585507)) formed the basis of the template cleanup procedure mentioned above, and to [Andre601](https://github.com/Andre601), for helping me figure out how to update the `.yml` file to get it to work.
