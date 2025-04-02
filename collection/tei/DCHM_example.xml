@@ -6,14 +6,21 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>DCHM Template</title>
-            <author corresp="#WD">Wout Dillen</author>
-            <principal>Wout Dillen</principal>
+            <title type="huvudtitel">Digitaliserad version av Fosterländsk sång</title>
+            <title type="undertitel">Vid Göta kanals öppnande 1832</title>
+            <principal>Jessica Hultengren, Magdalena af Trolle, Marie Gyll och Susanne Landén</principal>
+            <respStmt>
+               <resp>Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet i biblioteks- och informationsvetenskap, högskolan i Borås.</resp>
+               <persName>Jessica Hultengren</persName> <!-- Kolla detta, om vi ska dela upp i för- och efternamn. -->
+               <persName>Magdalena af Trolle</persName>
+               <persName>Marie Gyll</persName>
+               <persName>Susanne Landén</persName>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>University of Borås</publisher>
-            <date>March 2022</date>
-            <availability>
+            <publisher>Högskolan i Borås</publisher>
+            <date>Maj 2025</date>
+            <availability><!-- Kolla detta, om vi ska ha mer info om distribution. -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
                      Transcription distributed under a CC-BY-SA 4.0 license.
@@ -21,11 +28,37 @@
                </licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>
-               <p>A two-sided post-it with a simple example phrase on either side.</p>
+         <sourceDesc>            
+            <bibl> <!-- Har valt bibl för att få in mer metadata. -->
+               <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
+               <author>
+                  <name> 
+                     <surname>Pontin</surname>
+                     <forename>Magnus Martin af</forename>
+                     <date>1781-1858</date> <!-- Kolla detta. Författarens födelse- och dödsår. -->
+                  </name>    
+               </author>
+               <note type="printedBy">P. A. Norstedt &amp; söner</note>
+               <date>1832</date>
+               <pubPlace>Stockholm</pubPlace>          
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Vallabiblioteket, Linköpings universitetsbibliotek</repository>
+                  <collection>Bokladan</collection>
+               </msIdentifier>
+               <history>
+                  <provenance>
+                     Har varit i Kungliga vattenfallsstyrelsens ägo, enligt etikett.
+                  </provenance>
+                  <provenance>
+                     Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
+                  </provenance>
+               </history>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc> <!-- Forsätt 25-04-04, komma ihåg att kolla om vi ska ha tag och text på samma rad. -->
          <handNotes>
             <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
          </handNotes>
