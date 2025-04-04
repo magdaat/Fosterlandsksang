@@ -75,14 +75,26 @@
             <graphic xml:id="sanghafte01_thumb" url="assets/img/documents/sanghafte01_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="postit02">
+      <surface xml:id="sanghafte02">
          <figure>
-            <label>Post-It Back</label>
+            <label>Uppslag 1</label>
             <figDesc>
-               A photograph of the back a post-it with a simple example phrase.
+               En skannad bild av det första uppslaget som visar framsidans insida och titelbladet. 
+               Framsidans insida innehåller två etiketter och handskrift. 
+               Titelbladet innehåller namnet på sången, två handskrivna signaturer varav den ena är överstruken, ett handskrivet ord.
             </figDesc>
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            <graphic xml:id="sanghafte02_full" url="assets/img/documents/sanghafte02.png"/>
+            <graphic xml:id="sanghafte02_thumb" url="assets/img/documents/sanghafte02_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="sanghafte03">
+         <figure>
+            <label>Uppslag 2</label>
+            <figDesc>
+               En skannad bild av det andra uppslaget som till vänster visar ett blankt blad. Till höger visas sångens första sida.
+            </figDesc>
+            <graphic xml:id="sanghafte03_full" url="assets/img/documents/sanghafte03.png"/>
+            <graphic xml:id="sanghafte03_thumb" url="assets/img/documents/sanghafte03_thumb.png"/>
          </figure>
       </surface>
    </facsimile>
