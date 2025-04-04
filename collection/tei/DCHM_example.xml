@@ -49,7 +49,7 @@
                </msIdentifier>
                <history>
                   <provenance>
-                     Har varit i Kungliga vattenfallsstyrelsens ägo, enligt etikett.
+                     Har varit i <orgName>Kungliga vattenfallsstyrelsens</orgName> ägo, enligt etikett.
                   </provenance>
                   <provenance>
                      Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
@@ -65,14 +65,14 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="postit01">
+      <surface xml:id="sanghaftet01">
          <figure>
-            <label>Post-It Front</label>
+            <label>Framsida</label>
             <figDesc>
-               A photograph of the front of a post-it with a simple example phrase.
+               En skannad bild av sånghäftets framsida.
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="sanghafte01_full" url="assets/img/documents/sanghafte01.png"/>
+            <graphic xml:id="sanghafte01_thumb" url="assets/img/documents/sanghafte01_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="postit02">
