@@ -7,7 +7,7 @@ Digitaliseringen av Fosterländsk sång vid Götha Canals öpnande i Hans Maj:t 
 Slutprodukten går att ses här: [så ska den länkas här]()
 
 ## Om projektet
-Projektet består av.. sndlkfnalknglk
+Projektet består av.. 
 
 ## Credits
 Projektets tillgängliggörande och publicering har utgått ifrån [Wout Dillens](https://github.com/WoutDLN) mallar som har tagits fram inom ramen för kursen.
