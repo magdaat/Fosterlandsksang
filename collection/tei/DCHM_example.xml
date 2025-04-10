@@ -152,12 +152,8 @@
       </surface>
    </facsimile>
    <text>
-      <front> <!-- OMSLAG? -->
-         <div type="front" facs="#sanghafte01"></div>
-         <div type="page" facs="#sanghafte02">
-            <head>
-               <hi rend="u">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</hi>
-            </head>
+      <front> <!-- Flytta detta till tillhörande faksimil -->
+         <div type="page">
             <p>
                Kungl Vattenfalls Styrelsen 
                BIBLIOTEKET
@@ -171,10 +167,9 @@
                EX Libris Gn
             </p>
             <p>
-               Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
-               <note>oläslig handskrift delvis överstruken</note>
-               M.M. af Pontin
-            </p>
+               Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</p>
+               <p >oläslig handskrift delvis överstruken</p>
+            <p hand = "#MMP">M.M. af Pontin</p>
          </div>
       </front>
       <body>
