@@ -8,17 +8,22 @@
          <titleStmt>
             <title type="huvudtitel">Digitaliserad version av Fosterländsk sång</title>
             <title type="undertitel">Vid Göta kanals öppnande 1832</title>
-            <principal>Jessica Hultengren, Magdalena af Trolle, Marie Gyll och Susanne Landén</principal>
+            <principal>
+               <persName>Marie Gyll</persName>
+               <persName>Jessica Hultengren</persName>
+               <persName>Susanne Landén</persName>
+               <persName>Magdalena af Trolle</persName>
+            </principal>
             <respStmt>
                <resp>Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet i biblioteks- och informationsvetenskap, högskolan i Borås.</resp>
-               <persName>Jessica Hultengren</persName> <!-- Kolla detta, om vi ska dela upp i för- och efternamn. -->
-               <persName>Magdalena af Trolle</persName>
                <persName>Marie Gyll</persName>
+               <persName>Jessica Hultengren</persName>
                <persName>Susanne Landén</persName>
+               <persName>Magdalena af Trolle</persName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <publisher>Högskolan i Borås</publisher>
+            <authority>Högskolan i Borås</authority>
             <date>Maj 2025</date>
             <availability><!-- Kolla detta, om vi ska ha mer info om distribution. -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
@@ -33,9 +38,7 @@
                <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
                <author>
                   <name> 
-                     <surname>Pontin</surname>
-                     <forename>Magnus Martin af</forename>
-                     <date>1781-1858</date> <!-- Kolla detta. Författarens födelse- och dödsår. -->
+                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af Pontin</persName>
                   </name>    
                </author>
                <note type="printedBy">P. A. Norstedt &amp; söner</note>
@@ -58,7 +61,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc> <!-- Forsätt 25-04-04, komma ihåg att kolla om vi ska ha tag och text på samma rad. -->
+      <profileDesc>
          <handNotes>
             <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
          </handNotes>
@@ -77,9 +80,9 @@
       </surface>
       <surface xml:id="sanghafte02">
          <figure>
-            <label>Uppslag 1</label>
+            <label>Uppslag 1 (blad 1 och 2)</label>
             <figDesc>
-               En skannad bild av det första uppslaget som visar framsidans insida och titelbladet. 
+               En skannad bild av det första uppslaget som visar insida pärm och titelbladet. 
                Framsidans insida innehåller två etiketter och handskrift. 
                Titelbladet innehåller namnet på sången, två handskrivna signaturer varav den ena är överstruken, ett handskrivet ord.
             </figDesc>
@@ -89,7 +92,7 @@
       </surface>
       <surface xml:id="sanghafte03">
          <figure>
-            <label>Uppslag 2</label>
+            <label>Uppslag 2 (blad 3 och 4)</label>
             <figDesc>
                En skannad bild av det andra uppslaget som till vänster visar ett blankt blad. Till höger visas sångens första sida.
             </figDesc>
@@ -97,17 +100,60 @@
             <graphic xml:id="sanghafte03_thumb" url="assets/img/documents/sanghafte03_thumb.png"/>
          </figure>
       </surface>
+      <surface xml:id="sanghafte04">
+         <figure>
+            <label>Uppslag 3 (blad 5 och 6)</label>
+            <figDesc>
+               En skannad bild av det tredje uppslaget, numrerade som sida 2 och 3. Detta uppslag innehåller sångtext.
+            </figDesc>
+            <graphic xml:id="sanghafte04_full" url="assets/img/documents/sanghafte04.png"/>
+            <graphic xml:id="sanghafte04_thumb" url="assets/img/documents/sanghafte04_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="sanghafte05">
+         <figure>
+            <label>Uppslag 4 (blad 7 och 8)</label>
+            <figDesc>
+               En skannad bild av det fjärde uppslaget, numrerade som sida 4 och 5. Detta uppslag innehåller sångtext.
+            </figDesc>
+            <graphic xml:id="sanghafte05_full" url="assets/img/documents/sanghafte05.png"/>
+            <graphic xml:id="sanghafte05_thumb" url="assets/img/documents/sanghafte05_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="sanghafte06">
+         <figure>
+            <label>Uppslag 5 (blad 9 och 10)</label>
+            <figDesc>
+               En skannad bild av det femte uppslaget, numrerade som sida 6 och 7. Detta uppslag innehåller sångtext.
+            </figDesc>
+            <graphic xml:id="sanghafte06_full" url="assets/img/documents/sanghafte06.png"/>
+            <graphic xml:id="sanghafte06_thumb" url="assets/img/documents/sanghafte06_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="sanghafte07">
+         <figure>
+            <label>Uppslag 6 (blad 11 och 12)</label>
+            <figDesc>
+               En skannad bild av det sista uppslaget som till vänster visar sångens sista sida, numrerad som sida 8. Till höger visas insida pärm som är blank.
+            </figDesc>
+            <graphic xml:id="sanghafte07_full" url="assets/img/documents/sanghafte07.png"/>
+            <graphic xml:id="sanghafte07_thumb" url="assets/img/documents/sanghafte07_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="sanghafte08">
+         <figure>
+            <label>Baksida</label>
+            <figDesc>
+               En skannad bild av sånghäftets baksida.
+            </figDesc>
+            <graphic xml:id="sanghafte08_full" url="assets/img/documents/sanghafte08.png"/>
+            <graphic xml:id="sanghafte08_thumb" url="assets/img/documents/sanghafte08_thumb.png"/>
+         </figure>
+      </surface>
    </facsimile>
    <text>
-      <body>
-         <div type="page" facs="#sanghafte01">
-            <head>
-               <hi rend="u">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</hi>
-            </head>
-            <p>
-               ett orange omslag
-            </p>
-         </div>
+      <front> <!-- OMSLAG? -->
+         <div type="front" facs="#sanghafte01"></div>
          <div type="page" facs="#sanghafte02">
             <head>
                <hi rend="u">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</hi>
@@ -130,7 +176,9 @@
                M.M. af Pontin
             </p>
          </div>
-         <div type="page" facs="#sanghafte03">
+      </front>
+      <body>
+          <div type="page" facs="#sanghafte03">
          <p>
             The back
             <lb/>of my
@@ -138,5 +186,6 @@
          </p>
       </div>
       </body>
+      <back></back>
    </text>
 </TEI>
