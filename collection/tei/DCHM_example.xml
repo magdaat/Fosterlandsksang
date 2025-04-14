@@ -7,7 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title type="huvudtitel">Digitaliserad version av Fosterländsk sång</title>
-            <title type="undertitel">Vid Göta kanals öppnande 1832</title>
+            <title type="undertitel">vid Göta kanals öppnande 1832</title>
             <principal>
                <persName>Marie Gyll</persName>
                <persName>Jessica Hultengren</persName>
@@ -68,17 +68,17 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="sanghaftet01">
+      <surface xml:id="Framsida_omslag_1">
          <figure>
-            <label>Framsida</label>
+            <label>Framsida omslag</label>
             <figDesc>
-               En skannad bild av sånghäftets framsida.
+               En skannad bild på framsidan av resursens omslag.
             </figDesc>
-            <graphic xml:id="sanghafte01_full" url="assets/img/documents/sanghafte01.png"/>
-            <graphic xml:id="sanghafte01_thumb" url="assets/img/documents/sanghafte01_thumb.png"/>
+            <graphic xml:id="Framsida_omslag_1_full" url="assets/img/documents/sanghafte01.png"/>
+            <graphic xml:id="Framsida_omslag_1_thumb" url="assets/img/documents/sanghafte01_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte02">
+      <surface xml:id="Insida_omslag_och_titelblad_2">
          <figure>
             <label>Uppslag 1 (blad 1 och 2)</label>
             <figDesc>
