@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    Digitaliserad version av Fosterländsk sång
+                    DCHM Template: Diplomatic View
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -30,10 +30,10 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Om projektet</a> |
-                    <a href="diplomatic.html">Sånghäfte</a> |
-                    <a href="reading.html">Sångtext</a> |
-                    <a href="toplayer.html">Historia</a> |
+                    <a href="index.html">Home</a> |
+                    <a href="diplomatic.html">Diplomatic Transcription</a> |
+                    <a href="reading.html">Reading Text</a> |
+                    <a href="toplayer.html">Top Layer</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -46,7 +46,7 @@
                             <div class="col-sm">
                             </div>
                             <div class="col-sm">
-                                <h3>Test</h3>
+                                <h3>Transcription</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
