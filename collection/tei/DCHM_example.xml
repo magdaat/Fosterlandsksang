@@ -90,64 +90,64 @@
             <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb" url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte03">
+      <surface xml:id="B3-Blankt-blad-och-sångens-första-sida">
          <figure>
-            <label>Uppslag 2 (blad 3 och 4)</label>
+            <label>Blankt blad och sångens första sida</label>
             <figDesc>
-               En skannad bild av det andra uppslaget som till vänster visar ett blankt blad. Till höger visas sångens första sida.
+               En skannad bild av ett blankt blad till vänster och sångens första sida till höger.
             </figDesc>
-            <graphic xml:id="sanghafte03_full" url="assets/img/documents/sanghafte03.png"/>
-            <graphic xml:id="sanghafte03_thumb" url="assets/img/documents/sanghafte03_thumb.png"/>
+            <graphic xml:id="B3-Blankt-blad-och-sångens-första-sida_full" url="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida.png"/>
+            <graphic xml:id="B3-Blankt-blad-och-sångens-första-sida_thumb" url="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte04">
+      <surface xml:id="B4-Sångtext-sida-två-tre">
          <figure>
-            <label>Uppslag 3 (blad 5 och 6)</label>
+            <label>Sångtext, sida två-tre</label>
             <figDesc>
-               En skannad bild av det tredje uppslaget, numrerade som sida 2 och 3. Detta uppslag innehåller sångtext.
+               En skannad bild av sångtextens andra och tredje sida.
             </figDesc>
-            <graphic xml:id="sanghafte04_full" url="assets/img/documents/sanghafte04.png"/>
-            <graphic xml:id="sanghafte04_thumb" url="assets/img/documents/sanghafte04_thumb.png"/>
+            <graphic xml:id="B4-Sångtext-sida-två-tre_full" url="assets/img/documents/B4-Sångtext-sida-två-tre.png"/>
+            <graphic xml:id="B4-Sångtext-sida-två-tre_thumb" url="assets/img/documents/B4-Sångtext-sida-två-tre_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte05">
+      <surface xml:id="B5-Sångtext-sida-fyra-fem">
          <figure>
-            <label>Uppslag 4 (blad 7 och 8)</label>
+            <label>Sångtext, sida fyra-fem</label>
             <figDesc>
-               En skannad bild av det fjärde uppslaget, numrerade som sida 4 och 5. Detta uppslag innehåller sångtext.
+               En skannad bild av sångtextens fjärde och femte sida.
             </figDesc>
-            <graphic xml:id="sanghafte05_full" url="assets/img/documents/sanghafte05.png"/>
-            <graphic xml:id="sanghafte05_thumb" url="assets/img/documents/sanghafte05_thumb.png"/>
+            <graphic xml:id="B5-Sångtext-sida-fyra-fem_full" url="assets/img/documents/B5-Sångtext-sida-fyra-fem.png"/>
+            <graphic xml:id="B5-Sångtext-sida-fyra-fem_thumb" url="assets/img/documents/B5-Sångtext-sida-fyra-fem_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte06">
+      <surface xml:id="B6-Sångtext-sida-sex-sju">
          <figure>
-            <label>Uppslag 5 (blad 9 och 10)</label>
+            <label>Sångtext, sida sex-sju</label>
             <figDesc>
-               En skannad bild av det femte uppslaget, numrerade som sida 6 och 7. Detta uppslag innehåller sångtext.
+               En skannad bild av sångtextens sjätte och sjunde sida.
             </figDesc>
-            <graphic xml:id="sanghafte06_full" url="assets/img/documents/sanghafte06.png"/>
-            <graphic xml:id="sanghafte06_thumb" url="assets/img/documents/sanghafte06_thumb.png"/>
+            <graphic xml:id="B6-Sångtext-sida-sex-sju_full" url="assets/img/documents/B6-Sångtext-sida-sex-sju.png"/>
+            <graphic xml:id="B6-Sångtext-sida-sex-sju_thumb" url="assets/img/documents/B6-Sångtext-sida-sex-sju_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte07">
+      <surface xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida">
          <figure>
-            <label>Uppslag 6 (blad 11 och 12)</label>
+            <label>Åttonde sidan sångtext och en blank sida</label>
             <figDesc>
-               En skannad bild av det sista uppslaget som till vänster visar sångens sista sida, numrerad som sida 8. Till höger visas insida pärm som är blank.
+               En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
             </figDesc>
-            <graphic xml:id="sanghafte07_full" url="assets/img/documents/sanghafte07.png"/>
-            <graphic xml:id="sanghafte07_thumb" url="assets/img/documents/sanghafte07_thumb.png"/>
+            <graphic xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida_full" url="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida.png"/>
+            <graphic xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida_thumb" url="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="sanghafte08">
+      <surface xml:id="B8-Baksida-omslag">
          <figure>
-            <label>Baksida</label>
+            <label>Baksida omslag</label>
             <figDesc>
-               En skannad bild av sånghäftets baksida.
+               En skannad bild på baksidan av resursens omslag.
             </figDesc>
-            <graphic xml:id="sanghafte08_full" url="assets/img/documents/sanghafte08.png"/>
-            <graphic xml:id="sanghafte08_thumb" url="assets/img/documents/sanghafte08_thumb.png"/>
+            <graphic xml:id="B8-Baksida-omslag_full" url="assets/img/documents/B8-Baksida-omslag.png"/>
+            <graphic xml:id="B8-Baksida-omslag_thumb" url="assets/img/documents/B8-Baksida-omslag_thumb.png"/>
          </figure>
       </surface>
    </facsimile>
