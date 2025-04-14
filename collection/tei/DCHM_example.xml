@@ -68,26 +68,26 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="Framsida_omslag_1">
+      <surface xml:id="B1-Framsida-omslag">
          <figure>
             <label>Framsida omslag</label>
             <figDesc>
                En skannad bild på framsidan av resursens omslag.
             </figDesc>
-            <graphic xml:id="Framsida_omslag_1_full" url="assets/img/documents/sanghafte01.png"/>
-            <graphic xml:id="Framsida_omslag_1_thumb" url="assets/img/documents/sanghafte01_thumb.png"/>
+            <graphic xml:id="B1-Framsida-omslag_full" url="assets/img/documents/B1-Framsida-omslag.png"/>
+            <graphic xml:id="B1-Framsida-omslag_thumb" url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="Insida_omslag_och_titelblad_2">
+      <surface xml:id="B2-Insida-omslag-och-titelblad">
          <figure>
-            <label>Uppslag 1 (blad 1 och 2)</label>
+            <label>Insida omslag och titelblad</label>
             <figDesc>
-               En skannad bild av det första uppslaget som visar insida pärm och titelbladet. 
-               Framsidans insida innehåller två etiketter och handskrift. 
-               Titelbladet innehåller namnet på sången, två handskrivna signaturer varav den ena är överstruken, ett handskrivet ord.
+               En skannad bild av insida omslag och titelblad. 
+               Insidan på framsidans omslag innehåller två etiketter och handskrift. 
+               Titelbladet innehåller sångens titel, två handskrivna signaturer varav den ena är överstruken och ett handskrivet ord.
             </figDesc>
-            <graphic xml:id="sanghafte02_full" url="assets/img/documents/sanghafte02.png"/>
-            <graphic xml:id="sanghafte02_thumb" url="assets/img/documents/sanghafte02_thumb.png"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_full" url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb" url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="sanghafte03">
