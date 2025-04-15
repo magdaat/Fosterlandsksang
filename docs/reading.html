@@ -8,6 +8,25 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
+      
+      <!-- Extra stil för tydliga pilar -->
+      <style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.7); /* Mörk bakgrund */
+      border-radius: 50%;
+      background-size: 60% 60%;
+      padding: 10px;
+    }
+
+    /* Positionera pilarna lite närmare mitten på mobilen */
+    @media (max-width: 768px) {
+      .carousel-control-prev,
+      .carousel-control-next {
+        top: 45%;
+      }
+    }
+  </style>
    </head>
    
    <body>
