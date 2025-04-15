@@ -62,9 +62,14 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <handNotes>
-            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
-         </handNotes>
+            <langUsage>
+               <language ident="sv">Svenska</language>
+            </langUsage>
+            <settingDesc>
+               <setting>
+                  <p>sånghäfte från götha kanals öppnande/invigningen av Götha kanal som innehåller sångtext, stämplar och signaturer</p>
+               </setting>
+            </settingDesc>
       </profileDesc>
    </teiHeader>
    <facsimile>
@@ -173,13 +178,64 @@
          </div>
       </front>
       <body>
-          <div type="page" facs="#sanghafte03">
-         <p>
-            The back
-            <lb/>of my
-            <lb/>Post-it
-         </p>
+            <div type="page" facs="#B3-Blankt-blad-och-sångens-första-sida">
+            <head>
+               Fosterländsk Sång
+               <lb/>VID
+               <lb/>GÖTHA CANALS FULLBORDAN. 
+               <lb/>År 1832.
+            </head>
+            <p>
+               <lb/>CHOR.
+               <lb/>Du bröt dina bojor, du fria Nord! 
+               <lb/>De sista, de enda dig tryckte:
+               <lb/>De klippor, som stängde din bördiga jord, 
+               <lb/>De fjäll, som begränsat ditt rykte.
+               <lb/>Nu leder du, fridsam, den vestliga fjord  
+               <lb/>Till fjärdarna inanför Bälten,
+               <lb/>Att helsas af Konunga-Hjelten.
+            </p>
+               <p>
+               <lb/>Då skyndar den högländta källans språng 
+               <lb/>Ur hjertat af Skandiens dalar,
+               <lb/>Och, mötande salta vågens gång,
+               <lb/>Om inlandets trefnad hon talar;
+               <lb/>Der Odlarn och Bergsmannen höja sin sång
+               <lb/>Och Krigarne sjunga i tälten,
+               <lb/>Till ära för segrande Hjelten.
+               </p>
       </div>
+         <div type="page" facs="#B4-Sångtext-sida-två-tre_full">
+            <metamark function="pagenumber" place="top-center"><hi rend="- -"><num>2</num></hi></metamark>
+            <p>
+               <lb/>RECITATIV.                         
+               <lb/>Ja, en Segerfest är din fullbordan,                
+               <lb/>Jätte-verk af Sveas starka arm!                    
+               <lb/>Blåse Vestan eller storme Nordan,                 
+               <lb/>Trygg hon möter dem med härdad barm. 
+               <lb/>Lik en flod-gud uppå egna vågor                    
+               <lb/>Går hon, och på strand dess Lejon-par; 
+               <lb/>Bjuder tiden svara på de frågor,
+               <lb/>Der blott vinning fordrar svar.
+               </p>
+            <p>
+               <lb/>Mellan berg och brådjup trädd i dagen,             
+               <lb/>Nordens kraft du speglar i ditt bryn,              
+               <lb/>Stolta Flod! ur Sveas fjällbarm dragen,           
+               <lb/>Vintergatan lik, som famnar skyn.                  
+               <lb/>Ut till hafvet vill din fria bana,                  
+               <lb/>Sen du gästat Göthers blomstergård.                 
+               <lb/>Hvarje Flagg du här blir segerfana,                 
+               <lb/>Hvarje Sluss — en minnesvård.
+            </p>
+            <p>Allt stort och fosterländskt, i tanke eller bragd,     
+               <lb/>Vann Svenska Folkets lof, vann hyllning alla tider;   
+               <lb/>Och denna Högtidsdag, af häfden förutsagd,             
+               <lb/>Ser tankens djerfva plan till handling förd omsider.   
+               <lb/>Re'n Heden-timas Sago-brått
+               <lb/>För den som runorna förstått,
+               <lb/>Har tydt Wafthrudners spådoms-anda:</p>
+         </div>
       </body>
       <back></back>
    </text>
