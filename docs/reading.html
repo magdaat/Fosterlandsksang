@@ -1,155 +1,86 @@
 <!DOCTYPE html>
-<!DOCTYPE HTML>
-<html lang="en" xml:lang="en">
+<html lang="sv">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>
-                    
-                    DCHM Template: Reading Text
-                </title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <meta charset="UTF-8">
+      <title>DCHM Template: Reading Text</title>
+      
+      <!-- Bootstrap 5 CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
+      
+      <!-- Extra stil för tydliga pilar -->
+      <style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: rgba(0, 0, 0, 0.7); /* Mörk bakgrund */
+      border-radius: 50%;
+      background-size: 60% 60%;
+      padding: 10px;
+    }
+
+    /* Positionera pilarna lite närmare mitten på mobilen */
+    @media (max-width: 768px) {
+      .carousel-control-prev,
+      .carousel-control-next {
+        top: 45%;
+      }
+    }
+  </style>
    </head>
+   
    <body>
-      <header>
-         <h1>Digitaliserad version av Fosterländsk sångvid Göta kanals öppnande 1832</h1>
+      <header class="container py-3">
+         <h1>Digitaliserad version av Fosterländsk sång vid Göta kanals öppnande 1832</h1>
       </header>
-      <nav id="sitenav"><a href="index.html">Home</a> |
-         <a href="diplomatic.html">Diplomatic Transcription</a> |
-         <a href="reading.html">Reading Text</a> |
-         <a href="toplayer.html">Top Layer</a> |
-         </nav>
-      <main id="manuscript">
-         <div class="container">
-            <div class="row">
-               <div class="col-">
-                  <h3>Images</h3>
+      
+      <nav id="sitenav" class="container mb-3">
+         <a href="index.html">Om projektet</a> |
+         <a href="diplomatic.html">Sånghäfte</a> |
+         <a href="reading.html">Sångtext</a> |
+         <a href="toplayer.html">Historia</a> |
+         <a href="toplayer.html">Begrepp</a>
+      </nav>
+      
+      <div class="container-lg my-3">
+         <div id="myCarousel" class="carousel slide" data-bs-interval="false">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="assets/img/documents/B1-Framsida-omslag.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Framsida av sånghäfte">
                </div>
-               <div class="col-md">
-                  <h3>Transcription</h3>
+               <div class="carousel-item">
+                  <img src="assets/img/documents/B2-Insida-omslag-och-titelblad.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Titelblad av sånghäfte">
                </div>
-            </div>
-            <div class="row">
-               <div class="col-">
-                  <article><img class="thumbnail" src="" title="" alt=""></article>
-               </div>
-               <div class="col-md">
-                  <article class="transcription">
-                     
-                     <p>
-                        Kungl Vattenfalls Styrelsen 
-                        BIBLIOTEKET
-                        Löp. N:o 2028
-                        Reg. N:o
-                        </p>
-                     
-                     <p>
-                        oläslig handskrift
-                        </p>
-                     
-                     <p>
-                        EX Libris Gn
-                        </p>
-                     
-                     <p>
-                        Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens
-                        Närvaro, den 26 september 1832.</p>
-                     
-                     <p>oläslig handskrift delvis överstruken</p>
-                     
-                     <p>M.M. af Pontin</p>
-                     </article>
+               <div class="carousel-item">
+                  <img src="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångens första sida">
                </div>
             </div>
-            <div class="row">
-               <div class="col-">
-                  <article><img class="thumbnail" src="assets/img/documents/B3-Blankt-blad-och-s%C3%A5ngens-f%C3%B6rsta-sida_thumb.png" title="Blankt blad och sångens första sida" alt="&#xA;               En skannad bild av ett blankt blad till vänster och sångens första sida till höger.&#xA;            "></article>
-               </div>
-               <div class="col-md">
-                  <article class="transcription">
-                     
-                     <h2>
-                        Fosterländsk Sång
-                        VID
-                        GÖTHA CANALS FULLBORDAN. 
-                        År 1832.
-                        </h2>
-                     
-                     <p>
-                        CHOR.
-                        Du bröt dina bojor, du fria Nord! 
-                        De sista, de enda dig tryckte:
-                        De klippor, som stängde din bördiga jord, 
-                        De fjäll, som begränsat ditt rykte.
-                        Nu leder du, fridsam, den vestliga fjord  
-                        Till fjärdarna inanför Bälten,
-                        Att helsas af Konunga-Hjelten.
-                        </p>
-                     
-                     <p>
-                        Då skyndar den högländta källans språng 
-                        Ur hjertat af Skandiens dalar,
-                        Och, mötande salta vågens gång,
-                        Om inlandets trefnad hon talar;
-                        Der Odlarn och Bergsmannen höja sin sång
-                        Och Krigarne sjunga i tälten,
-                        Till ära för segrande Hjelten.
-                        </p>
-                     </article>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-">
-                  <article><img class="thumbnail" src="" title="" alt=""></article>
-               </div>
-               <div class="col-md">
-                  <article class="transcription">
-                     2
-                     
-                     <p>
-                        RECITATIV.                         
-                        Ja, en Segerfest är din fullbordan,                
-                        Jätte-verk af Sveas starka arm!                    
-                        Blåse Vestan eller storme Nordan,                 
-                        Trygg hon möter dem med härdad barm. 
-                        Lik en flod-gud uppå egna vågor                    
-                        Går hon, och på strand dess Lejon-par; 
-                        Bjuder tiden svara på de frågor,
-                        Der blott vinning fordrar svar.
-                        </p>
-                     
-                     <p>
-                        Mellan berg och brådjup trädd i dagen,             
-                        Nordens kraft du speglar i ditt bryn,              
-                        Stolta Flod! ur Sveas fjällbarm dragen,           
-                        Vintergatan lik, som famnar skyn.                  
-                        Ut till hafvet vill din fria bana,                  
-                        Sen du gästat Göthers blomstergård.                 
-                        Hvarje Flagg du här blir segerfana,                 
-                        Hvarje Sluss — en minnesvård.
-                        </p>
-                     
-                     <p>Allt stort och fosterländskt, i tanke eller bragd,     
-                        Vann Svenska Folkets lof, vann hyllning alla tider;   
-                        Och denna Högtidsdag, af häfden förutsagd,             
-                        Ser tankens djerfva plan till handling förd omsider.   
-                        Re'n Heden-timas Sago-brått
-                        För den som runorna förstått,
-                        Har tydt Wafthrudners spådoms-anda:</p>
-                     </article>
-               </div>
-            </div>
+            
+            <!-- Navigationspilar -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Föregående</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Nästa</span>
+            </button>
          </div>
-      </main>
-      <footer>
+      </div>
+      
+      <footer class="container mt-5">
          <div class="row" id="footer">
-            <div class="col-sm copyright">
-               <div><a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"></a></div>
-               <div>
-                  2022 Wout Dillen.
-                  </div>
+            <div class="col-sm text-center">
+               <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
+                  <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
+                  <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International">
+               </a>
+               <div>2022 Wout Dillen.</div>
             </div>
          </div>
-      </footer><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script></body>
+      </footer>
+      
+      <!-- Bootstrap 5 JS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
 </html>
