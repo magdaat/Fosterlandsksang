@@ -63,7 +63,7 @@
       </fileDesc>
       <profileDesc>
          <handNotes>
-            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote>
+            <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote> <!-- Ändra detta. -->
          </handNotes>
       </profileDesc>
    </teiHeader>
@@ -173,7 +173,7 @@
          </div>
       </front>
       <body>
-          <div type="page" facs="#sanghafte03">
+          <div type="page" facs="#sanghafte03"> 
          <p>
             The back
             <lb/>of my
