@@ -2,24 +2,21 @@
 <html lang="sv">
    <head>
       <meta charset="UTF-8">
-      <title>DCHM Template: Reading Text</title>
+      <title>Fosterländsk sång – Bildspel</title>
       
       <!-- Bootstrap 5 CSS -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="assets/css/main.css">
-      <link rel="stylesheet" href="assets/css/desktop.css">
       
       <!-- Extra stil för tydliga pilar -->
       <style>
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
-      background-color: rgba(0, 0, 0, 0.7); /* Mörk bakgrund */
+      background-color: rgba(0, 0, 0, 0.7);
       border-radius: 50%;
       background-size: 60% 60%;
       padding: 10px;
     }
 
-    /* Positionera pilarna lite närmare mitten på mobilen */
     @media (max-width: 768px) {
       .carousel-control-prev,
       .carousel-control-next {
@@ -30,11 +27,11 @@
    </head>
    
    <body>
-      <header class="container py-3">
-         <h1>Digitaliserad version av Fosterländsk sång vid Göta kanals öppnande 1832</h1>
+      <header class="container py-4 text-center">
+         <h1>Fosterländsk sång vid Göta kanals öppnande 1832</h1>
       </header>
       
-      <nav id="sitenav" class="container mb-3">
+      <nav class="container text-center mb-4">
          <a href="index.html">Om projektet</a> |
          <a href="diplomatic.html">Sånghäfte</a> |
          <a href="reading.html">Sångtext</a> |
@@ -42,39 +39,47 @@
          <a href="toplayer.html">Begrepp</a>
       </nav>
       
-      <div class="container-lg my-3">
+      <div class="container-lg mb-5">
          <div id="myCarousel" class="carousel slide" data-bs-interval="false">
             <div class="carousel-inner">
-  
+               
+               <!-- Slide 1 -->
                <div class="carousel-item active">
                   <img src="assets/img/documents/B1-Framsida-omslag.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Framsida omslag">
                </div>
                
+               <!-- Slide 2 -->
                <div class="carousel-item">
                   <img src="assets/img/documents/B2-Insida-omslag-och-titelblad.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Insida omslag och titelblad">
                </div>
                
+               <!-- Slide 3 -->
                <div class="carousel-item">
                   <img src="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Blankt blad och sångens första sida">
                </div>
                
-               <div class="carousel-item active">
-                  <img src="assets/img/documents/B4-S%C3%A5ngtext-sida-tv%C3%A5-tre.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångtext sida 2-3">
+               <!-- Slide 4 -->
+               <div class="carousel-item">
+                  <img src="assets/img/documents/B4-Sångtext-sida-två-tre.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångtext sida 2–3">
                </div>
                
-               <div class="carousel-item active">
-                  <img src="assets/img/documents/B5-S%C3%A5ngtext-sida-fyra-fem.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångtext sida 4-5">
+               <!-- Slide 5 -->
+               <div class="carousel-item">
+                  <img src="assets/img/documents/B5-Sångtext-sida-fyra-fem.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångtext sida 4–5">
                </div>
                
-               <div class="carousel-item active">
-                  <img src="assets/img/documents/B6-S%C3%A5ngtext-sida-sex-sju.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångtext sida 6-7">
+               <!-- Slide 6 -->
+               <div class="carousel-item">
+                  <img src="assets/img/documents/B6-Sångtext-sida-sex-sju.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Sångtext sida 6–7">
                </div>
                
-               <div class="carousel-item active">
-                  <img src="assets/img/documents/B7-%C3%85ttonde-sidan-s%C3%A5ngtext-och-en-blank-sida.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Åttonde sidan sångtext och en blank sida">
+               <!-- Slide 7 -->
+               <div class="carousel-item">
+                  <img src="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Åttonde sidan sångtext och en blank sida">
                </div>
                
-               <div class="carousel-item active">
+               <!-- Slide 8 -->
+               <div class="carousel-item">
                   <img src="assets/img/documents/B8-Baksida-omslag.png" class="d-block mx-auto border border-dark img-fluid w-50" alt="Baksida omslag">
                </div>
             </div>
@@ -91,19 +96,15 @@
          </div>
       </div>
       
-      <footer class="container mt-5">
-         <div class="row" id="footer">
-            <div class="col-sm text-center">
-               <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                  <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
-                  <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International">
-               </a>
-               <div>2025 Marie Gyll Jessica Hultengren Susanne Landén Magdalena af Trolle.</div>
-            </div>
-         </div>
+      <footer class="container mt-5 text-center">
+         <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
+            <img src="assets/img/logos/cc.svg" alt="Creative Commons License" style="height: 30px;">
+            <img src="assets/img/logos/by.svg" alt="Attribution 4.0 International" style="height: 30px;">
+         </a>
+         <p class="mt-2">2025 Marie Gyll, Jessica Hultengren, Susanne Landén, Magdalena af Trolle.</p>
       </footer>
       
-      <!-- Bootstrap 5 JS -->
+      <!-- Bootstrap 5 JS Bundle -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
    </body>
 </html>
