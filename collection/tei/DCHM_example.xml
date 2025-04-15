@@ -6,44 +6,56 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="huvudtitel">Digitaliserad version av Fosterländsk sång</title>
-            <title type="undertitel">vid Göta kanals öppnande 1832</title>
-            <principal>
-               <persName>Marie Gyll</persName>
-               <persName>Jessica Hultengren</persName>
-               <persName>Susanne Landén</persName>
-               <persName>Magdalena af Trolle</persName>
-            </principal>
+            <title type="huvudtitel">Digitaliserad version av:</title>
+            <title type="undertitel">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t
+               Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
+            <author>
+               <name>
+                  <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af
+                     Pontin</persName>
+               </name>
+            </author>
             <respStmt>
-               <resp>Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet i biblioteks- och informationsvetenskap, högskolan i Borås.</resp>
+               <!-- Ska vi våra namn både under respStmt och principal? Ta bort principal?. -->
+               <resp>Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet i
+                  biblioteks- och informationsvetenskap, högskolan i Borås. Genomförd av:</resp>
                <persName>Marie Gyll</persName>
                <persName>Jessica Hultengren</persName>
                <persName>Susanne Landén</persName>
                <persName>Magdalena af Trolle</persName>
             </respStmt>
+            <principal><!-- Ska vi våra namn både under respStmt och principal? Ta bort principal?. -->
+               <persName>Marie Gyll</persName>
+               <persName>Jessica Hultengren</persName>
+               <persName>Susanne Landén</persName>
+               <persName>Magdalena af Trolle</persName>
+            </principal>
          </titleStmt>
          <publicationStmt>
-            <authority>Högskolan i Borås</authority>
+            <authority>Linköpings universitetsbibliotek</authority>
+            <!-- Ok med Linköping att stå här?. -->
             <date>Maj 2025</date>
-            <availability><!-- Kolla detta, om vi ska ha mer info om distribution. -->
+            <availability>
+               <!-- Kolla detta, om vi ska ha mer info om distribution. -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>
-                     Transcription distributed under a CC-BY-SA 4.0 license.
-                  </p>
+                  <p> Transcription distributed under a CC-BY-SA 4.0 license. </p>
                </licence>
             </availability>
          </publicationStmt>
-         <sourceDesc>            
-            <bibl> <!-- Har valt bibl för att få in mer metadata. -->
-               <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
+         <sourceDesc>
+            <bibl>
+               <!-- Har valt bibl för att få in mer metadata. -->
+               <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens
+                  och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
                <author>
-                  <name> 
-                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af Pontin</persName>
-                  </name>    
+                  <name>
+                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af
+                        Pontin</persName>
+                  </name>
                </author>
                <note type="printedBy">P. A. Norstedt &amp; söner</note>
                <date>1832</date>
-               <pubPlace>Stockholm</pubPlace>          
+               <pubPlace>Stockholm</pubPlace>
             </bibl>
             <msDesc>
                <msIdentifier>
@@ -51,12 +63,10 @@
                   <collection>Bokladan</collection>
                </msIdentifier>
                <history>
-                  <provenance>
-                     Har varit i <orgName>Kungliga vattenfallsstyrelsens</orgName> ägo, enligt etikett.
-                  </provenance>
-                  <provenance>
-                     Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
-                  </provenance>
+                  <provenance> Har varit i <orgName>Kungliga vattenfallsstyrelsens</orgName> ägo,
+                     enligt etikett. </provenance>
+                  <provenance> Har varit i ytterligare en persons ägo, indikerat av etikett där det
+                     står Ex Libris och initialer. </provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -65,111 +75,126 @@
          <handNotes>
             <handNote xml:id="WD" medium="blue-ink">Original text in blue ink, written by Wout Dillen.</handNote> <!-- Ändra detta. -->
          </handNotes>
+         <langUsage>
+            <language ident="sv">Svenska</language>
+         </langUsage>
+         <textDesc n="sångtext">
+            <channel mode="w">tryckt</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="art"/>
+            <!-- Art eller public?. -->
+            <factuality type="inapplicable"/>
+            <interaction type="inapplicable"/>
+            <preparedness type="prepared"/>
+            <purpose type="entertain" degree="high"/>
+            <purpose type="persuade" degree="medium"/>
+            <!-- entertain eller persuade eller bägge?. -->
+         </textDesc>
+         <settingDesc>
+            <p>Sånghäfte från invigningen av Göta kanal.</p>
+         </settingDesc>
       </profileDesc>
    </teiHeader>
    <facsimile>
       <surface xml:id="B1-Framsida-omslag">
          <figure>
             <label>Framsida omslag</label>
-            <figDesc>
-               En skannad bild på framsidan av resursens omslag.
-            </figDesc>
-            <graphic xml:id="B1-Framsida-omslag_full" url="assets/img/documents/B1-Framsida-omslag.png"/>
-            <graphic xml:id="B1-Framsida-omslag_thumb" url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
+            <figDesc> En skannad bild på framsidan av resursens omslag. </figDesc>
+            <graphic xml:id="B1-Framsida-omslag_full"
+               url="assets/img/documents/B1-Framsida-omslag.png"/>
+            <graphic xml:id="B1-Framsida-omslag_thumb"
+               url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B2-Insida-omslag-och-titelblad">
          <figure>
             <label>Insida omslag och titelblad</label>
-            <figDesc>
-               En skannad bild av insida omslag och titelblad. 
-               Insidan på framsidans omslag innehåller två etiketter och handskrift. 
-               Titelbladet innehåller sångens titel, två handskrivna signaturer varav den ena är överstruken och ett handskrivet ord.
-            </figDesc>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad_full" url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb" url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
+            <figDesc> En skannad bild av insida omslag och titelblad. Insidan på framsidans omslag
+               innehåller två etiketter och handskrift. Titelbladet innehåller sångens titel, två
+               handskrivna signaturer varav den ena är överstruken och ett handskrivet ord. </figDesc>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_full"
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb"
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B3-Blankt-blad-och-sångens-första-sida">
          <figure>
             <label>Blankt blad och sångens första sida</label>
-            <figDesc>
-               En skannad bild av ett blankt blad till vänster och sångens första sida till höger.
-            </figDesc>
-            <graphic xml:id="B3-Blankt-blad-och-sångens-första-sida_full" url="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida.png"/>
-            <graphic xml:id="B3-Blankt-blad-och-sångens-första-sida_thumb" url="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida_thumb.png"/>
+            <figDesc> En skannad bild av ett blankt blad till vänster och sångens första sida till
+               höger. </figDesc>
+            <graphic xml:id="B3-Blankt-blad-och-sångens-första-sida_full"
+               url="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida.png"/>
+            <graphic xml:id="B3-Blankt-blad-och-sångens-första-sida_thumb"
+               url="assets/img/documents/B3-Blankt-blad-och-sångens-första-sida_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B4-Sångtext-sida-två-tre">
          <figure>
             <label>Sångtext, sida två-tre</label>
-            <figDesc>
-               En skannad bild av sångtextens andra och tredje sida.
-            </figDesc>
-            <graphic xml:id="B4-Sångtext-sida-två-tre_full" url="assets/img/documents/B4-Sångtext-sida-två-tre.png"/>
-            <graphic xml:id="B4-Sångtext-sida-två-tre_thumb" url="assets/img/documents/B4-Sångtext-sida-två-tre_thumb.png"/>
+            <figDesc> En skannad bild av sångtextens andra och tredje sida. </figDesc>
+            <graphic xml:id="B4-Sångtext-sida-två-tre_full"
+               url="assets/img/documents/B4-Sångtext-sida-två-tre.png"/>
+            <graphic xml:id="B4-Sångtext-sida-två-tre_thumb"
+               url="assets/img/documents/B4-Sångtext-sida-två-tre_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B5-Sångtext-sida-fyra-fem">
          <figure>
             <label>Sångtext, sida fyra-fem</label>
-            <figDesc>
-               En skannad bild av sångtextens fjärde och femte sida.
-            </figDesc>
-            <graphic xml:id="B5-Sångtext-sida-fyra-fem_full" url="assets/img/documents/B5-Sångtext-sida-fyra-fem.png"/>
-            <graphic xml:id="B5-Sångtext-sida-fyra-fem_thumb" url="assets/img/documents/B5-Sångtext-sida-fyra-fem_thumb.png"/>
+            <figDesc> En skannad bild av sångtextens fjärde och femte sida. </figDesc>
+            <graphic xml:id="B5-Sångtext-sida-fyra-fem_full"
+               url="assets/img/documents/B5-Sångtext-sida-fyra-fem.png"/>
+            <graphic xml:id="B5-Sångtext-sida-fyra-fem_thumb"
+               url="assets/img/documents/B5-Sångtext-sida-fyra-fem_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B6-Sångtext-sida-sex-sju">
          <figure>
             <label>Sångtext, sida sex-sju</label>
-            <figDesc>
-               En skannad bild av sångtextens sjätte och sjunde sida.
-            </figDesc>
-            <graphic xml:id="B6-Sångtext-sida-sex-sju_full" url="assets/img/documents/B6-Sångtext-sida-sex-sju.png"/>
-            <graphic xml:id="B6-Sångtext-sida-sex-sju_thumb" url="assets/img/documents/B6-Sångtext-sida-sex-sju_thumb.png"/>
+            <figDesc> En skannad bild av sångtextens sjätte och sjunde sida. </figDesc>
+            <graphic xml:id="B6-Sångtext-sida-sex-sju_full"
+               url="assets/img/documents/B6-Sångtext-sida-sex-sju.png"/>
+            <graphic xml:id="B6-Sångtext-sida-sex-sju_thumb"
+               url="assets/img/documents/B6-Sångtext-sida-sex-sju_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida">
          <figure>
             <label>Åttonde sidan sångtext och en blank sida</label>
-            <figDesc>
-               En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
-            </figDesc>
-            <graphic xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida_full" url="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida.png"/>
-            <graphic xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida_thumb" url="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida_thumb.png"/>
+            <figDesc> En skannad bild av sångtextens sista sida till vänster och en blank sida till
+               höger. </figDesc>
+            <graphic xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida_full"
+               url="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida.png"/>
+            <graphic xml:id="B7-Åttonde-sidan-sångtext-och-en-blank-sida_thumb"
+               url="assets/img/documents/B7-Åttonde-sidan-sångtext-och-en-blank-sida_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B8-Baksida-omslag">
          <figure>
             <label>Baksida omslag</label>
-            <figDesc>
-               En skannad bild på baksidan av resursens omslag.
-            </figDesc>
-            <graphic xml:id="B8-Baksida-omslag_full" url="assets/img/documents/B8-Baksida-omslag.png"/>
-            <graphic xml:id="B8-Baksida-omslag_thumb" url="assets/img/documents/B8-Baksida-omslag_thumb.png"/>
+            <figDesc> En skannad bild på baksidan av resursens omslag. </figDesc>
+            <graphic xml:id="B8-Baksida-omslag_full"
+               url="assets/img/documents/B8-Baksida-omslag.png"/>
+            <graphic xml:id="B8-Baksida-omslag_thumb"
+               url="assets/img/documents/B8-Baksida-omslag_thumb.png"/>
          </figure>
       </surface>
    </facsimile>
    <text>
-      <front> <!-- Flytta detta till tillhörande faksimil -->
-         <div type="page">
-            <p>
-               Kungl Vattenfalls Styrelsen 
-               BIBLIOTEKET
-               Löp. N:o 2028
-               Reg. N:o
-            </p>
+      <front>
+         <div type="B1-Framsida-omslag"> </div>
+         <div type="B2-Insida-omslag-och-titelblad">
+            <p> Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o </p>
             <p>
                <note>oläslig handskrift</note>
             </p>
-            <p>
-               EX Libris Gn
-            </p>
-            <p>
-               Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.</p>
-               <p >oläslig handskrift delvis överstruken</p>
-            <p hand = "#MMP">M.M. af Pontin</p>
+            <p> EX Libris Gn </p>
+            <p> Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl.
+               Famillens Närvaro, den 26 september 1832. </p>
+            <p> oläslig handskrift delvis överstruken </p>
+            <p hand="#MMP"> M.M. af Pontin </p>
          </div>
       </front>
       <body>
@@ -180,7 +205,44 @@
             <lb/>Post-it
          </p>
       </div>
+         <div type="page" facs="#B3-Blankt-blad-och-sångens-första-sida">
+            <head> Fosterländsk Sång <lb/>VID <lb/>GÖTHA CANALS FULLBORDAN. <lb/>År 1832. </head>
+            <p>
+               <lb/>CHOR. <lb/>Du bröt dina bojor, du fria Nord! <lb/>De sista, de enda dig tryckte:
+               <lb/>De klippor, som stängde din bördiga jord, <lb/>De fjäll, som begränsat ditt
+               rykte. <lb/>Nu leder du, fridsam, den vestliga fjord <lb/>Till fjärdarna inanför
+               Bälten, <lb/>Att helsas af Konunga-Hjelten. </p>
+            <p>
+               <lb/>Då skyndar den högländta källans språng <lb/>Ur hjertat af Skandiens dalar,
+               <lb/>Och, mötande salta vågens gång, <lb/>Om inlandets trefnad hon talar; <lb/>Der
+               Odlarn och Bergsmannen höja sin sång <lb/>Och Krigarne sjunga i tälten, <lb/>Till ära
+               för segrande Hjelten. </p>
+         </div>
+         <div type="page" facs="#B4-Sångtext-sida-två-tre_full">
+            <metamark function="pagenumber" place="top-center"><hi rend="- -"
+               ><num>2</num></hi></metamark>
+            <p>
+               <lb/>RECITATIV. <lb/>Ja, en Segerfest är din fullbordan, <lb/>Jätte-verk af Sveas
+               starka arm! <lb/>Blåse Vestan eller storme Nordan, <lb/>Trygg hon möter dem med
+               härdad barm. <lb/>Lik en flod-gud uppå egna vågor <lb/>Går hon, och på strand dess
+               Lejon-par; <lb/>Bjuder tiden svara på de frågor, <lb/>Der blott vinning fordrar svar. </p>
+            <p>
+               <lb/>Mellan berg och brådjup trädd i dagen, <lb/>Nordens kraft du speglar i ditt
+               bryn, <lb/>Stolta Flod! ur Sveas fjällbarm dragen, <lb/>Vintergatan lik, som famnar
+               skyn. <lb/>Ut till hafvet vill din fria bana, <lb/>Sen du gästat Göthers
+               blomstergård. <lb/>Hvarje Flagg du här blir segerfana, <lb/>Hvarje Sluss — en
+               minnesvård. </p>
+            <p>Allt stort och fosterländskt, i tanke eller bragd, <lb/>Vann Svenska Folkets lof,
+               vann hyllning alla tider; <lb/>Och denna Högtidsdag, af häfden förutsagd, <lb/>Ser
+               tankens djerfva plan till handling förd omsider. <lb/>Re'n Heden-timas Sago-brått
+               <lb/>För den som runorna förstått, <lb/>Har tydt Wafthrudners spådoms-anda:</p>
+         </div>
+         <div type="B4-Sångtext-sida-två-tre"> </div>
+         <div type="B5-Sångtext-sida-fyra-fem"> </div>
+         <div type="B6-Sångtext-sida-sex-sju"> </div>
+         <div type="B7-Åttonde-sidan-sångtext-och-en-blank-sida"> </div>
+         <div type="B8-Baksida-omslag"> </div>
       </body>
-      <back></back>
+      <back/>
    </text>
 </TEI>
