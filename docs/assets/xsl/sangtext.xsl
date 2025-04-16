@@ -32,7 +32,7 @@
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
                     <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
+                    <a href="sangtext.html">Sångtext</a> |
                     <a href="toplayer.html">Top Layer</a> |
                 </nav>
                 <main id="manuscript">
