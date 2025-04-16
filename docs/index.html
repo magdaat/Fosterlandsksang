@@ -10,6 +10,74 @@
          crossorigin="anonymous" -->
       <link rel="stylesheet" href="assets/css/main.css">
       <!-- Denna css-filen finns inte: link rel="stylesheet" href="assets/css/desktop.css" -->
+      <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      min-width: 300px;
+    }
+
+    article {
+      background-color: white;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-links ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .nav-links li {
+      margin-bottom: 10px;
+    }
+
+    .nav-links a {
+      font-weight: bold;
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .nav-links p {
+      margin: 2px 0 10px 0;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
    </head>
    <body>
       <header>
@@ -25,7 +93,7 @@
       <main id="manuscript">
          <div class="container">
             <div class="row">
-               <div class="col-sm">
+               <div class="column">
                   <article>
                      <h2>Om projektet</h2>
                      <p>Detta digitaliseringsprojekt syftar till att bevara och tillgängliggöra 
@@ -38,48 +106,49 @@
                         kan nås och studeras av forskare, studenter och kulturintresserade världen över. Detta är ett exempel på hur digitalisering kan spela en viktig roll i att bevara och främja vårt gemensamma kulturarv.</p>
                   </article>
                   <article>
-                     <h2>Gruppens medlemmar</h2>
-                     <ul>
-                        <li>Marie Gyll</li>
-                        <li>Jessica Hultengren</li>
-                        <li>Susanne Landén</li>
-                        <li>Magdalena af Trolle</li>
-                     </ul>
+                     <h2>Digitaliseringsprojektgruppens medlemmar</h2>
+                     <br/>Marie Gyll
+                     <br/>Jessica Hultengren
+                     <br/>Susanne Landén
+                     <br/>Magdalena af Trolle
                   </article>
                   <article>
-                     <h2>Tack till</h2>
+                     <h2>Tack till:</h2>
+                     <p>Linköpings universitet</p>
                      <p>Borås Högskola</p>
                   </article>
                   <article>
                      <h2>Navigera på webbplatsen</h2>
-                     Om projektet - här kan du läsa mer om digitaliseringsprojektet.<br>
-                     Sånghäfte - här hittar du en bläddringsbar faksimil av det digitaliserade materialet.<br>
-                     Sångtext - här finns en transkribering av sångtexten i ett utskriftbart format.<br>
-                     Historia - om invigningen av Göta kanal.<br>
-                     Begrepp - förtydligande av begrepp i sångtexten.<br>
+                     <div class="nav-links">
+                        <ul>
+                           <li>
+                              <a href="index.html">Om projektet</a>
+                              <p>Här kan du läsa mer om digitaliseringsprojektet.</p>
+                           </li>
+                           <li>
+                              <a href="sanghafte.html">Sånghäfte</a>
+                              <p>Se den digitaliserade resursen i form av en bläddringsbar faksimil.</p>
+                           </li>
+                           <li>
+                              <a href="sangtext.html">Sångtext</a>
+                              <p>Här finns en transkribering av sångtexten i ett utskriftsvänligt format.</p>
+                           </li>
+                           <li>
+                              <a href="historia.html">Historia</a>
+                              <p>Läs om invigningen av Göta kanal där den digitaliserade resursens sångtext framfördes.</p>
+                           </li>
+                           <li>
+                              <a href="begrepp.html">Begrepp</a>
+                              <p>Här hittar du förklaringar till olika begrepp som används på vår webbplats samt i den digitaliserade resursen.</p>
+                           </li>
+                        </ul>
+                     </div>
                   </article>
                   <article>
                      <h2>Länkar</h2>
-                     <p>Här kommer länkar</p>
-                  </article>
-               </div>
-               <!--Denna kolumn och bild tror inte J&MT att vi vill ha: 
-                  <div class="col-sm">
-                  <article id="description">
-                     <h3><strong>Om projektet:</strong> &nbsp; blablabla </h3>
-                  </article>
-               </div> -->
-            </div>
-            <div class="row">
-               <div class="col-sm">
-                  <article id="details">
-                     <h4>
-                        <strong>Author:</strong>
-                     </h4>
-                     <p> M.M af Pontin</p>
-                     <br>
-                     <p><strong>Transcription by:</strong><br> Marie Gyll Jessica Hultengren
-                        Susanne Landén Magdalena af Trolle </p>
+                     <p>Github</p>
+                     <p>Tiff fil</p>
+                     <p>Tei fil (ziparkiv)</p>
                   </article>
                </div>
             </div>

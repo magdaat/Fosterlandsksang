@@ -9,6 +9,10 @@ body {
 	}
 
 h1, h2, h3, nav, footer {
+    text-align: left;
+}
+
+footer {
     text-align: center;
 }
 
