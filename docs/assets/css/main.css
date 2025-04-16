@@ -8,36 +8,33 @@ body {
 	background-color: #f4f4f4;
 	line-height: 1.25;
 	font-size: 1vw;
-  width: 100%;
+	width: 100%;
 	}
 
 h1 {
     text-align: center;
 }
 
-h2, h3, nav {
+h2 {
     text-align: left;
+    padding: 1vw;
     }
     
-footer {
-    text-align: center;
-}
+h3 {
+    text-align: left;
+    font-weight: bold;
+    padding: 1vw;}
 
 nav {
+    text-align: center;
     margin-bottom: 1vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 1vw;
-}
-
-h2 {
-    padding: 1vw;
-}
-
-h3 {
-    font-weight: bold;
-    padding: 1vw;
+    }
     
+footer {
+    text-align: center;
 }
 
 #details {
@@ -86,4 +83,3 @@ footer {
     border: 1px solid black;
     width: 500px;
 }
-
