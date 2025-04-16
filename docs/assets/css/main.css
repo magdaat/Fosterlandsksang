@@ -2,7 +2,7 @@
 
 body {
 	padding: 1vw;
-	font-family: arial, sans-serif;
+	font-family: Arial, Sans-serif;
 	margin: 0;
 	padding: 20px;
 	background-color: #f4f4f4;
@@ -13,6 +13,8 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 3vw;
+    padding: 1vw;
 }
 
 h2 {
@@ -26,27 +28,27 @@ h3 {
     padding: 1vw;}
 
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;                  /* Mellanrum mellan länkarna */
+    font-size: 1.5vw;
+    padding: 1vw;               /* Padding på alla sidor */
     margin-bottom: 1vw;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 1vw;
-    }
+    border-top: 1px solid black; /* Svart övre list */
+    border-bottom: 1px solid black; /* Svart undre list */
+}
     
 footer {
     text-align: center;
+    border-top: 1px solid black;
+    padding-top: 1vw;
+    margin-top: 1vw;
 }
 
 #details {
     padding: 2vw;
     margin: 1vw;
     text-align: center;    
-}
-
-footer {
-    border-top: 1px solid black;
-    padding-top: 1vw;
-    margin-top: 1vw;
 }
 
 .copyright {
@@ -66,7 +68,6 @@ footer {
 .row {
     padding: 1vw;
 }
-
 
 #collection {
     display: flex;
