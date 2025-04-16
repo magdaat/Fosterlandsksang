@@ -30,10 +30,11 @@
                     </h1>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="sangtext.html">Sångtext</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="index.html">Om projektet</a> | 
+                    <a href="sanghafte.html">Sånghäfte</a> | 
+                    <a href="sangtext.html">Sångtext</a> | 
+                    <a href="historia.html">Historia</a> | 
+                    <a href="begrepp.html">Begrepp</a>
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
