@@ -14,34 +14,24 @@
                </name>
             </author>
             <respStmt>
-               <!-- Ska vi våra namn både under respStmt och principal? Ta bort principal?. -->
                <resp>Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet i biblioteks- och informationsvetenskap, högskolan i Borås. Genomförd av:</resp>
                <persName>Marie Gyll</persName>
                <persName>Jessica Hultengren</persName>
                <persName>Susanne Landén</persName>
                <persName>Magdalena af Trolle</persName>
             </respStmt>
-            <principal><!-- Ska vi våra namn både under respStmt och principal? Ta bort principal?. -->
-               <persName>Marie Gyll</persName>
-               <persName>Jessica Hultengren</persName>
-               <persName>Susanne Landén</persName>
-               <persName>Magdalena af Trolle</persName>
-            </principal>
          </titleStmt>
          <publicationStmt>
-            <authority>Linköpings universitetsbibliotek</authority>
-            <!-- Ok med Linköping att stå här?. -->
+            <authority>Linköpings universitetsbibliotek</authority><!-- Ok med Linköping att stå här?. -->
             <date>Maj 2025</date>
-            <availability>
-               <!-- Kolla detta, om vi ska ha mer info om distribution. -->
+            <availability><!-- Kolla detta, hör med Linköping, om vi ska ha mer info om distribution. -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p> Transcription distributed under a CC-BY-SA 4.0 license. </p>
                </licence>
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl>
-               <!-- Har valt bibl för att få in mer metadata. -->
+            <bibl><!-- Har valt bibl för att få in mer metadata. -->
                <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens
                   och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
                <author>
@@ -73,18 +63,18 @@
             <language ident="sv">Svenska</language>
          </langUsage>
          <textDesc n="sångtext">
-            <channel mode="w">tryckt</channel>
+            <channel mode="w">tryckt</channel><!-- ws, w eller m? Fråga MG. -->
             <constitution type="single"/>
             <derivation type="original"/>
-            <domain type="art"/><!-- Art eller public?. -->
+            <domain type="art"/><!-- Art eller public? Fråga MG. . -->
             <factuality type="inapplicable"/>
             <interaction type="inapplicable"/>
             <preparedness type="prepared"/>
             <purpose type="entertain" degree="high"/>
-            <purpose type="persuade" degree="medium"/><!-- entertain eller persuade eller bägge?. -->
+            <purpose type="persuade" degree="medium"/><!-- entertain eller persuade eller bägge? Fråga MG. -->
          </textDesc>
          <settingDesc>
-            <p>Sånghäfte från invigningen av Göta kanal.</p>
+            <p>Sånghäfte från invigningen av Göta kanal.</p><!-- utveckla vidare. -->
          </settingDesc>
       </profileDesc>
    </teiHeader>
@@ -167,7 +157,7 @@
       </surface>
    </facsimile>
    <text>
-      <front>
+      <front><!-- Dold från sangtext.html. -->
          <div type="page" facs="#B1-Framsida-omslag"> </div>
          <div type="page" facs="#B2-Insida-omslag-och-titelblad">
             <p>Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o</p>
@@ -181,9 +171,10 @@
             <p hand="#MMP"> M.M. af Pontin</p>
          </div>
       </front>
-      <body>
+      <body><!-- Ska synas på sangtext.html. -->
          <div type="page" facs="#B3-Blankt-blad-och-sangens-första-sida">
-            <head>Fosterländsk Sång <lb/>VID <lb/>GÖTHA CANALS FULLBORDAN. <lb/>År 1832.</head>
+            <head>Fosterländsk Sång <lb/>VID <lb/>GÖTHA CANALS FULLBORDAN.
+               <lb/>År 1832.</head>
             <p>CHOR.
                <lb/>Du bröt dina bojor, du fria Nord!
                <lb/>De sista, de enda dig tryckte:
