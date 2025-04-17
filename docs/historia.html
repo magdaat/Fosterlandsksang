@@ -1,67 +1,81 @@
 <!DOCTYPE html>
-<html lang="sv" xml:lang="sv">
+<html lang="sv">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
       <title>Historia</title>
-      <link rel="stylesheet"
+      
+      <!-- Bootstrap 5.3.2 CSS från jsDelivr med korrekt integrity -->
+      <link 
+         rel="stylesheet"
          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
          crossorigin="anonymous">
+      
       <link rel="stylesheet" href="assets/css/main.css">
-      <link rel="stylesheet" href="assets/css/desktop.css">
+      
+      <!-- desktop css där nere -->
+      <!-- <link rel="stylesheet" href="assets/css/desktop.css"> -->
    </head>
+   
    <body>
       <header class="container py-4 text-center">
          <h1>Digitaliserad version av Fosterländsk sång</h1>
       </header>
+      
       <nav class="container text-center mb-4">
-         <a href="index.html">Om projektet</a> | 
-         <a href="sanghafte.html">Sånghäfte</a> | 
-         <a href="sangtext.html">Sångtext</a> | 
-         <a href="historia.html">Historia</a> | 
+         <a href="index.html">Om projektet</a> |
+         <a href="sanghafte.html">Sånghäfte</a> |
+         <a href="sangtext.html">Sångtext</a> |
+         <a href="historia.html">Historia</a> |
          <a href="begrepp.html">Begrepp</a>
       </nav>
+      
       <main>
          <div class="container">
             <div class="row">
-               <div class="col-">
-                  <h3>Images</h3>
+               <div class="col-12 col-md-6">
+                  <h2>Invigningen av Göta kanal, år 1832</h2>
+                  <!-- Här kan vi kanske placera en bild? Koden skulle kunna se ut något såhär: -->
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/G%C3%B6ta_kanals_%C3%B6ppnande_vid_Mem_1832.jpg/960px-G%C3%B6ta_kanals_%C3%B6ppnande_vid_Mem_1832.jpg?20200122150416" 
+                     alt="Göta kanals öppnande vid Mem 1832" 
+                     class="img-fluid">
+                  <p class="text-muted text-center">
+                     Göta kanals öppnande vid Mem, 1832. Målning av Johan Kristian Berger.
+                  </p>
                </div>
                <div class="col-md">
-                  <h3>Transcription</h3>
+                  <!--Här vill vi kanske ha en text som tillhör bilden eller en helt ny text? -->
                </div>
             </div>
+            
             <div class="row">
-               <div class="col-">
+               <div class="col-12 col-md-6">
                   <article>
-                     <h2> text </h2>
+                     <h6>Eventuellt mer historia här</h6>
                      <!-- <img class="thumbnail" src="" title="" alt=""> -->
                   </article>
                </div>
-               <div class="col-md">
-                  <article class="transcription">
-                     <h5> nu borde det la gå?</h5>
-                     <p> Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o </p>
-                     <p> oläslig handskrift </p>
-                     <p> EX Libris Gn </p>
-                     <p> Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den
-                        Kongl. Famillens Närvaro, den 26 september 1832.</p>
-                     <p>oläslig handskrift delvis överstruken</p>
-                     <p>M.M. af Pontin</p>
+               <div class="col-12 col-md-6">
+                  <article class="historia">
+                     <h4>Öppnandet av Göta kanal</h4>
+                     <p>Såhär gick det till</p>
+                     
                   </article>
                </div>
             </div>
+            
             <div class="row">
-               <div class="col-">
-                  <!-- <article><img class="thumbnail" src="" title="" alt=""></article>  -->
+               <div class="col-12 col-md-6">
+                  <!-- <article><img class="thumbnail" src="" title="" alt=""></article> -->
                </div>
-               <div class="col-md">
-                  <!-- <article class="transcription">  -->
-                  <p> The back of my Post-it </p>
+               <div class="col-12 col-md-6">
+                  <!-- <article class="historia"> -->
+                  <p>Göta kanal.....</p>
                </div>
             </div>
          </div>
       </main>
+      
       <footer class="container mt-5 text-center">
          <div class="row" id="footer">
             <div class="col-sm copyright">
@@ -71,12 +85,19 @@
                      <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International" style="height: 30px;">
                   </a>
                </div>
-               <div class="copyright_text"> 2025 Marie Gyll, Jessica Hultengren, Susanne Landén och Magdalena af Trolle. </div>
+               <div class="copyright_text">
+                  2025 2025 Marie Gyll, Jessica Hultengren, Susanne Landén och Magdalena af Trolle.
+               </div>
             </div>
          </div>
       </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      
+      <!-- Bootstrap Bundle -->
+      <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous">
+    </script>
    </body>
 </html>
+
