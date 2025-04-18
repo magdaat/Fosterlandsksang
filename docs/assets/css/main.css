@@ -1,31 +1,42 @@
 
 
 body {
+	font-family: Helvetica, Sans-serif;
+	text-align: left;
+	font-size: 1.20vw;
 	padding: 1vw;
-	font-family: Arial, Sans-serif;
+	line-height: 1.25;
 	margin: 0;
 	padding: 20px;
 	background-color: #f4f4f4;
-	line-height: 1.25;
-	font-size: 1vw;
 	width: 100%;
 	}
 
 h1 {
+	font-family: Helvetica, Sans-serif;
     text-align: center;
     font-size: 3vw;
     padding: 1vw;
 }
 
 h2 {
+	font-family: Helvetica, Sans-serif;
     text-align: left;
+    font-size: 2vw;
     padding: 1vw;
+    margin-left: 0;
+    padding-left: 0;
     }
     
 h3 {
+	font-family: Helvetica, Sans-serif;
     text-align: left;
+    font-size: 1.20vw;
     font-weight: bold;
-    padding: 1vw;}
+    padding: 1vw;
+    margin-left: 0;
+    padding-left: 0;
+    }
 
 nav {
     display: flex;
