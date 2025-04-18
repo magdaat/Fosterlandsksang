@@ -74,7 +74,10 @@
     We don't want to show the metadata. So we write a template for the teiHeader that
     stops the text nodes underneath (=nested in) teiHeader from being printed into our
     html-->
-    <xsl:template match="tei:teiHeader"/>
+    <xsl:template match="tei:teiHeader"/> 
+    <xsl:template match="tei:front"/>
+    <xsl:template match="tei:front//*"/><!-- Dölj front-elementet -->
+
     <!-- we turn the tei head element (headline) into an html h1 element-->
     <xsl:template match="tei:head">
         <h2 style="text-align : center ">
