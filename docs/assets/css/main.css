@@ -1,49 +1,41 @@
-
-
+/* Grundstil för webbplats */
+* {
+    font-family: Helvetica, Sans-serif;
+    margin: 0;
+    padding: 0;
+}
 body {
-	font-family: Helvetica, Sans-serif;
 	text-align: left;
-	font-size: 1.20vw;
-	padding: 1vw;
+	font-size: 1.20vw; /* Responsiv textstorlek */
+	padding: 1vw;  /* Responsiv padding */
 	line-height: 1.25;
-	margin: 0;
-	padding: 20px;
 	background-color: #f4f4f4;
 	width: 100%;
 	}
 
 h1 {
-	font-family: Helvetica, Sans-serif;
     text-align: center;
     font-size: 3vw;
     padding: 1vw;
 }
 
 h2 {
-	font-family: Helvetica, Sans-serif;
     text-align: left;
     font-size: 2vw;
-    padding: 1vw;
-    margin-left: 0;
-    padding-left: 0;
     }
     
 h3 {
-	font-family: Helvetica, Sans-serif;
     text-align: left;
     font-size: 1.20vw;
     font-weight: bold;
-    padding: 1vw;
-    margin-left: 0;
-    padding-left: 0;
     }
 
 nav {
     display: flex;
     justify-content: center;
-    gap: 20px;                  /* Mellanrum mellan länkarna */
+    gap: 2.5vw; /* Mellanrum mellan länkarna */
     font-size: 1.5vw;
-    padding: 1vw;               /* Padding på alla sidor */
+    padding: 1vw;
     margin-bottom: 1vw;
     border-top: 1px solid black; /* Svart övre list */
     border-bottom: 1px solid black; /* Svart undre list */
@@ -65,6 +57,7 @@ footer {
 .copyright {
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .copyright_logos, .copyright_text {
@@ -82,6 +75,8 @@ footer {
 
 #collection {
     display: flex;
+    flex-wrap: wrap;  /* Gör att innehållet bryts på mindre skärmar */
+    gap: 1vw;  /* Mellanrum mellan bilder */
 }
 
 .thumbnail {
