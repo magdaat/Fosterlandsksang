@@ -168,10 +168,6 @@ footer {
 
 /* Styling för sangtext */
 .page-sangtext article {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Styling för historia */
@@ -188,4 +184,29 @@ footer {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; /* Mellanrum mellan artiklar */
 }
+
+.page-begrepp .begrepp {
+    margin-bottom: 5px; /* Mellanrum efter begreppet */
+}
+
+.page-begrepp .forklaring {
+    margin-top: 5px; /* Mellanrum före förklaringen */
+}
+
+/* Medie-query för att ändra layout på små skärmar */
+@media (max-width: 700px) {
+    .page-begrepp .container {
+        flex-direction: column; /* Gör så att elementen staplas vertikalt */
+    }
+
+    .page-begrepp .column {
+        width: 100%; /* Se till att varje kolumn tar upp 100% av bredden */
+    }
+}
+
+ .page-begrepp .begrepp,
+    .page-begrepp .forklaring {
+        margin-bottom: 10px; /* mindre avstånd liten skärm */
+    }

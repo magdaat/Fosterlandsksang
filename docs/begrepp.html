@@ -4,17 +4,13 @@
       <meta charset="UTF-8"><!-- teckenkodning -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- får det att fungera på olika skärmar -->
       <title>Begrepp</title><!-- titel på sidan, syns i webbläsare -->
-
       <!-- Bootstrap 5.3.2 -->
-      <link 
-         rel="stylesheet" 
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-         integrity="sha384-Ign+eCu2x3t3dfN1lYvQjc2NkD3J2I3MaWv1Vw5f+ZBbpr1Uz0D7xJyXnQGkI+no" 
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
          crossorigin="anonymous">
-      
       <!-- egen CSS-fil -->
       <link rel="stylesheet" href="assets/css/main.css">
-      
    </head>
    <body class="page-begrepp">
       <header class="container py-4 text-center">
@@ -28,54 +24,52 @@
          <a href="begrepp.html">Begrepp</a>
       </nav>
       <main>
-         <div class="container">    
-            <article><!-- Rubrikrad -->
+         <div class="container">
             <div class="row">
-               <div class="col">
+               <!-- Rubrikrad för Begrepp och Förklaring -->
+               <div class="col-12 col-md-6">
                   <h2>Begrepp</h2>
                </div>
-               <div class="col">
+               <div class="col-12 col-md-6">
                   <h2>Förklaring</h2>
                </div>
             </div>
+            
+            <!-- Begrepp 1 + Förklaring 1 -->
+            <article>
+               <div class="row">
+                  <div class="col-12 col-md-6">
+                     <h3>Faksimil</h3>
+                  </div>
+                  <div class="col-12 col-md-6">
+                     <p>En exakt bildåtergivning av originaldokumentet.</p>
+                  </div>
+               </div>
             </article>
             
-            <article><!-- Begrepp 1 + Förklaring 1 -->
-            <div class="row">
-               <div class="col">
-                  <h3>Faksimil</h3>
+            <!-- Begrepp 2 + Förklaring 2 -->
+            <article>
+               <div class="row">
+                  <div class="col-12 col-md-6">
+                     <h3>Transkribering</h3>
+                  </div>
+                  <div class="col-12 col-md-6">
+                     <p>En utskriven version av texten från originalet, ofta renskriven för att vara mer läsbar.</p>
+                  </div>
                </div>
-               <div class="col">
-                  <p>En exakt bildåtergivning av originaldokumentet.</p>
-               </div>
-            </div>
             </article>
             
-            <article><!-- Begrepp 2 + Förklaring 2 -->
-            <div class="row">
-               <div class="col">
-                  <h3>Transkribering</h3>
+            <!-- Begrepp 3 + Förklaring 3 -->
+            <article>
+               <div class="row">
+                  <div class="col-12 col-md-6">
+                     <h3>OCR</h3>
+                  </div>
+                  <div class="col-12 col-md-6">
+                     <p>Optical Character Recognition – teknik som omvandlar bilder på text till redigerbar text.</p>
+                  </div>
                </div>
-               <div class="col">
-                  <p>En utskriven version av texten från originalet, ofta renskriven för att vara mer läsbar.</p>
-               </div>
-            </div>
             </article>
-            
-            <article><!-- Begrepp 3 + Förklaring 3 -->
-            <div class="row">
-               <div class="col">
-                  <h3>OCR</h3>
-               </div>
-               <div class="col">
-                  <p>Optical Character Recognition – teknik som omvandlar bilder på text till redigerbar text.</p>
-               </div>
-            </div>
-            </article>
-            <!-- Vill du ha kolumner som alltid är bredvid varandra, oavsett skärmstorlek? 
-                        Använd .col-6.
-                    Vill du att det ska anpassa sig beroende på skärmstorlek? 
-                        Använd .col-12 col-md-6. -->
          </div>
       </main>
       <footer>
@@ -93,11 +87,9 @@
             </div>
          </div>
       </footer>
-
       <!-- Bootstrap Bundle -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-            integrity="sha384-FzjvXYVI63IoJ3sDqEclKcS7KDv1L9aAh1gr6tJ+7vJcNjWZTzZ6gM1L30KktR5G"
-            crossorigin="anonymous"></script>
-      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
    </body>
 </html>
