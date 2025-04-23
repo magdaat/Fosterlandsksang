@@ -1,75 +1,18 @@
 <!DOCTYPE html>
-<html lang="sv" xml:lang="sv">
+<html lang="sv">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>Om projektet - hem</title>
-      <link rel="stylesheet"
-         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-         <!-- Integrity och crossorigin här gör att Bootstrap blockeras och vår CSS styling inte funkar:
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-         crossorigin="anonymous" -->
+      <meta charset="UTF-8"><!-- teckenkodning -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- får det att fungera på olika skärmar -->
+      <title>Om projektet</title><!-- titel på sidan, syns i webbläsare -->
+      <!-- Bootstrap 5.3.2 -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous">
+      <!-- egen CSS-fil -->
       <link rel="stylesheet" href="assets/css/main.css">
-      <!-- Denna css-filen finns inte: link rel="stylesheet" href="assets/css/desktop.css" -->
-      <style>
-
-    .container {
-      display: flex;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    .column {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      min-width: 300px;
-    }
-
-    article {
-      background-color: white;
-      padding: 15px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    .nav-links ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .nav-links li {
-      margin-bottom: 10px;
-    }
-
-    .nav-links a {
-      font-weight: bold;
-      color: #0077cc;
-      text-decoration: none;
-    }
-
-    .nav-links a:hover {
-      text-decoration: underline;
-    }
-
-    .nav-links p {
-      margin: 2px 0 10px 0;
-      font-size: 0.9em;
-      color: #555;
-    }
-
-    @media (max-width: 700px) {
-      .container {
-        flex-direction: column;
-      }
-
-      .column {
-        width: 100%;
-      }
-    }
-  </style>
    </head>
-   <body>
+   <body class="page-index">
       <header>
          <h1>Digitaliserad version av Fosterländsk sång</h1>
       </header>
@@ -144,22 +87,24 @@
             </div>
          </div>
       </main>
-      <footer class="container mt-5 text-center">
-         <div class="row" id="footer">
-            <div class="col-sm copyright">
-               <div class="copyright_logos">
+      <footer>
+         <div class="footer-row">
+         <div class="footer-content">
+            <div class="copyright_logos">
                   <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
-                     <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License" style="height: 30px;">
-                     <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International" style="height: 30px;">
+                     <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
+                     <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International">
                   </a>
                </div>
-              <div class="copyright_text"> 2025 Marie Gyll, Jessica Hultengren, Susanne Landén och Magdalena af Trolle. </div>
-            </div>
+              <div class="copyright_text">
+                 2025 Marie Gyll, Jessica Hultengren, Susanne Landén och Magdalena af Trolle.
+              </div>
+         </div>
          </div>
       </footer>
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-         <!--integrity osv som gör att det inte fungerar integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+      <!-- Bootstrap Bundle -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     </body>
 </html>
