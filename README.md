@@ -11,15 +11,15 @@ Digitaliseringsarbetet har genomförts i form av ett projekt, med fyra projektde
 Slutprodukten kan ses [via denna länk](https://magdaat.github.io/Fosterlandsksang/)
 
 ## Om projektet
-Projektet består av följande filer: 
-*TIF- och JPG-filer av det inskannade originalmaterialet
-*En XML-fil med TEI-kodad transkription av sångtexten (som presenteras på HTML-sidan Sångtext)
-*En XSL-fil som transformerar valda delar ur XML-filen Sångtext till HTML-filen Sångtext
-*Fem HTML-filer som utgör denna webbplats
-*En main CSS fil som stylar denna webbplats
-*En README-fil med projektinformation
-*En PDF-fil med projektrapporten
-*HTML Licensfiler enligt Creative Commons
+Projektet består av följande filer:
+* TIF- och JPG-filer av det inskannade originalmaterialet
+* En XML-fil med TEI-kodad transkription av sångtexten (som presenteras på HTML-sidan Sångtext)
+* En XSL-fil som transformerar valda delar ur XML-filen Sångtext till HTML-filen Sångtext
+* Fem HTML-filer som utgör denna webbplats
+* En main CSS fil som stylar denna webbplats
+* En README-fil med projektinformation
+* En PDF-fil med projektrapporten
+* HTML Licensfiler enligt Creative Commons
 
 ## Credits
 Projektets tillgängliggörande och publicering har utgått ifrån [Wout Dillens](https://github.com/WoutDLN) mallar som utgör den tekniska grundstrukturen för detta digitaliseringsprojekt.
