@@ -31,7 +31,8 @@
                   Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap, 
                   <orgName>
                      Borås högskola
-                  </orgName>. 
+                  </orgName>
+                  .
                   Digitaliseringen är utförd av:
                </resp>
                <persName>
@@ -208,8 +209,10 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
             <label>
                Blankt blad och sångens första sida
             </label>
-            <figDesc>En skannad bild av ett blankt blad till vänster och sångens första sida till
-               höger.</figDesc>
+            <figDesc>
+               En skannad bild av ett blankt blad till vänster och sångens första sida till
+               höger.
+            </figDesc>
             <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_full"
                url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.png"/>
             <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_thumb"
@@ -218,8 +221,12 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B4-Sangtext-sida-tva-tre">
          <figure>
-            <label>Sångtext, sida två-tre</label>
-            <figDesc>En skannad bild av sångtextens andra och tredje sida.</figDesc>
+            <label>
+               Sångtext, sida två-tre
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens andra och tredje sida.
+            </figDesc>
             <graphic xml:id="B4-Sangtext-sida-tva-tre_full"
                url="assets/img/documents/B4-Sangtext-sida-tva-tre.png"/>
             <graphic xml:id="B4-Sangtext-sida-tva-tre_thumb"
@@ -228,8 +235,12 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B5-Sangtext-sida-fyra-fem">
          <figure>
-            <label>Sångtext, sida fyra-fem</label>
-            <figDesc>En skannad bild av sångtextens fjärde och femte sida.</figDesc>
+            <label>
+               Sångtext, sida fyra-fem
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens fjärde och femte sida.
+            </figDesc>
             <graphic xml:id="B5-Sangtext-sida-fyra-fem_full"
                url="assets/img/documents/B5-Sangtext-sida-fyra-fem.png"/>
             <graphic xml:id="B5-Sangtext-sida-fyra-fem_thumb"
@@ -238,8 +249,12 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B6-Sangtext-sida-sex-sju">
          <figure>
-            <label>Sångtext, sida sex-sju</label>
-            <figDesc>En skannad bild av sangtextens sjätte och sjunde sida.</figDesc>
+            <label>
+               Sångtext, sida sex-sju
+            </label>
+            <figDesc>
+               En skannad bild av sangtextens sjätte och sjunde sida.
+            </figDesc>
             <graphic xml:id="B6-Sangtext-sida-sex-sju_full"
                url="assets/img/documents/B6-Sangtext-sida-sex-sju.png"/>
             <graphic xml:id="B6-Sangtext-sida-sex-sju_thumb"
@@ -248,9 +263,12 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida">
          <figure>
-            <label>Åttonde sidan sångtext och en blank sida</label>
-            <figDesc>En skannad bild av sångtextens sista sida till vänster och en blank sida till
-               höger.</figDesc>
+            <label>
+               Åttonde sidan sångtext och en blank sida
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
+            </figDesc>
             <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_full"
                url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.png"/>
             <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb"
@@ -259,8 +277,12 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B8-Baksida-omslag">
          <figure>
-            <label>Baksida omslag</label>
-            <figDesc>En skannad bild på baksidan av resursens omslag.</figDesc>
+            <label>
+               Baksida omslag
+            </label>
+            <figDesc>
+               En skannad bild på baksidan av resursens omslag.
+            </figDesc>
             <graphic xml:id="B8-Baksida-omslag_full"
                url="assets/img/documents/B8-Baksida-omslag.png"/>
             <graphic xml:id="B8-Baksida-omslag_thumb"
@@ -273,19 +295,28 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       <!-- Dold från sangtext.html. (front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. -->
       <front>
          <!-- (text division) contains a subdivision of the front, body, or back of a text. -->
-         <div type="page" facs="#B1-Framsida-omslag"> </div>
+         <div type="page" facs="#B1-Framsida-omslag">
+         </div>
          <div type="page" facs="#B2-Insida-omslag-och-titelblad">
-            <p>Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o</p>
             <p>
-               <note>oläslig handskrift</note>
+               Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o
             </p>
-            <p>EX Libris Gn</p>
-            <p>Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl.
-               Famillens Närvaro, den 26 september 1832.
+            <p>
+               <note>
+                  oläslig handskrift
+               </note>
             </p>
-            <p>oläslig handskrift delvis överstruken
+            <p>
+               EX Libris Gn
             </p>
-            <p hand="#MMP"> M.M. af Pontin
+            <p>
+               Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
+            </p>
+            <p>
+               oläslig handskrift delvis överstruken
+            </p>
+            <p hand="#MMP"> 
+               M.M. af Pontin
             </p>
          </div>
       </front>
@@ -303,7 +334,8 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
                <lb/>
                År 1832.
             </head>
-            <p>CHOR.
+            <p>
+               CHOR.
                <lb/>Du bröt dina bojor, du fria Nord!
                <lb/>De sista, de enda dig tryckte:
                <lb/>De klippor, som stängde din bördiga jord,
@@ -325,7 +357,9 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
             <!-- metamark: contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document. -->
             <metamark function="pagenumber" place="top-center">
                <hi rend="- -">
-                  <num>2</num>
+                  <num>
+                     2
+                  </num>
                </hi>
             </metamark>
             <p>RECITATIV.
@@ -338,7 +372,8 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
                <lb/>Bjuder tiden svara på de frågor,
                <lb/>Der blott vinning fordrar svar.
             </p>
-            <p>Mellan berg och brådjup trädd i dagen,
+            <p>
+               Mellan berg och brådjup trädd i dagen,
                <lb/>Nordens kraft du speglar i ditt bryn,
                <lb/>Stolta Flod! ur Sveas fjällbarm dragen,
                <lb/>Vintergatan lik, som famnar skyn.
@@ -347,7 +382,8 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
                <lb/>Hvarje Flagg du här blir segerfana,
                <lb/>Hvarje Sluss — en minnesvård.
             </p>
-            <p>Allt stort och fosterländskt, i tanke eller bragd,
+            <p>
+               Allt stort och fosterländskt, i tanke eller bragd,
                <lb/>Vann Svenska Folkets lof, vann hyllning alla tider;
                <lb/>Och denna Högtidsdag, af häfden förutsagd,
                <lb/>Ser tankens djerfva plan till handling förd omsider.
