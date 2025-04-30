@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- XML-prolog, UTF-8 är standardteckenkodningen för XML-dokument (w3shools).-->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Innebär att XML-dokumentet valideras enligt TEI:s Relax NG-schema som kontrollerar strukturen i ett XML-dokument -->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- Innebär att XML-dokumentet valideras enligt Schematron som kontrollerar logiska regler och villkor. Matchar länken tei_all.rng med schematron? -->
-<!-- xmlns=namespace, TEI=rot-elementet, guidelines: https://tei-c.org/ -->
+<?xml version="1.0" encoding="UTF-8"?><!-- XML-prolog, UTF-8 är standardteckenkodning för XML-dokument (w3shools).-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI=rot-elementet -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <!-- (TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. (TEI guidelines) -->
    <teiHeader>
@@ -125,7 +129,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <!-- (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. (TEI guidelines) -->
+      <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
       <profileDesc>
          <!-- (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. (TEI guidelines) -->
          <langUsage>
@@ -134,7 +138,7 @@
                Svenska
             </language>
          </langUsage>
-         <!-- (text description) provides a description of a text in terms of its situational parameters. (TEI guidelines) -->
+         <!-- beskriv situationsparametrarna (TEI guidelines) -->
          <textDesc n="sångtext">
             <!-- ws, w eller m? Fråga MG. Channel: (primary channel) describes the medium or channel by which a text is delivered or experienced. For a written text, this might be print, manuscript, email, etc.; for a spoken one, radio, telephone, face-to-face, etc. Mode: specifies the mode of this channel with respect to speech and writing. Legal values are:	
 s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written to be spoken) e.g. a script, m (mixed), x (unknown or inapplicable) [Default] (TEI guidelines) -->
