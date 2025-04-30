@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- XML-prolog, UTF-8 är standardteckenkodningen för XML-dokument (w3shools).-->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Innebär att XML-dokumentet valideras enligt TEI:s Relax NG-schema som kontrollerar strukturen i ett XML-dokument (chatgpt)-->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- Innebär att XML-dokumentet valideras enligt Schematron som kontrollerar logiska regler och villkor. Matchar länken tei_all.rng med schematron? (chatgpt)-->
-<!-- xmlns=namespace, TEI=rot-elementet (chatgpt), guidelines: https://tei-c.org/ -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Innebär att XML-dokumentet valideras enligt TEI:s Relax NG-schema som kontrollerar strukturen i ett XML-dokument -->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- Innebär att XML-dokumentet valideras enligt Schematron som kontrollerar logiska regler och villkor. Matchar länken tei_all.rng med schematron? -->
+<!-- xmlns=namespace, TEI=rot-elementet, guidelines: https://tei-c.org/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <!-- (TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. (TEI guidelines) -->
    <teiHeader>
