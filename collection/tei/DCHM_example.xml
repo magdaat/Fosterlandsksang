@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- XML-prolog, UTF-8 är standardteckenkodningen för XML-dokument (w3shools).-->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><!-- Innebär att XML-dokumentet valideras enligt TEI:s Relax NG-schema som kontrollerar strukturen i ett XML-dokument (chatgpt)-->
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><!-- Innebär att XML-dokumentet valideras enligt Schematron som kontrollerar logiska regler och villkor. Matchar länken tei_all.rng med schematron? (chatgpt)-->
-
 <!-- xmlns=namespace, TEI=rot-elementet (chatgpt), guidelines: https://tei-c.org/ -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <!-- (TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. (TEI guidelines) -->
@@ -30,13 +29,23 @@
                <!-- (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. -->
                <resp>
                   Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap, 
-                  <orgName>Borås högskola</orgName>. 
+                  <orgName>
+                     Borås högskola
+                  </orgName>. 
                   Digitaliseringen är utförd av:
                </resp>
-               <persName>Marie Gyll</persName>
-               <persName>Jessica Hultengren</persName>
-               <persName>Susanne Landén</persName>
-               <persName>Magdalena af Trolle</persName>
+               <persName>
+                  Marie Gyll
+               </persName>
+               <persName>
+                  Jessica Hultengren
+               </persName>
+               <persName>
+                  Susanne Landén
+               </persName>
+               <persName>
+                  Magdalena af Trolle
+               </persName>
             </respStmt>
          </titleStmt>
          <!-- (publication statement) groups information concerning the publication or distribution of an electronic or other text. (TEI guidelines)-->
@@ -46,12 +55,16 @@
                Linköpings universitetsbibliotek
             </authority>
             <!-- (date) contains a date in any format. (TEI guidelines) -->
-            <date>Maj 2025</date>
+            <date>
+               Maj 2025
+            </date>
             <!-- (availability) supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. (TEI guidelines) -->
             <availability>
                <!-- licence: contains information about a licence or other legal agreement applicable to the text. (TEI guidelines) Target: specifies the destination of the reference by supplying one or more URI References (TEI guidelines) -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>Transcription distributed under a CC-BY-SA 4.0 license.</p>
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
                </licence>
             </availability>
          </publicationStmt>
@@ -59,36 +72,54 @@
          <sourceDesc>
             <!-- Har valt bibl för att få in mer metadata. (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. (TEI guidelines) -->
             <bibl>
-               <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens
-                  och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
+               <title level="m">
+                  Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
+               </title>
                <author>
                   <name>
-                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af
-                        Pontin</persName>
+                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">
+                        Magnus Martin af Pontin
+                     </persName>
                   </name>
                </author>
                <!-- (note) contains a note or annotation. (TEI guidelines) -->
-               <note type="printedBy">P. A. Norstedt &amp; söner</note>
-               <date>1832</date>
+               <note type="printedBy">
+                  P. A. Norstedt &amp; söner
+               </note>
+               <date>
+                  1832
+               </date>
                <!-- (publication place) contains the name of the place where a bibliographic item was published. (TEI guidelines) -->
-               <pubPlace>Stockholm</pubPlace>
+               <pubPlace>
+                  Stockholm
+               </pubPlace>
             </bibl>
             <!-- (manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as an early printed book. (TEI guidelines) -->
             <msDesc>
                <!-- (manuscript identifier) contains the information required to identify the manuscript or similar object being described. (TEI guidelines) -->
                <msIdentifier>
                   <!-- (repository) contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. (TEI guidelines) -->
-                  <repository>Vallabiblioteket, Linköpings universitetsbibliotek</repository>
+                  <repository>
+                     Vallabiblioteket, Linköpings universitetsbibliotek
+                  </repository>
                   <!-- (collection) contains the name of a collection of manuscripts or other objects, not necessarily located within a single repository. (TEI guidelines) -->
-                  <collection>Bokladan</collection>
+                  <collection>
+                     Bokladan
+                  </collection>
                </msIdentifier>
-               <!-- (history) groups elements describing the full history of a manuscript, manuscript part, or other object. (TEI guidelines) -->
+               <!-- groups elements describing the full history of a manuscript, manuscript part, or other object (TEI guidelines) -->
                <history>
                   <!-- (provenance) contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript, manuscript part, or other object after its creation but before its acquisition. (TEI guidelines) -->
-                  <provenance> Har varit i <orgName>Kungliga vattenfallsstyrelsens</orgName> ägo,
-                     enligt etikett. </provenance>
-                  <provenance> Har varit i ytterligare en persons ägo, indikerat av etikett där det
-                     står Ex Libris och initialer. </provenance>
+                  <provenance>
+                     Har varit i
+                     <orgName>
+                        Kungliga vattenfallsstyrelsens
+                     </orgName>
+                     ägo, enligt etikett.
+                  </provenance>
+                  <provenance>
+                     Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
+                  </provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,22 +129,26 @@
          <!-- (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. (TEI guidelines) -->
          <langUsage>
             <!-- (language) characterizes a single language or sublanguage used within a text. (TEI guidelines) -->
-            <language ident="sv">Svenska</language>
+            <language ident="sv">
+               Svenska
+            </language>
          </langUsage>
          <!-- (text description) provides a description of a text in terms of its situational parameters. (TEI guidelines) -->
          <textDesc n="sångtext">
             <!-- ws, w eller m? Fråga MG. Channel: (primary channel) describes the medium or channel by which a text is delivered or experienced. For a written text, this might be print, manuscript, email, etc.; for a spoken one, radio, telephone, face-to-face, etc. Mode: specifies the mode of this channel with respect to speech and writing. Legal values are:	
 s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written to be spoken) e.g. a script, m (mixed), x (unknown or inapplicable) [Default] (TEI guidelines) -->
-            <channel mode="w">tryckt</channel>
+            <channel mode="w">
+               tryckt
+            </channel>
             <!-- (constitution) describes the internal composition of a text or text sample, for example as fragmentary, complete, etc. -->
             <constitution type="single"/>
-            <!-- (derivation) describes the nature and extent of originality of this text.  -->
+            <!-- (derivation) describes the nature and extent of originality of this text. -->
             <derivation type="original"/>
             <!-- Art eller public? Fråga MG. (domain of use) describes the most important social context in which the text was realized or for which it is intended, for example private vs. public, education, religion, etc. Type: categorizes the domain of use. Sample values include: 1] art; 2] domestic; 3] religious; 4] business; 5] education (education); 6] govt (government); 7] public (TEI guidelines) -->
             <domain type="art"/>
             <!-- (factuality) describes the extent to which the text may be regarded as imaginative or non-imaginative, that is, as describing a fictional or a non-fictional world. -->
             <factuality type="inapplicable"/>
-            <!-- (interaction) describes the extent, cardinality and nature of any interaction among those producing and experiencing the text, for example in the form of response or interjection, commentary, etc.  -->
+            <!-- (interaction) describes the extent, cardinality and nature of any interaction among those producing and experiencing the text, for example in the form of response or interjection, commentary, etc. -->
             <interaction type="inapplicable"/>
             <!-- (preparedness) describes the extent to which a text may be regarded as prepared or spontaneous. -->
             <preparedness type="prepared"/>
@@ -124,7 +159,9 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
          </textDesc>
          <!-- (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. -->
          <settingDesc>
-            <p>Sånghäfte från invigningen av Göta kanal.</p>
+            <p>
+               Sånghäfte från invigningen av Göta kanal.
+            </p>
          </settingDesc>
       </profileDesc>
    </teiHeader>
@@ -135,10 +172,14 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
          <!-- (figure) groups elements representing or containing graphic information such as an illustration, formula, or figure. -->
          <figure>
             <!-- (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. -->
-            <label>Framsida omslag</label>
+            <label>
+               Framsida omslag
+            </label>
             <!-- (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. -->
-            <figDesc>En skannad bild på framsidan av resursens omslag.</figDesc>
-            <!-- (graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components  -->
+            <figDesc>
+               En skannad bild på framsidan av resursens omslag.
+            </figDesc>
+            <!-- (graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components -->
             <graphic xml:id="B1-Framsida-omslag_full"
                url="assets/img/documents/B1-Framsida-omslag.png"/>
             <graphic xml:id="B1-Framsida-omslag_thumb"
@@ -147,11 +188,15 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B2-Insida-omslag-och-titelblad">
          <figure>
-            <label>Insida omslag och titelblad</label>
-            <figDesc>En skannad bild av insida omslag och titelblad. Insidan på framsidans omslag
+            <label>
+               Insida omslag och titelblad
+            </label>
+            <figDesc>
+               En skannad bild av insida omslag och titelblad. Insidan på framsidans omslag
                innehåller två etiketter och handskrift. Titelbladet innehåller sångens titel, två
                handskrivna signaturer varav den ena är överstruken och ett handskrivet
-               ord.</figDesc>
+               ord.
+            </figDesc>
             <graphic xml:id="B2-Insida-omslag-och-titelblad_full"
                url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
             <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb"
@@ -160,7 +205,9 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
       </surface>
       <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida">
          <figure>
-            <label>Blankt blad och sångens första sida</label>
+            <label>
+               Blankt blad och sångens första sida
+            </label>
             <figDesc>En skannad bild av ett blankt blad till vänster och sångens första sida till
                höger.</figDesc>
             <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_full"
@@ -225,7 +272,7 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
    <text>
       <!-- Dold från sangtext.html. (front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. -->
       <front>
-         <!-- (text division) contains a subdivision of the front, body, or back of a text.  -->
+         <!-- (text division) contains a subdivision of the front, body, or back of a text. -->
          <div type="page" facs="#B1-Framsida-omslag"> </div>
          <div type="page" facs="#B2-Insida-omslag-och-titelblad">
             <p>Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o</p>
@@ -234,15 +281,18 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
             </p>
             <p>EX Libris Gn</p>
             <p>Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl.
-               Famillens Närvaro, den 26 september 1832.</p>
-            <p>oläslig handskrift delvis överstruken</p>
-            <p hand="#MMP"> M.M. af Pontin</p>
+               Famillens Närvaro, den 26 september 1832.
+            </p>
+            <p>oläslig handskrift delvis överstruken
+            </p>
+            <p hand="#MMP"> M.M. af Pontin
+            </p>
          </div>
       </front>
       <!-- Ska synas på sangtext.html. (text body) contains the whole body of a single unitary text, excluding any front or back matter. -->
       <body>
          <div type="page" facs="#B3-Blankt-blad-och-sangens-första-sida">
-            <!-- (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc.  -->
+            <!-- (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. -->
             <head>
                Fosterländsk Sång 
                <!-- (line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. -->
@@ -272,7 +322,7 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
             </p>
          </div>
          <div type="page" facs="#B4-Sangtext-sida-tva-tre_full">
-            <!-- metamark: contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document.  -->
+            <!-- metamark: contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document. -->
             <metamark function="pagenumber" place="top-center">
                <hi rend="- -">
                   <num>2</num>
@@ -295,7 +345,8 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
                <lb/>Ut till hafvet vill din fria bana,
                <lb/>Sen du gästat Göthers blomstergård.
                <lb/>Hvarje Flagg du här blir segerfana,
-               <lb/>Hvarje Sluss — en minnesvård. </p>
+               <lb/>Hvarje Sluss — en minnesvård.
+            </p>
             <p>Allt stort och fosterländskt, i tanke eller bragd,
                <lb/>Vann Svenska Folkets lof, vann hyllning alla tider;
                <lb/>Och denna Högtidsdag, af häfden förutsagd,
