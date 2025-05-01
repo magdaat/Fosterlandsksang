@@ -5,32 +5,32 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
 type="application/xml"
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- TEI=rot-elementet -->
+<!-- TEI dokument -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <!-- (TEI header) supplies descriptive and declarative metadata associated with a digital resource or set of resources. (TEI guidelines) -->
+   <!-- (TEI header) Ger beskrivande och förklarande metadata till resursen. (TEI guidelines) -->
    <teiHeader>
-      <!-- (file description) contains a full bibliographic description of an electronic file. (TEI guidelines) -->
+      <!-- (file description) Komplett bibliografisk beskrivning av den elektroniska filen. (TEI guidelines) -->
       <fileDesc>
-         <!-- (title statement) groups information about the title of a work and those responsible for its content. (TEI guidelines) -->        
+         <!-- (title statement) Information om verkets titel och om vilka som är ansvariga för verkets innehåll. (TEI guidelines) -->        
          <titleStmt>
-            <!-- (title) contains a title for any kind of work. (TEI guidelines) -->
+            <!-- (title) verkets titel (TEI guidelines) -->
             <title>
                Digitaliserad version av Fosterländsk sång vid Götha Canals öpnande
             </title>
-            <!-- (author) in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. (TEI guidelines) -->
+            <!-- (author) Författarnamn (TEI guidelines) -->
             <author>
-               <!-- (name, proper noun) contains a proper noun or noun phrase. (TEI guidelines) -->
+               <!-- (name, proper noun) egennamn. (TEI guidelines) -->
                <name>
-                  <!-- (personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. (TEI guidelines) -->
+                  <!-- (personal name)egennamn, möjligt att inkludera flera av personens förnamn, efternamn m.m. (TEI guidelines) -->
                   <persName>
                      ref="https://libris.kb.se/wt79cx1f277vf8z#it">
                      Magnus Martin af Pontin
                   </persName>
                </name>
             </author>
-            <!-- (statement of responsibility) supplies a statement of responsibility for the intellectual content of a text, edition, recording, or series, where the specialized elements for authors, editors, etc. do not suffice or do not apply. May also be used to encode information about individuals or organizations which have played a role in the production or distribution of a bibliographic work. (TEI guidelines) -->
+            <!-- (statement of responsibility) Redovisa vilka som ansvarar för textens intellektuella innehåll (används då de specialiserade elementen för ex. författare inte är tillräckliga). Går även att använda för att redovisa information om vilka individer och/eller organisationer som medverkat i produktion eller distribution av ett bibliografiskt verk. (TEI guidelines) -->
             <respStmt>
-               <!-- (responsibility) contains a phrase describing the nature of a person's intellectual responsibility, or an organization's role in the production or distribution of a work. -->
+               <!-- (responsibility) beskriv vilket intellektuellt ansvar och vilken roll i produktion eller distribution person och/eller organisation har. -->
                <resp>
                   Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap, 
                   <orgName>
@@ -53,19 +53,18 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
             </respStmt>
          </titleStmt>
-         <!-- (publication statement) groups information concerning the publication or distribution of an electronic or other text. (TEI guidelines)-->
+         <!-- (publication statement) Grupperar information om publicering eller distribution text. (TEI guidelines)-->
          <publicationStmt>
-            <!-- (release authority) supplies the name of a person or other agency responsible for making a work available, other than a publisher or distributor. (TEI guidelines) -->
+            <!-- (release authority) Namn på person/organisation som ansvarar för att göra ett verk tillgängligt. Se är inte utgivare eller distributör. (TEI guidelines) -->
             <authority>
                Linköpings universitetsbibliotek
             </authority>
-            <!-- (date) contains a date in any format. (TEI guidelines) -->
             <date>
                Maj 2025
             </date>
-            <!-- (availability) supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. (TEI guidelines) -->
+            <!-- (availability) Information om tillgången till texten, begränsningar för användning och distribution, upphovsrätt, licenser. (TEI guidelines) -->
             <availability>
-               <!-- licence: contains information about a licence or other legal agreement applicable to the text. (TEI guidelines) Target: specifies the destination of the reference by supplying one or more URI References (TEI guidelines) -->
+               <!-- licence: Information om de licenser eller juridiska avtal som är tillämpliga för texten. Mål: URI-referenser. (TEI guidelines) -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
                      Transcription distributed under a CC-BY-SA 4.0 license.
@@ -73,9 +72,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </licence>
             </availability>
          </publicationStmt>
-         <!-- (source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. (TEI guidelines) -->
+         <!-- (source description) En bibliografisk beskrivning av den elektroniska textens källa. (TEI guidelines) -->
          <sourceDesc>
-            <!-- Har valt bibl för att få in mer metadata. (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. (TEI guidelines) -->
+            <!-- Har valt bibl för att få in mer metadata. (bibliographic citation) löst strukturerad bibliografi. (TEI guidelines) -->
             <bibl>
                <title level="m">
                   Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
@@ -87,34 +86,32 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </persName>
                   </name>
                </author>
-               <!-- (note) contains a note or annotation. (TEI guidelines) -->
                <note type="printedBy">
                   P. A. Norstedt &amp; söner
                </note>
                <date>
                   1832
                </date>
-               <!-- (publication place) contains the name of the place where a bibliographic item was published. (TEI guidelines) -->
                <pubPlace>
                   Stockholm
                </pubPlace>
             </bibl>
-            <!-- (manuscript description) contains a description of a single identifiable manuscript or other text-bearing object such as an early printed book. (TEI guidelines) -->
+            <!-- (manuscript description) Beskrivning av enskild identifierbar handskrift eller annat textbärande föremål (TEI guidelines) -->
             <msDesc>
-               <!-- (manuscript identifier) contains the information required to identify the manuscript or similar object being described. (TEI guidelines) -->
+               <!-- (manuscript identifier) Ska innehålla den information som behövs för att identifiera skriften. (TEI guidelines) -->
                <msIdentifier>
-                  <!-- (repository) contains the name of a repository within which manuscripts or other objects are stored, possibly forming part of an institution. (TEI guidelines) -->
+                  <!-- (repository) Namnet på det repositorium där objektet lagras, eventuellt en del av en institution. (TEI guidelines) -->
                   <repository>
                      Vallabiblioteket, Linköpings universitetsbibliotek
                   </repository>
-                  <!-- (collection) contains the name of a collection of manuscripts or other objects, not necessarily located within a single repository. (TEI guidelines) -->
+                  <!-- (collection) Namn på samling objekt (TEI guidelines) -->
                   <collection>
                      Bokladan
                   </collection>
                </msIdentifier>
-               <!-- groups elements describing the full history of a manuscript, manuscript part, or other object (TEI guidelines) -->
+               <!-- (history) Gruppering av element som beskriver resursens historia. (TEI guidelines) -->
                <history>
-                  <!-- (provenance) contains any descriptive or other information concerning a single identifiable episode during the history of a manuscript, manuscript part, or other object after its creation but before its acquisition. (TEI guidelines) -->
+                  <!-- (provenance) Beskrivande information om enskild identifierbar episod i resursens historia. (TEI guidelines) -->
                   <provenance>
                      Har varit i
                      <orgName>
@@ -131,60 +128,58 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </fileDesc>
       <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
       <profileDesc>
-         <!-- (language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. (TEI guidelines) -->
+         <!-- (language usage) beskriv textens språk och underspråk (TEI guidelines) -->
          <langUsage>
-            <!-- (language) characterizes a single language or sublanguage used within a text. (TEI guidelines) -->
+            <!-- (language) språk eller underspråk som använts (TEI guidelines) -->
             <language ident="sv">
                Svenska
             </language>
          </langUsage>
          <!-- beskriv situationsparametrarna (TEI guidelines) -->
          <textDesc n="sångtext">
-            <!-- ws, w eller m? Fråga MG. Channel: (primary channel) describes the medium or channel by which a text is delivered or experienced. For a written text, this might be print, manuscript, email, etc.; for a spoken one, radio, telephone, face-to-face, etc. Mode: specifies the mode of this channel with respect to speech and writing. Legal values are:	
-s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written to be spoken) e.g. a script, m (mixed), x (unknown or inapplicable) [Default] (TEI guidelines) -->
+            <!-- ws, w eller m? Fråga MG. Channel: medium eller kanal genom vilken texten levereras eller upplevs. Skriven text=tryck. Mode: Anger läget för kanalen vad gäller tal och skrift. (TEI guidelines) -->
             <channel mode="w">
                tryckt
             </channel>
-            <!-- (constitution) describes the internal composition of a text or text sample, for example as fragmentary, complete, etc. -->
+            <!-- (constitution) beskriver textens sammansättning. (TEI guidelines) -->
             <constitution type="single"/>
-            <!-- (derivation) describes the nature and extent of originality of this text. -->
+            <!-- (derivation) Beskriv textens karaktär och originalitet. (TEI guidelines) -->
             <derivation type="original"/>
-            <!-- Art eller public? Fråga MG. (domain of use) describes the most important social context in which the text was realized or for which it is intended, for example private vs. public, education, religion, etc. Type: categorizes the domain of use. Sample values include: 1] art; 2] domestic; 3] religious; 4] business; 5] education (education); 6] govt (government); 7] public (TEI guidelines) -->
+            <!-- Art eller public? Fråga MG. (domain of use) Beskriver textens användningsområde och dess främsta sociala sammanhang. (TEI guidelines) -->
             <domain type="art"/>
-            <!-- (factuality) describes the extent to which the text may be regarded as imaginative or non-imaginative, that is, as describing a fictional or a non-fictional world. -->
+            <!-- (factuality) Beskriv i vilken utsträckning texten är verklighetsförankrad eller imaginär. (TEI guidelines) -->
             <factuality type="inapplicable"/>
-            <!-- (interaction) describes the extent, cardinality and nature of any interaction among those producing and experiencing the text, for example in the form of response or interjection, commentary, etc. -->
+            <!-- (interaction) Beskriv den eventuella interaktionen mellan de som producerar och de som upplever texten. (TEI guidelines) -->
             <interaction type="inapplicable"/>
-            <!-- (preparedness) describes the extent to which a text may be regarded as prepared or spontaneous. -->
+            <!-- (preparedness) Beskriv om texten kan ses som förberedd eller spontan. (TEI guidelines) -->
             <preparedness type="prepared"/>
-            <!-- characterizes a single purpose or communicative function of the text. -->
+            <!-- Textens syfte eller funktion. (TEI guidelines) -->
             <!-- entertain eller persuade eller bägge? Fråga MG. -->
             <purpose type="entertain" degree="high"/>
             <purpose type="persuade" degree="medium"/>
          </textDesc>
-         <!-- (setting description) describes the setting or settings within which a language interaction takes place, or other places otherwise referred to in a text, edition, or metadata. -->
+         <!-- (setting description) beskriv miljöerna då språkinteraktioner sker eller beskriv de andra miljöer texterna refererar till. (TEI guidelines) -->
          <settingDesc>
             <p>
-               Sånghäfte från invigningen av Göta kanal.
+               Invigning av Göta kanal.
             </p>
          </settingDesc>
       </profileDesc>
    </teiHeader>
-   <!-- contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. -->
+   <!-- Representation av källan i form av bilder i stället för som transkriberad eller kodad text. (TEI guidelines) -->
    <facsimile>
-      <!-- defines a written surface as a two-dimensional coordinate space, optionally grouping one or more graphic representations of that space, zones of interest within that space, and transcriptions of the writing within them. -->
       <surface xml:id="B1-Framsida-omslag">
-         <!-- (figure) groups elements representing or containing graphic information such as an illustration, formula, or figure. -->
+         <!-- (figure) Gruppering av element med  grafisk information. (TEI guidelines) -->
          <figure>
-            <!-- (label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. -->
+            <!-- (label) Innehåller den etikett eller rubrik som krävs för att identifiera en del av en text. (TEI guidelines) -->
             <label>
                Framsida omslag
             </label>
-            <!-- (description of figure) contains a brief prose description of the appearance or content of a graphic figure, for use when documenting an image without displaying it. -->
+            <!-- (description of figure) Ska innehålla en kortfattad beskrivning av utseende eller innehåll i den grafiska figuren. (TEI guidelines) -->
             <figDesc>
                En skannad bild på framsidan av resursens omslag.
             </figDesc>
-            <!-- (graphic) indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it. [3.10. Graphics and Other Non-textual Components -->
+            <!-- (graphic) Ange på vilken plats en  grafik eller illustration hittas. (TEI guidelines) -->
             <graphic xml:id="B1-Framsida-omslag_full"
                url="assets/img/documents/B1-Framsida-omslag.png"/>
             <graphic xml:id="B1-Framsida-omslag_thumb"
@@ -294,11 +289,10 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
          </figure>
       </surface>
    </facsimile>
-   <!-- (text) contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. -->
    <text>
-      <!-- Dold från sangtext.html. (front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. -->
+      <!-- Dold från sangtext.html. (front matter) Ska innehålla all inledande text i början av dokumentet före sången. (TEI guidelines) -->
       <front>
-         <!-- (text division) contains a subdivision of the front, body, or back of a text. -->
+         <!-- (text division) Indelning av texten som framsida, brödtext eller baksida. (TEI guidelines) -->
          <div type="page" facs="#B1-Framsida-omslag">
          </div>
          <div type="page" facs="#B2-Insida-omslag-och-titelblad">
@@ -324,13 +318,11 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
             </p>
          </div>
       </front>
-      <!-- Ska synas på sangtext.html. (text body) contains the whole body of a single unitary text, excluding any front or back matter. -->
+      <!-- Ska synas på sangtext.html. (text body) Ska innehåller all brödtext efter front och innan baksida (TEI guidelines). -->
       <body>
          <div type="page" facs="#B3-Blankt-blad-och-sangens-första-sida">
-            <!-- (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. -->
             <head>
                Fosterländsk Sång 
-               <!-- (line beginning) marks the beginning of a new (typographic) line in some edition or version of a text. -->
                <lb/>
                VID
                <lb/>
@@ -358,7 +350,7 @@ s (spoken), w (written), sw (spoken to be written) e.g. dictation, ws (written t
             </p>
          </div>
          <div type="page" facs="#B4-Sangtext-sida-tva-tre_full">
-            <!-- metamark: contains or describes any kind of graphic or written signal within a document the function of which is to determine how it should be read rather than forming part of the actual content of the document. -->
+            <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
             <metamark function="pagenumber" place="top-center">
                <hi rend="- -">
                   <num>
