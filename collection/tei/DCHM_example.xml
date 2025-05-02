@@ -32,11 +32,10 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <respStmt>
                <!-- (responsibility) beskriv vilket intellektuellt ansvar och vilken roll i produktion eller distribution person och/eller organisation har. -->
                <resp>
-                  Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap, 
+                  Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap 
                   <orgName>
                      Borås högskola
                   </orgName>
-                  .
                   Digitaliseringen är utförd av:
                </resp>
                <persName>
