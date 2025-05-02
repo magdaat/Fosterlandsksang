@@ -15,7 +15,8 @@
          <body class="page-historia">
       <header class="container py-4 text-center"> 
          <!-- Huvudrubrik för sidan som introducerar innehållet -->
-         <!-- py-4 är en Bootstrap-klass som står för: p = padding (inre marginal),y = y-axeln (dvs. top och bottom), 4 = ett värde på paddingen i Bootstraps skala (0–5+). CSS? -->
+         <!-- py-4 är en Bootstrap-klass som står för: p = padding (inre marginal),y = y-axeln (dvs. top och bottom), 4 = ett värde på paddingen i Bootstraps skala (0–5+). -->
+         <!-- Alla paddings och marginer borde flyttas till CSS -->
          <h1>Digitaliserad version av Fosterländsk sång</h1>
       </header>
       <nav class="container text-center mb-4">
@@ -41,7 +42,8 @@
                      En arbetsdag var hela 12 timmar lång och den största delen av tiden grävde man med hjälp av plåtskodda spadar. 
                      Kostnaden för kanalens färdigställande ska ha uppgått i cirka nio miljoner riksdaler, vilket år 2025 motsvarar ungefär 20 miljarder svenska kronor.
                </div>
-               <div class="row align-items-start"> <!-- Försök att fixa så att kolumnen avslutas efter bildens höjd. Tror ärligt talat inte att det funkade  -->
+               <div class="row align-items-start"> <!-- Försök att fixa så att kolumnen avslutas efter bildens höjd? CSS  -->
+                  <!-- Gör kolumnerna responsiva! Detta kanske redan har gjorts? Borde ju fixa de stora skillnaderna på skärmarna -->
                   <div class="col-md-6 mb-4 order-2"> <!-- Vänster kolumn: Innehåller bild och text -->
                      <div class="image-block"> <!-- Bilden får sin egna div klass för att förtydliga vilka element som hör ihop och underlätta styling -->
                      <img src="assets/img/documents/NMDrh744.jpg" alt="Göta kanals öppnande vid Mem 1832"
