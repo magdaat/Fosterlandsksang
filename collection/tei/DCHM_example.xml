@@ -1,114 +1,217 @@
-<?xml version="1.0" encoding="UTF-8"?><!-- XML-prolog, UTF-8 är standardteckenkodningen för XML-dokument (w3shools).-->
-
-<!-- Innebär att XML-dokumentet valideras enligt TEI:s Relax NG-schema som kontrollerar strukturen i ett XML-dokument (chatgpt)-->
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
-   type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
-<!-- Innebär att XML-dokumentet valideras enligt Schematron som kontrollerar logiska regler och villkor. 
-   Matchar länken tei_all.rng med schematron? (chatgpt)-->
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-   type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI dokument -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- (TEI header) Ger beskrivande och förklarande metadata till resursen. (TEI guidelines) -->
    <teiHeader>
+      <!-- (file description) Komplett bibliografisk beskrivning av den elektroniska filen. (TEI guidelines) -->
       <fileDesc>
+         <!-- (title statement) Information om verkets titel och om vilka som är ansvariga för verkets innehåll. (TEI guidelines) -->        
          <titleStmt>
-            <title>Digitaliserad version av Fosterländsk sång</title>
+            <!-- (title) verkets titel (TEI guidelines) -->
+            <title>
+               Digitaliserad version av Fosterländsk sång vid Götha Canals öpnande
+            </title>
+            <!-- (author) Författarnamn (TEI guidelines) -->
             <author>
+               <!-- (name, proper noun) egennamn. (TEI guidelines) -->
                <name>
-                  <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af
-                     Pontin</persName>
+                  <!-- (personal name)egennamn, möjligt att inkludera flera av personens förnamn, efternamn m.m. (TEI guidelines) -->
+                  <persName>
+                     ref="https://libris.kb.se/wt79cx1f277vf8z#it">
+                     Magnus Martin af Pontin
+                  </persName>
                </name>
             </author>
+            <!-- (statement of responsibility) Redovisa vilka som ansvarar för textens intellektuella innehåll (används då de specialiserade elementen för ex. författare inte är tillräckliga). Går även att använda för att redovisa information om vilka individer och/eller organisationer som medverkat i produktion eller distribution av ett bibliografiskt verk. (TEI guidelines) -->
             <respStmt>
-               <resp>Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet i biblioteks- och informationsvetenskap, högskolan i Borås. Genomförd av:</resp>
-               <persName>Marie Gyll</persName>
-               <persName>Jessica Hultengren</persName>
-               <persName>Susanne Landén</persName>
-               <persName>Magdalena af Trolle</persName>
+               <!-- (responsibility) beskriv vilket intellektuellt ansvar och vilken roll i produktion eller distribution person och/eller organisation har. -->
+               <resp>
+                  Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap, 
+                  <orgName>
+                     Borås högskola
+                  </orgName>
+                  .
+                  Digitaliseringen är utförd av:
+               </resp>
+               <persName>
+                  Marie Gyll
+               </persName>
+               <persName>
+                  Jessica Hultengren
+               </persName>
+               <persName>
+                  Susanne Landén
+               </persName>
+               <persName>
+                  Magdalena af Trolle
+               </persName>
             </respStmt>
          </titleStmt>
+         <!-- (publication statement) Grupperar information om publicering eller distribution text. (TEI guidelines)-->
          <publicationStmt>
-            <authority>Linköpings universitetsbibliotek</authority><!-- Ok med Linköping att stå här?. -->
-            <date>Maj 2025</date>
-            <availability><!-- Kolla detta, hör med Linköping, om vi ska ha mer info om distribution. -->
+            <!-- (release authority) Namn på person/organisation som ansvarar för att göra ett verk tillgängligt. Se är inte utgivare eller distributör. (TEI guidelines) -->
+            <authority>
+               Linköpings universitetsbibliotek
+            </authority>
+            <date>
+               Maj 2025
+            </date>
+            <!-- (availability) Information om tillgången till texten, begränsningar för användning och distribution, upphovsrätt, licenser. (TEI guidelines) -->
+            <availability>
+               <!-- licence: Information om de licenser eller juridiska avtal som är tillämpliga för texten. Mål: URI-referenser. (TEI guidelines) -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p> Transcription distributed under a CC-BY-SA 4.0 license. </p>
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
                </licence>
             </availability>
          </publicationStmt>
+         <!-- (source description) En bibliografisk beskrivning av den elektroniska textens källa. (TEI guidelines) -->
          <sourceDesc>
-            <bibl><!-- Har valt bibl för att få in mer metadata. -->
-               <title level="m">Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens
-                  och den Kongl. Famillens Närvaro, den 26 september 1832.</title>
+            <!-- Har valt bibl för att få in mer metadata. (bibliographic citation) löst strukturerad bibliografi. (TEI guidelines) -->
+            <bibl>
+               <title level="m">
+                  Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
+               </title>
                <author>
                   <name>
-                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">Magnus Martin af
-                        Pontin</persName>
+                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">
+                        Magnus Martin af Pontin
+                     </persName>
                   </name>
                </author>
-               <note type="printedBy">P. A. Norstedt &amp; söner</note>
-               <date>1832</date>
-               <pubPlace>Stockholm</pubPlace>
+               <note type="printedBy">
+                  P. A. Norstedt &amp; söner
+               </note>
+               <date>
+                  1832
+               </date>
+               <pubPlace>
+                  Stockholm
+               </pubPlace>
             </bibl>
+            <!-- (manuscript description) Beskrivning av enskild identifierbar handskrift eller annat textbärande föremål (TEI guidelines) -->
             <msDesc>
+               <!-- (manuscript identifier) Ska innehålla den information som behövs för att identifiera skriften. (TEI guidelines) -->
                <msIdentifier>
-                  <repository>Vallabiblioteket, Linköpings universitetsbibliotek</repository>
-                  <collection>Bokladan</collection>
+                  <!-- (repository) Namnet på det repositorium där objektet lagras, eventuellt en del av en institution. (TEI guidelines) -->
+                  <repository>
+                     Vallabiblioteket, Linköpings universitetsbibliotek
+                  </repository>
+                  <!-- (collection) Namn på samling objekt (TEI guidelines) -->
+                  <collection>
+                     Bokladan
+                  </collection>
                </msIdentifier>
+               <!-- (history) Gruppering av element som beskriver resursens historia. (TEI guidelines) -->
                <history>
-                  <provenance> Har varit i <orgName>Kungliga vattenfallsstyrelsens</orgName> ägo,
-                     enligt etikett. </provenance>
-                  <provenance> Har varit i ytterligare en persons ägo, indikerat av etikett där det
-                     står Ex Libris och initialer. </provenance>
+                  <!-- (provenance) Beskrivande information om enskild identifierbar episod i resursens historia. (TEI guidelines) -->
+                  <provenance>
+                     Har varit i
+                     <orgName>
+                        Kungliga vattenfallsstyrelsens
+                     </orgName>
+                     ägo, enligt etikett.
+                  </provenance>
+                  <provenance>
+                     Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
+                  </provenance>
                </history>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
       <profileDesc>
+         <!-- (language usage) beskriv textens språk och underspråk (TEI guidelines) -->
          <langUsage>
-            <language ident="sv">Svenska</language>
+            <!-- (language) språk eller underspråk som använts (TEI guidelines) -->
+            <language ident="sv">
+               Svenska
+            </language>
          </langUsage>
+         <!-- beskriv situationsparametrarna (TEI guidelines) -->
          <textDesc n="sångtext">
-            <channel mode="w">tryckt</channel><!-- ws, w eller m? Fråga MG. -->
+            <!-- ws, w eller m? Fråga MG. Channel: medium eller kanal genom vilken texten levereras eller upplevs. Skriven text=tryck. Mode: Anger läget för kanalen vad gäller tal och skrift. (TEI guidelines) -->
+            <channel mode="w">
+               tryckt
+            </channel>
+            <!-- (constitution) beskriver textens sammansättning. (TEI guidelines) -->
             <constitution type="single"/>
+            <!-- (derivation) Beskriv textens karaktär och originalitet. (TEI guidelines) -->
             <derivation type="original"/>
-            <domain type="art"/><!-- Art eller public? Fråga MG. . -->
+            <!-- Art eller public? Fråga MG. (domain of use) Beskriver textens användningsområde och dess främsta sociala sammanhang. (TEI guidelines) -->
+            <domain type="art"/>
+            <!-- (factuality) Beskriv i vilken utsträckning texten är verklighetsförankrad eller imaginär. (TEI guidelines) -->
             <factuality type="inapplicable"/>
+            <!-- (interaction) Beskriv den eventuella interaktionen mellan de som producerar och de som upplever texten. (TEI guidelines) -->
             <interaction type="inapplicable"/>
+            <!-- (preparedness) Beskriv om texten kan ses som förberedd eller spontan. (TEI guidelines) -->
             <preparedness type="prepared"/>
+            <!-- Textens syfte eller funktion. (TEI guidelines) -->
+            <!-- entertain eller persuade eller bägge? Fråga MG. -->
             <purpose type="entertain" degree="high"/>
-            <purpose type="persuade" degree="medium"/><!-- entertain eller persuade eller bägge? Fråga MG. -->
+            <purpose type="persuade" degree="medium"/>
          </textDesc>
+         <!-- (setting description) beskriv miljöerna då språkinteraktioner sker eller beskriv de andra miljöer texterna refererar till. (TEI guidelines) -->
          <settingDesc>
-            <p>Sånghäfte från invigningen av Göta kanal.</p><!-- utveckla vidare. -->
+            <p>
+               Invigning av Göta kanal.
+            </p>
          </settingDesc>
       </profileDesc>
    </teiHeader>
+   <!-- Representation av källan i form av bilder i stället för som transkriberad eller kodad text. (TEI guidelines) -->
    <facsimile>
       <surface xml:id="B1-Framsida-omslag">
+         <!-- (figure) Gruppering av element med  grafisk information. (TEI guidelines) -->
          <figure>
-            <label>Framsida omslag</label>
-            <figDesc>En skannad bild på framsidan av resursens omslag.</figDesc>
-            <graphic xml:id="B1-Framsida-omslag_full" url="assets/img/documents/B1-Framsida-omslag.png"/>
-            <graphic xml:id="B1-Framsida-omslag_thumb" url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
+            <!-- (label) Innehåller den etikett eller rubrik som krävs för att identifiera en del av en text. (TEI guidelines) -->
+            <label>
+               Framsida omslag
+            </label>
+            <!-- (description of figure) Ska innehålla en kortfattad beskrivning av utseende eller innehåll i den grafiska figuren. (TEI guidelines) -->
+            <figDesc>
+               En skannad bild på framsidan av resursens omslag.
+            </figDesc>
+            <!-- (graphic) Ange på vilken plats en  grafik eller illustration hittas. (TEI guidelines) -->
+            <graphic xml:id="B1-Framsida-omslag_full"
+               url="assets/img/documents/B1-Framsida-omslag.png"/>
+            <graphic xml:id="B1-Framsida-omslag_thumb"
+               url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B2-Insida-omslag-och-titelblad">
          <figure>
-            <label>Insida omslag och titelblad</label>
-            <figDesc>En skannad bild av insida omslag och titelblad. 
-               Insidan på framsidans omslag innehåller två etiketter och handskrift.
-               Titelbladet innehåller sångens titel, två handskrivna signaturer varav den ena är överstruken och ett handskrivet ord.</figDesc>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad_full" url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb" url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
+            <label>
+               Insida omslag och titelblad
+            </label>
+            <figDesc>
+               En skannad bild av insida omslag och titelblad. Insidan på framsidans omslag
+               innehåller två etiketter och handskrift. Titelbladet innehåller sångens titel, två
+               handskrivna signaturer varav den ena är överstruken och ett handskrivet
+               ord.
+            </figDesc>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_full"
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb"
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida">
          <figure>
-            <label>Blankt blad och sångens första sida</label>
-            <figDesc>En skannad bild av ett blankt blad till vänster och sångens första sida till
-               höger.</figDesc>
+            <label>
+               Blankt blad och sångens första sida
+            </label>
+            <figDesc>
+               En skannad bild av ett blankt blad till vänster och sångens första sida till
+               höger.
+            </figDesc>
             <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_full"
                url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.png"/>
             <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_thumb"
@@ -117,24 +220,40 @@
       </surface>
       <surface xml:id="B4-Sangtext-sida-tva-tre">
          <figure>
-            <label>Sångtext, sida två-tre</label>
-            <figDesc>En skannad bild av sångtextens andra och tredje sida.</figDesc>
-            <graphic xml:id="B4-Sangtext-sida-tva-tre_full" url="assets/img/documents/B4-Sangtext-sida-tva-tre.png"/>
-            <graphic xml:id="B4-Sangtext-sida-tva-tre_thumb" url="assets/img/documents/B4-Sangtext-sida-tva-tre_thumb.png"/>
+            <label>
+               Sångtext, sida två-tre
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens andra och tredje sida.
+            </figDesc>
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_full"
+               url="assets/img/documents/B4-Sangtext-sida-tva-tre.png"/>
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_thumb"
+               url="assets/img/documents/B4-Sangtext-sida-tva-tre_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B5-Sangtext-sida-fyra-fem">
          <figure>
-            <label>Sångtext, sida fyra-fem</label>
-            <figDesc>En skannad bild av sångtextens fjärde och femte sida.</figDesc>
-            <graphic xml:id="B5-Sangtext-sida-fyra-fem_full" url="assets/img/documents/B5-Sangtext-sida-fyra-fem.png"/>
-            <graphic xml:id="B5-Sangtext-sida-fyra-fem_thumb" url="assets/img/documents/B5-Sangtext-sida-fyra-fem_thumb.png"/>
+            <label>
+               Sångtext, sida fyra-fem
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens fjärde och femte sida.
+            </figDesc>
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_full"
+               url="assets/img/documents/B5-Sangtext-sida-fyra-fem.png"/>
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_thumb"
+               url="assets/img/documents/B5-Sangtext-sida-fyra-fem_thumb.png"/>
          </figure>
       </surface>
       <surface xml:id="B6-Sangtext-sida-sex-sju">
          <figure>
-            <label>Sångtext, sida sex-sju</label>
-            <figDesc>En skannad bild av sangtextens sjätte och sjunde sida.</figDesc>
+            <label>
+               Sångtext, sida sex-sju
+            </label>
+            <figDesc>
+               En skannad bild av sangtextens sjätte och sjunde sida.
+            </figDesc>
             <graphic xml:id="B6-Sangtext-sida-sex-sju_full"
                url="assets/img/documents/B6-Sangtext-sida-sex-sju.png"/>
             <graphic xml:id="B6-Sangtext-sida-sex-sju_thumb"
@@ -143,9 +262,12 @@
       </surface>
       <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida">
          <figure>
-            <label>Åttonde sidan sångtext och en blank sida</label>
-            <figDesc>En skannad bild av sångtextens sista sida till vänster och en blank sida till
-               höger.</figDesc>
+            <label>
+               Åttonde sidan sångtext och en blank sida
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
+            </figDesc>
             <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_full"
                url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.png"/>
             <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb"
@@ -154,8 +276,12 @@
       </surface>
       <surface xml:id="B8-Baksida-omslag">
          <figure>
-            <label>Baksida omslag</label>
-            <figDesc>En skannad bild på baksidan av resursens omslag.</figDesc>
+            <label>
+               Baksida omslag
+            </label>
+            <figDesc>
+               En skannad bild på baksidan av resursens omslag.
+            </figDesc>
             <graphic xml:id="B8-Baksida-omslag_full"
                url="assets/img/documents/B8-Baksida-omslag.png"/>
             <graphic xml:id="B8-Baksida-omslag_thumb"
@@ -164,25 +290,48 @@
       </surface>
    </facsimile>
    <text>
-      <front><!-- Dold från sangtext.html. -->
-         <div type="page" facs="#B1-Framsida-omslag"> </div>
+      <!-- Dold från sangtext.html. (front matter) Ska innehålla all inledande text i början av dokumentet före sången. (TEI guidelines) -->
+      <front>
+         <!-- (text division) Indelning av texten som framsida, brödtext eller baksida. (TEI guidelines) -->
+         <div type="page" facs="#B1-Framsida-omslag">
+         </div>
          <div type="page" facs="#B2-Insida-omslag-och-titelblad">
-            <p>Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o</p>
             <p>
-               <note>oläslig handskrift</note>
+               Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o
             </p>
-            <p>EX Libris Gn</p>
-            <p>Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl.
-               Famillens Närvaro, den 26 september 1832.</p>
-            <p>oläslig handskrift delvis överstruken</p>
-            <p hand="#MMP"> M.M. af Pontin</p>
+            <p>
+               <note>
+                  oläslig handskrift
+               </note>
+            </p>
+            <p>
+               EX Libris Gn
+            </p>
+            <p>
+               Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
+            </p>
+            <p>
+               oläslig handskrift delvis överstruken
+            </p>
+            <p hand="#MMP"> 
+               M.M. af Pontin
+            </p>
          </div>
       </front>
-      <body><!-- Ska synas på sangtext.html. -->
+      <!-- Ska synas på sangtext.html. (text body) Ska innehåller all brödtext efter front och innan baksida (TEI guidelines). -->
+      <body>
          <div type="page" facs="#B3-Blankt-blad-och-sangens-första-sida">
-            <head>Fosterländsk Sång <lb/>VID <lb/>GÖTHA CANALS FULLBORDAN.
-               <lb/>År 1832.</head>
-            <p>CHOR.
+            <head>
+               Fosterländsk Sång 
+               <lb/>
+               VID
+               <lb/>
+               GÖTHA CANALS FULLBORDAN.
+               <lb/>
+               År 1832.
+            </head>
+            <p>
+               CHOR.
                <lb/>Du bröt dina bojor, du fria Nord!
                <lb/>De sista, de enda dig tryckte:
                <lb/>De klippor, som stängde din bördiga jord,
@@ -201,7 +350,14 @@
             </p>
          </div>
          <div type="page" facs="#B4-Sangtext-sida-tva-tre_full">
-            <metamark function="pagenumber" place="top-center"><hi rend="- -"><num>2</num></hi></metamark>
+            <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+            <metamark function="pagenumber" place="top-center">
+               <hi rend="- -">
+                  <num>
+                     2
+                  </num>
+               </hi>
+            </metamark>
             <p>RECITATIV.
                <lb/>Ja, en Segerfest är din fullbordan,
                <lb/>Jätte-verk af Sveas starka arm!
@@ -212,7 +368,8 @@
                <lb/>Bjuder tiden svara på de frågor,
                <lb/>Der blott vinning fordrar svar.
             </p>
-            <p>Mellan berg och brådjup trädd i dagen,
+            <p>
+               Mellan berg och brådjup trädd i dagen,
                <lb/>Nordens kraft du speglar i ditt bryn,
                <lb/>Stolta Flod! ur Sveas fjällbarm dragen,
                <lb/>Vintergatan lik, som famnar skyn.
@@ -221,7 +378,8 @@
                <lb/>Hvarje Flagg du här blir segerfana,
                <lb/>Hvarje Sluss — en minnesvård.
             </p>
-            <p>Allt stort och fosterländskt, i tanke eller bragd,
+            <p>
+               Allt stort och fosterländskt, i tanke eller bragd,
                <lb/>Vann Svenska Folkets lof, vann hyllning alla tider;
                <lb/>Och denna Högtidsdag, af häfden förutsagd,
                <lb/>Ser tankens djerfva plan till handling förd omsider.
@@ -230,10 +388,10 @@
                <lb/>Har tydt Wafthrudners spådoms-anda:
             </p>
          </div>
-         <div type="page" facs="#B5-Sangtext-sida-fyra-fem"></div>
-         <div type="page" facs="#B6-Sangtext-sida-sex-sju"></div>
-         <div type="page" facs="#B7-Attonde-sidan-sangtext-och-en-blank-sida"></div>
-         <div type="page" facs="#B8-Baksida-omslag"></div>
+         <div type="page" facs="#B5-Sangtext-sida-fyra-fem"/>
+         <div type="page" facs="#B6-Sangtext-sida-sex-sju"/>
+         <div type="page" facs="#B7-Attonde-sidan-sangtext-och-en-blank-sida"/>
+         <div type="page" facs="#B8-Baksida-omslag"/>
       </body>
       <back/>
    </text>
