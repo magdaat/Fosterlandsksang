@@ -4,7 +4,7 @@
             <meta charset="UTF-8"><!-- teckenkodning -->
             <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- får det att fungera på olika skärmar -->
             <title>Historia</title><!-- titel på sidan, syns i webbläsare -->
-            <!-- Bootstrap 5.3.2 -->
+            <!-- Bootstrap 5.3.2. Länk till senaste versionen av Bootstrap för responsiv design och stilar -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
                rel="stylesheet"
                integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
@@ -13,7 +13,9 @@
             <link rel="stylesheet" href="assets/css/main.css">
          </head>
          <body class="page-historia">
-      <header class="container py-4 text-center">
+      <header class="container py-4 text-center"> 
+         <!-- Huvudrubrik för sidan som introducerar innehållet -->
+         <!-- py-4 är en Bootstrap-klass som står för: p = padding (inre marginal),y = y-axeln (dvs. top och bottom), 4 = ett värde på paddingen i Bootstraps skala (0–5+). CSS? -->
          <h1>Digitaliserad version av Fosterländsk sång</h1>
       </header>
       <nav class="container text-center mb-4">
@@ -24,70 +26,109 @@
          <a href="begrepp.html">Begrepp</a>
       </nav>
       <main>
+         
          <div class="container">
-            <article><!-- Rubrikrad -->
-               <div class="row"> <!-- ALTERNATIVT: <div class="row align-items-start"> som borde fixa så att kolumnen avslutas efter bildens höjd  -->
-                  <div class="col"> <!-- Vänster kolumn -->
-                     <!--Eventuellt rubrik här om vi vill ge mer kontext. Men det finns ju en rubrik till andra kolumnen så kanske inte behövs? -->
-                     <!-- <h2>Göta kanals öppnande</h2> -->
+            <article><!-- Rubrikrad --> <!-- Artikel om Göta kanals öppnande. Innehåller en historisk översikt och bilder. -->
+               <div class="container py-4"> 
+                  <h2 class="text-center">Göta kanals öppnande - en historisk milstolpe.</h2> <!-- CSS? -->
+                  <p>Göta kanal, en konstgjord vattenväg som sträcker sig från Sjötorp i väst till Mem i öst, är 190 kilometer lång och har 58 slussar. 
+                     Kanalen utgör ett av Sveriges genom tiderna största byggnadsprojekt med Baltzar von Platen som initiativtagare och ledande gestalt. 
+                     Den löper fram genom landskapet mellan Vänern och Östersjön. 
+                     Vattentransport var under den här tiden vanligare än transport på land och kanalen utgjorde ett säkrare och smidigare sätt att transportera varor genom landet, 
+                     bland annat trä och järnmalm. <br>
+               </div>
+               <div class="row align-items-start"> <!-- Försök att fixa så att kolumnen avslutas efter bildens höjd. Tror ärligt talat inte att det funkade  -->
+                  <div class="col-md-6 mb-4"> <!-- Vänster kolumn: Innehåller bild och text -->
+                     <div class="image-block"> <!-- Bilden får sin egna div klass för att förtydliga vilka element som hör ihop och underlätta styling -->
                      <img src="assets/img/documents/NMDrh744.jpg" alt="Göta kanals öppnande vid Mem 1832"
                         class="img-fluid">
-                        <p class="text-muted text-left"> <!-- Eller text-start istället pga bootstrap är nyare än 4. CSS FÖR ATT ÄNDRA STORLEK OSV TILL DENNA TEXT? -->
+                        <p class="image-caption text-muted small"> <!-- CSS FÖR ATT ÄNDRA STORLEK OSV TILL DENNA TEXT? -->
+                           <!-- Bildtext med källa och licensinformation. Länk till den bildkälla som används. -->
                         "Göta kanals öppnande vid Mem 1832", målning av Johan Christian Berger (1803-71), © Nationalmuseum, licenserad under 
                          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.sv" target="_blank">CC BY-SA 4.0</a>.
                         Källa: <a href="https://digitaltmuseum.se/021046500588/gota-kanals-oppnande-vid-mem-1832" target="_blank">DigitaltMuseum</a>
                         </p>
-                     <p>
-                        Den 26 september år 1832 invigdes Göta kanal i Mem, med den dåvarande kungen Karl XIV Johan närvarande, tillsammans med resten av kungafamiljen. 
-                        Det var ett betydelsefullt tillfälle som markerade kulmen på ett mödosamt arbete att förbinda Östersjön med Nordsjön.   
-                        Kungafamiljen möttes av jubel från en stor folkmassa och en parad med 300 soldater. Festligheterna omfattade imponerande uppvisningar, bland annat med musik, fyrverkerier och kanoner som avfyrade saluter. 
+                     </div>
+                     <p class="column-text"> <!-- Klass för att förtydliga och underlätta för styling -->
+                        <br>Kungafamiljen möttes av jubel från en stor folkmassa och en parad med 300 soldater.
+                        Festligheterna omfattade imponerande uppvisningar, bland annat med musik, fyrverkerier och kanoner som avfyrade saluter. 
                         Baltzar von Platen själv fick tyvärr aldrig se kanalen färdigställd, då han tre år tidigare avled. <br><br>
                         På invigningen framfördes ett verk skrivet av Magnus Martin af Pontin. Han var i första hand verksam inom naturvetenskap och medicin, men skrev även skönlitterära verk. 
                         Sången är en blandning av deklamation, det vill säga dramatisk högläsning, och körsång. Titeln på sånghäftet är 
                         <strong><em>“Fosterländsk Sång vid Götha Canals Öpnande i Hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832”</em></strong>, som digitaliseras på denna webbplats. 
                         Bernhard Crusell, som var dirigent och klarinettist, tonsatte verket år 1834.<br><br>                        
-                        Idag är Göta kanal ett känt turistmål som erbjuder besökare att uppleva slussning både från båt och land.<br><br>
+                        Idag är Göta kanal ett känt turistmål som erbjuder besökare att uppleva slussning både från båt och land.
                      </p>
-
-                  </div>
-                  <div class="col"> <!-- Höger kolumn -->
-                     <h2>Invigningen av Göta kanal</h2>
-                     <p>Göta kanal, en konstgjord vattenväg som sträcker sig från Sjötorp i väst till Mem i öst, är 190 kilometer lång och har 58 slussar. 
-                        Kanalen utgör ett av Sveriges genom tiderna största byggnadsprojekt med Baltzar von Platen som initiativtagare och ledande gestalt. 
-                        Den löper fram genom landskapet mellan Vänern och Östersjön. 
-                        Vattentransport var under den här tiden vanligare än transport på land och kanalen utgjorde ett säkrare och smidigare sätt att transportera varor genom landet, 
-                        bland annat trä och järnmalm. <br><br> 
+                   </div>
+                  <div class="col-md-6 mb-4"> <!-- Höger kolumn: Innehåller text om byggandet av kanalen och dess historiska betydelse -->
+                     <p class="column-text">
                         87 kilometer av kanalen är handgrävd och den tog 22 år att färdigställa. 
                         Med kung Karl XIII tillåtelse fick man 58 000 svenska soldater och 16 regementen till sin hjälp. 
                         En arbetsdag var hela 12 timmar lång och den största delen av tiden grävde man med hjälp av plåtskodda spadar. 
-                        Kostnaden för kanalens färdigställande ska ha uppgått i cirka nio miljoner riksdaler, vilket år 2025 motsvarar ungefär 20 miljarder svenska kronor.<br><br> <!-- Försök till att balansera sidan så lägger jag till en bild här? -->
+                        Kostnaden för kanalens färdigställande ska ha uppgått i cirka nio miljoner riksdaler, vilket år 2025 motsvarar ungefär 20 miljarder svenska kronor.<br><br> 
+                        Den 26 september år 1832 invigdes Göta kanal i Mem, med den dåvarande kungen Karl XIV Johan närvarande, tillsammans med resten av kungafamiljen. 
+                        Det var ett betydelsefullt tillfälle som markerade kulmen på ett mödosamt arbete att förbinda Östersjön med Nordsjön. <br><br>
+                        <!-- Försök till att balansera sidan så lägger jag till en bild här -->
                      </p>
+                     <div class="image-block">
                      <img src="assets/img/documents/KBGF.052243.jpg" alt="Göta kanal, Bergs slussar" class="img-fluid">
-                        <p class="text-muted small text-start"> <!-- Small las till, men får tänka på CSS -->
+                        <p class="image-caption text-muted small">
                            "Göta kanal, Bergs slussar (Östgötadelen blev klar 1832, Västgötadelen 1822)", fotograf: Alfred Sjöberg, glasnegativ.  
                            © Östergötlands museum. Licens: 
                            <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain Mark (PDM)</a>.  
                            Källa: 
+                           <!-- Källor och referenser för texten. Alla externa källor som använts för att skapa innehållet listas här. -->
                            <a href="https://digitaltmuseum.se/021017121968/gota-kanal-bergs-slussar-ostgotadelen-blev-klar-1832-vastgotadelen-1822" target="_blank">DigitaltMuseum</a>
                         </p>
                      </div>
-                  <h3>Källor:</h3>
-                     <p>                   
-                        <a href="https://www.gotakanal.se/sv/en-vacker-historia/den-stora-invigningen" target="_blank">Göta kanal</a>
-                        <a href="https://www.gotakanal.se/sv/en-vacker-historia/den-stora-invigningen">Historiens värld</a>
-                        <a href="https://litteraturbanken.se/f%C3%B6rfattare/Tegn%C3%A9rE/titlar/Tegn%C3%A9rsBrevII/sida/463/faksimil?traff=lb124739_628626&traffslut=lb124739_628634&s_query=g%C3%B6tha%20canals%20%C3%B6pnande&s_from=0&s_to=29&s_text_filter=%7B%7D&s_word_form_only=true&s_sort_field=sortfield&s_lbworkid=lb124739&hit_index=0">Litteraturbanken</a>
-                        <a href="https://sok.riksarkivet.se/sbl/artikel/15721">Riksarkivet</a>
-                        <a href="https://www.vastsverige.com/karlsborg/gota-kanal/artiklar/historiskagotakanal/">Upplev Västsverig.</a>  
-                     </p>
-                     <h4>Vid intresse, förslag på källor för ytterligare läsning:</h4>
-                     <p>
-                        <a href="https://ep.liu.se/databases/gotakanal/default.sv.aspx">Göta- och Trollhätte kanals bibliografiska databas - Linköpings universitet</a>
-                     </p>
+                     </div>
                   </div>
+               <!-- Detta ska vara utanför kolumnuppsättningen, men det syns inte för texten är inte tillräckligt lång... -->
+               <div class="references mt-5"> <!-- CSS -->
+                  <h3>Källor:</h3> <!-- CSS. När man öppnar detta i halvt fönster ser det bra ut, men inte i helt. -->
+                  <div class="link-block">
+                     <p>B. H. Crusell. <a href="https://sok.riksarkivet.se/sbl/artikel/15721" target="_blank">
+                           https://sok.riksarkivet.se/sbl/artikel/15721</a>, <em>Svenskt biografiskt lexikon</em> (artikel av T. Norlind.), hämtad 2 maj 2025.
+                     </p>    
+                    <p>Göta kanal AB. (u.å.). Den stora invigningen. <em>gotakanal.se</em>. Hämtad 2 maj 2025 från  
+                           <a href="https://www.gotakanal.se/sv/en-vacker-historia/den-stora-invigningen" target="_blank">
+                              https://www.gotakanal.se/sv/en-vacker-historia/den-stora-invigningen
+                           </a>
+                        </p>                        
+                        <p>Historiens Värld. (2024, 29 juli). Hur många människor dog under bygget av Göta kanal? Hämtad 2 maj 2025 från  
+                           <a href="https://www.historiensvarld.se/sveriges-historia/hur-manga-dog-under-bygget-av-gota-kanal/" target="_blank">
+                              https://www.historiensvarld.se/sveriges-historia/hur-manga-dog-under-bygget-av-gota-kanal/
+                           </a>
+                        </p>                        
+                        <p>Tegnér, E. (1953). <em>Esaias Tegnérs brev. Band I: 1793–1817</em> (N. Palmborg, Red.). Malmö: Allhem. Digitaliserad av Litteraturbanken. Hämtad 2 maj 2025 från  
+                           <a href="https://litteraturbanken.se/f%C3%B6rfattare/Tegn%C3%A9rE/titlar/Tegn%C3%A9rsBrevI/sida/1/faksimil" target="_blank">
+                              https://litteraturbanken.se/f%C3%B6rfattare/Tegn%C3%A9rE/titlar/Tegn%C3%A9rsBrevI/sida/1/faksimil
+                           </a>
+                        </p>                        
+                    
+                        <p>Västsverige. (u.å.). Historiska Göta kanal. <em>vastsverige.com</em>. Hämtad 2 maj 2025 från  
+                           <a href="https://www.vastsverige.com/karlsborg/gota-kanal/artiklar/historiskagotakanal/" target="_blank">
+                              https://www.vastsverige.com/karlsborg/gota-kanal/artiklar/historiskagotakanal/
+                           </a>
+                        </p>                    
+                     
+                  </div>
+                  <br/>
+                  <h3>Vid intresse</h3>
+                  <p>
+                     För dig som vill fördjupa dig ytterligare rekommenderas:
+                     <br>
+                     <a href="https://ep.liu.se/databases/gotakanal/default.sv.aspx" target="_blank">
+                        Göta- och Trollhätte kanals bibliografiska databas – Linköpings universitet
+                     </a> <br>                     
+                  </p>
+               </div>
             </article>
          </div>
+         
       </main>
             <footer>
+               <!-- Footer-sektionen som innehåller upphovsrättsinformation och länk till licens -->
                <div class="footer-row">
                   <div class="footer-content">
                      <div class="copyright_logos">
