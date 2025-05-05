@@ -147,16 +147,11 @@ footer {
     }
 }
 
-
-
-
-
-
 /* Styling sanghafte */
 
 /* Inställningar för reponsiv bildstorlek/position */
 .page-sanghafte .custom-size {
-    max-width: 50%;  /* Bilden får uppta max 50 % av skärmstorleken */
+    max-width: 75%;  /* Bilden får uppta max 75 % av skärmens storlek */
 }
 
 .page-sanghafte .carousel {
@@ -164,74 +159,35 @@ footer {
 }
 
 /* Styling pilarna */
-.page-sanghafte .carousel-control-prev-icon,
-.page-sanghafte .carousel-control-next-icon {
-    background-size: 50%;  /* Pilens storlek */
-}
-
 .page-sanghafte .carousel-control-prev,
 .page-sanghafte .carousel-control-next {
-    position: absolute;  /* Gör så att pilarna kan placeras exakt inom carousel */
-    top: 50%;  /* Vertikal positionering på mitten av carousel */
-    transform: translateY(-50%);  /* Justera så att pilarna är exakt centrerade */
-    background-color: rgba(0, 0, 0, 0.7);  /* Bakgrundsfärg */
-    border-radius: 50%;  /* Runda hörn för pilarna */
-    background-size: 60% 60%;  /* Justera bakgrundsbilden (pilens utseende) */
-    padding: 10px;  /* Justera storlek på pilen */
+    position: absolute; /* pilarnas placering är absolut i förhållande till karusellens relativa position */
+    top: 50%; /* Pilarna ska vara i centrum av den vertikala bildytan */
+    transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
+    background-color: rgba(0, 0, 0, 0.7);  /* Färg cirkel runt pilen */
+    border-radius: 50%;  /* cirkel */
+    width: 25px;  /* cirkelns bredd */
+    height: 25px;  /* cirkels höjd */
+    display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
+    justify-content: center; /* pilen hamnar i mitten horisontelt */
+    align-items: center; /* pilen hamnar i mitten vertikalt */
+    background-size: 75%;  /* Pilens storlek i förhållande till cirkeln */
+    padding: 0;
 }
 
 .page-sanghafte .carousel-control-prev {
-    left: 15px;  /* Placera vänster pil till vänster */
+    left: 5px;  /* Vänster pils placering från ytterkant */
 }
 
 .page-sanghafte .carousel-control-next {
-    right: 15px;  /* Placera höger pil till höger */
+    right: 5px;  /* Höger pils placering från ytterkant */
 }
 
-.page-sanghafte .carousel-control-prev,
-.page-sanghafte .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    
-    background-color: rgba(0, 0, 0, 0.7);  /* Mörk bakgrundsfärg */
-    border-radius: 50%;  /* Runda hörn, gör pilarna cirkulära */
-    background-size: 50% 50%;  /* Bakgrundsstorlek - justera för att passa pilen */
-    padding: 5px;  /* Minska padding för att inte få en för stor bakgrund */
-    width: 40px;  /* Sätt en specifik bredd för pilarna */
-    height: 40px;  /* Sätt en specifik höjd för pilarna */
-}
-
-.page-sanghafte .carousel-control-prev {
-    left: 10px;  /* Vänster pils placering från ytterkant */
-}
-
-.page-sanghafte .carousel-control-next {
-    right: 10px;  /* Höger pils placering från ytterkant */
-}
-
-
-.page-sanghafte .carousel-control-prev,
-.page-sanghafte .carousel-control-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    
-    background-color: rgba(0, 0, 0, 0.7);  /* Bakgrundsfärg på pilen */
-    border-radius: 50%;  /* Gör så att elementet får en rund form */
-    width: 30px;  /* cirkelns bredd */
-    height: 30px;  /* cirkels höjd */
-    display: flex;  /* Använd flexbox för att centrera innehållet (pil) */
-    justify-content: center;  /* Centrera horisontellt */
-    align-items: center;  /* Centrera vertikalt */
-    padding: 0;  /* Ta bort all extra padding som kan skapa utrymme runt pilen */
-    overflow: hidden;  /* Se till att inget sträcker sig utanför den runda formen */
-}
-
-
-
-
-
+/* När det är mobil får bilden ta upp 100% av skärmstorleken*/
+@media (max-width: 768px) {
+    .page-sanghafte .custom-size {
+        max-width: 100%; /* Gör bilderna större på små skärmar */
+    }
 
 /* Styling för sangtext */
 .page-sangtext article {
