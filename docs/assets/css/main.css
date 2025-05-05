@@ -188,6 +188,7 @@ footer {
     .page-sanghafte .custom-size {
         max-width: 100%; /* Gör bilderna större på små skärmar */
     }
+    }
 
 /* Styling för sangtext */
 .page-sangtext article {
@@ -218,8 +219,6 @@ footer {
     margin-top: 5px; /* Mellanrum före förklaringen */
 }
 
-/* Medie-query för att ändra layout på små skärmar */
-@media (max-width: 700px) {
     .page-begrepp .container {
         flex-direction: column; /* Gör så att elementen staplas vertikalt */
     }
@@ -227,7 +226,6 @@ footer {
     .page-begrepp .column {
         width: 100%; /* Se till att varje kolumn tar upp 100% av bredden */
     }
-}
 
  .page-begrepp .begrepp,
     .page-begrepp .forklaring {
