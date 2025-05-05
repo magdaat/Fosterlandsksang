@@ -37,7 +37,6 @@ nav {
     gap: 2.5vw; /* Mellanrum mellan länkarna */
     font-size: 1.5vw;
     padding: 1vw;
-    margin-bottom: 1vw;
     border-top: 1px solid black; /* Svart övre list */
     border-bottom: 1px solid black; /* Svart undre list */
 }
@@ -162,6 +161,10 @@ footer {
     .page-sanghafte .carousel-control-next {
         top: 45%;
     }
+}
+
+.custom-size {
+    max-width: 70%;  /* Bilden kommer att växa upp till 70% av sin förälders bredd */
 }
 
 /* Styling för sangtext */
