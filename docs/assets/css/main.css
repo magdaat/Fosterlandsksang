@@ -1,3 +1,147 @@
+/* Styling för index (om projektet) */
+
+/* Styling länkar */
+.page-index .nav-links a {
+    font-weight: bold;
+    color: #0077cc;
+}
+
+.page-index .nav-links li {
+    list-style: none; /* För att slippa punkter framför länkarna */
+    margin-bottom: 25px; /* Avstånd efter punkten */
+}
+
+.page-index .nav-links p { /* Marginaler punktlista */
+    margin: 0px 0px 30px 0px;
+}
+
+/* Styling textrutor */
+.page-index .textbox {
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 8px; /* Avstånd textrutor */
+}
+
+/* Större skärm*/
+@media (min-width: 800px)
+{
+.page-index .row
+{
+display: flex;
+flex-wrap: wrap;  /* för fyrfältare*/
+}
+.page-index .col-md-6 {
+        flex: 1 1 100%; /* hur breda rutorna får vara */
+        margin: 10px;
+    }
+}
+
+/* Mindre skärm */
+@media (max-width: 799px) 
+{
+.page-index .row 
+{
+display: block; /* Textrutorna visas en i taget */
+}
+
+.page-index .col-12 {
+        width: 100%; /* Varje textruta tar upp hela bredden */
+        margin: 10px 0;
+}    
+
+.page-index .textbox 
+{
+margin: 10px 0; /* Avstånd mellan textrutor*/
+}
+}
+
+/* Styling sanghafte */
+
+/* Inställningar för reponsiv bildstorlek/position */
+.page-sanghafte .custom-size {
+    max-width: 75%;  /* Bilden får uppta max 75 % av skärmens storlek */
+}
+
+.page-sanghafte .carousel {
+    position: relative;  /* karusellens position beror på skärmstorlek */
+}
+
+/* Styling pilarna */
+.page-sanghafte .carousel-control-prev,
+.page-sanghafte .carousel-control-next {
+    position: absolute; /* pilarnas placering är absolut i förhållande till karusellens relativa position */
+    top: 50%; /* Pilarna ska vara i centrum av den vertikala bildytan */
+    transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
+    background-color: rgba(0, 0, 0, 0.7);  /* Färg cirkel runt pilen */
+    border-radius: 50%;  /* cirkel */
+    width: 25px;  /* cirkelns bredd */
+    height: 25px;  /* cirkels höjd */
+    display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
+    justify-content: center; /* pilen hamnar i mitten horisontelt */
+    align-items: center; /* pilen hamnar i mitten vertikalt */
+    background-size: 75%;  /* Pilens storlek i förhållande till cirkeln */
+    padding: 0;
+}
+
+.page-sanghafte .carousel-control-prev {
+    left: 5px;  /* Vänster pils placering från ytterkant */
+}
+
+.page-sanghafte .carousel-control-next {
+    right: 5px;  /* Höger pils placering från ytterkant */
+}
+
+/* När det är mobil får bilden ta upp 100% av skärmstorleken*/
+@media (max-width: 768px) {
+    .page-sanghafte .custom-size {
+        max-width: 100%; /* Gör bilderna större på små skärmar */
+    }
+    }
+
+/* Styling för sangtext */
+.page-sangtext article {
+}
+
+/* Styling för historia */
+.page-historia article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling för begrepp */
+.page-begrepp article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; /* Mellanrum mellan artiklar */
+}
+
+.page-begrepp .begrepp {
+    margin-bottom: 5px; /* Mellanrum efter begreppet */
+}
+
+.page-begrepp .forklaring {
+    margin-top: 5px; /* Mellanrum före förklaringen */
+}
+
+    .page-begrepp .container {
+        flex-direction: column; /* Gör så att elementen staplas vertikalt */
+    }
+
+    .page-begrepp .column {
+        width: 100%; /* Se till att varje kolumn tar upp 100% av bredden */
+    }
+
+ .page-begrepp .begrepp,
+    .page-begrepp .forklaring {
+        margin-bottom: 10px; /* mindre avstånd liten skärm */
+    }
+
 /* Grundstil för webbplats */
 * {
     font-family: Helvetica, Sans-serif;
@@ -91,143 +235,3 @@ footer {
     border: 1px solid black;
     width: 500px;
 }
-
-/* Styling för index (om projektet) */
-.page-index .container {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.page-index .column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    min-width: 300px;
-}
-
-.page-index article {
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.page-index .nav-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.page-index .nav-links li {
-    margin-bottom: 10px;
-}
-
-.page-index .nav-links a {
-    font-weight: bold;
-    color: #0077cc;
-    text-decoration: none;
-}
-
-.page-index .nav-links a:hover {
-    text-decoration: underline;
-}
-
-.page-index .nav-links p {
-    margin: 2px 0 10px 0;
-}
-
-@media (max-width : 700px) {
-    .page-index .container {
-        flex-direction: column;
-    }
-
-    .page-index .column {
-        width: 100%;
-    }
-}
-
-/* Styling sanghafte */
-
-/* Inställningar för reponsiv bildstorlek/position */
-.page-sanghafte .custom-size {
-    max-width: 75%;  /* Bilden får uppta max 75 % av skärmens storlek */
-}
-
-.page-sanghafte .carousel {
-    position: relative;  /* karusellens position beror på skärmstorlek */
-}
-
-/* Styling pilarna */
-.page-sanghafte .carousel-control-prev,
-.page-sanghafte .carousel-control-next {
-    position: absolute; /* pilarnas placering är absolut i förhållande till karusellens relativa position */
-    top: 50%; /* Pilarna ska vara i centrum av den vertikala bildytan */
-    transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
-    background-color: rgba(0, 0, 0, 0.7);  /* Färg cirkel runt pilen */
-    border-radius: 50%;  /* cirkel */
-    width: 25px;  /* cirkelns bredd */
-    height: 25px;  /* cirkels höjd */
-    display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
-    justify-content: center; /* pilen hamnar i mitten horisontelt */
-    align-items: center; /* pilen hamnar i mitten vertikalt */
-    background-size: 75%;  /* Pilens storlek i förhållande till cirkeln */
-    padding: 0;
-}
-
-.page-sanghafte .carousel-control-prev {
-    left: 5px;  /* Vänster pils placering från ytterkant */
-}
-
-.page-sanghafte .carousel-control-next {
-    right: 5px;  /* Höger pils placering från ytterkant */
-}
-
-/* När det är mobil får bilden ta upp 100% av skärmstorleken*/
-@media (max-width: 768px) {
-    .page-sanghafte .custom-size {
-        max-width: 100%; /* Gör bilderna större på små skärmar */
-    }
-    }
-
-/* Styling för sangtext */
-.page-sangtext article {
-}
-
-/* Styling för historia */
-.page-historia article {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling för begrepp */
-.page-begrepp article {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px; /* Mellanrum mellan artiklar */
-}
-
-.page-begrepp .begrepp {
-    margin-bottom: 5px; /* Mellanrum efter begreppet */
-}
-
-.page-begrepp .forklaring {
-    margin-top: 5px; /* Mellanrum före förklaringen */
-}
-
-    .page-begrepp .container {
-        flex-direction: column; /* Gör så att elementen staplas vertikalt */
-    }
-
-    .page-begrepp .column {
-        width: 100%; /* Se till att varje kolumn tar upp 100% av bredden */
-    }
-
- .page-begrepp .begrepp,
-    .page-begrepp .forklaring {
-        margin-bottom: 10px; /* mindre avstånd liten skärm */
-    }
