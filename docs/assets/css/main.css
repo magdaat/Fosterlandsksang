@@ -154,19 +154,19 @@ footer {
 
 /* Styling sanghafte */
 
-/* Inställningar för reponsiv bildstorlek */
-.custom-size {
-    max-width: 50%;  /* Bilden får uppta mac 50 % av skärmstorleken */
+/* Inställningar för reponsiv bildstorlek/position */
+.page-sanghafte .custom-size {
+    max-width: 50%;  /* Bilden får uppta max 50 % av skärmstorleken */
+}
+
+.page-sanghafte .carousel {
+    position: relative;  /* karusellens position beror på skärmstorlek */
 }
 
 /* Styling pilarna */
 .page-sanghafte .carousel-control-prev-icon,
 .page-sanghafte .carousel-control-next-icon {
     background-size: 50%;  /* Pilens storlek */
-}
-
-.page-sanghafte .carousel {
-    position: relative;  /* Sätt relativ position för att barn ska positioneras i förhållande till carousel */
 }
 
 .page-sanghafte .carousel-control-prev,
@@ -186,13 +186,6 @@ footer {
 
 .page-sanghafte .carousel-control-next {
     right: 15px;  /* Placera höger pil till höger */
-}
-
-@media (max-width: 768px) {
-    .page-sanghafte .carousel-control-prev,
-    .page-sanghafte .carousel-control-next {
-        top: 50%;  /* Håll pilarna centrerade vertikalt även på små skärmar */
-    }
 }
 
 .page-sanghafte .carousel-control-prev,
@@ -234,6 +227,11 @@ footer {
     padding: 0;  /* Ta bort all extra padding som kan skapa utrymme runt pilen */
     overflow: hidden;  /* Se till att inget sträcker sig utanför den runda formen */
 }
+
+
+
+
+
 
 /* Styling för sangtext */
 .page-sangtext article {
