@@ -7,35 +7,41 @@
 }
 
 .page-index .nav-links li {
-    list-style: none; /* För att slippa punkter framför länkarna */
-    margin-bottom: 25px; /* Avstånd efter punkten */
+    list-style: none; /* Ingen formatering */
+    margin-bottom: 75px; /* Avstånd efter punkten */
 }
 
 .page-index .nav-links p { /* Marginaler punktlista */
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 100px 0px;
 }
 
-/* Styling textrutor */
+/* Styling för textrutorna */
 .page-index .textbox {
-    padding: 15px;
+    padding: 50px; /* textens avstånd till ram */
     border: 1px solid #000000;
-    border-radius: 8px;
+    border-radius: 10px; /* rundning hörn */
     background-color: #FFFFFF;
-    margin: 8px; /* Avstånd textrutor */
-}
+    margin: 50px; /* Avstånd textrutor OBS*/
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* mellanrum vertikalt */
+    justify-content: space-between;
+    min-height: 900px; /* min höjd */
+    height: 95%; /* alla rutor ska vara min 875 */
+    }
 
 /* Större skärm*/
 @media (min-width: 800px)
 {
-.page-index .row
+.page-index .container-fluid .row
 {
 display: flex;
 flex-wrap: wrap;  /* för fyrfältare*/
 }
-.page-index .col-md-6 {
-        flex: 1 1 100%; /* hur breda rutorna får vara */
-        margin: 10px;
-    }
+.page-index .textbox {
+flex-basis: 48%;
+margin: 25px;
+}
 }
 
 /* Mindre skärm */
@@ -57,11 +63,13 @@ margin: 10px 0; /* Avstånd mellan textrutor*/
 }
 }
 
+
+
 /* Styling sanghafte */
 
 /* Inställningar för reponsiv bildstorlek/position */
 .page-sanghafte .custom-size {
-    max-width: 75%;  /* Bilden får uppta max 75 % av skärmens storlek */
+    max-width: 50%;  /* Bilden får uppta max 50 % av skärmens storlek */
 }
 
 .page-sanghafte .carousel {
@@ -100,9 +108,14 @@ margin: 10px 0; /* Avstånd mellan textrutor*/
     }
     }
 
+
+
+
 /* Styling för sangtext */
 .page-sangtext article {
 }
+
+
 
 /* Styling för historia */
 .page-historia article {
@@ -118,29 +131,28 @@ margin: 10px 0; /* Avstånd mellan textrutor*/
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 15px; /* Mellanrum mellan artiklar */
 }
 
-.page-begrepp .begrepp {
-    margin-bottom: 5px; /* Mellanrum efter begreppet */
+.page-begrepp .table {
+    table-layout: fixed; /* fast layout*/
+    width: 90%; /* tabellbredd*/
+}
+.page-begrepp .th .td {
+    padding: 10px;  /* avstånd */
+    text-align: left;  /* textjustering */
 }
 
-.page-begrepp .forklaring {
-    margin-top: 5px; /* Mellanrum före förklaringen */
+.page-begrepp 
+    /* kolumnbredd */
+.table th:nth-child(1),
+.table td:nth-child(1){
+width: 20%; /* kolumn 1 (begreppen) */
 }
 
-    .page-begrepp .container {
-        flex-direction: column; /* Gör så att elementen staplas vertikalt */
-    }
-
-    .page-begrepp .column {
-        width: 100%; /* Se till att varje kolumn tar upp 100% av bredden */
-    }
-
- .page-begrepp .begrepp,
-    .page-begrepp .forklaring {
-        margin-bottom: 10px; /* mindre avstånd liten skärm */
-    }
+.table th:nth-child(2),
+.table td:nth-child(2) {
+width: 80%; /* kolumn 2 (förklaring) */
+}
 
 /* Grundstil för webbplats */
 * {
@@ -154,7 +166,7 @@ body {
     font-size: 1.20vw; /* Responsiv textstorlek */
     padding: 1vw; /* Responsiv padding */
     line-height: 1.25;
-    background-color: #f4f4f4;
+    background-color: #F8F8FF;
     width: 100%;
 }
 
@@ -212,26 +224,4 @@ footer {
 .copyright_logo {
     width: 1vw;
     margin: .15vw;
-}
-
-.row {
-    padding: 1vw;
-}
-
-#collection {
-    display: flex;
-    flex-wrap: wrap; /* Gör att innehållet bryts på mindre skärmar */
-    gap: 1vw; /* Mellanrum mellan bilder */
-}
-
-.thumbnail {
-    margin: 5px;
-    border: 1px solid black;
-    width: 100px;
-}
-
-.img-full {
-    margin: 5px;
-    border: 1px solid black;
-    width: 500px;
 }
