@@ -8,11 +8,11 @@
 
 .page-index .nav-links li {
     list-style: none; /* Ingen formatering */
-    margin-bottom: 75px; /* Avstånd efter punkten */
+    margin-bottom: 10px; /* Avstånd efter punkten */
 }
 
 .page-index .nav-links p { /* Marginaler punktlista */
-    margin: 0px 0px 100px 0px;
+    margin: 0px 0px 50px 0px;
 }
 
 /* Styling för textrutorna */
@@ -21,13 +21,13 @@
     border: 1px solid #000000;
     border-radius: 10px; /* rundning hörn */
     background-color: #FFFFFF;
-    margin: 50px; /* Avstånd textrutor OBS*/
+    margin: 5%; /* Avstånd textrutor OBS*/
     display: flex;
     flex-direction: column;
-    gap: 20px; /* mellanrum vertikalt */
+    gap: 5%; /* mellanrum vertikalt */
     justify-content: space-between;
-    min-height: 900px; /* min höjd */
-    height: 95%; /* alla rutor ska vara min 875 */
+    min-height: 650px; /* min höjd */
+    height: 95%; /* alla rutor ska vara min 500 */
     }
 
 /* Större skärm*/
