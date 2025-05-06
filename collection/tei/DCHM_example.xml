@@ -437,7 +437,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <note xml:id="note1">Ställen bredvid öfversta höjden af Götha Canal.</note>
             </p>
          </div>
-<<<<<<< HEAD
          </div>
          <div type="page" facs="#B5-Sangtext-sida-fyra-fem">
          <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
@@ -642,18 +641,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <note type="publisher">STOCKHOLM, TRYCKT HOS P. A. NORSTEDT &amp; SÖNER, 1832.</note> 
          </p>
          </div>
-=======
-         <div type="page" facs="#B5-Sangtext-sida-fyra-fem">
-            <p></p>
          </div>
-         <div type="page" facs="#B6-Sangtext-sida-sex-sju">
-            <p></p>
-         </div>
-         <div type="page" facs="#B7-Attonde-sidan-sangtext-och-en-blank-sida">
-            <p></p>
->>>>>>> b93652f3cc73f4ec34673fe6f8328cb782d97af2
-         </div>
-         <div type="page" facs="#B8-Baksida-omslag"/>
       </body>
       <back/>
    </text>
