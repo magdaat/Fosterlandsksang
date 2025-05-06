@@ -206,8 +206,7 @@ padding: 0;
 /* Styling för sangtext */
 .page-sangtext
 .container {
-padding: 2vw 50vw 2vw 20vw; /* Responsiv padding övre, höger, undre, vänster */
- background-color: lightblue; 
+padding: 2vw 20vw 2vw 20vw; /* Responsiv padding övre, höger, undre, vänster */
 }
 
 /* Styling för historia */
