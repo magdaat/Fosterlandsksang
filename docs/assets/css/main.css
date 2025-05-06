@@ -146,6 +146,13 @@ padding: 0;
 }
 
 /* Styling för sangtext */
+.page-sangtext .container {
+width: 100%; /* tar upp hela bredden */
+margin: 10px 0;
+background-color: white;
+padding: 2vw; /* Responsiv padding */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 /* Styling för historia */
 
