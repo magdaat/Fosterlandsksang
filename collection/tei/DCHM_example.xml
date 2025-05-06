@@ -323,21 +323,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <head>
                Fosterländsk Sång 
                <lb/>
-               VID
+               <hi rend="uppercase">vid</hi>
                <lb/>
-               GÖTHA CANALS FULLBORDAN.
+               <hi rend="uppercase">götha canals fullbordan.</hi>
                <lb/>
                År 1832.
             </head>
             <p>
-               CHOR.
-               <lb/>Du bröt dina bojor, du fria Nord!
-               <lb/>De sista, de enda dig tryckte:
-               <lb/>De klippor, som stängde din bördiga jord,
-               <lb/>De fjäll, som begränsat ditt rykte.
-               <lb/>Nu leder du, fridsam, den vestliga fjord
-               <lb/>Till fjärdarna inanför Bälten,
-               <lb/>Att helsas af Konunga-Hjelten.
+               <hi rend="uppercase">chor.</hi>
+            </p>
+            <p>
+               Du bröt dina bojor, du fria Nord!<lb/>
+               De sista, de enda dig tryckte:<lb/>
+               De klippor, som stängde din bördiga jord,<lb/>
+               De fjäll, som begränsat ditt rykte.<lb/>
+               Nu leder du, fridsam, den vestliga fjord<lb/>
+               Till fjärdarna inanför Bälten,<lb/>
+               Att helsas af Konunga-Hjelten.<lb/>
             </p>
             <p>Då skyndar den högländta källans språng
                <lb/>Ur hjertat af Skandiens dalar,
