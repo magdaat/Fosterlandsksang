@@ -133,6 +133,33 @@ justify-content: space-between;
 }
 }
 
+/* Styling för sangtext */
+.page-sangtext, .container {
+background-color: white;
+padding: 2vw 16vw 2vw 16vw; /* Responsiv padding övre, höger, undre, vänster */
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+width: 80%; /* bredd */
+}
+
+/* Styling för historia */
+
+/* Styling för begrepp */
+.page-begrepp
+.table {
+    table-layout: fixed; /* fast layout*/
+    width: 100%; /* tabellbredd*/
+}
+
+/* kolumnbredd */
+.table th:nth-child(1),
+.table td:nth-child(1){
+width: 20%; /* kolumn 1 (begreppen) */
+}
+.table th:nth-child(2),
+.table td:nth-child(2) {
+width: 80%; /* kolumn 2 (förklaring) */
+}
+
 /* Styling sanghafte */ 
 .page-sanghafte
 /* Inställningar för reponsiv bildstorlek/position */
@@ -201,32 +228,4 @@ padding: 0;
   font-size: 1vw;
   font-weight: bold;
   z-index: 1000;
-}
-
-/* Styling för sangtext */
-.page-sangtext
-.container {
-width: 80%; /* bredd */
-background-color: white;
-padding: 2vw 16vw 2vw 16vw; /* Responsiv padding övre, höger, undre, vänster */
-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling för historia */
-
-/* Styling för begrepp */
-.page-begrepp
-.table {
-    table-layout: fixed; /* fast layout*/
-    width: 100%; /* tabellbredd*/
-}
-
-/* kolumnbredd */
-.table th:nth-child(1),
-.table td:nth-child(1){
-width: 20%; /* kolumn 1 (begreppen) */
-}
-.table th:nth-child(2),
-.table td:nth-child(2) {
-width: 80%; /* kolumn 2 (förklaring) */
 }
