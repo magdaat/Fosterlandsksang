@@ -25,7 +25,7 @@ padding: 1vw;
 }
 
 h2 {
-text-align: left;
+text-align: center;
 font-size: 2vw;
 margin-bottom: 1vw;
 }
@@ -146,13 +146,13 @@ padding: 0;
 }
 
 /* Styling för sangtext */
-.page-sangtext
-.container {
-width: 100%; /* tar upp hela bredden */
-margin: 10px 0;
+.page-sangtext .container {
+width: 80%; /* bredd */
+margin: 10px auto;
 background-color: white;
-padding: 2vw; /* Responsiv padding */
+padding: 2vw 18vw 2vw 18vw; /* Responsiv padding övre, höger, undre, vänster */
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+text-align: left; /* vänsterställd text */
 }
 
 /* Styling för historia */
