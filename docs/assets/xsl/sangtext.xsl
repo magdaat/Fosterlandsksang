@@ -31,6 +31,7 @@
                 </nav>
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
                 <main id="lyrics">
+                    <article>
                     <div class="container">
                         <xsl:for-each select="//tei:div[@facs]">
                             <!-- Värdet för varje sidas @facs attribut sparas i en variabel -->
@@ -40,6 +41,7 @@
                             </div>
                         </xsl:for-each>
                     </div>
+                    </article>
                 </main>
                     <footer>
                         <div class="footer-row">
