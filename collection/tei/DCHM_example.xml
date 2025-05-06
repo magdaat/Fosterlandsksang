@@ -323,14 +323,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <head>
                Fosterländsk Sång 
                <lb/>
-               VID
+               <hi rend="uppercase">vid</hi>
                <lb/>
-               GÖTHA CANALS FULLBORDAN.
+               <hi rend="uppercase">götha canals fullbordan.</hi>
                <lb/>
                År 1832.
             </head>
             <p>
-               CHOR.
+               <hi rend="uppercase">chor.</hi>
                <lb/>Du bröt dina bojor, du fria Nord!
                <lb/>De sista, de enda dig tryckte:
                <lb/>De klippor, som stängde din bördiga jord,
