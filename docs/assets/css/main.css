@@ -9,19 +9,18 @@ width: 100%;
 padding: 5vw; /* Responsiv padding */
 text-align: left;
 font-size: 1.25vw; /* Responsiv textstorlek */
-line-height: 1.5;
+line-height: 2vw;
 }
 
-article {
+article { /* article element finns på index, historia, begrepp  */
 background-color: white;
 padding: 2vw; /* Responsiv padding */
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
 text-align: center;
 font-size: 2.5vw;
-padding: 1vw;
 }
 
 h2 {
@@ -31,7 +30,6 @@ margin-bottom: 1vw;
 }
 
 h3 {
-text-align: left;
 font-size: 1.5vw;
 font-weight: bold;
 }
@@ -43,6 +41,7 @@ gap: 2.5vw; /* Mellanrum mellan länkarna */
 font-size: 1.5vw;
 padding: 1vw;
 border-top: 1px solid black; /* Svart övre list */
+margin-top: 1vw;
 border-bottom: 1px solid black; /* Svart undre list */
 margin-bottom: 1vw;
 }
@@ -54,8 +53,7 @@ padding-top: 1vw;
 margin-top: 1vw;
 }
 
-.copyright_logos,
-.copyright_text {
+.copyright_logos, .copyright_text {
 display: inline;
 }
 
@@ -66,14 +64,6 @@ display: inline;
 
 /* Styling för index (om projektet) */
 .page-index 
-
-.textbox {
-background-color: white;
-padding: 2vw; /* Responsiv padding */
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-height: 95%;
-min-height: 1500px
-}
 
 /* Styling länkar */
 .nav-links a {
@@ -87,9 +77,26 @@ min-height: 1500px
 }
 
 /* Styling för textrutorna */
+/* Mindre skärm, tex mobil, liten platta */
+@media (max-width: 600px) {
+.textbox {
+min-height: 22vh;
+}
+.row { display: block; /* Textrutorna visas en i taget */
+}
+.col-12 {
+width: 100%; /* Varje textruta tar upp hela bredden */
+margin: 10px 0;
+}    
+.textbox {
+margin: 10px 0; /* Avstånd mellan textrutor*/ }
+}
 
-/* Större skärm*/
-@media (min-width: 800px){
+/* Större skärm, plattor, laptops */
+@media (min-width: 601px){
+.textbox {
+min-height: 47vh;
+}
 .container-fluid {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
@@ -104,18 +111,6 @@ flex-basis: 48%;
 .textbox {
 margin: 25px;
 }
-}
-
-/* Mindre skärm */
-@media (max-width: 799px) {
-.row { display: block; /* Textrutorna visas en i taget */
-}
-.col-12 {
-width: 100%; /* Varje textruta tar upp hela bredden */
-margin: 10px 0;
-}    
-.textbox {
-margin: 10px 0; /* Avstånd mellan textrutor*/ }
 }
 
 /* Styling sanghafte */ 
@@ -152,7 +147,6 @@ margin: 10px auto;
 background-color: white;
 padding: 2vw 15vw 2vw 15vw; /* Responsiv padding övre, höger, undre, vänster */
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-text-align: left; /* vänsterställd text */
 }
 
 /* Styling för historia */
@@ -166,7 +160,6 @@ text-align: left; /* vänsterställd text */
 }
 .th .td {
     padding: 10px;  /* avstånd */
-    text-align: left;  /* textjustering */
 }
 /* kolumnbredd */
 .table th:nth-child(1),
