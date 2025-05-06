@@ -12,12 +12,6 @@ font-size: 1.25vw; /* Responsiv textstorlek */
 line-height: 2vw;
 }
 
-article { /* article element finns på index, historia, begrepp  */
-background-color: white;
-padding: 2vw; /* Responsiv padding */
-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-}
-
 h1 {
 text-align: center;
 font-size: 2.5vw;
@@ -31,9 +25,9 @@ margin-bottom: 1vw;
 
 h3 {
 font-size: 1.5vw;
-font-weight: bold;
+font-weight: bold; 
 }
-    
+
 nav { /* länkarna till webbplatsens olika sidor */
 display: flex;
 justify-content: center;
@@ -44,6 +38,14 @@ border-top: 1px solid black; /* Svart övre list */
 margin-top: 1vw;
 border-bottom: 1px solid black; /* Svart undre list */
 margin-bottom: 1vw;
+}
+
+article { /* article element finns på index, historia, begrepp  */
+background-color: white;
+padding: 2vw; /* Responsiv padding */
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+margin: 0 auto;
+width: 80%;
 }
 
 footer {
@@ -63,7 +65,9 @@ display: inline;
 }
 
 /* Styling för index (om projektet) */
-.page-index 
+.page-index article {
+width: 95%;
+}
 
 /* Styling länkar */
 .nav-links a {
@@ -71,65 +75,72 @@ display: inline;
     color: #0077cc;
 }
 
+/* Styling listor */
 .nav-links li {
     list-style: none; /* Ingen formatering */
     margin: 50px 0px 50px 0px;
 }
 
-/* Styling för textrutorna */
-/* Mindre skärm, tex mobil, liten platta */
-@media (max-width: 600px) {
-.textbox {
-min-height: 22vh;
-}
-.row { display: block; /* Textrutorna visas en i taget */
-}
-.col-12 {
-width: 100%; /* Varje textruta tar upp hela bredden */
-margin: 10px 0;
-}    
-.textbox {
-margin: 1vw; /* Avstånd mellan textrutor*/ }
+/* Styling textrutor */   
+.textbox { 
+margin: 1vw; /* Avstånd mellan textrutor*/
 }
 
 /* Mindre skärm, tex mobil, liten platta */
 @media (max-width: 600px) {
-.textbox {
-min-height: 22vh;
+.textbox { min-height: 22vh; }
+.row { display: block; /* Textrutorna visas en i taget */ }
+.col-12 { width: 100%; /* Varje textruta tar upp 100 % av bredden } 
 }
-}
-/* Mellan skärm, tex platta */
+
+/* Mellanstor skärm, tex platta */
 @media (max-width: 1000px) {
-.textbox {
+.textbox { 
+min-height: 35vh; }
+}
+
+.container-fluid, .row {
+display: flex;
+flex-wrap: wrap; /* för fyrfältare*/
+}
+
+.col-6 { 
+flex-basis: 50%;
 min-height: 35vh;
+margin: 1vw;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 }
+
 /* Större skärm, plattor, laptops */
-@media (min-width: 1000px){
+@media (min-width: 1001px){
 .textbox {
-min-height: 47vh;
+min-height: 75vh;
 }
-.container-fluid {
+.container-fluid, .row {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
 }
-.row {
+.col-6 { 
+flex-basis: 50%;
+min-height: 75vh;
+margin: 1vw;
 display: flex;
-flex-wrap: wrap; /* för fyrfältare*/
-}
-.col-6 {
-flex-basis: 48%;
-}
-.textbox {
-margin: 25px;
+flex-direction: column;
+justify-content: space-between;
 }
 }
 
 /* Styling sanghafte */ 
 .page-sanghafte
 /* Inställningar för reponsiv bildstorlek/position */
-.custom-size { max-width: 50%;  /* Bilden får uppta max 50 % av skärmens storlek */ }
-.carousel { position: relative;  /* karusellens position beror på skärmstorlek */ }
+.custom-size
+{ max-width: 50%;  /* Bilden får uppta max 50 % av skärmens storlek */
+}
+.carousel
+{ position: relative;  /* karusellens position beror på skärmstorlek */ }
 /* Styling pilarna */
 .carousel-control-prev,.carousel-control-next {
 position: absolute; /* pilarnas placering är absolut i förhållande till karusellens relativa position */
@@ -152,37 +163,7 @@ padding: 0;
 .custom-size { max-width: 100%; /* Gör bilderna större på små skärmar */ }
 }
 
-/* Styling för sangtext */
-.page-sangtext .container {
-width: 80%; /* bredd */
-margin: 10px auto;
-background-color: white;
-padding: 2vw 15vw 2vw 15vw; /* Responsiv padding övre, höger, undre, vänster */
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Styling för historia */
-
-/* Styling för begrepp */
-
-.page-begrepp
-.table {
-    table-layout: fixed; /* fast layout*/
-    width: 90%; /* tabellbredd*/
-}
-.th .td {
-    padding: 10px;  /* avstånd */
-}
-/* kolumnbredd */
-.table th:nth-child(1),
-.table td:nth-child(1){
-width: 20%; /* kolumn 1 (begreppen) */
-}
-.table th:nth-child(2),
-.table td:nth-child(2) {
-width: 80%; /* kolumn 2 (förklaring) */
-}
-/* === Zoomfunktion för bilder i karusellen === */
+/* Zoomfunktion för bilder i karusellen */
 .zoomable {
   cursor: zoom-in;
   transition: transform 0.3s ease;
@@ -220,4 +201,32 @@ width: 80%; /* kolumn 2 (förklaring) */
   font-size: 1vw;
   font-weight: bold;
   z-index: 1000;
+}
+
+/* Styling för sangtext */
+.page-sangtext
+.container {
+width: 80%; /* bredd */
+background-color: white;
+padding: 2vw 16vw 2vw 16vw; /* Responsiv padding övre, höger, undre, vänster */
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling för historia */
+
+/* Styling för begrepp */
+.page-begrepp
+.table {
+    table-layout: fixed; /* fast layout*/
+    width: 100%; /* tabellbredd*/
+}
+
+/* kolumnbredd */
+.table th:nth-child(1),
+.table td:nth-child(1){
+width: 20%; /* kolumn 1 (begreppen) */
+}
+.table th:nth-child(2),
+.table td:nth-child(2) {
+width: 80%; /* kolumn 2 (förklaring) */
 }
