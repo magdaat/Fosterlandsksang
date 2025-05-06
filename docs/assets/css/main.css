@@ -146,7 +146,8 @@ padding: 0;
 }
 
 /* Styling för sangtext */
-.page-sangtext .container {
+.page-sangtext
+.container {
 width: 100%; /* tar upp hela bredden */
 margin: 10px 0;
 background-color: white;
