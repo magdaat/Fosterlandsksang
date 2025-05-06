@@ -198,3 +198,42 @@ width: 20%; /* kolumn 1 (begreppen) */
 .table td:nth-child(2) {
 width: 80%; /* kolumn 2 (förklaring) */
 }
+/* === Zoomfunktion för bilder i karusellen === */
+.zoomable {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+.zoomable.zoomed {
+  transform: scale(2);
+  cursor: zoom-out;
+  z-index: 1050;
+  position: relative;
+}
+
+/* === Bildtext centrerad under bilderna === */
+.carousel-caption-custom {
+  text-align: center;
+  color: #000; /* Svart text */
+  padding: 0.5vw;
+  font-size: 1vw;
+  margin-top: 1vw;
+  border-radius: 5px;
+}
+
+/* === Sidnummer uppe till vänster på bilden=== */
+.carsousel-item {
+  position: relative; /* Gör så att sidnumret kan placeras relativt till bilden */
+}
+
+.carousel-number {
+  position: absolute;
+  top: 1vw;
+  left: 1vw;
+  background-color: rgba(255, 255, 255, 0.7); /* Lätt bakgrund för att göra texten läsbar */
+  padding: 0.3vw 0.6vw;
+  border-radius: 5px;
+  font-size: 1vw;
+  font-weight: bold;
+  z-index: 1000;
+}
