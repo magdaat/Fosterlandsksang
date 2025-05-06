@@ -1,147 +1,121 @@
 /* Grundstil för webbplats */
-*{
-font-family: "Garamond", "Georgia", serif;
-margin: 0;
-padding: 0;
+*{ /* påverkar alla html element */
+font-family: "Garamond", "Georgia", "serif";
 }
 
 body {
-    text-align: left;
-    font-size: 1.20vw; /* Responsiv textstorlek */
-    padding: 1vw; /* Responsiv padding */
-    line-height: 1.25;
-    background-color: #F8F8FF;
-    width: 100%;
+background-color: #F8F8FF;
+width: 100%;
+padding: 5vw; /* Responsiv padding */
+text-align: left;
+font-size: 1.25vw; /* Responsiv textstorlek */
+line-height: 1.5;
 }
 
 article {
 background-color: white;
-padding: 15px;
-border-radius: 5px;
+padding: 2vw; /* Responsiv padding */
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    text-align: center;
-    font-size: 2vw;
-    padding: 1vw;
+text-align: center;
+font-size: 2.5vw;
+padding: 1vw;
 }
 
 h2 {
-    text-align: left;
-    font-size: 1.5vw;
-    margin-bottom: 1vw;
+text-align: left;
+font-size: 2vw;
+margin-bottom: 1vw;
 }
 
 h3 {
-    text-align: left;
-    font-size: 1.25vw;
-    font-weight: bold;
-}
-
-h4 {
-    text-align: left;
-    font-size: 1.20vw; /* Responsiv textstorlek */
-    line-height: 1.25;
+text-align: left;
+font-size: 1.5vw;
+font-weight: bold;
 }
     
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 2.5vw; /* Mellanrum mellan länkarna */
-    font-size: 1.25vw;
-    padding: 1vw;
-    border-top: 1px solid black; /* Svart övre list */
-    border-bottom: 1px solid black; /* Svart undre list */
+nav { /* länkarna till webbplatsens olika sidor */
+display: flex;
+justify-content: center;
+gap: 2.5vw; /* Mellanrum mellan länkarna */
+font-size: 1.5vw;
+padding: 1vw;
+border-top: 1px solid black; /* Svart övre list */
+border-bottom: 1px solid black; /* Svart undre list */
+margin-bottom: 1vw;
 }
 
 footer {
-    text-align: center;
-    border-top: 1px solid black; /* Svart list */
-    padding-top: 1vw;
-    margin-top: 1vw;
-}
-.copyright {
-    width: 50%;
-    margin: auto;
-    text-align: center;
+text-align: center;
+border-top: 1px solid black; /* Svart list */
+padding-top: 1vw;
+margin-top: 1vw;
 }
 
 .copyright_logos,
 .copyright_text {
-    display: inline;
+display: inline;
 }
 
 .copyright_logo {
-    width: 1vw;
-    margin: .15vw;
+    width: 1.25vw;
+    margin: 0.25vw;
 }
 
 /* Styling för index (om projektet) */
+.page-index 
+
+.textbox {
+background-color: white;
+padding: 2vw; /* Responsiv padding */
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+height: 95%;
+min-height: 1500px
+}
 
 /* Styling länkar */
-.page-index .nav-links a {
+.nav-links a {
     font-weight: bold;
     color: #0077cc;
 }
 
-.page-index .nav-links li {
+.nav-links li {
     list-style: none; /* Ingen formatering */
-    margin-bottom: 10px; /* Avstånd efter punkten */
-}
-
-.page-index .nav-links p { /* Marginaler punktlista */
-    margin: 0px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
 }
 
 /* Styling för textrutorna */
 
-}
-.page-index .textbox {
-    padding: 50px; /* textens avstånd till ram */
-    border: 1px solid #000000;
-    border-radius: 10px; /* rundning hörn */
-    background-color: #FFFFFF;
-    margin: 5%; /* Avstånd textrutor OBS*/
-    display: flex;
-    flex-direction: column;
-    gap: 5%; /* mellanrum vertikalt */
-    justify-content: space-between;
-    min-height: 650px; /* min höjd */
-    height: 95%; /* alla rutor ska vara min 500 */
-    }
-
 /* Större skärm*/
-@media (min-width: 800px)
-{
-.page-index .container-fluid .row
-{
+@media (min-width: 800px){
+.container-fluid {
 display: flex;
-flex-wrap: wrap;  /* för fyrfältare*/
+flex-wrap: wrap; /* för fyrfältare*/
 }
-.page-index .textbox {
+.row {
+display: flex;
+flex-wrap: wrap; /* för fyrfältare*/
+}
+.col-6 {
 flex-basis: 48%;
+}
+.textbox {
 margin: 25px;
 }
 }
 
 /* Mindre skärm */
-@media (max-width: 799px) 
-{
-.page-index .row 
-{
-display: block; /* Textrutorna visas en i taget */
+@media (max-width: 799px) {
+.row { display: block; /* Textrutorna visas en i taget */
 }
-
-.page-index .col-12 {
-        width: 100%; /* Varje textruta tar upp hela bredden */
-        margin: 10px 0;
+.col-12 {
+width: 100%; /* Varje textruta tar upp hela bredden */
+margin: 10px 0;
 }    
-
-.page-index .textbox 
-{
-margin: 10px 0; /* Avstånd mellan textrutor*/
-}
+.textbox {
+margin: 10px 0; /* Avstånd mellan textrutor*/ }
 }
 
 /* Styling sanghafte */ 
@@ -177,23 +151,20 @@ padding: 0;
 
 /* Styling för begrepp */
 
-
-.page-begrepp .table {
+.page-begrepp
+.table {
     table-layout: fixed; /* fast layout*/
     width: 90%; /* tabellbredd*/
 }
-.page-begrepp .th .td {
+.th .td {
     padding: 10px;  /* avstånd */
     text-align: left;  /* textjustering */
 }
-
-.page-begrepp 
-    /* kolumnbredd */
+/* kolumnbredd */
 .table th:nth-child(1),
 .table td:nth-child(1){
 width: 20%; /* kolumn 1 (begreppen) */
 }
-
 .table th:nth-child(2),
 .table td:nth-child(2) {
 width: 80%; /* kolumn 2 (förklaring) */
