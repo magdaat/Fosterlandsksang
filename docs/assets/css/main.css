@@ -150,7 +150,7 @@ padding: 0;
 width: 80%; /* bredd */
 margin: 10px auto;
 background-color: white;
-padding: 2vw 18vw 2vw 18vw; /* Responsiv padding övre, höger, undre, vänster */
+padding: 2vw 15vw 2vw 15vw; /* Responsiv padding övre, höger, undre, vänster */
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 text-align: left; /* vänsterställd text */
 }
