@@ -79,8 +79,19 @@
                 <!-- apply matching templates for anything that was nested in tei:p -->
                 <xsl:apply-templates/>
             </p>
+            
+            
         </xsl:template>
-        
+    
+    <!-- byta <lb> mot <br> -->
+    <xsl:template match="tei:lb">
+        <br />
+    </xsl:template>
+    <!-- tar bort taggarna -->
+    <xsl:template match="text()">
+        <xsl:value-of select="." />
+    </xsl:template>
+    
         <!-- transform tei del into html del -->
         <xsl:template match="tei:del">
             <del>
