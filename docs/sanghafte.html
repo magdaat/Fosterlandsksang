@@ -29,52 +29,69 @@
             <div class="carousel-inner">
                <!-- Slide 1 --> <!-- Ett Bootstrap-bildspel som visar digitaliserade sidor ur sånghäftet. Bilderna har img-fluid och w-50, vilket betyder att de är responsiva och visas i halva fönstrets bredd. -->
                <div class="carousel-item active">
+                  <div class="carousel-number">1 / 8</div> <!-- Sidnummer -->
                   <img src="assets/img/documents/B1-Framsida-omslag.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Framsida omslag">
+                  <div class="carousel-caption-custom">Bild på omslag.</div> <!-- Bildtext -->
                </div> 
                <!-- Slide 2 -->
                <div class="carousel-item">
+                  <div class="carousel-number">2 / 8</div>
                   <img src="assets/img/documents/B2-Insida-omslag-och-titelblad.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Insida omslag och titelblad">
+                  <div class="carousel-caption-custom">Insida omslag och titelblad.</div>
                </div>
+
                <!-- Slide 3 -->
                <div class="carousel-item">
+                  <div class="carousel-number">3 / 8</div>
                   <img src="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Blankt blad och sångens första sida">
+                  <!-- Alternativt kan man ha sidnummer här. -->
+                  <div class="carousel-caption-custom">Blankt blad och sångens första sida.</div>
                </div>
                <!-- Slide 4 -->
                <div class="carousel-item">
+                  <div class="carousel-number">4 / 8</div>
                   <img src="assets/img/documents/B4-Sangtext-sida-tva-tre.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Sångtext sida 2–3">
+                  <div class="carousel-caption-custom">Sida 2 till 3 av sångtexten.</div>
                </div>
                <!-- Slide 5 -->
                <div class="carousel-item">
+                  <div class="carousel-number">5 / 8</div>
                   <img src="assets/img/documents/B5-Sangtext-sida-fyra-fem.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
-                     alt="Sångtext sida 4–5">
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
+                     alt="Sångtext sida 4–5">                  
+                  <div class="carousel-caption-custom">Sida 4 och 5.</div>
                </div>
                <!-- Slide 6 -->
                <div class="carousel-item">
+                  <div class="carousel-number">6 / 8</div>
                   <img src="assets/img/documents/B6-Sangtext-sida-sex-sju.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
-                     alt="Sångtext sida 6–7">
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
+                     alt="Sångtext sida 6–7">                  
+                  <div class="carousel-caption-custom">Sida 6 och 7.</div>
                </div>
                <!-- Slide 7 -->
                <div class="carousel-item">
+                  <div class="carousel-number">7 / 8</div>
                   <img src="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
-                     alt="Åttonde sidan sångtext och en blank sida">
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
+                     alt="Åttonde sidan sångtext och en blank sida">                  
+                  <div class="carousel-caption-custom">Sida 8 och en blank sida.</div>
                </div>
                <!-- Slide 8 -->
                <div class="carousel-item">
+                  <div class="carousel-number">8 / 8</div>
                   <img src="assets/img/documents/B8-Baksida-omslag.jpeg"
-                     class="d-block mx-auto border border-dark img-fluid custom-size"
-                     alt="Baksida omslag"
-                  >
+                     class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
+                     alt="Baksida omslag">             
+                  <div class="carousel-caption-custom">Baksida omslag.</div>
                </div>
             </div>
             <!-- Navigationspilar -->
@@ -109,5 +126,13 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+      <!-- JavaScript för att aktivera klick-zoomen -->
+      <script>
+  document.querySelectorAll('.zoomable').forEach(img => {
+    img.addEventListener('click', () => {
+      img.classList.toggle('zoomed');
+    });
+  });
+</script>
    </body>
 </html>
