@@ -16,7 +16,7 @@
                 <!-- egen CSS-fil -->
                     <link rel="stylesheet" href="assets/css/main.css"/>
             </head>
-            <body class="page-historia">
+            <body class="page-sangtext">
                 <header>
                     <h1>
                         <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
