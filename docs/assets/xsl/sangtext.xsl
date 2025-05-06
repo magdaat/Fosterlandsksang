@@ -32,7 +32,6 @@
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
                 <main id="lyrics">
                     <div class="container">
-                        <div class="page-sangtext">
                         <xsl:for-each select="//tei:div[@facs]">
                             <!-- Värdet för varje sidas @facs attribut sparas i en variabel -->
                             <xsl:variable name="facs" select="@facs"/>
@@ -40,7 +39,6 @@
                                 <xsl:apply-templates/>
                             </div>
                         </xsl:for-each>
-                    </div>
                     </div>
                 </main>
                     <footer>
