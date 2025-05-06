@@ -204,11 +204,10 @@ padding: 0;
 }
 
 /* Styling för sangtext */
-#lyrics {
-background-color: white;
-padding: 2vw 16vw 2vw 16vw; /* Responsiv padding övre, höger, undre, vänster */
-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-width: 80%; /* bredd */
+.page-sangtext
+.container {
+padding: 2vw 50vw 2vw 20vw; /* Responsiv padding övre, höger, undre, vänster */
+ background-color: lightblue; 
 }
 
 /* Styling för historia */
