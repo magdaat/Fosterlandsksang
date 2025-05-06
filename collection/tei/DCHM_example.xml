@@ -642,6 +642,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </p>
          </div>
          </div>
+         <div type="page" facs="#B8-Baksida-omslag"/>
       </body>
       <back/>
    </text>
