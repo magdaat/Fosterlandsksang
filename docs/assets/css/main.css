@@ -89,11 +89,23 @@ width: 100%; /* Varje textruta tar upp hela bredden */
 margin: 10px 0;
 }    
 .textbox {
-margin: 10px 0; /* Avstånd mellan textrutor*/ }
+margin: 1vw; /* Avstånd mellan textrutor*/ }
 }
 
+/* Mindre skärm, tex mobil, liten platta */
+@media (max-width: 600px) {
+.textbox {
+min-height: 22vh;
+}
+}
+/* Mellan skärm, tex platta */
+@media (max-width: 1000px) {
+.textbox {
+min-height: 35vh;
+}
+}
 /* Större skärm, plattor, laptops */
-@media (min-width: 601px){
+@media (min-width: 1000px){
 .textbox {
 min-height: 47vh;
 }
