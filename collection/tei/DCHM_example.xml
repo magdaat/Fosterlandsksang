@@ -387,9 +387,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <lb/>Har tydt Wafthrudners spådoms-anda:
             </p>
          </div>
-         <div type="page" facs="#B5-Sangtext-sida-fyra-fem"/>
-         <div type="page" facs="#B6-Sangtext-sida-sex-sju"/>
-         <div type="page" facs="#B7-Attonde-sidan-sangtext-och-en-blank-sida"/>
+         <div type="page" facs="#B5-Sangtext-sida-fyra-fem">
+            <p></p>
+         </div>
+         <div type="page" facs="#B6-Sangtext-sida-sex-sju">
+            <p></p>
+         </div>
+         <div type="page" facs="#B7-Attonde-sidan-sangtext-och-en-blank-sida">
+            <p></p>
+         </div>
          <div type="page" facs="#B8-Baksida-omslag"/>
       </body>
       <back/>

@@ -10,7 +10,7 @@
                 <meta charset="UTF-8"></meta>
                 <title>Digitaliserad version av Fosterländsk sång vid Götha Canals öpnande</title>
                 <!-- Bootstrap 5.3.2 -->
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
                     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
                     crossorigin="anonymous"></link>
                 <!-- egen CSS-fil -->
@@ -31,19 +31,13 @@
                 </nav>
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
                 <main id="lyrics">
-                    <!-- bootstrap "container" får kolumnen att se välformaterad ut -->
                     <div class="container">
                         <xsl:for-each select="//tei:div[@facs]">
-                            <!-- Spara värdet för varje sidas @facs attribut i en variabel -->
+                            <!-- Värdet för varje sidas @facs attribut sparas i en variabel -->
                             <xsl:variable name="facs" select="@facs"/>
-                            <div class="row">
-                                <!-- Fyll den andra kolumnen med transkriptionen -->
-                                <div class="col-md">
-                                    <article class="transcription">
-                                        <xsl:apply-templates/>                                      
-                                    </article>
-                    </div>
-                </div>
+                            <div>
+                                <xsl:apply-templates/>
+                            </div>
                         </xsl:for-each>
                     </div>
                 </main>
@@ -68,65 +62,63 @@
             </body>
         </html>
     </xsl:template>
-    <!-- by default all text nodes are printed out, unless something else is defined.
-    We don't want to show the metadata. So we write a template for the teiHeader that
-    stops the text nodes underneath (=nested in) teiHeader from being printed into our
-    html-->
-    <xsl:template match="tei:teiHeader"/> 
-    <xsl:template match="tei:front"/>
+    <!-- gör att den metadata vi inte vill ska visas inte skrivs över till HTML. -->
+    <xsl:template match="tei:teiHeader"/><!-- Döljer allt i teiHeaderelementet -->
+    <xsl:template match="tei:front"/> <!-- Döljer front-elementet -->
     <xsl:template match="tei:front//*"/><!-- Dölj front-elementet -->
-
-    <!-- we turn the tei head element (headline) into an html h1 element-->
+    <!-- head i TEI blir h2 -->
     <xsl:template match="tei:head">
-        <h2 style="text-align : center ">
-            <xsl:apply-templates/>
-        </h2>
-    </xsl:template>
-
-    <!-- transform tei paragraphs into html paragraphs -->
-    <xsl:template match="tei:p">
-        <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
-        <del>
-            <xsl:apply-templates/>
-        </del>
-    </xsl:template>
-
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
-        <u>
-            <xsl:apply-templates/>
-        </u>
-    </xsl:template>
-    <xsl:template match="tei:hi[@rend = 'sup']">
-        <span style="vertical-align:super; font-size:80%;">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:hi[@rend = 'circled']">
-        <span style="border:1px solid black;border-radius:50%">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    
-    <xsl:template match="tei:metamark[@place]">
-        <span style="position:absolute ; left:-3em"> Sid. 
-            <!-- Bara ett förslag från min sida -->
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template> 
+            <h2>
+                <xsl:apply-templates/>
+            </h2>
+        </xsl:template>
+        
+        <!-- transformerar tei paragrfer till html paragrafer -->
+        <xsl:template match="tei:p">
+            <p>
+                <!-- apply matching templates for anything that was nested in tei:p -->
+                <xsl:apply-templates/>
+            </p>
+        </xsl:template>
+        
+        <!-- transform tei del into html del -->
+        <xsl:template match="tei:del">
+            <del>
+                <xsl:apply-templates/>
+            </del>
+        </xsl:template>
+        
+        <!-- transform tei add into html sup -->
+        <xsl:template match="tei:add">
+            <sup>
+                <xsl:apply-templates/>
+            </sup>
+        </xsl:template>
+        
+        <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
+        <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
+        <xsl:template match="tei:hi[@rend = 'u']">
+            <u>
+                <xsl:apply-templates/>
+            </u>
+        </xsl:template>
+        
+        <xsl:template match="tei:hi[@rend = 'sup']">
+            <span style="vertical-align:super; font-size:80%;">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:template>
+        
+        <xsl:template match="tei:hi[@rend = 'circled']">
+            <span style="border:1px solid black;border-radius:50%">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:template>
+        
+        <xsl:template match="tei:metamark[@place]">
+            <span style="position:absolute ; left:-3em"> Sid. 
+                <xsl:apply-templates/>
+            </span>
+        </xsl:template> 
+        
 </xsl:stylesheet>

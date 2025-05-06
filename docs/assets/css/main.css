@@ -1,3 +1,82 @@
+/* Grundstil för webbplats */
+*{
+font-family: "Garamond", "Georgia", serif;
+margin: 0;
+padding: 0;
+}
+
+body {
+    text-align: left;
+    font-size: 1.20vw; /* Responsiv textstorlek */
+    padding: 1vw; /* Responsiv padding */
+    line-height: 1.25;
+    background-color: #F8F8FF;
+    width: 100%;
+}
+
+article {
+background-color: white;
+padding: 15px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2vw;
+    padding: 1vw;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.25vw;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: left;
+    font-size: 1.20vw; /* Responsiv textstorlek */
+    line-height: 1.25;
+}
+    
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5vw; /* Mellanrum mellan länkarna */
+    font-size: 1.25vw;
+    padding: 1vw;
+    border-top: 1px solid black; /* Svart övre list */
+    border-bottom: 1px solid black; /* Svart undre list */
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black; /* Svart list */
+    padding-top: 1vw;
+    margin-top: 1vw;
+}
+.copyright {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.copyright_logos,
+.copyright_text {
+    display: inline;
+}
+
+.copyright_logo {
+    width: 1vw;
+    margin: .15vw;
+}
+
 /* Styling för index (om projektet) */
 
 /* Styling länkar */
@@ -16,6 +95,8 @@
 }
 
 /* Styling för textrutorna */
+
+}
 .page-index .textbox {
     padding: 50px; /* textens avstånd till ram */
     border: 1px solid #000000;
@@ -63,75 +144,39 @@ margin: 10px 0; /* Avstånd mellan textrutor*/
 }
 }
 
-
-
-/* Styling sanghafte */
-
+/* Styling sanghafte */ 
+.page-sanghafte
 /* Inställningar för reponsiv bildstorlek/position */
-.page-sanghafte .custom-size {
-    max-width: 50%;  /* Bilden får uppta max 50 % av skärmens storlek */
-}
-
-.page-sanghafte .carousel {
-    position: relative;  /* karusellens position beror på skärmstorlek */
-}
-
+.custom-size { max-width: 50%;  /* Bilden får uppta max 50 % av skärmens storlek */ }
+.carousel { position: relative;  /* karusellens position beror på skärmstorlek */ }
 /* Styling pilarna */
-.page-sanghafte .carousel-control-prev,
-.page-sanghafte .carousel-control-next {
-    position: absolute; /* pilarnas placering är absolut i förhållande till karusellens relativa position */
-    top: 50%; /* Pilarna ska vara i centrum av den vertikala bildytan */
-    transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
-    background-color: rgba(0, 0, 0, 0.7);  /* Färg cirkel runt pilen */
-    border-radius: 50%;  /* cirkel */
-    width: 25px;  /* cirkelns bredd */
-    height: 25px;  /* cirkels höjd */
-    display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
-    justify-content: center; /* pilen hamnar i mitten horisontelt */
-    align-items: center; /* pilen hamnar i mitten vertikalt */
-    background-size: 75%;  /* Pilens storlek i förhållande till cirkeln */
-    padding: 0;
+.carousel-control-prev,.carousel-control-next {
+position: absolute; /* pilarnas placering är absolut i förhållande till karusellens relativa position */
+top: 50%; /* Pilarna ska vara i centrum av den vertikala bildytan */
+transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
+background-color: rgba(0, 0, 0, 0.7);  /* Färg cirkel runt pilen */
+border-radius: 50%;  /* cirkel */
+width: 25px;  /* cirkelns bredd */
+height: 25px;  /* cirkels höjd */
+display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
+justify-content: center; /* pilen hamnar i mitten horisontelt */
+align-items: center; /* pilen hamnar i mitten vertikalt */
+background-size: 75%;  /* Pilens storlek i förhållande till cirkeln */
+padding: 0;
 }
-
-.page-sanghafte .carousel-control-prev {
-    left: 5px;  /* Vänster pils placering från ytterkant */
-}
-
-.page-sanghafte .carousel-control-next {
-    right: 5px;  /* Höger pils placering från ytterkant */
-}
-
+.carousel-control-prev { left: 5px;  /* Vänster pils placering från ytterkant */ }
+.carousel-control-next { right: 5px;  /* Höger pils placering från ytterkant */ }
 /* När det är mobil får bilden ta upp 100% av skärmstorleken*/
 @media (max-width: 768px) {
-    .page-sanghafte .custom-size {
-        max-width: 100%; /* Gör bilderna större på små skärmar */
-    }
-    }
-
-
-
+.custom-size { max-width: 100%; /* Gör bilderna större på små skärmar */ }
+}
 
 /* Styling för sangtext */
-.page-sangtext article {
-}
-
-
 
 /* Styling för historia */
-.page-historia article {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
 /* Styling för begrepp */
-.page-begrepp article {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+
 
 .page-begrepp .table {
     table-layout: fixed; /* fast layout*/
@@ -152,76 +197,4 @@ width: 20%; /* kolumn 1 (begreppen) */
 .table th:nth-child(2),
 .table td:nth-child(2) {
 width: 80%; /* kolumn 2 (förklaring) */
-}
-
-/* Grundstil för webbplats */
-* {
-    font-family: Helvetica, Sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    text-align: left;
-    font-size: 1.20vw; /* Responsiv textstorlek */
-    padding: 1vw; /* Responsiv padding */
-    line-height: 1.25;
-    background-color: #F8F8FF;
-    width: 100%;
-}
-
-h1 {
-    text-align: center;
-    font-size: 2vw;
-    padding: 1vw;
-}
-
-h2 {
-    text-align: left;
-    font-size: 1.5vw;
-}
-
-h3 {
-    text-align: left;
-    font-size: 1.25vw;
-    font-weight: bold;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 2.5vw; /* Mellanrum mellan länkarna */
-    font-size: 1.5vw;
-    padding: 1vw;
-    border-top: 1px solid black; /* Svart övre list */
-    border-bottom: 1px solid black; /* Svart undre list */
-}
-
-footer {
-    text-align: center;
-    border-top: 1px solid black;
-    padding-top: 1vw;
-    margin-top: 1vw;
-}
-
-#details {
-    padding: 2vw;
-    margin: 1vw;
-    text-align: center;
-}
-
-.copyright {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-}
-
-.copyright_logos,
-.copyright_text {
-    display: inline;
-}
-
-.copyright_logo {
-    width: 1vw;
-    margin: .15vw;
 }
