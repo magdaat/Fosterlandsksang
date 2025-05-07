@@ -216,14 +216,26 @@ font-size: 1vw; /* Responsiv textstorlek */
 line-height: 1vw;
 }
 
-/* Bildtext */
+.image-block {
+  text-align: center; /* Centrerar bilden inom sitt block */
+  margin: 2rem 0; /* Ger luft runt bildblocken */
+}
+
+.image-block img {
+  display: inline-block; /* Gör att bilden fungerar som inline-element för att centreras */
+  max-width: 100%; /* Bilden får max 100% bredd av sin container */
+  height: auto; /* Bilden behåller sina proportioner */
+}
 .bildtext {
-font-size: 1.25vw; /* Responsiv textstorlek */
-line-height: 1.5vw;
-text-align: left; /* Vänsterställd */
-color: #6c757d;
-font-style: italic;
-margin-top: 0.5vw;
+  text-align: left; /* Gör texten vänsterställd */
+  font-size: 1.25vw; /* Responsiv textstorlek */
+  line-height: 1.5vw; /* Justerar radavståndet för texten */
+  color: #6c757d; /* Färgen på texten */
+  font-style: italic; /* Kursiv stil på texten */
+  margin-top: 0.5vw; /* Lite utrymme ovanför bildtexten */
+  max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker sig över hela sidan */
+  margin-left: 15%;
+  margin-right: auto; /* Centrera texten på samma sätt som bilden */
 }
 
 /* Styling för begrepp */
