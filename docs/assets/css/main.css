@@ -78,63 +78,54 @@ width: 95%;
 /* Styling listor */
 .nav-links li {
     list-style: none; /* Ingen formatering */
-    margin: 50px 0px 50px 0px;
+    margin: 25px 0px 25px 0px;
 }
 
-/* Styling textrutor */   
+/* Styling textrutor */ 
 .textbox { 
-margin: 1vw; /* Avstånd mellan textrutor*/
+min-height: 42vw;
+width: 49vw;
+margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
+}
+.row {
+flex: 1 1 50%;
+flex-wrap: wrap; /* för fyrfältare*/
+}
+.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden } */
 }
 
 /* Mindre skärm, tex mobil, liten platta */
 @media (max-width: 600px) {
-.textbox { min-height: 22vh; }
-.row { display: block; /* Textrutorna visas en i taget */ }
-.col-12 { width: 100%; /* Varje textruta tar upp 100 % av bredden } 
+.textbox
+{ 
+min-height: 22vh;
+width: 98vw;
+margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
+}
+.row 
+{ 
+display: block; /* Textrutorna visas en i taget */
+}
+.col-12 
+{ 
+width: 100%; /* Varje kolumn tar upp 100 % av bredden } */ 
+}
 }
 
-/* Mellanstor skärm, tex platta */
-@media (max-width: 1000px) {
+/* Större skärm, tex platta, laptop*/
+@media (min-width: 601px){
 .textbox { 
-min-height: 35vh; }
-}
-
-.container-fluid, .row {
-display: flex;
-flex-wrap: wrap; /* för fyrfältare*/
-}
-
-.col-6 { 
-flex-basis: 50%;
-min-height: 35vh;
-margin: 1vw;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-}
-
-/* Större skärm, plattor, laptops */
-@media (min-width: 1001px){
-.textbox {
-min-height: 100%;
-}
-.container-fluid, .row {
-display: flex;
-flex-wrap: wrap; /* för fyrfältare*/
-width: 100%;  /* radbredd */
-}
-.col-6 { 
-flex: 1 1 45%;
-min-height: 300px;
-margin: 1vw;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+min-height: 42vw;
+width: 49vw;
+margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
 }
 
 .row {
-justify-content: space-between;
+flex: 1 1 50%;
+flex-wrap: wrap; /* för fyrfältare*/
+}
+
+.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden } */
 }
 }
 
