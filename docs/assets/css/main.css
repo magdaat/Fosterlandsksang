@@ -31,7 +31,7 @@ font-weight: bold;
 nav { /* länkarna till webbplatsens olika sidor */
 display: flex;
 justify-content: center;
-gap: 2.5vw; /* Mellanrum mellan länkarna */
+gap: 3vw; /* Mellanrum mellan länkarna */
 font-size: 1.5vw;
 padding: 1vw;
 border-top: 1px solid black; /* Svart övre list */
@@ -117,18 +117,23 @@ justify-content: space-between;
 /* Större skärm, plattor, laptops */
 @media (min-width: 1001px){
 .textbox {
-min-height: 75vh;
+min-height: 100%;
 }
 .container-fluid, .row {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
+width: 100%;  /* radbredd */
 }
 .col-6 { 
-flex-basis: 50%;
-min-height: 75vh;
+flex: 1 1 45%;
+min-height: 300px;
 margin: 1vw;
 display: flex;
 flex-direction: column;
+justify-content: space-between;
+}
+
+.row {
 justify-content: space-between;
 }
 }
