@@ -383,7 +383,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Vintergatan lik<pc type="comma">,</pc> som famnar skyn<pc type="fullStop">.</pc><lb/>
                Ut till hafvet vill din fria bana<pc type="comma">,</pc><lb/>
                Sen du gästat Göthers blomstergård<pc type="fullStop">.</pc><lb/>
-               Hvarje Flagg du här blir segerfana<pc type="comma">,</pc><lb/>
+               Hvarje Flagg du bär blir segerfana<pc type="comma">,</pc><lb/>
                Hvarje Sluss <pc type="emDash">—</pc> en minnesvård<pc type="fullStop">.</pc><lb/>
             </p>
             <p>
@@ -415,7 +415,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </p>
             <p>
                Men <hi rend="uppercase">WASA</hi> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog<lb/>        
-               Till Varge-vad och Orma-skog <ref target="#note1"><pc type="closeParenthesis">)</pc><pc type="asterisk">*</pc></ref><pc type="comma">,</pc><lb/>              
+               Till Varge-vad och Orma-skog <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>              
                Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc><lb/>              
                Förblöda under lejda händer<pc type="comma">,</pc><lb/>               
                I brist af endrägt<pc type="comma">,</pc> brist af hamn<pc type="comma">,</pc> <pc type="emDash">—</pc><lb/>           
@@ -434,7 +434,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc><lb/> 
             </p>
             <p>
-               <note xml:id="note1">Ställen bredvid öfversta höjden af Götha Canal.</note>
+               <note xml:id="note1">*) Ställen bredvid öfversta höjden af Götha Canal.<lb/></note>
             </p>
          </div>
          </div>
@@ -555,7 +555,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                När denna dag är längst förliden<pc type="fullStop">.</pc><lb/>       
                Då skall från Warnhems graf den fromme <hi rend="uppercase">INGO</hi> se<lb/>      
                Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc><lb/>     
-               Och från sitt Riddar-slott <ref target="#note2"><pc type="closeParenthesis">)</pc><pc type="asterisk">*</pc></ref> skall <hi rend="uppercase">WASA</hi> bifall ge<lb/>      
+               Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <hi rend="uppercase">WASA</hi> bifall ge<lb/>      
                Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc><lb/>      
                Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc><lb/> 
             </p>
@@ -568,7 +568,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Blott härdig för sitt mål<pc type="comma">,</pc> <pc type="emDash">—</pc> att närma tvenne haf<pc type="fullStop">.</pc><lb/> 
             </p>
             <p>
-               <note xml:id="note2"> Wadstena slott.</note>
+               <note xml:id="note2">*) Wadstena slott.<lb/></note>
             </p>
             </div>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
@@ -588,7 +588,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Blif hafvens Salu-Torg<pc type="comma">,</pc> välmågans nederlag<pc type="exclamationMark">!</pc><lb/>            
                Och här<pc type="comma">,</pc> vid hafvets port<pc type="comma">,</pc> vår fria hyllning tag<pc type="exclamationMark">!</pc><lb/>            
                Som du sprängt jordens sköt och klipporna derunder<pc type="comma">,</pc><lb/>           
-               Så Ehrensvärdska vapnets dunder <ref target="#note3"><pc type="closeParenthesis">)</pc><pc type="asterisk">*</pc></ref><pc type="comma">,</pc><lb/>          
+               Så Ehrensvärdska vapnets dunder <ref target="#note3"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>          
                Dig helsar med sin röst<pc type="comma">,</pc> vid folkets fest i dag<pc type="fullStop">.</pc><lb/> 
             </p>
             <p>
@@ -598,7 +598,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Och en förhoppning<pc type="comma">,</pc> trygg som flodens lugna lopp<pc type="fullStop">.</pc><lb/> 
             </p>
             <p>
-               <note xml:id="note3">Kanon-Slupar, så väl från Stockholms som Götheborgs Stationer,<lb/>       
+               <note xml:id="note3">*) Kanon-Slupar, så väl från Stockholms som Götheborgs Stationer,<lb/>       
                   voro beordrade att mötas vid invignings-stället, sedan de, på Cana-<lb/> 
                   lens hela längd, sålunda genomfarit landet.<lb/></note>
             </p>
@@ -638,7 +638,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Likt regnet på tacksamma jorden<pc type="exclamationMark">!</pc><lb/> 
          </p>
          <p>
-            <note type="publisher">STOCKHOLM, TRYCKT HOS P. A. NORSTEDT &amp; SÖNER, 1832.</note> 
+            <note type="publisher">STOCKHOLM,<lb/>
+               TRYCKT HOS P. A. NORSTEDT &amp; SÖNER, 1832.<lb/></note> 
          </p>
          </div>
          </div>
