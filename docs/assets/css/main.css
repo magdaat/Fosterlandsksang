@@ -210,6 +210,21 @@ padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
 }
 
 /* Styling för historia */
+.page-historia
+.referenser {
+font-size: 1vw; /* Responsiv textstorlek */
+line-height: 1vw;
+}
+
+/* Bildtext */
+.bildtext {
+font-size: 1.25vw; /* Responsiv textstorlek */
+line-height: 1.5vw;
+text-align: left; /* Vänsterställd */
+color: #6c757d;
+font-style: italic;
+margin-top: 0.5vw;
+}
 
 /* Styling för begrepp */
 .page-begrepp
