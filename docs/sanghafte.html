@@ -126,13 +126,98 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-      <!-- JavaScript för att aktivera klick-zoomen -->
+      <!-- JavaScript för zoom och pan -->
       <script>
   document.querySelectorAll('.zoomable').forEach(img => {
-    img.addEventListener('click', () => {
-      img.classList.toggle('zoomed');
+    let scale = 1;
+    let translate = { x: 0, y: 0 };
+    let isPanning = false;
+    let start = { x: 0, y: 0 };
+    let zoomedIn = false;
+
+    function updateTransform() {
+      img.style.transform = `scale(${scale}) translate(${translate.x / scale}px, ${translate.y / scale}px)`;
+    }
+
+    // Zooma in/ut vid klick
+    img.addEventListener('click', e => {
+      if (!zoomedIn) {
+        scale = 2;
+        zoomedIn = true;
+        img.style.cursor = 'move';
+      } else {
+        scale = 1;
+        translate = { x: 0, y: 0 };
+        zoomedIn = false;
+        img.style.cursor = 'zoom-in';
+      }
+      updateTransform();
     });
+
+    // Panning med mus
+    img.addEventListener('mousedown', e => {
+      if (!zoomedIn) return;
+      isPanning = true;
+      start.x = e.clientX - translate.x;
+      start.y = e.clientY - translate.y;
+    });
+
+    img.addEventListener('mouseup', () => {
+      isPanning = false;
+    });
+
+    img.addEventListener('mouseleave', () => {
+      isPanning = false;
+    });
+
+    img.addEventListener('mousemove', e => {
+      if (!isPanning || !zoomedIn) return;
+      translate.x = e.clientX - start.x;
+      translate.y = e.clientY - start.y;
+      updateTransform();
+    });
+
+    // Touchstöd (pan + pinch zoom)
+    let initialDistance = 0;
+    let initialScale = 1;
+
+    img.addEventListener('touchstart', e => {
+      if (e.touches.length === 2) {
+        initialDistance = getDistance(e.touches[0], e.touches[1]);
+        initialScale = scale;
+      } else if (e.touches.length === 1 && zoomedIn) {
+        isPanning = true;
+        start.x = e.touches[0].clientX - translate.x;
+        start.y = e.touches[0].clientY - translate.y;
+      }
+    });
+
+    img.addEventListener('touchmove', e => {
+      e.preventDefault();
+      if (e.touches.length === 2) {
+        const newDistance = getDistance(e.touches[0], e.touches[1]);
+        scale = Math.min(Math.max(1, initialScale * (newDistance / initialDistance)), 5);
+        zoomedIn = scale > 1;
+        updateTransform();
+      } else if (e.touches.length === 1 && isPanning && zoomedIn) {
+        translate.x = e.touches[0].clientX - start.x;
+        translate.y = e.touches[0].clientY - start.y;
+        updateTransform();
+      }
+    }, { passive: false });
+
+    img.addEventListener('touchend', e => {
+      if (e.touches.length < 2) {
+        isPanning = false;
+      }
+    });
+
+    function getDistance(t1, t2) {
+      const dx = t1.clientX - t2.clientX;
+      const dy = t1.clientY - t2.clientY;
+      return Math.sqrt(dx * dx + dy * dy);
+    }
   });
-</script>
+</script>     
    </body>
 </html>

@@ -153,7 +153,7 @@ height: 25px;  /* cirkels höjd */
 display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
 justify-content: center; /* pilen hamnar i mitten horisontelt */
 align-items: center; /* pilen hamnar i mitten vertikalt */
-background-size: 75%;  /* Pilens storlek i förhållande till cirkeln */
+background-size: 70%;  /* Pilens storlek i förhållande till cirkeln */
 padding: 0;
 }
 .carousel-control-prev { left: 5px;  /* Vänster pils placering från ytterkant */ }
@@ -163,20 +163,14 @@ padding: 0;
 .custom-size { max-width: 100%; /* Gör bilderna större på små skärmar */ }
 }
 
-/* Zoomfunktion för bilder i karusellen */
-.zoomable {
+.zoomable { /* Zoom-funktionen */
   cursor: zoom-in;
   transition: transform 0.3s ease;
+  touch-action: none; /* För att tillåta pinch-to-zoom på mobiler */
 }
 
-.zoomable.zoomed {
-  transform: scale(2);
-  cursor: zoom-out;
-  z-index: 1050;
-  position: relative;
-}
 
-/* === Bildtext centrerad under bilderna === */
+/*  Bildtext centrerad under bilderna  */
 .carousel-caption-custom {
   text-align: center;
   color: #000; /* Svart text */
@@ -186,7 +180,7 @@ padding: 0;
   border-radius: 5px;
 }
 
-/* === Sidnummer uppe till vänster på bilden=== */
+/*  Sidnummer uppe till vänster på bilden */
 .carsousel-item {
   position: relative; /* Gör så att sidnumret kan placeras relativt till bilden */
 }
@@ -203,11 +197,16 @@ padding: 0;
   z-index: 1000;
 }
 
+
 /* Styling för sangtext */
 .page-sangtext
 .container {
 padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
 }
+
+/* Tooltip-stilar ska placeras här*/
+
+
 
 /* Styling för historia */
 .page-historia
