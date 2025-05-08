@@ -233,7 +233,7 @@ line-height: 1vw;
   font-style: italic; /* Kursiv stil på texten */
   margin-top: 0.5vw; /* Lite utrymme ovanför bildtexten */
   max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker sig över hela sidan */
-  margin-left: 15%;
+  margin-left: 5%;
   margin-right: auto; /* Centrera texten på samma sätt som bilden */
 }
 
