@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- deklaration -->
 <!-- Kod för transformation av (TEI) XML till HTML. -->
-<xsl:stylesheet><!-- deklaration, namnutrymmen --> xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<!-- deklaration, namnutrymmen -->
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0"><!-- namnutrymmen ska inte synas i html -->
     <xsl:output method="html"/><!-- bli html -->
@@ -88,36 +89,32 @@
     <xsl:template match="text()"><!-- textnoder utom element i XML till HTML -->
         <xsl:value-of select="."/>
     </xsl:template>
-    <!-- transform tei del into html del -->
-    <xsl:template match="tei:del">
+    <xsl:template match="tei:del"><!-- tei del ska vara html del -->
         <del>
             <xsl:apply-templates/>
         </del>
     </xsl:template>
-    <!-- transform tei add into html sup -->
-    <xsl:template match="tei:add">
+    <xsl:template match="tei:add"><!-- tei add ska vara html sup -->
         <sup>
             <xsl:apply-templates/>
         </sup>
     </xsl:template>
-    <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
-    <xsl:template match="tei:hi[@rend = 'u']">
+    <xsl:template match="tei:hi[@rend = 'u']"><!-- tei hi element med attributet @rend och värdet u ska vara html u -->
         <u>
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-    <xsl:template match="tei:hi[@rend = 'sup']">
+    <xsl:template match="tei:hi[@rend = 'sup']"><!-- tei hi med attribut @rend och värde circled ska vara html span med specificerad css -->
         <span style="vertical-align:super; font-size:80%;">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:hi[@rend = 'circled']">
+    <xsl:template match="tei:hi[@rend = 'circled']"><!-- tei hi med attribut @rend och värde circled ska vara html span med specificerad css -->
         <span style="border:1px solid black;border-radius:50%">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:metamark[@place]">
+    <xsl:template match="tei:metamark[@place]"><!-- tei metamark med attribut @place ska vara html span med specificerad css och textsträng Sid. -->
         <span style="position:absolute ; left:-3em"> Sid. <xsl:apply-templates/>
         </span>
     </xsl:template>
