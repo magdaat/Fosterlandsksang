@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- deklaration -->
 <!-- Kod för transformation av (TEI) XML till HTML. -->
-<xsl:stylesheet
+<xsl:stylesheet<!-- deklaration, namnutrymmen -->
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:html="http://www.w3.org/1999/xhtml"
-    exclude-result-prefixes="xs tei html" version="2.0">
+    exclude-result-prefixes="xs tei html" version="2.0"><!-- namnutrymmen ska inte synas i html -->
     <xsl:output method="html"/><!-- bli html -->
     <xsl:template match="tei:TEI"><!-- xsl matchas med rotelementet i tei -->
         <!-- html struktur -->
@@ -20,12 +20,12 @@
                     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
                     crossorigin="anonymous"/>
                     <!-- egen CSS-fil -->
-            <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="assets/css/main.css"/>
             </head>
             <body class="page-sangtext">
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/><!-- h1elementet ska fyllas med titel hämtad från tei-->
+                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/><!-- h1elementet ska fyllas med title från tei-->
                     </h1>
                 </header>
                 <nav id="sitenav">
