@@ -14,7 +14,7 @@ Slutprodukten kan ses [via denna länk](https://magdaat.github.io/Fosterlandsksa
 Projektet består av följande filer:
 * TIFF-, PDF/A- och JPEG-filer av det inskannade originalmaterialet.
 * En XML-fil med TEI-kodad transkription av sångtexten (som presenteras på HTML-sidan "Sångtext").
-* En XSL-fil som transformerar valda delar ur XML-filen "sangtext" till HTML-filen "santext".
+* En XSL-fil som transformerar valda delar ur XML-filen "sangtext" till HTML-filen "sangtext".
 * Fem HTML-filer som utgör webbplatsen.
 * En main CSS-fil som stylar webbplatsen.
 * En README-fil med projektinformation.
