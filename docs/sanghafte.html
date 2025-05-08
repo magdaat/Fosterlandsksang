@@ -27,15 +27,16 @@
          <a href="begrepp.html">Begrepp</a>
       </nav>
       <div class="container-fluid">
-         <div id="myCarousel" class="carousel slide" data-bs-interval="false"> 
-            <div class="carousel-inner">
+         <div id="myCarousel" class="carousel slide" data-bs-interval="false"> <!-- Skapar en karusell-komponent från bootstrap -->
+            <div class="carousel-inner"> <!-- Innehåller själva slidesen. -->
                <!-- Slide 1 --> <!-- Ett Bootstrap-bildspel som visar digitaliserade sidor ur sånghäftet. Bilderna har img-fluid och w-50, vilket betyder att de är responsiva och visas i halva fönstrets bredd. -->
-               <div class="carousel-item active">
-                  <div class="carousel-number">1 / 8</div> <!-- Sidnummer -->
+               <div class="carousel-item active"> <!-- Detta är första bilden i karusellen. Active = denna visas först. -->
+                  <div class="carousel-number">1 / 8</div> <!-- Sidnummer/sidräknare -->
                   <img src="assets/img/documents/B1-Framsida-omslag.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
-                     alt="Framsida omslag">
-                  <div class="carousel-caption-custom">Bild på omslag.</div> <!-- Bildtext -->
+                     alt="Framsida omslag"> 
+                 <!-- Bilden visas här. Klasserna= blockelement så att bilden kan centreras, centrering av bilden horisontellt, svart ram runt bilden, responsiv, custom-zise är en egen klass i CSS som begränsar bildens maxbredd, zoom-effekt -->
+                  <div class="carousel-caption-custom">Bild på sånghäftets framsida.</div> <!-- Bildtext -->
                </div> 
                <!-- Slide 2 -->
                <div class="carousel-item">
@@ -43,7 +44,7 @@
                   <img src="assets/img/documents/B2-Insida-omslag-och-titelblad.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Insida omslag och titelblad">
-                  <div class="carousel-caption-custom">Insida omslag och titelblad.</div>
+                  <div class="carousel-caption-custom">Bild på sånghäftets först uppslag som visar insida omslag och titelblad.</div>
                </div>
 
                <!-- Slide 3 -->
@@ -52,8 +53,7 @@
                   <img src="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Blankt blad och sångens första sida">
-                  <!-- Alternativt kan man ha sidnummer här. -->
-                  <div class="carousel-caption-custom">Blankt blad och sångens första sida.</div>
+                  <div class="carousel-caption-custom">Bild på sånghäftets andra uppslag som visar ett blankt blad och sångens första sida.</div>
                </div>
                <!-- Slide 4 -->
                <div class="carousel-item">
@@ -61,7 +61,7 @@
                   <img src="assets/img/documents/B4-Sangtext-sida-tva-tre.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Sångtext sida 2–3">
-                  <div class="carousel-caption-custom">Sida 2 till 3 av sångtexten.</div>
+                  <div class="carousel-caption-custom">Bild på sånghäftets tredje uppslag som visar sångtextens andra och tredje sida.</div>
                </div>
                <!-- Slide 5 -->
                <div class="carousel-item">
@@ -69,7 +69,7 @@
                   <img src="assets/img/documents/B5-Sangtext-sida-fyra-fem.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Sångtext sida 4–5">                  
-                  <div class="carousel-caption-custom">Sida 4 och 5.</div>
+                 <div class="carousel-caption-custom">Bild på sånghäftets fjärde uppslag som visar sångtextens fjärde och femte sida.</div>
                </div>
                <!-- Slide 6 -->
                <div class="carousel-item">
@@ -77,7 +77,7 @@
                   <img src="assets/img/documents/B6-Sangtext-sida-sex-sju.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Sångtext sida 6–7">                  
-                  <div class="carousel-caption-custom">Sida 6 och 7.</div>
+                 <div class="carousel-caption-custom">Bild på sånghäftets femte uppslag som visar sångtextens sjätte och sjunde sida.</div>
                </div>
                <!-- Slide 7 -->
                <div class="carousel-item">
@@ -85,7 +85,7 @@
                   <img src="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Åttonde sidan sångtext och en blank sida">                  
-                  <div class="carousel-caption-custom">Sida 8 och en blank sida.</div>
+                 <div class="carousel-caption-custom">Bild på sånghäftets sista uppslag som visar sångtextens åttonde sida och insida omslag.</div>
                </div>
                <!-- Slide 8 -->
                <div class="carousel-item">
@@ -93,7 +93,7 @@
                   <img src="assets/img/documents/B8-Baksida-omslag.jpeg"
                      class="d-block mx-auto border border-dark img-fluid custom-size zoomable"
                      alt="Baksida omslag">             
-                  <div class="carousel-caption-custom">Baksida omslag.</div>
+                  <div class="carousel-caption-custom">Bild på sånghäftets baksida.</div>
                </div>
             </div>
             <!-- Navigationspilar -->
