@@ -25,10 +25,10 @@
             <body class="page-sangtext">
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/><!-- h1elementet ska fyllas med title från tei-->
+                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/><!-- h1elementet fylls med title från tei-->
                     </h1>
                 </header>
-                <nav id="sitenav">
+                <nav><!-- Navigeringsmeny -->
                     <a href="index.html">Om projektet</a> | 
                     <a href="sanghafte.html">Sånghäfte</a> | 
                     <a href="sangtext.html">Sångtext</a> | 
@@ -37,10 +37,10 @@
                 </nav>
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
                 <main id="lyrics">
-                    <article>
+                    <article><!-- Article, för att skapa en fristående del -->
                     <div class="container">
+                        <!-- div element med @facs attribut i tei blir separata divelement i html -->
                         <xsl:for-each select="//tei:div[@facs]">
-                            <!-- Värdet för varje sidas @facs attribut sparas i en variabel -->
                             <xsl:variable name="facs" select="@facs"/>
                             <div>
                                 <xsl:apply-templates/>
@@ -49,7 +49,7 @@
                     </div>
                     </article>
                 </main>
-                    <footer>
+                <footer><!-- innehåller upphovsrättsinformation och länk till licens -->
                         <div class="footer-row">
                             <div class="footer-content">
                                 <div class="copyright_logos">
