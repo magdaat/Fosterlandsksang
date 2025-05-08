@@ -59,6 +59,10 @@ padding-top: 1vw;
 margin-top: 1vw;
 }
 
+.copyright_logos a {
+    text-decoration: none;
+}
+
 .copyright_logos, .copyright_text {
 display: inline;
 }
@@ -180,21 +184,22 @@ padding: 0;
   border-radius: 5px;
 }
 
-/*  Sidnummer uppe till vänster på bilden */
+/*  Sidnummer uppe till vänster av bilden */
 .carsousel-item {
   position: relative; /* Gör så att sidnumret kan placeras relativt till bilden */
 }
 
 .carousel-number {
   position: absolute;
-  top: 1vw;
-  left: 1vw;
+  top: 0.5vw;
+  left: 15vw; /* Placerar numreringen närmre karusellen */
   background-color: rgba(255, 255, 255, 0.7); /* Lätt bakgrund för att göra texten läsbar */
-  padding: 0.3vw 0.6vw;
+  padding: 0.5vw 1vw;
   border-radius: 5px;
   font-size: 1vw;
   font-weight: bold;
-  z-index: 1000;
+  z-index: 10;
+  box-shadow: 0 0 0.3vw rgba(0,0,0,0.2); /* förbättrar kontrasten något */
 }
 
 
