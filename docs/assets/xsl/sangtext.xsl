@@ -1,15 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Transformation av rotelementet (TEI) XML till HTML. -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
-    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs tei html" version="2.0">
-    <xsl:output method="html"/>
-    <xsl:template match="tei:TEI">
+<?xml version="1.0" encoding="UTF-8"?><!-- deklaration -->
+<!-- Kod för transformation av (TEI) XML till HTML. -->
+<xsl:stylesheet
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    exclude-result-prefixes="xs tei html" version="2.0">
+    <xsl:output method="html"/><!-- bli html -->
+    <xsl:template match="tei:TEI"><!-- xsl matchas med rotelementet i tei -->
+        <!-- html struktur -->
         <html lang="sv">
             <head>
-                <meta charset="UTF-8"/>
+                <meta charset="UTF-8"/><!-- teckenkodning -->
                 <title>Digitaliserad version av Fosterländsk sång vid Götha Canals öpnande</title>
-                <!-- Bootstrap 5.3.2 -->
+                <!-- Externa CSS-filer -->
                 <!-- Bootstrap 5.3.2 -->
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
                     rel="stylesheet" 
@@ -21,7 +25,7 @@
             <body class="page-sangtext">
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/><!-- h1elementet ska fyllas med titel hämtad från tei-->
                     </h1>
                 </header>
                 <nav id="sitenav">
