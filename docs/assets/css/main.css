@@ -91,7 +91,7 @@ width: 95%;
 
 /* Styling textrutor */ 
 .textbox { 
-min-height: 42vw;
+min-height: 50vw;
 width: 49vw;
 margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
 }
