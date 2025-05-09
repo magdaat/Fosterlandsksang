@@ -264,10 +264,10 @@ width: 80%; /* kolumn 2 (förklaring) */
    margin: 20px 0; /* Justera avståndet på toppen och botten av linjen */
 }
 
-/* Extra mellanrum och streck mellan tabellsektioner */
+/* Lägg till ett smalare streck längre ner i den tomma raden */
 .table-space td {
-    height: 1.5em; /* höjd för mellanrum */
-    padding: 0;
-    border-top: 1px solid #808080; /* Lägg till en linje (kan justeras i tjocklek och färg) */
-    margin-top: 40px; /* Flytta linjen längre ner genom att lägga till margin-top */
+   height: 2em; /* Justera höjden på mellanrummet */
+   padding: 0;
+   border: none;
+
 }
