@@ -257,17 +257,18 @@ width: 20%; /* kolumn 1 (begreppen) */
 width: 80%; /* kolumn 2 (förklaring) */
 }
 
-/* Extra mellanrum mellan tabellsektioner */
+/* Stil för horisontell linje mellan rubrik och tabell */
+.divider {
+   border: none;
+   border-top: 2px solid #000; /* Justera färg och tjocklek */
+   margin: 20px 0; /* Justera avståndet på toppen och botten av linjen */
+}
+
+/* Extra mellanrum och streck mellan tabellsektioner */
 .table-space td {
     height: 1.5em; /* höjd för mellanrum */
     padding: 0;
     border: none;
-}
-
-/* Lägg till ett streck (linje) under den tomma raden */
-.table-space td {
-   height: 1.5em; /* Justera höjden på mellanrummet */
-   padding: 0;
-   border: none;
-   border-top: 2px solid #000; /* Lägg till en linje (kan justeras i tjocklek och färg) */
+    border-top: 1px solid #000; /* Lägg till en linje (kan justeras i tjocklek och färg) */
+    margin-top: 10px; /* Flytta linjen längre ner genom att lägga till margin-top */
 }
