@@ -256,3 +256,10 @@ width: 20%; /* kolumn 1 (begreppen) */
 .table td:nth-child(2) {
 width: 80%; /* kolumn 2 (förklaring) */
 }
+
+/* Extra mellanrum mellan tabellsektioner */
+.table-space td {
+    height: 1.5em; /* höjd för mellanrum */
+    padding: 0;
+    border: none;
+}
