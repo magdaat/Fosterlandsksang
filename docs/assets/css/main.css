@@ -269,6 +269,7 @@ width: 80%; /* kolumn 2 (förklaring) */
    height: 3em; /* Justera höjden på mellanrummet */
    padding: 0;
    border: none;
-   border-top: 2px solid #000; /* Gör linjen smalare genom att minska tjockleken */
-   margin-top: 40px; /* Flytta linjen längre ner genom att lägga till margin-top */
+   border-top: 1px solid #808080; /* Linjens tjocklek och färg */
+   margin-top: 20px;  /* Avstånd ovanför strecket */
+   margin-bottom: 20px;  /* Avstånd under strecket */
 }
