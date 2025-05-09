@@ -244,6 +244,8 @@ line-height: 1vw;
 .page-begrepp,
 .table {
     table-layout: fixed; /* fast layout*/
+    border-collapse: separate; /* För att kunna ändra färg och marginaler i .table-space */
+    border-spacing: 0;
     width: 100%; /* tabellbredd*/
 }
 
@@ -262,11 +264,6 @@ width: 80%; /* kolumn 2 (förklaring) */
    border: none;
    border-top: 2px solid #808080; /* Justera färg och tjocklek */
    margin: 20px 0; /* Justera avståndet på toppen och botten av linjen */
-}
-
-.table { /* För att kunna ändra färg och marginaler i .table-space */
-    border-collapse: separate;
-    border-spacing: 0; /* om du inte vill ha mellanrum mellan celler */
 }
 
 /* Mellanrum och linje i tabellsektion */
