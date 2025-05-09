@@ -264,6 +264,11 @@ width: 80%; /* kolumn 2 (förklaring) */
    margin: 20px 0; /* Justera avståndet på toppen och botten av linjen */
 }
 
+.table { /* För att kunna ändra färg och marginaler i .table-space */
+    border-collapse: separate;
+    border-spacing: 0; /* om du inte vill ha mellanrum mellan celler */
+}
+
 /* Mellanrum och linje i tabellsektion */
 .table-space td {
     height: 3em; /* Justera höjden på mellanrummet */
