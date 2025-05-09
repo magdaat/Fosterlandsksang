@@ -268,7 +268,6 @@ width: 80%; /* kolumn 2 (förklaring) */
 .table-space td {
     height: 1.5em; /* höjd för mellanrum */
     padding: 0;
-    border: none;
-    border-top: 1px solid #808080 !important; /* Lägg till en linje (kan justeras i tjocklek och färg) */
+    border-top: 1px solid #808080; /* Lägg till en linje (kan justeras i tjocklek och färg) */
     margin-top: 40px; /* Flytta linjen längre ner genom att lägga till margin-top */
 }
