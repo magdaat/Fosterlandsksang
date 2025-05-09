@@ -260,7 +260,7 @@ width: 80%; /* kolumn 2 (förklaring) */
 /* Stil för horisontell linje mellan rubrik och tabell */
 .divider {
    border: none;
-   border-top: 2px solid #000; /* Justera färg och tjocklek */
+   border-top: 2px solid #808080; /* Justera färg och tjocklek */
    margin: 20px 0; /* Justera avståndet på toppen och botten av linjen */
 }
 
@@ -269,6 +269,6 @@ width: 80%; /* kolumn 2 (förklaring) */
     height: 1.5em; /* höjd för mellanrum */
     padding: 0;
     border: none;
-    border-top: 1px solid #000; /* Lägg till en linje (kan justeras i tjocklek och färg) */
-    margin-top: 10px; /* Flytta linjen längre ner genom att lägga till margin-top */
+    border-top: 1px solid #808080; /* Lägg till en linje (kan justeras i tjocklek och färg) */
+    margin-top: 20px; /* Flytta linjen längre ner genom att lägga till margin-top */
 }
