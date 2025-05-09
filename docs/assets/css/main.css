@@ -241,7 +241,7 @@ line-height: 1vw;
 }
 
 /* Styling för begrepp */
-.page-begrepp
+.page-begrepp,
 .table {
     table-layout: fixed; /* fast layout*/
     width: 100%; /* tabellbredd*/
@@ -266,10 +266,9 @@ width: 80%; /* kolumn 2 (förklaring) */
 
 /* Mellanrum och linje i tabellsektion */
 .table-space td {
-   height: 3em; /* Justera höjden på mellanrummet */
-   padding: 0;
-   border: none;
-   border-top: 1px solid #808080; /* Linjens tjocklek och färg */
-   margin-top: 20px;  /* Avstånd ovanför strecket */
-   margin-bottom: 20px;  /* Avstånd under strecket */
+    height: 3em; /* Justera höjden på mellanrummet */
+    padding-top: 10px; /* Avstånd ovanför strecket */
+    padding-bottom: 10px; /* Avstånd under strecket */
+    border: none;
+    border-top: 1px solid #808080; /* Linjens tjocklek och färg */
 }
