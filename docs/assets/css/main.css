@@ -244,7 +244,6 @@ line-height: 1vw;
 .page-begrepp,
 .table {
     table-layout: fixed; /* fast layout*/
-    border-collapse: separate; /* För att kunna ändra färg och marginaler i .table-space */
     border-spacing: 0;
     width: 100%; /* tabellbredd*/
 }
@@ -266,11 +265,8 @@ width: 80%; /* kolumn 2 (förklaring) */
    margin: 20px 0; /* Justera avståndet på toppen och botten av linjen */
 }
 
-/* Mellanrum och linje i tabellsektion */
-.table-space td {
-    height: 3em; /* Justera höjden på mellanrummet */
-    padding-top: 10px; /* Avstånd ovanför strecket */
-    padding-bottom: 10px; /* Avstånd under strecket */
-    border: none;
-    border-top: 1px solid #808080; /* Linjens tjocklek och färg */
+.divider-row td {
+  border-top: 2px solid #808080;
+  padding: 0;
+  height: 1px;
 }
