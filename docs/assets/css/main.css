@@ -268,6 +268,6 @@ width: 80%; /* kolumn 2 (förklaring) */
 /* Skapa linje mellan rader i tabellen */
 .divider-row td { 
   border-top: 2px solid #808080; /* Tjocklek och färg på linje */
-   padding-top: 10px;  /* Avstånd ovanför linjen */
-  padding-bottom: 10px;  /* Avstånd under linjen */
+  margin-top: 10px; /* Avstånd ovanför linjen */
+  margin-bottom: 10px; /* Avstånd nedanför linjen */
 }
