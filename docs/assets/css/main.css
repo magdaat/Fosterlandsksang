@@ -248,6 +248,10 @@ line-height: 1vw;
     width: 100%; /* tabellbredd*/
 }
 
+.center-text {
+   text-align: center;  /* Centrerar texten horisontellt */
+}
+
 /* kolumnbredd */
 .table th:nth-child(1),
 .table td:nth-child(1){
@@ -258,16 +262,6 @@ width: 20%; /* kolumn 1 (begreppen) */
 width: 80%; /* kolumn 2 (förklaring) */
 }
 
-/* Skapa linje mellan rubrik och tabell */
 .divider {
-   border: none;
-   border-top: 2px solid #808080; /* Tjocklek och färg på linjen */
-   margin: 20px 0; /* Avståndet på toppen och botten av linjen */
-}
-
-/* Skapa linje mellan rader i tabellen */
-.divider-row td { 
-  border-top: 2px solid #808080; /* Tjocklek och färg på linje */
-  margin-top: 10px; /* Avstånd ovanför linjen */
-  margin-bottom: 10px; /* Avstånd nedanför linjen */
+    border-top: 2px solid #808080;  
 }
