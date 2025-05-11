@@ -122,6 +122,55 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
                   </provenance>
                </history>
+               <!-- (physDesc) Beskrivning av hur objektet ser ut. (TEI guidelines) -->
+               <physDesc>
+                  <objectDesc form="Limbundet"> <!-- Sånghäftet är limmat i ryggen -->
+                     <supportDesc material="papper">
+                        <support>
+                           Papper. Omslaget, det vill säga häftets fram- och baksida, har en tydlig orange ton som skiljer sig från det inre innehållets neutrala men gulnande färg.
+                           Texten är tryckt med svart bläck.
+                        </support>
+                        <extent>
+                           8 sidor
+                           <dimensions scope="all" type="leaf" 
+                              unit="cm"> <!-- (scope="all" type="leaf") Att dimensionerna gäller alla sidor i objektet. -->
+                              <height>
+                                 20,4
+                              </height>
+                              <width>
+                                 12
+                              </width>
+                           </dimensions>
+                        </extent>
+                        <!-- (condition) Beskrivning av objektets fysiska skick. (TEI guidelines) -->
+                        <condition>
+                           Häftet är något slitet i kanterna, särskilt på fram- och baksidan.
+                           Sidorna i häftet är aningen smutsiga och har en gulnad ton, vilket tyder på ålder och hantering över tid.
+                           Häftet upplevs vara limmat med god hållbarhet som gör att sidorna är ordentligt sammanhållna men ändå lätta att öppna.
+                        </condition>
+                     </supportDesc>
+                     <!-- (layoutDesc) Layoutbeskrivning av objektet. (TEI guidelines) -->
+                     <layoutDesc>
+                        <layout columns="1">
+                           Texten är organiserad i en kolumn.
+                           Texten är i versform och indelad i stycken, där antalet rader varierar per stycke. 
+                           Styckena i kolumnen är inte jämnt fördelade utan kan börja längre till vänster eller mer centrerat, vilket skapar en oregelbunden layout.
+                        </layout>               
+                        <layout>
+                           Verserna varierar i radlängd.
+                           Några rader är kortare medan andra är längre för att bibehålla versens rytm och innehåll.
+                           Denna variation i längd bidrar till en dynamisk och rytmisk effekt i textens framställning.
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- (decoDesc) Beskrivning av dekoration i objektet. (TEI guidelines) -->
+                  <decoDesc>
+                     <p>
+                        Titeln på första och andra uppslaget är tryckt med versaler och är typografiskt varierad. Variationen bidrar till en dekorativ presentation av titeln.
+                        Resten av texten är tryckt med samma serif-typsnitt.
+                     </p>
+                  </decoDesc>
+               </physDesc>
             </msDesc>
          </sourceDesc>
       </fileDesc>
