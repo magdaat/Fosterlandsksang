@@ -8,35 +8,36 @@ background-color: #F8F8FF;
 width: 100%;
 padding: 5vw; /* Responsiv padding */
 text-align: left;
-font-size: 1.45rem; /* Responsiv textstorlek */ /* FÖRSLAG att använda rem på all text för det anpassas mer. Tidigare: 1.25vw */
+font-size: 1.25vw; /* Responsiv textstorlek */
+ /* Rem skulle tydligen varra mer responsivt, och det verkade så men det blev så litet så vi kanske väntar med det- clamp(1.4rem, 1.25vw, 1.6rem); */
 line-height: 1.6em;
 }
 
 h1 {
 text-align: center;
-font-size: clamp(1.8rem, 4vw, 3rem); /* Justeringar för små skärmar - smartare typografi/marginaler. (Samma effekt som @media) Tidigare: 2.5vw; */
+font-size: 2.5vw; /* clamp(1.8rem, 4vw, 3rem) Justeringar för små skärmar - smartare typografi/marginaler. (Samma effekt som @media) */
 }
 
 h2 {
 text-align: center;
-font-size: clamp(1.5rem, 2vw, 2.5rem); /* Tidigare: 2vw */
+font-size: 2vw; /* clamp(1.5rem, 2vw, 2.5rem) */
 margin-bottom: 1vw;
 }
 
 h3 {
-font-size: clamp(1.2rem, 1.5vw, 2rem); /* tidigare 1.5vw;*/
+font-size: 1.5vw; /* clamp(1.2rem, 1.5vw, 2rem); */
 font-weight: bold; 
 }
 
 h4 {
-font-size: clamp(1rem, 1.25vw, 1.5rem); /*1.25vw;*/
+font-size: 1.25vw; /* clamp(1rem, 1.25vw, 1.5rem); */
 }
 
 nav { /* länkarna till webbplatsens olika sidor */
 display: flex;
 justify-content: center;
 gap: 3vw; /* Mellanrum mellan länkarna */
-font-size: 1.25rem;
+font-size: 1.5vw; /* 1.5rem */
 padding: 1rem;
 border-top: 1px solid black; /* Svart övre list */
 margin-top: 1vw;
@@ -46,7 +47,7 @@ margin-bottom: 1rem;
 
 article { /* article element finns på index, historia, begrepp  */
 background-color: white;
-padding: 2rem; /* Responsiv padding */
+padding: 2vw; /* Responsiv padding */ /* rem? */
 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 margin: 0 auto;
 width: 80%;
@@ -68,8 +69,8 @@ display: inline;
 }
 
 .copyright_logo {
-    width: 1.25rem;
-    margin: 0.25rem;
+    width: 1.25vw; /* rem? */
+    margin: 0.25vw;
 }
 /* Fokus på alla fokuserbara element */
 a:focus, button:focus, input:focus, textarea:focus {
@@ -193,9 +194,9 @@ padding: 0;
 .carousel-caption-custom {
   text-align: center;
   color: #000; /* Svart text */
-  padding: 0.5rem;
-  font-size: 1rem;
-  margin-top: 1rem;
+  padding: 0.5vw;
+  font-size: 1vw;
+  margin-top: 1vw;
   border-radius: 5px;
 }
 
@@ -211,7 +212,7 @@ padding: 0;
   background-color: rgba(255, 255, 255, 0.7); /* Lätt bakgrund för att göra texten läsbar */
   padding: 0.20rem 1vw;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1vw;
   font-weight: bold;
   z-index: 10;
   box-shadow: 0 0 0.3vw rgba(0,0,0,0.2); /* förbättrar kontrasten något */
@@ -231,7 +232,7 @@ padding: 2% 25% 2% 25%; /* Responsiv padding övre, höger, undre, vänster */
 /* Styling för historia */
 .page-historia
 .referenser {
-font-size: 1rem; /* Responsiv textstorlek */
+font-size: 1vw; /* Responsiv textstorlek */
 line-height: 1.2rem;
 }
 
