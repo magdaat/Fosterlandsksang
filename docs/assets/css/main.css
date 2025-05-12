@@ -8,45 +8,45 @@ background-color: #F8F8FF;
 width: 100%;
 padding: 5vw; /* Responsiv padding */
 text-align: left;
-font-size: 1.25vw; /* Responsiv textstorlek */
-line-height: 2vw;
+font-size: 1.45rem; /* Responsiv textstorlek */ /* FÖRSLAG att använda rem på all text för det anpassas mer. Tidigare: 1.25vw */
+line-height: 1.6em;
 }
 
 h1 {
 text-align: center;
-font-size: 2.5vw;
+font-size: clamp(1.8rem, 4vw, 3rem); /* Justeringar för små skärmar - smartare typografi/marginaler. (Samma effekt som @media) Tidigare: 2.5vw; */
 }
 
 h2 {
 text-align: center;
-font-size: 2vw;
+font-size: clamp(1.5rem, 2vw, 2.5rem); /* Tidigare: 2vw */
 margin-bottom: 1vw;
 }
 
 h3 {
-font-size: 1.5vw;
+font-size: clamp(1.2rem, 1.5vw, 2rem); /* tidigare 1.5vw;*/
 font-weight: bold; 
 }
 
 h4 {
-font-size: 1.25vw;
+font-size: clamp(1rem, 1.25vw, 1.5rem); /*1.25vw;*/
 }
 
 nav { /* länkarna till webbplatsens olika sidor */
 display: flex;
 justify-content: center;
 gap: 3vw; /* Mellanrum mellan länkarna */
-font-size: 1.5vw;
-padding: 1vw;
+font-size: 1.25rem;
+padding: 1rem;
 border-top: 1px solid black; /* Svart övre list */
 margin-top: 1vw;
 border-bottom: 1px solid black; /* Svart undre list */
-margin-bottom: 1vw;
+margin-bottom: 1rem;
 }
 
 article { /* article element finns på index, historia, begrepp  */
 background-color: white;
-padding: 2vw; /* Responsiv padding */
+padding: 2rem; /* Responsiv padding */
 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 margin: 0 auto;
 width: 80%;
@@ -68,8 +68,16 @@ display: inline;
 }
 
 .copyright_logo {
-    width: 1.25vw;
-    margin: 0.25vw;
+    width: 1.25rem;
+    margin: 0.25rem;
+}
+/* Fokus på alla fokuserbara element */
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: none;  /*  */
+    outline-offset: 2px;
+    box-shadow: 0 0 3px 2px rgba(0, 102, 204, 0.6); /* Skugga runt elementet för att indikera fokus */
+    background-color: #e6f7ff;   /* Ljusblå bakgrund för fokus */
+    color: #003366;               /* Mörk textfärg för kontrast */
 }
 
 /* Styling för index (om projektet) */
@@ -82,6 +90,11 @@ width: 95%;
     font-weight: bold;
     color: #0077cc;
 }
+.nav-links a:hover, /* Ändra färg vid hover */
+button:hover {
+  text-decoration: underline;
+  color: #005999;
+}
 
 /* Styling listor */
 .nav-links li {
@@ -92,14 +105,15 @@ width: 95%;
 /* Styling textrutor */ 
 .textbox { 
 min-height: 50vw;
-width: 49vw;
-margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
+width: 49vw; /* Byta till procent? */
+margin: 1rem auto; /* lika stora vertikala och horisontella marginaler */
 }
 .row {
+display: flex;
 flex: 1 1 50%;
 flex-wrap: wrap; /* för fyrfältare*/
 }
-.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden } */
+.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden */
 }
 
 /* Mindre skärm, tex mobil, liten platta */
@@ -116,7 +130,7 @@ display: block; /* Textrutorna visas en i taget */
 }
 .col-12 
 { 
-width: 100%; /* Varje kolumn tar upp 100 % av bredden } */ 
+width: 100%; /* Varje kolumn tar upp 100 % av bredden */ 
 }
 }
 
@@ -129,11 +143,12 @@ margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
 }
 
 .row {
+display: flex;
 flex: 1 1 50%;
 flex-wrap: wrap; /* för fyrfältare*/
 }
 
-.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden } */
+.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden */
 }
 }
 
@@ -178,9 +193,9 @@ padding: 0;
 .carousel-caption-custom {
   text-align: center;
   color: #000; /* Svart text */
-  padding: 0.5vw;
-  font-size: 1vw;
-  margin-top: 1vw;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
   border-radius: 5px;
 }
 
@@ -192,11 +207,11 @@ padding: 0;
 .carousel-number {
   position: absolute;
   top: 0.5vw;
-  left: 15vw; /* Placerar numreringen närmre karusellen */
+  right: 15vw; /* Placerar numreringen närmre karusellen */
   background-color: rgba(255, 255, 255, 0.7); /* Lätt bakgrund för att göra texten läsbar */
-  padding: 0.5vw 1vw;
+  padding: 0.20rem 1vw;
   border-radius: 5px;
-  font-size: 1vw;
+  font-size: 1rem;
   font-weight: bold;
   z-index: 10;
   box-shadow: 0 0 0.3vw rgba(0,0,0,0.2); /* förbättrar kontrasten något */
@@ -206,7 +221,7 @@ padding: 0;
 /* Styling för sangtext */
 .page-sangtext
 .container {
-padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
+padding: 2% 25% 2% 25%; /* Responsiv padding övre, höger, undre, vänster */
 }
 
 /* Tooltip-stilar ska placeras här*/
@@ -216,8 +231,8 @@ padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
 /* Styling för historia */
 .page-historia
 .referenser {
-font-size: 1vw; /* Responsiv textstorlek */
-line-height: 1vw;
+font-size: 1rem; /* Responsiv textstorlek */
+line-height: 1.2rem;
 }
 
 .image-block {
@@ -232,11 +247,11 @@ line-height: 1vw;
 }
 .bildtext {
   text-align: left; /* Gör texten vänsterställd */
-  font-size: 1.25vw; /* Responsiv textstorlek */
-  line-height: 1.5vw; /* Justerar radavståndet för texten */
+  font-size: 1.1rem; /* Responsiv textstorlek */
+  line-height: 1.6; /* Justerar radavståndet för texten */
   color: #6c757d; /* Färgen på texten */
   font-style: italic; /* Kursiv stil på texten */
-  margin-top: 0.5vw; /* Lite utrymme ovanför bildtexten */
+  margin-top: 0.5rem; /* Lite utrymme ovanför bildtexten */
   max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker sig över hela sidan */
 }
 
@@ -264,4 +279,53 @@ width: 80%; /* kolumn 2 (förklaring) */
 
 .divider {
     border-top: 2px solid #808080;  
+}
+
+button { /* Knapp för utskrift */
+  background-color: #e4f2f0;
+  color: #333;
+  padding: 0.5em 1em;
+  border: 0.5px solid #ccc;
+  font-family: Georgia, serif;
+  cursor: pointer; /* Visar en hand-ikon när man hovrar över knappen */
+  margin: 1em 0;
+}
+
+button:hover {
+  background-color: #ccf0ea; /* Ändrar bakgrundsfärg när muspekaren är över knappen */
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Flyttar innehåll (knappen) till höger */
+  padding-right: 9vw; /* Flyttar in knappen från kanten */
+}
+
+@media print { /* Utskriftsdel */
+  nav,
+  .nav-links,
+  .footer,
+  footer,
+  button,
+  .copyright_text {
+    display: none !important; /* Döljer navigering, fot, knappen och copyright-texter vid utskrift */
+  }
+
+  /* Justera marginaler och typsnitt för bättre utskriftslayout */
+  body {
+    margin: 2cm;
+    font-size: 12pt;
+    color: #000;
+    background: none; /* Tar bort bakgrundsfärger eller bilder */
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table th,
+  table td {
+    border: 1px solid #000; /* Svart kantlinje runt alla celler */
+    padding: 0.3em 0.5em; /* Luft runt innehållet i tabellcellerna */
+  }
 }
