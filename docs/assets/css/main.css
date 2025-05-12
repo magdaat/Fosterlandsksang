@@ -233,7 +233,7 @@ padding: 2% 25% 2% 25%; /* Responsiv padding övre, höger, undre, vänster */
 .page-historia
 .referenser {
 font-size: 1vw; /* Responsiv textstorlek */
-line-height: 1.2rem;
+line-height: 1vw;
 }
 
 .image-block {

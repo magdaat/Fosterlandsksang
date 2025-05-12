@@ -89,6 +89,7 @@
     </xsl:template>
     <xsl:template match="text()"><!-- textnoder utom element i XML till HTML -->
         <xsl:value-of select="."/>
+        
     </xsl:template>
     <xsl:template match="tei:del"><!-- tei del ska vara html del -->
         <del>

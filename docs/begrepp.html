@@ -36,7 +36,9 @@
                <p class="center-text"> <!-- Centrerar text -->
                   Begreppen är ett urval för att få förståelse för innehållet. De presenteras i bokstavordning.
                </p>
-            <table class="table table-borderless">
+               <table class="table table-borderless"> <!-- och aria-describedby="table-description"> följt av
+               <caption id="table-description">En tabell med begrepp och deras förklaringar som används på webbplatsen och i resursen.</caption> --> 
+                  <!-- En caption som beskriver tabellen för e.g. skärmläsare. MEN syns även på skärmen - känns lite over-kill -->
                <!-- Rubrikrad för Begrepp och Förklaring -->
                <thead>
                   <tr>
@@ -45,8 +47,8 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Begrepp - webbplats</th>
-                     <th>Förklaring</th>
+                     <th scope="col">Begrepp - webbplats</th> <!-- Scope för att göra det tydligare för skärmläsare att förstå att dessa är rubriker för kolumner. -->
+                     <th scope="col">Förklaring</th>
                   </tr>
                </thead>
                <tbody>
@@ -109,8 +111,8 @@
                      </td>
                   </tr>
                   <tr>
-                     <th>Begrepp - resurs</th>
-                     <th>Förklaring</th>
+                     <th scope="col">Begrepp - resurs</th>
+                     <th scope="col">Förklaring</th>
                   </tr>
                   <!-- Begrepp 12 + Förklaring 12 -->
                   <tr>
@@ -250,10 +252,10 @@
                </tbody>
             </table>            
             </article>
-            <div class="button-container">
-               <button onclick="window.print()">Skriv ut tabellen</button>
-            </div>
          </div> 
+         <div class="button-container">
+            <button onclick="window.print()">Skriv ut tabellen</button>
+         </div>
       </main> 
          <footer><!-- innehåller upphovsrättsinformation och länk till licens -->
          <div class="footer-row">
