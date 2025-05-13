@@ -71,8 +71,7 @@
     </xsl:template>
     <!-- Raderna nedan leder till att den metadata vi inte vill ska visas inte skrivs över till HTML. -->
     <xsl:template match="tei:teiHeader"/><!-- Döljer teiHeaderelementet pga att den inte innehåller några instruktioner -->
-    <xsl:template match="tei:front"/><!-- Döljer front-elementet pga att den inte innehåller några instruktioner -->
-    <xsl:template match="tei:front//*"/><!-- Raden innan dolde inte frontelementet varav vi fick lägga till denna kodsträng för att dölja alla underliggande element. -->
+    <xsl:template match="tei:front//*"/><!-- Döljer front-elementets underliggande element. -->
     <xsl:template match="tei:note[@type='publisher']"/><!-- Döljer elementet pga att den inte innehåller några instruktioner --> 
     <xsl:template match="tei:head"><!-- tei head ska vara h2 -->
         <h2>
