@@ -115,16 +115,16 @@ button:hover {
 
 /* Flexbox för radlayouten */
 .row {
-  display: flex;
-  flex-wrap: wrap; /* För fyrfältare */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Två lika stora kolumner */
   gap: 1rem; /* Mellanrum mellan kolumner */
   align-items: stretch; /* Säkerställer att alla kolumner har lika höjd */
 }
 
 /* Styling för textrutor */
 .textbox {
-  flex: 1; /* Fyller ut utrymmet lika */
-  margin: 1rem 0; /* Marginaler runt textrutan */
+  /* flex: 1;  Fyller ut utrymmet lika
+  margin: 1rem 0; Marginaler runt textrutan */
   padding: 1rem; /* Padding i textrutan för att ge lite luft */
   min-height: 300px; /* Säkerställer att alla textrutor har en minimi-höjd */
   display: flex;
@@ -134,15 +134,23 @@ button:hover {
 
 /* För större skärmar, tex laptop */
 @media (min-width: 601px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr); /* Fortsätter med två kolumner */
+  }
+  .textbox {
+    min-height: 300px; /* Justera textrutans höjd vid större skärmar */
+
+/* @media (min-width: 601px) {
   .col-6 {
-    width: 48%; /* Tar upp 48% av bredden på skärmen, med marginaler */
+    width: 48%;  Tar upp 48% av bredden på skärmen, med marginaler */
   }
 }
 
 /* För små skärmar, tex mobil */
 @media (max-width: 600px) {
   .row {
-    display: block; /* Textrutorna visas en i taget */
+  grid-template-columns: 1fr;
+    /*  display: block; /* Textrutorna visas en i taget */
   }
   .col-6 {
     width: 100%; /* Varje kolumn tar upp 100% av bredden på mobilen */
