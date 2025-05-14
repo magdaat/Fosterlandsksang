@@ -10,7 +10,7 @@
         <html lang="sv">
             <head>
                 <meta charset="UTF-8"/><!-- teckenkodning -->
-                <title> Digitaliserad version av Fosterländsk sång vid Götha Canals öpnande </title>
+                <title> Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande" </title>
                 <!-- Externa CSS-filer -->
                 <!-- Bootstrap 5.3.2 -->
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
