@@ -9,30 +9,30 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <!-- (TEI header) Ger beskrivande och förklarande metadata till resursen. (TEI guidelines) -->
    <teiHeader>
-      <!-- (file description) Komplett bibliografisk beskrivning av den elektroniska filen. (TEI guidelines) -->
+      <!-- (file description) Bibliografisk beskrivning av den elektroniska filen. (TEI guidelines) -->
       <fileDesc>
          <!-- (title statement) Information om verkets titel och om vilka som är ansvariga för verkets innehåll. (TEI guidelines) -->        
          <titleStmt>
-            <!-- (title) verkets titel (TEI guidelines) -->
+            <!-- (title) titeln på projektet som är webbplatsens titel. Inkluderar del av verkets titel inom citattecken. (TEI guidelines) -->
             <title>
-               Digitaliserad version av Fosterländsk sång vid Götha Canals öpnande
+               Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande"
             </title>
             <!-- (author) Författarnamn (TEI guidelines) -->
             <author>
                <!-- (name, proper noun) egennamn. (TEI guidelines) -->
                <name>
                   <!-- (personal name)egennamn, möjligt att inkludera flera av personens förnamn, efternamn m.m. (TEI guidelines) -->
-                  <persName>
-                     ref="https://libris.kb.se/wt79cx1f277vf8z#it">
+                  <!-- Länk till auktoritetspost i Libris -->
+                  <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">
                      Magnus Martin af Pontin
                   </persName>
                </name>
             </author>
-            <!-- (statement of responsibility) Redovisa vilka som ansvarar för textens intellektuella innehåll (används då de specialiserade elementen för ex. författare inte är tillräckliga). Går även att använda för att redovisa information om vilka individer och/eller organisationer som medverkat i produktion eller distribution av ett bibliografiskt verk. (TEI guidelines) -->
+            <!-- (statement of responsibility) Redovisa vilka som ansvarar för textens intellektuella innehåll (används då de specialiserade element för ex. författare inte är tillräckliga). Går även att använda för att redovisa information om vilka individer och/eller organisationer som medverkat i produktion eller distribution av ett bibliografiskt verk. (TEI guidelines) -->
             <respStmt>
                <!-- (responsibility) beskriv vilket intellektuellt ansvar och vilken roll i produktion eller distribution person och/eller organisation har. -->
                <resp>
-                  Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap 
+                  Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap vid:
                   <orgName>
                      Borås högskola
                   </orgName>
@@ -52,9 +52,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName>
             </respStmt>
          </titleStmt>
-         <!-- (publication statement) Grupperar information om publicering eller distribution text. (TEI guidelines)-->
+         <!-- (publication statement) Grupperar information om publicering eller distribution av text. (TEI guidelines)-->
          <publicationStmt>
-            <!-- (release authority) Namn på person/organisation som ansvarar för att göra ett verk tillgängligt. Se är inte utgivare eller distributör. (TEI guidelines) -->
+            <!-- (release authority) Namn på person/organisation som ansvarar för att göra ett verk tillgängligt. (TEI guidelines) -->
             <authority>
                Linköpings universitetsbibliotek
             </authority>
@@ -63,28 +63,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </date>
             <!-- (availability) Information om tillgången till texten, begränsningar för användning och distribution, upphovsrätt, licenser. (TEI guidelines) -->
             <availability>
-               <!-- licence: Information om de licenser eller juridiska avtal som är tillämpliga för texten. Mål: URI-referenser. (TEI guidelines) -->
+               <!-- licence: Information om de licenser eller juridiska avtal som är tillämpliga för texten. (TEI guidelines) -->
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
                   <p>
-                     Transcription distributed under a CC-BY-SA 4.0 license.
+                     Materialet distribueras under en CC-BY-SA 4.0-licens.
                   </p>
                </licence>
             </availability>
          </publicationStmt>
          <!-- (source description) En bibliografisk beskrivning av den elektroniska textens källa. (TEI guidelines) -->
          <sourceDesc>
-            <!-- Har valt bibl för att få in mer metadata. (bibliographic citation) löst strukturerad bibliografi. (TEI guidelines) -->
+            <!-- Bibliographic citation är en löst strukturerad bibliografi. (TEI guidelines) -->
             <bibl>
+               <!-- Är den bibliografiska nivån för en titel. M = monografi. -->
                <title level="m">
                   Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
                </title>
                <author>
                   <name>
+                     <!-- Länk till auktoritetspost i Libris -->
                      <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">
                         Magnus Martin af Pontin
                      </persName>
                   </name>
                </author>
+               <!-- uppgift om tryckeri -->
                <note type="printedBy">
                   P. A. Norstedt &amp; söner
                </note>
@@ -99,7 +102,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <msDesc>
                <!-- (manuscript identifier) Ska innehålla den information som behövs för att identifiera skriften. (TEI guidelines) -->
                <msIdentifier>
-                  <!-- (repository) Namnet på det repositorium där objektet lagras, eventuellt en del av en institution. (TEI guidelines) -->
+                  <!-- (repository) Namnet på det repositorium där objektet lagras. (TEI guidelines) -->
                   <repository>
                      Vallabiblioteket, Linköpings universitetsbibliotek
                   </repository>
