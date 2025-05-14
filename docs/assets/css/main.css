@@ -66,7 +66,7 @@ margin-top: 1vw;
 /* Gör loggorna mindre på små skärmar */
 @media (max-width: 600px) {
   .copyright_logos img {
-    width: 18px;
+    width: 15px;
   }
 }
 .copyright_logos a { /* Tar bort understrykningen på a taggen */
