@@ -59,7 +59,7 @@ padding-top: 1vw;
 margin-top: 1vw;
 }
 
-.copyright_logos a {
+.copyright_logos a { /* Tar bort understrykningen på a taggen */
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@ margin-top: 1vw;
 display: inline;
 }
 
-.copyright_logo {
+.copyright_logos { /* här hade vi nog glömt ett s */
     width: 1.25vw;
     margin: 0.25vw;
 }
@@ -105,7 +105,7 @@ button:hover {
 /* Styling textrutor */ 
 .textbox { 
 min-height: 50vw;
-width: 49vw; /* Byta till procent? */
+width: 49vw; /* I procent för att anpassas efter skärmen, men samtidigt inte bli för stora? */
 margin: 1rem auto; /* lika stora vertikala och horisontella marginaler */
 }
 .row {
@@ -184,7 +184,7 @@ padding: 0;
 
 .zoomable { /* Zoom-funktionen */
   cursor: zoom-in;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out; /* En mjukare övergång med ease-in-out för en mer naturlig zoom-effekt */
   touch-action: none; /* För att tillåta pinch-to-zoom på mobiler */
 }
 
@@ -228,12 +228,70 @@ padding: 2% 25% 2% 25%; /* Responsiv padding övre, höger, undre, vänster */
 font-size: 1vw; /* Responsiv textstorlek */
 }
 
+button { /* Knapp för utskrift */
+  background-color: #dcdcf2;
+  color: #2c2c2c;
+  padding: 0.5em 1em;
+  border: 0.5px solid #b5b5cc;
+  font-family: Georgia, serif;
+  cursor: pointer; /* Visar en hand-ikon när man hovrar över knappen */
+  margin: 1em 0;
+  border-radius: 4px; /* Rundade hörn - bara något jag testade för att se */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c2c2e0; /* Ändrar bakgrundsfärg när muspekaren är över knappen */
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Flyttar innehåll (knappen) till höger */
+  padding: 1em 9vw 1em 1em; /* padding-right: 9vw; Flyttar in knappen från kanten */
+}
+/* För mellanbreda skärmar, flytta in knappen lite */
+@media (max-width: 992px) {
+  .button-container {
+    padding-right: 6vw;
+  }
+}
+
+/* För riktigt smala skärmar: centrera knappen och minska sidopadding? */
+@media (max-width: 600px) {
+  .button-container {
+    justify-content: center;
+    padding: 1em 4vw;
+  }
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+@media print { /* Utskriftsdel */
+  nav,
+  .nav-links,
+  .footer,
+  footer,
+  button,
+  .copyright_text {
+    display: none !important; /* Döljer navigering, fot, knappen och copyright-texter vid utskrift */
+  }
+
+  /* Justera marginaler och typsnitt för bättre utskriftslayout */
+  body {
+    margin: 2cm;
+    font-size: 1vw;
+    color: #000;
+    background: none; /* Tar bort bakgrundsfärger eller bilder */
+  }
+
 
 /* Styling för historia */
 .page-historia
 .referenser {
 font-size: 1vw; /* Responsiv textstorlek */
 line-height: 1vw;
+margin-top: 2vw;
+margin-bottom: 2vw;
 }
 
 .image-block {
@@ -255,6 +313,7 @@ line-height: 1vw;
   margin-top: 0.5rem; /* Lite utrymme ovanför bildtexten */
   max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker sig över hela sidan */
 }
+
 
 /* Styling för begrepp */
 .page-begrepp,
@@ -280,53 +339,4 @@ width: 80%; /* kolumn 2 (förklaring) */
 
 .divider {
     border-top: 2px solid #808080;  
-}
-
-button { /* Knapp för utskrift */
-  background-color: #e4f2f0;
-  color: #333;
-  padding: 0.5em 1em;
-  border: 0.5px solid #ccc;
-  font-family: Georgia, serif;
-  cursor: pointer; /* Visar en hand-ikon när man hovrar över knappen */
-  margin: 1em 0;
-}
-
-button:hover {
-  background-color: #ccf0ea; /* Ändrar bakgrundsfärg när muspekaren är över knappen */
-}
-.button-container {
-  display: flex;
-  justify-content: flex-end; /* Flyttar innehåll (knappen) till höger */
-  padding-right: 9vw; /* Flyttar in knappen från kanten */
-}
-
-@media print { /* Utskriftsdel */
-  nav,
-  .nav-links,
-  .footer,
-  footer,
-  button,
-  .copyright_text {
-    display: none !important; /* Döljer navigering, fot, knappen och copyright-texter vid utskrift */
-  }
-
-  /* Justera marginaler och typsnitt för bättre utskriftslayout */
-  body {
-    margin: 2cm;
-    font-size: 1vw;
-    color: #000;
-    background: none; /* Tar bort bakgrundsfärger eller bilder */
-  }
-
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-
-  table th,
-  table td {
-    border: 1px solid #000; /* Svart kantlinje runt alla celler */
-    padding: 0.3em 0.5em; /* Luft runt innehållet i tabellcellerna */
-  }
-}
+}}

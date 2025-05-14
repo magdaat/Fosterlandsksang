@@ -140,20 +140,28 @@
       img.style.transform = `scale(${scale}) translate(${translate.x / scale}px, ${translate.y / scale}px)`;
     }
 
-    // Zooma in/ut vid klick
-    img.addEventListener('click', e => {
-      if (!zoomedIn) {
+// Zooma in/ut vid klick
+img.addEventListener('click', e => {
+    const rect = img.getBoundingClientRect();  // Hämta bildens position på skärmen
+    const offsetX = e.clientX - rect.left;    // Hitta var på bilden användaren klickade (X)
+    const offsetY = e.clientY - rect.top;     // Hitta var på bilden användaren klickade (Y)
+
+    if (!zoomedIn) {
+        // Zooma in till skala 2 och centrera zoom på den punkt användaren klickade
         scale = 2;
         zoomedIn = true;
         img.style.cursor = 'move';
-      } else {
+        translate.x = offsetX - (rect.width / 2); // Justera translate för att zooma in där användaren klickade
+        translate.y = offsetY - (rect.height / 2);
+    } else {
+        // Återställ till originalstorlek
         scale = 1;
         translate = { x: 0, y: 0 };
         zoomedIn = false;
         img.style.cursor = 'zoom-in';
-      }
-      updateTransform();
-    });
+    }
+    updateTransform();
+});
 
     // Panning med mus
     img.addEventListener('mousedown', e => {
