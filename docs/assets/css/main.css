@@ -224,7 +224,7 @@ padding: 0;
 padding: 2% 25% 2% 25%; /* Responsiv padding övre, höger, undre, vänster */
 }
 
-.note {
+.note-style {
 font-size: 1vw; /* Responsiv textstorlek */
 }
 

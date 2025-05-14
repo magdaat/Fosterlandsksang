@@ -105,11 +105,10 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
-    <xsl:template match="tei:hi[@rend = 'sup']"><!-- tei hi med attribut @rend och värde circled ska vara html span med specificerad css -->
         <span style="vertical-align:super; font-size:80%;">
             <xsl:apply-templates/>
         </span>
-    </xsl:template>
+        <note xml:id="note1">
     <xsl:template match="tei:hi[@rend = 'circled']"><!-- tei hi med attribut @rend och värde circled ska vara html span med specificerad css -->
         <span style="border:1px solid black;border-radius:50%">
             <xsl:apply-templates/>
