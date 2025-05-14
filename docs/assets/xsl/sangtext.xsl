@@ -89,9 +89,8 @@
     <xsl:template match="text()"><!-- textnoder utom element i XML till HTML -->
         <xsl:value-of select="."/>
     </xsl:template>
-    <xsl:template match="tei:del"><!-- tei del ska vara html del -->
-        <del>
-            <xsl:apply-templates/>
-        </del>
+    <xsl:template match="tei:metamark[@place]"><!-- tei metamark med attribut @place ska vara html span med specificerad css och textsträng Sid. -->
+        <span style="position:absolute ; left:-3em"> Sid. <xsl:apply-templates/>
+        </span>
     </xsl:template>
 </xsl:stylesheet>
