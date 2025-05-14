@@ -94,9 +94,8 @@ a:focus, button:focus, input:focus, textarea:focus {
 
 /* Styling för index (om projektet) */
 .page-index article {
-width: 95%;
+  width: 100%;
 }
-
 /* Styling länkar */
 .nav-links a {
     font-weight: bold;
@@ -114,55 +113,46 @@ button:hover {
     margin: 20px 0px 20px 0px;
 }
 
-/* Styling textrutor */ 
-.textbox { 
-min-height: 50vw;
-width: 49vw; /* I procent för att anpassas efter skärmen, men samtidigt inte bli för stora? */
-margin: 1rem auto; /* lika stora vertikala och horisontella marginaler */
-}
+/* Flexbox för radlayouten */
 .row {
-display: flex;
-flex: 1 1 50%;
-flex-wrap: wrap; /* för fyrfältare*/
-}
-.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden */
+  display: flex;
+  flex-wrap: wrap; /* För fyrfältare */
+  gap: 1rem; /* Mellanrum mellan kolumner */
+  align-items: stretch; /* Säkerställer att alla kolumner har lika höjd */
 }
 
-/* Mindre skärm, tex mobil, liten platta */
+/* Styling för textrutor */
+.textbox {
+  flex: 1; /* Fyller ut utrymmet lika */
+  margin: 1rem 0; /* Marginaler runt textrutan */
+  padding: 1rem; /* Padding i textrutan för att ge lite luft */
+  min-height: 300px; /* Säkerställer att alla textrutor har en minimi-höjd */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Justera innehåll i textrutan så att det finns utrymme */
+}
+
+/* För större skärmar, tex laptop */
+@media (min-width: 601px) {
+  .col-6 {
+    width: 48%; /* Tar upp 48% av bredden på skärmen, med marginaler */
+  }
+}
+
+/* För små skärmar, tex mobil */
 @media (max-width: 600px) {
-.textbox
-{ 
-min-height: 22vh;
-width: 98vw;
-margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
-}
-.row 
-{ 
-display: block; /* Textrutorna visas en i taget */
-}
-.col-12 
-{ 
-width: 100%; /* Varje kolumn tar upp 100 % av bredden */ 
-}
+  .row {
+    display: block; /* Textrutorna visas en i taget */
+  }
+  .col-6 {
+    width: 100%; /* Varje kolumn tar upp 100% av bredden på mobilen */
+  }
+  .textbox {
+    width: 100%; /* Textrutorna fyller hela skärmen */
+    min-height: 200px; /* Lägre höjd på små skärmar */
+  }
 }
 
-/* Större skärm, tex platta, laptop*/
-@media (min-width: 601px){
-.textbox { 
-min-height: 42vw;
-width: 49vw;
-margin: 1vw auto; /* lika stora vertikala och horisontella marginaler */
-}
-
-.row {
-display: flex;
-flex: 1 1 50%;
-flex-wrap: wrap; /* för fyrfältare*/
-}
-
-.col-6 { width: 50%; /* Varje kolumn tar upp 50 % av bredden */
-}
-}
 
 /* Styling sanghafte */ 
 .page-sanghafte
