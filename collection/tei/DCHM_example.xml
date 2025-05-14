@@ -127,11 +127,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </history>
                <!-- (physDesc) Beskrivning av hur objektet ser ut. (TEI guidelines) -->
                <physDesc>
-                  <objectDesc form="Limbundet"> <!-- Sånghäftet är limmat i ryggen -->
+                  <objectDesc form="codex"> <!-- codex = inbunden packe, ark av papper. -->
                      <supportDesc material="papper">
                         <support>
-                           Papper. Omslaget, det vill säga häftets fram- och baksida, har en tydlig orange ton som skiljer sig från det inre innehållets neutrala men gulnande färg.
-                           Texten är tryckt med svart bläck.
+                           <p>
+                              <material>Papper</material> Omslaget, det vill säga häftets fram- och baksida, har en tydlig orange ton som skiljer sig från det inre innehållets neutrala men gulnande färg.
+                              Texten är tryckt med svart bläck. Häftet är trådbundet med ett limmat omslag.
+                           </p>
                         </support>
                         <extent>
                            8 sidor
@@ -147,31 +149,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <!-- (condition) Beskrivning av objektets fysiska skick. (TEI guidelines) -->
                         <condition>
+                           <p>
                            Häftet är något slitet i kanterna, särskilt på fram- och baksidan.
-                           Sidorna i häftet är aningen smutsiga och har en gulnad ton, vilket tyder på ålder och hantering över tid.
-                           Häftet upplevs vara limmat med god hållbarhet som gör att sidorna är ordentligt sammanhållna men ändå lätta att öppna.
+                           Sidorna i häftet är aningen fläckiga och har en gulnad ton, vilket tyder på ålder och hantering över tid.
+                           Häftet upplevs vara limmat och trådbundet med god hållbarhet som gör att sidorna är ordentligt sammanhållna men ändå lätta att öppna.
+                           </p>
                         </condition>
                      </supportDesc>
                      <!-- (layoutDesc) Layoutbeskrivning av objektet. (TEI guidelines) -->
                      <layoutDesc>
                         <layout columns="1">
-                           Texten är organiserad i en kolumn.
-                           Texten är i versform och indelad i stycken, där antalet rader varierar per stycke. 
-                           Styckena i kolumnen är inte jämnt fördelade utan kan börja längre till vänster eller mer centrerat, vilket skapar en oregelbunden layout.
-                        </layout>               
-                        <layout>
-                           Verserna varierar i radlängd.
-                           Några rader är kortare medan andra är längre för att bibehålla versens rytm och innehåll.
-                           Denna variation i längd bidrar till en dynamisk och rytmisk effekt i textens framställning.
+                           <p>
+                              Texten är organiserad i en kolumn.
+                              Texten är i versform och indelad i stycken, där antalet rader varierar per stycke. 
+                              Styckena i kolumnen är inte jämnt fördelade utan kan börja längre till vänster eller mer centrerat, vilket skapar en oregelbunden layout.
+                              Verserna varierar i radlängd. Några rader är kortare medan andra är längre.
+                           </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- (decoDesc) Beskrivning av dekoration i objektet. (TEI guidelines) -->
                   <decoDesc>
                      <p>
-                        Titeln på första och andra uppslaget är tryckt med versaler och är typografiskt varierad. Variationen bidrar till en dekorativ presentation av titeln.
+                        Titeln på första och andra uppslaget är tryckt med versaler och är typografiskt varierad.
                         Resten av texten är tryckt med samma serif-typsnitt.
-                     </p>
+                     </p>     
                   </decoDesc>
                </physDesc>
             </msDesc>
@@ -186,29 +188,6 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Svenska
             </language>
          </langUsage>
-         <!-- beskriv situationsparametrarna (TEI guidelines) -->
-         <textDesc n="sångtext">
-            <!-- ws, w eller m? Fråga MG. Channel: medium eller kanal genom vilken texten levereras eller upplevs. Skriven text=tryck. Mode: Anger läget för kanalen vad gäller tal och skrift. (TEI guidelines) -->
-            <channel mode="w">
-               tryckt
-            </channel>
-            <!-- (constitution) beskriver textens sammansättning. (TEI guidelines) -->
-            <constitution type="single"/>
-            <!-- (derivation) Beskriv textens karaktär och originalitet. (TEI guidelines) -->
-            <derivation type="original"/>
-            <!-- Art eller public? Fråga MG. (domain of use) Beskriver textens användningsområde och dess främsta sociala sammanhang. (TEI guidelines) -->
-            <domain type="art"/>
-            <!-- (factuality) Beskriv i vilken utsträckning texten är verklighetsförankrad eller imaginär. (TEI guidelines) -->
-            <factuality type="inapplicable"/>
-            <!-- (interaction) Beskriv den eventuella interaktionen mellan de som producerar och de som upplever texten. (TEI guidelines) -->
-            <interaction type="inapplicable"/>
-            <!-- (preparedness) Beskriv om texten kan ses som förberedd eller spontan. (TEI guidelines) -->
-            <preparedness type="prepared"/>
-            <!-- Textens syfte eller funktion. (TEI guidelines) -->
-            <!-- entertain eller persuade eller bägge? Fråga MG. -->
-            <purpose type="entertain" degree="high"/>
-            <purpose type="persuade" degree="medium"/>
-         </textDesc>
          <!-- (setting description) beskriv miljöerna då språkinteraktioner sker eller beskriv de andra miljöer texterna refererar till. (TEI guidelines) -->
          <settingDesc>
             <p>
@@ -303,7 +282,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Sångtext, sida sex-sju
             </label>
             <figDesc>
-               En skannad bild av sangtextens sjätte och sjunde sida.
+               En skannad bild av sångtextens sjätte och sjunde sida.
             </figDesc>
             <graphic xml:id="B6-Sangtext-sida-sex-sju_full"
                url="assets/img/documents/B6-Sangtext-sida-sex-sju.png"/>
@@ -314,7 +293,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida">
          <figure>
             <label>
-               Åttonde sidan sångtext och en blank sida
+               Åttonde sidans sångtext och en blank sida
             </label>
             <figDesc>
                En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
@@ -394,7 +373,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc><lb/>
             </p>
             <p>Då skyndar den högländta källans språng<lb/>
-               Ur hjertat af Skandiens dalar<pc type="comma">,</pc><lb/>
+               Ur hjertat af <name>Skandiens</name> dalar<pc type="comma">,</pc><lb/>
                Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc><lb/>
                Om inlandets trefnad hon talar<pc type="semiColon">;</pc><lb/>
                Der Odlarn och Bergsmannen höja sin sång<lb/>
@@ -407,7 +386,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
             <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
             <metamark function="pagenumber" place="top-center">
-               <hi rend="- -">
+               <hi rend="-">
                   <num>
                      2
                   </num>
@@ -451,7 +430,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
             <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
             <metamark function="pagenumber" place="top-center">
-               <hi rend="- -">
+               <hi rend="-">
                   <num>
                      3
                   </num>
@@ -480,7 +459,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Nog för sig sjelf<pc type="fullStop">.</pc><lb/> 
             </p>
             <p>
-               Och <hi rend="uppercase">GUSTAF ADOLF</hi><pc type="comma">,</pc> sänd att Nordens hopp bevaka<pc type="comma">,</pc><lb/>              
+               Och <hi rend="uppercase">GUSTAF ADOLF</hi><pc type="comma">,</pc> sänd att Nordens hopp bevaka<pc type="comma">,</pc><lb/>       
                Beslöt<pc type="comma">,</pc> förrän han föll i sina Segrars glans<pc type="comma">,</pc><lb/>             
                Att ge åt Sverges Haf dess skattfrihet tillbaka<pc type="comma">,</pc><lb/>           
                Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc><lb/> 
@@ -494,7 +473,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
          <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
          <metamark function="pagenumber" place="top-center">
-            <hi rend="- -">
+            <hi rend="-">
                <num>
                   4
                </num>
@@ -533,7 +512,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
             <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
             <metamark function="pagenumber" place="top-center">
-               <hi rend="- -">
+               <hi rend="-">
                   <num>
                      5
                   </num>
@@ -580,7 +559,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
          <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
          <metamark function="pagenumber" place="top-center">
-            <hi rend="- -">
+            <hi rend="-">
                <num>
                   6
                </num>
@@ -626,7 +605,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
             <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
             <metamark function="pagenumber" place="top-center">
-               <hi rend="- -">
+               <hi rend="-">
                   <num>
                      7
                   </num>
@@ -660,7 +639,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
          <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
          <metamark function="pagenumber" place="top-center">
-            <hi rend="- -">
+            <hi rend="-">
                <num>
                   8
                </num>
