@@ -59,6 +59,16 @@ padding-top: 1vw;
 margin-top: 1vw;
 }
 
+.copyright_logos img {
+  width: 25px;           /* Fast storlek på varje logo */
+  height: auto;          /* Bevara proportioner */
+}
+/* Gör loggorna mindre på små skärmar */
+@media (max-width: 600px) {
+  .copyright_logos img {
+    width: 18px;
+  }
+}
 .copyright_logos a { /* Tar bort understrykningen på a taggen */
     text-decoration: none;
     padding: 0; /* Tar bort extra padding om det finns */
@@ -69,9 +79,9 @@ display: inline;
 }
 
 .copyright_logos { 
-    width: 25px;
-    margin: 0.25vw;
-    gap: 0.1vw;
+    width: 25px; /* Fasta värden så att de inte blir stora på små skärmar */
+    margin: 0.25px; 
+    gap: 0.1px; /* Mellanrum mellan loggorna */
 }
 /* Styling för element när de får fokus  - när användaren klickar på en länk, knapp etc.*/
 a:focus, button:focus, input:focus, textarea:focus {
