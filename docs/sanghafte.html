@@ -128,7 +128,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
       <!-- JavaScript för zoom och pan -->
-      <script>
+     <script>
   document.querySelectorAll('.zoomable').forEach(img => {
     let scale = 1;
     let translate = { x: 0, y: 0 };
@@ -140,28 +140,26 @@
       img.style.transform = `scale(${scale}) translate(${translate.x / scale}px, ${translate.y / scale}px)`;
     }
 
-// Zooma in/ut vid klick
-img.addEventListener('click', e => {
-    const rect = img.getBoundingClientRect();  // Hämta bildens position på skärmen
-    const offsetX = e.clientX - rect.left;    // Hitta var på bilden användaren klickade (X)
-    const offsetY = e.clientY - rect.top;     // Hitta var på bilden användaren klickade (Y)
+    // Dubbelklick för att zooma in där man klickar
+    img.addEventListener('click', e => {
+      const rect = img.getBoundingClientRect();
+      const offsetX = e.clientX - rect.left;
+      const offsetY = e.clientY - rect.top;
 
-    if (!zoomedIn) {
-        // Zooma in till skala 2 och centrera zoom på den punkt användaren klickade
+      if (!zoomedIn) {
         scale = 2;
         zoomedIn = true;
         img.style.cursor = 'move';
-        translate.x = offsetX - (rect.width / 2); // Justera translate för att zooma in där användaren klickade
-        translate.y = offsetY - (rect.height / 2);
-    } else {
-        // Återställ till originalstorlek
+        translate.x = -(offsetX - rect.width / 2);
+        translate.y = -(offsetY - rect.height / 2);
+      } else {
         scale = 1;
         translate = { x: 0, y: 0 };
         zoomedIn = false;
         img.style.cursor = 'zoom-in';
-    }
-    updateTransform();
-});
+      }
+      updateTransform();
+    });
 
     // Panning med mus
     img.addEventListener('mousedown', e => {
@@ -171,13 +169,8 @@ img.addEventListener('click', e => {
       start.y = e.clientY - translate.y;
     });
 
-    img.addEventListener('mouseup', () => {
-      isPanning = false;
-    });
-
-    img.addEventListener('mouseleave', () => {
-      isPanning = false;
-    });
+    img.addEventListener('mouseup', () => isPanning = false);
+    img.addEventListener('mouseleave', () => isPanning = false);
 
     img.addEventListener('mousemove', e => {
       if (!isPanning || !zoomedIn) return;
@@ -186,7 +179,7 @@ img.addEventListener('click', e => {
       updateTransform();
     });
 
-    // Touchstöd (pan + pinch zoom)
+    // Touch-stöd (pinch och drag)
     let initialDistance = 0;
     let initialScale = 1;
 
@@ -216,9 +209,7 @@ img.addEventListener('click', e => {
     }, { passive: false });
 
     img.addEventListener('touchend', e => {
-      if (e.touches.length < 2) {
-        isPanning = false;
-      }
+      if (e.touches.length < 2) isPanning = false;
     });
 
     function getDistance(t1, t2) {
