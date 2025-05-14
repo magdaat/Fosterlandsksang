@@ -95,27 +95,4 @@
             <xsl:apply-templates/>
         </del>
     </xsl:template>
-    <xsl:template match="tei:add"><!-- tei add ska vara html sup -->
-        <sup>
-            <xsl:apply-templates/>
-        </sup>
-    </xsl:template>
-    <xsl:template match="tei:hi[@rend = 'u']"><!-- tei hi element med attributet @rend och värdet u ska vara html u -->
-        <u>
-            <xsl:apply-templates/>
-        </u>
-    </xsl:template>
-        <span style="vertical-align:super; font-size:80%;">
-            <xsl:apply-templates/>
-        </span>
-        <note xml:id="note1">
-    <xsl:template match="tei:hi[@rend = 'circled']"><!-- tei hi med attribut @rend och värde circled ska vara html span med specificerad css -->
-        <span style="border:1px solid black;border-radius:50%">
-            <xsl:apply-templates/>
-        </span>
-    </xsl:template>
-    <xsl:template match="tei:metamark[@place]"><!-- tei metamark med attribut @place ska vara html span med specificerad css och textsträng Sid. -->
-        <span style="position:absolute ; left:-3em"> Sid. <xsl:apply-templates/>
-        </span>
-    </xsl:template>
 </xsl:stylesheet>
