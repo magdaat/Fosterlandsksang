@@ -61,22 +61,24 @@ margin-top: 1vw;
 
 .copyright_logos a { /* Tar bort understrykningen på a taggen */
     text-decoration: none;
+    padding: 0; /* Tar bort extra padding om det finns */
 }
 
 .copyright_logos, .copyright_text {
 display: inline;
 }
 
-.copyright_logos { /* här hade vi nog glömt ett s */
-    width: 1.25vw;
+.copyright_logos { 
+    width: 50px;
     margin: 0.25vw;
+    gap: 0.1vw;
 }
-/* Fokus på alla fokuserbara element */
+/* Styling för element när de får fokus  - när användaren klickar på en länk, knapp etc.*/
 a:focus, button:focus, input:focus, textarea:focus {
-    outline: none;  /*  */
-    outline-offset: 2px;
-    box-shadow: 0 0 3px 2px rgba(0, 102, 204, 0.6); /* Skugga runt elementet för att indikera fokus */
-    background-color: #e6f7ff;   /* Ljusblå bakgrund för fokus */
+    outline: none;  /* Tar bort den standard konturfärgen runt fokuserade element */
+    outline-offset: 2px; /* Sätter ett avstånd mellan elementet och den borttagna outline-konturen */
+    box-shadow: 0 0 3px 2px rgba(0, 102, 204, 0.6); /* Skugga runt elementet för att indikera fokus - bra för navigering via tagentbordet & adnra hjälpmedel */
+    background-color: #e6e6fa;   /* Ljusblå bakgrund för fokus */
     color: #003366;               /* Mörk textfärg för kontrast */
 }
 
