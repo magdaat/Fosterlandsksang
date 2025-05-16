@@ -67,7 +67,7 @@
                     crossorigin="anonymous"></script>
                 <div type="page" facs="#B8-Baksida-omslag"/>
                 <div class="button-container">
-                    <button onclick="window.print()">Skriv ut texten</button>
+                    <button onclick="window.print()">Skriv ut texten</button><!--utskriftsknapp -->
                 </div>
             </body>
         </html>
@@ -81,12 +81,12 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    <xsl:template match="tei:p"><!-- tei p ska vara html p -->
+    <xsl:template match="tei:lg"><!-- tei lg ska vara html p -->
         <p>
             <xsl:apply-templates/>
         </p> 
     </xsl:template>
-    <xsl:template match="tei:lb"><!-- tei lb ska vara html br -->
+    <xsl:template match="tei:l"><!-- tei l ska vara html br -->
         <br/>
     </xsl:template>
     <xsl:template match="text()"><!-- textnoder utom element i XML till HTML -->
