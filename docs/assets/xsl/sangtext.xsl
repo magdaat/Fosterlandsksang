@@ -44,10 +44,10 @@
                                 </div>
                             </xsl:for-each>
                         </div>
+                        <div class="button-container">
+                            <button onclick="window.print()" aria-label="Skriv ut sidan">Skriv ut texten</button><!--utskriftsknapp -->
+                        </div>
                     </article>
-                    <div class="button-container">
-                        <button onclick="window.print()" aria-label="Skriv ut sidan">Skriv ut texten</button><!--utskriftsknapp -->
-                    </div>
                 </main>
                 <footer role="contentinfo"><!-- innehåller upphovsrättsinformation och länk till licens -->
                     <div class="footer-row">
