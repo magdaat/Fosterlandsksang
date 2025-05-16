@@ -65,10 +65,6 @@
                         </div>
                     </div>
                 </footer>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                    crossorigin="anonymous"></script>
-                <div type="page" facs="#B8-Baksida-omslag"/>
             </body>
         </html>
     </xsl:template>
@@ -81,10 +77,18 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
+    <xsl:template match="tei:p"><!-- tei p ska vara html p -->
+        <p>
+            <xsl:apply-templates/>
+        </p> 
+    </xsl:template>
     <xsl:template match="tei:lg"><!-- tei lg ska vara html p -->
         <p>
             <xsl:apply-templates/>
         </p> 
+    </xsl:template>
+    <xsl:template match="tei:lb"><!-- tei lb ska vara html br -->
+        <br/>
     </xsl:template>
     <xsl:template match="tei:l"><!-- tei l ska vara html br -->
         <xsl:apply-templates/>
@@ -94,7 +98,9 @@
         <xsl:value-of select="."/>
     </xsl:template>
     <xsl:template match="tei:metamark[@place]"><!-- tei metamark med attribut @place ska vara html span med specificerad css och textsträng Sid. -->
-        <span style="position:absolute ; left:-3em"> Sid. <xsl:apply-templates/>
+        <span style="position:absolute ; left:-3em">
+            Sid.
+            <xsl:apply-templates/>
         </span>
     </xsl:template>
 </xsl:stylesheet>
