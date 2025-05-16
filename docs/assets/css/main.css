@@ -258,10 +258,6 @@ padding: 0;
 padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
 }
 
-#note1{
-font-style: italic;
-}
-
 button { /* Knapp för utskrift */
   background-color: #dcdcf2;
   color: #2c2c2c;
