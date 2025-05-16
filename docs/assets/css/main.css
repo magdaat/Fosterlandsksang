@@ -71,7 +71,7 @@ margin-top: 1vw;
 }
 .copyright_logos a { /* Tar bort understrykningen på a taggen */
     text-decoration: none;
-    padding: 0; /* Tar bort extra padding om det finns */
+    padding: 1px;
 }
 
 .copyright_logos, .copyright_text {
@@ -80,8 +80,8 @@ display: inline;
 
 .copyright_logos { 
     width: 25px; /* Fasta värden så att de inte blir stora på små skärmar */
-    margin: 0.25px; 
-    gap: 0.1px; /* Mellanrum mellan loggorna */
+    margin: 1px; 
+    gap: 1.5px; /* Mellanrum mellan loggorna */
 }
 /* Styling för element när de får fokus  - när användaren klickar på en länk, knapp etc.*/
 a:focus, button:focus, input:focus, textarea:focus {
