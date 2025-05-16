@@ -255,11 +255,7 @@ padding: 0;
 /* Styling för sangtext */
 .page-sangtext
 .container {
-padding: 2% 25% 2% 25%; /* Responsiv padding övre, höger, undre, vänster */
-}
-
-.note-style {
-font-size: 1vw; /* Responsiv textstorlek */
+padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
 }
 
 button { /* Knapp för utskrift */

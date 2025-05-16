@@ -364,6 +364,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </head>
                <p>
                   <stage>
+                     <lb/>
                      <hi rend="bold center">CHOR.</hi>
                   </stage>
                </p>
@@ -399,6 +400,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </metamark>
             <p>
                <stage>
+                  <lb/>
                   <hi rend="bold center">RECITATIV.</hi>
                </stage>
             </p>
@@ -470,7 +472,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc></l>
                </lg>
             <p>
-               <note xml:id="note1"><hi rend="font-size: smaller;">*) Ställen bredvid öfversta höjden af <placeName>Götha Canal</placeName>.</hi><lb/></note>
+               <note xml:id="note1"><hi rend="font-size: smaller;">*) Ställen bredvid öfversta höjden af <placeName>Götha Canal</placeName>.</hi><lb/><lb/></note>
             </p>
          </div>
          </div>
@@ -525,6 +527,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </metamark>
                <p>
                   <stage>
+                     <lb/>
                      <hi rend="bold center">SÅNG.</hi>
                   </stage>
                </p>
@@ -572,6 +575,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </metamark>
                <p>
                   <stage>
+                     <lb/>
                      <hi rend="bold center">RECITATIV.</hi>
                   </stage>
                </p>
@@ -604,7 +608,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Blott härdig för sitt mål<pc type="comma">,</pc> <pc type="emDash">—</pc> att närma tvenne haf<pc type="fullStop">.</pc></l> 
                </lg>
             <p>
-               <note xml:id="note2"><hi rend="font-size: smaller;">*) <placeName>Wadstena</placeName> slott.</hi><lb/></note>
+               <note xml:id="note2"><hi rend="font-size: smaller;">*) <placeName>Wadstena</placeName> slott.</hi><lb/><lb/></note>
             </p>
             </div>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
@@ -634,9 +638,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Och en förhoppning<pc type="comma">,</pc> trygg som flodens lugna lopp<pc type="fullStop">.</pc></l> 
                </lg>
             <p>
-               <note xml:id="note3"><hi rend="font-size: smaller;">*) Kanon-Slupar, så väl från <placeName>Stockholms</placeName> som <placeName>Götheborgs</placeName> Stationer,<lb/>       
+               <note xml:id="note3"><hi rend="font-size: smaller;">*) Kanon-Slupar, så väl från <placeName>Stockholms</placeName> som <placeName>Götheborgs</placeName> Stationer,<lb/>        
                   voro beordrade att mötas vid invignings-stället, sedan de, på Cana-<lb/> 
-                  lens hela längd, sålunda genomfarit landet.</hi><lb/></note>
+                  lens hela längd, sålunda genomfarit landet.</hi><lb/><lb/></note>
             </p>
          </div>
          </div>
@@ -652,6 +656,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </metamark>
             <p>
                <stage>
+                  <lb/>
                   <hi rend="bold center">SLUT-CHOR.</hi>
                </stage>
             </p>
