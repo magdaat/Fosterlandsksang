@@ -27,7 +27,7 @@
                         /><!-- h1elementet fylls med title från tei-->
                     </h1>
                 </header>
-                <nav><!-- Navigeringsmeny -->
+                <nav role="navigation" aria-label="Huvudmeny"><!-- Navigeringsmeny -->
                     <a href="index.html">Om projektet</a> | <a href="sanghafte.html">Sånghäfte</a> |
                         <a href="sangtext.html">Sångtext</a> | <a href="historia.html">Historia</a>
                     | <a href="begrepp.html">Begrepp</a>
@@ -46,7 +46,7 @@
                         </div>
                     </article>
                 </main>
-                <footer><!-- innehåller upphovsrättsinformation och länk till licens -->
+                <footer role="contentinfo"><!-- innehåller upphovsrättsinformation och länk till licens -->
                     <div class="footer-row">
                         <div class="footer-content">
                             <div class="copyright_logos">
@@ -67,7 +67,7 @@
                     crossorigin="anonymous"></script>
                 <div type="page" facs="#B8-Baksida-omslag"/>
                 <div class="button-container">
-                    <button onclick="window.print()">Skriv ut texten</button><!--utskriftsknapp -->
+                    <button onclick="window.print()" aria-label="Skriv ut sidan">Skriv ut texten</button><!--utskriftsknapp -->
                 </div>
             </body>
         </html>
