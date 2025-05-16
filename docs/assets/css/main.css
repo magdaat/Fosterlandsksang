@@ -53,36 +53,56 @@ width: 80%;
 }
 
 footer {
-text-align: center;
-border-top: 1px solid black; /* Svart list */
-padding-top: 1vw;
-margin-top: 1vw;
+  padding: 1em 0;
+  font-size: 1rem;
+  color: #222;
+  border-top: 1px solid #ddd;
 }
 
-.copyright_logos img {
-  width: 25px;           /* Fast storlek på varje logo */
-  height: auto;          /* Bevara proportioner */
+.footer-row {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
-/* Gör loggorna mindre på små skärmar */
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* Centrerar allt horisontellt */
+  gap: 0.3em;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* Tar bort understrykning på länken runt loggorna */
+.copyright_logos a {
+  text-decoration: none;
+  padding: 1px;
+}
+
+/* Loggornas utseende */
+.copyright_logos img {
+  height: 20px;              /* Fast och liten storlek */
+  width: auto;
+  vertical-align: middle;
+  margin-right: 0.1em;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover-effekt på loggorna */
+.copyright_logos img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Responsivt: centrera vertikalt på små skärmar om det bryts */
 @media (max-width: 600px) {
-  .copyright_logos img {
-    width: 15px;
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
   }
 }
-.copyright_logos a { /* Tar bort understrykningen på a taggen */
-    text-decoration: none;
-    padding: 1px;
-}
 
-.copyright_logos, .copyright_text {
-display: inline;
-}
-
-.copyright_logos { 
-    width: 25px; /* Fasta värden så att de inte blir stora på små skärmar */
-    margin: 1px; 
-    gap: 1.5px; /* Mellanrum mellan loggorna */
-}
 /* Styling för element när de får fokus  - när användaren klickar på en länk, knapp etc.*/
 a:focus, button:focus, input:focus, textarea:focus {
     outline: none;  /* Tar bort den standard konturfärgen runt fokuserade element */
@@ -214,7 +234,7 @@ padding: 0;
 }
 
 /*  Sidnummer uppe till vänster av bilden */
-.carsousel-item {
+.carousel-item {
   position: relative; /* Gör så att sidnumret kan placeras relativt till bilden */
 }
 
@@ -293,10 +313,13 @@ button:hover {
   /* Justera marginaler och typsnitt för bättre utskriftslayout */
   body {
     margin: 2cm;
-    font-size: 1vw;
+    font-size: 12pt;
     color: #000;
     background: none; /* Tar bort bakgrundsfärger eller bilder */
   }
+@page {
+  size: A4 portrait;
+}
 
 
 /* Styling för historia */
@@ -337,7 +360,7 @@ margin-bottom: 2vw;
     width: 100%; /* tabellbredd*/
 }
 
-.center-text {
+p.center-text {
    text-align: center;  /* Centrerar texten horisontellt */
 }
 

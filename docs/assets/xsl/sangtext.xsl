@@ -45,6 +45,9 @@
                             </xsl:for-each>
                         </div>
                     </article>
+                    <div class="button-container">
+                        <button onclick="window.print()" aria-label="Skriv ut sidan">Skriv ut texten</button><!--utskriftsknapp -->
+                    </div>
                 </main>
                 <footer role="contentinfo"><!-- innehåller upphovsrättsinformation och länk till licens -->
                     <div class="footer-row">
@@ -66,9 +69,6 @@
                     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
                     crossorigin="anonymous"></script>
                 <div type="page" facs="#B8-Baksida-omslag"/>
-                <div class="button-container">
-                    <button onclick="window.print()" aria-label="Skriv ut sidan">Skriv ut texten</button><!--utskriftsknapp -->
-                </div>
             </body>
         </html>
     </xsl:template>
