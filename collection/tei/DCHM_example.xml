@@ -356,34 +356,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <body>
          <div type="page" facs="#B3-Blankt-blad-och-sangens-första-sida">
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
-            <head>
-               <hi rend="different font center">Fosterländsk Sång</hi><lb/>
-               <hi rend="uppercase bold center">VID</hi><lb/>
-               <hi rend="uppercase bold center">GÖTHA CANALS FULLBORDAN.</hi><lb/>
-               <date when="1832"><hi rend="uppercase bold">År 1832</hi></date>
-            </head>     
-            <p>
-               <stage>
-                  <hi rend="bold center">CHOR.</hi>
-               </stage>
-            </p>
-            <lg>
-            <l><hi rend="font-size: larger;">D</hi>u bröt dina bojor<pc type="comma">,</pc> du fria Nord<pc type="exclamationMark">!</pc></l>
-               <l>De sista<pc type="comma">,</pc> de enda dig tryckte<pc type="colon">:</pc></l>
+               <head>
+                  <hi rend="different font center">Fosterländsk Sång</hi><lb/>
+                  <hi rend="uppercase bold center">VID</hi><lb/>
+                  <hi rend="uppercase bold center">GÖTHA CANALS FULLBORDAN.</hi><lb/>
+                  <date when="1832"><hi rend="uppercase bold">År 1832</hi></date>
+               </head>
+               <p>
+                  <stage>
+                     <hi rend="bold center">CHOR.</hi>
+                  </stage>
+               </p>
+               <lg><!-- För att markera versstycke -->
+                  <l><!-- versrad --><hi rend="font-size: larger;">D</hi>u bröt dina bojor<pc type="comma">,</pc> du fria Nord<pc type="exclamationMark">!</pc></l>
+                  <l>De sista<pc type="comma">,</pc> de enda dig tryckte<pc type="colon">:</pc></l>
                   <l>De klippor<pc type="comma">,</pc> som stängde din bördiga jord<pc type="comma">,</pc></l>
-                     <l>De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc></l>
-                        <l>Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord</l>
-                           <l>Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc></l>
-                              <l>Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc></l>
-            </lg>
-            <p>Då skyndar den högländta källans språng<lb/>
-               Ur hjertat af <placeName>Skandiens</placeName> dalar<pc type="comma">,</pc><lb/>
-               Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc><lb/>
-               Om inlandets trefnad hon talar<pc type="semiColon">;</pc><lb/>
-               Der Odlarn och Bergsmannen höja sin sång<lb/>
-               Och Krigarne sjunga i tälten<pc type="comma">,</pc><lb/>
-               Till ära för segrande Hjelten<pc type="fullStop">.</pc><lb/>
-            </p>
+                  <l>De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc></l>
+                  <l>Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord</l>
+                  <l>Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc></l>
+                  <l>Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc></l>
+               </lg>
+               <lg>
+                  <l>Då skyndar den högländta källans språng</l>
+                  <l>Ur hjertat af <placeName>Skandiens</placeName> dalar<pc type="comma">,</pc></l>
+                  <l>Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc></l>
+                  <l>Om inlandets trefnad hon talar<pc type="semiColon">;</pc></l>
+                  <l>Der Odlarn och Bergsmannen höja sin sång</l>
+                  <l>Och Krigarne sjunga i tälten<pc type="comma">,</pc></l>
+                  <l>Till ära för segrande Hjelten<pc type="fullStop">.</pc></l>
+               </lg>
          </div>
          </div>
          <div type="page" facs="#B4-Sangtext-sida-tva-tre_full">
@@ -401,35 +402,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <hi rend="bold center">RECITATIV.</hi>
                </stage>
             </p>
-            <p>
-               Ja<pc type="comma">,</pc> en Segerfest är din fullbordan<pc type="comma">,</pc><lb/>
-               Jätte-verk af <placeName>Sveas</placeName> starka arm<pc type="exclamationMark">!</pc><lb/>
-               Blåse Vestan eller storme Nordan<pc type="comma">,</pc><lb/>
-               Trygg hon möter dem med härdad barm<pc type="fullStop">.</pc><lb/>
-               Lik en flod-gud uppå egna vågor<lb/>
-               Går hon<pc type="comma">,</pc> och på strand dess Lejon-par<pc type="semiColon">;</pc><lb/>
-               Bjuder tiden svara på de frågor<pc type="comma">,</pc><lb/>
-               Der blott vinning fordrar svar<pc type="fullStop">.</pc><lb/>
-            </p>
-            <p>
-               Mellan berg och brådjup trädd i dagen<pc type="comma">,</pc><lb/>
-               <placeName>Nordens</placeName> kraft du speglar i ditt bryn<pc type="comma">,</pc><lb/>
-               Stolta Flod<pc type="exclamationMark">!</pc> ur <placeName>Sveas</placeName> fjällbarm dragen<pc type="comma">,</pc><lb/>
-               Vintergatan lik<pc type="comma">,</pc> som famnar skyn<pc type="fullStop">.</pc><lb/>
-               Ut till hafvet vill din fria bana<pc type="comma">,</pc><lb/>
-               Sen du gästat <placeName>Göthers</placeName> blomstergård<pc type="fullStop">.</pc><lb/>
-               Hvarje Flagg du bär blir segerfana<pc type="comma">,</pc><lb/>
-               Hvarje Sluss <pc type="emDash">—</pc> en minnesvård<pc type="fullStop">.</pc><lb/>
-            </p>
-            <p>
-               Allt stort och fosterländskt<pc type="comma">,</pc> i tanke eller bragd<pc type="comma">,</pc><lb/>
-               Vann Svenska Folkets lof<pc type="comma">,</pc> vann hyllning alla tider<pc type="semiColon">;</pc><lb/>
-               Och denna Högtidsdag<pc type="comma">,</pc> af häfden förutsagd<pc type="comma">,</pc><lb/>
-               Ser tankens djerfva plan till handling förd omsider<pc type="fullStop">.</pc><lb/>
-               Re<pc>'</pc>n Heden-timas Sago-brått<pc type="comma">,</pc><lb/>
-               För den som runorna förstått<pc type="comma">,</pc><lb/>
-               Har tydt <persName>Wafthrudners</persName> spådoms-anda<pc type="colon">:</pc><lb/>
-            </p>
+               <lg>
+                  <l>Ja<pc type="comma">,</pc> en Segerfest är din fullbordan<pc type="comma">,</pc></l>
+                  <l>Jätte-verk af <placeName>Sveas</placeName> starka arm<pc type="exclamationMark">!</pc></l>
+                  <l>Blåse Vestan eller storme Nordan<pc type="comma">,</pc></l>
+                  <l>Trygg hon möter dem med härdad barm<pc type="fullStop">.</pc></l>
+                  <l>Lik en flod-gud uppå egna vågor</l>
+                  <l>Går hon<pc type="comma">,</pc> och på strand dess Lejon-par<pc type="semiColon">;</pc></l>
+                  <l>Bjuder tiden svara på de frågor<pc type="comma">,</pc></l>
+                  <l>Der blott vinning fordrar svar<pc type="fullStop">.</pc></l>
+               </lg>
+               <lg>
+                  <l>Mellan berg och brådjup trädd i dagen<pc type="comma">,</pc></l>
+                  <l><placeName>Nordens</placeName> kraft du speglar i ditt bryn<pc type="comma">,</pc></l>
+                  <l>Stolta Flod<pc type="exclamationMark">!</pc> ur <placeName>Sveas</placeName> fjällbarm dragen<pc type="comma">,</pc></l>
+                  <l>Vintergatan lik<pc type="comma">,</pc> som famnar skyn<pc type="fullStop">.</pc></l>
+                  <l>Ut till hafvet vill din fria bana<pc type="comma">,</pc></l>
+                  <l>Sen du gästat <placeName>Göthers</placeName> blomstergård<pc type="fullStop">.</pc></l>
+                  <l>Hvarje Flagg du bär blir segerfana<pc type="comma">,</pc></l>
+                  <l>Hvarje Sluss <pc type="emDash">—</pc> en minnesvård<pc type="fullStop">.</pc></l>
+               </lg>
+               <lg>
+                  <l>Allt stort och fosterländskt<pc type="comma">,</pc> i tanke eller bragd<pc type="comma">,</pc></l>
+                  <l>Vann Svenska Folkets lof<pc type="comma">,</pc> vann hyllning alla tider<pc type="semiColon">;</pc></l>
+                  <l>Och denna Högtidsdag<pc type="comma">,</pc> af häfden förutsagd<pc type="comma">,</pc></l>
+                  <l>Ser tankens djerfva plan till handling förd omsider<pc type="fullStop">.</pc></l>
+                  <l>Re<pc>'</pc>n Heden-timas Sago-brått<pc type="comma">,</pc></l>
+                  <l>För den som runorna förstått<pc type="comma">,</pc></l>
+                  <l>Har tydt <persName>Wafthrudners</persName> spådoms-anda<pc type="colon">:</pc></l>
+               </lg>
             </div>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
             <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
@@ -440,34 +441,34 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </num>
                </hi>
             </metamark>
-            <p>
-               Att <placeName>Manhem</placeName> aldrig förr skall njuta fridens lott<pc type="comma">,</pc><lb/>             
-               Än <placeName>Vetterns</placeName> vågor sig med båda hafven blanda<pc type="fullStop">.</pc><lb/>              
-               Ej Saga trodde<pc type="comma">,</pc> att<pc type="comma">,</pc> en tid<pc type="comma">,</pc><lb/>           
-               Dess gåta<pc type="comma">,</pc> syftande på evig fejd och strid<pc type="comma">,</pc><lb/>          
-               Af möjligheten skulle tydas<pc type="comma">,</pc><lb/>        
-               Och konsten af naturen lydas<pc type="fullStop">.</pc><lb/> 
-            </p>
-            <p>
-               Men <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog<lb/>        
-               Till <placeName>Varge-vad</placeName> och <placeName>Orma-skog</placeName> <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>              
-               Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc><lb/>              
-               Förblöda under lejda händer<pc type="comma">,</pc><lb/>               
-               I brist af endrägt<pc type="comma">,</pc> brist af hamn<pc type="comma">,</pc> <pc type="emDash">—</pc><lb/>           
-               Försvarets hjerta<pc type="comma">,</pc> lagdt i egna fjällars famn<pc type="fullStop">.</pc><lb/>           
-               Då skar han med sitt Svärd i kalla fosterjorden<pc type="comma">,</pc><lb/>      
-               Ett tecken<pc type="comma">,</pc> långsåt <placeName>Götha-älf</placeName><pc type="comma">,</pc><lb/>            
-               Och sade minnesvärda orden<pc type="colon">:</pc><lb/>             
-               Den dagen gryr<pc type="comma">,</pc> då höga <placeName>Norden</placeName><lb/>           
-               Skall vinna sjelfbestånd<pc type="colon">:</pc> När inhemsk kraft är vorden<lb/> 
-               Nog för sig sjelf<pc type="fullStop">.</pc><lb/> 
-            </p>
-            <p>
-               Och <persName><hi rend="uppercase">GUSTAF ADOLF</hi></persName><pc type="comma">,</pc> sänd att <placeName>Nordens</placeName> hopp bevaka<pc type="comma">,</pc><lb/>       
-               Beslöt<pc type="comma">,</pc> förrän han föll i sina Segrars glans<pc type="comma">,</pc><lb/>             
-               Att ge åt <placeName>Sverges</placeName> Haf dess skattfrihet tillbaka<pc type="comma">,</pc><lb/>           
-               Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc><lb/> 
-            </p>
+               <lg>
+                  <l>Att <placeName>Manhem</placeName> aldrig förr skall njuta fridens lott<pc type="comma">,</pc></l>            
+                  <l>Än <placeName>Vetterns</placeName> vågor sig med båda hafven blanda<pc type="fullStop">.</pc></l>             
+                  <l>Ej Saga trodde<pc type="comma">,</pc> att<pc type="comma">,</pc> en tid<pc type="comma">,</pc></l>          
+                  <l>Dess gåta<pc type="comma">,</pc> syftande på evig fejd och strid<pc type="comma">,</pc></l>         
+                  <l>Af möjligheten skulle tydas<pc type="comma">,</pc></l>       
+                  <l>Och konsten af naturen lydas<pc type="fullStop">.</pc></l> 
+               </lg>
+               <lg>
+                  <l>Men <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog</l>       
+                  <l>Till <placeName>Varge-vad</placeName> och <placeName>Orma-skog</placeName> <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc></l>              
+                  <l>Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc></l>             
+                  <l>Förblöda under lejda händer<pc type="comma">,</pc></l>              
+                  <l>I brist af endrägt<pc type="comma">,</pc> brist af hamn<pc type="comma">,</pc> <pc type="emDash">—</pc></l>           
+                  <l>Försvarets hjerta<pc type="comma">,</pc> lagdt i egna fjällars famn<pc type="fullStop">.</pc></l>           
+                  <l>Då skar han med sitt Svärd i kalla fosterjorden<pc type="comma">,</pc></l>      
+                  <l>Ett tecken<pc type="comma">,</pc> långsåt <placeName>Götha-älf</placeName><pc type="comma">,</pc></l>           
+                  <l>Och sade minnesvärda orden<pc type="colon">:</pc></l>          
+                  <l>Den dagen gryr<pc type="comma">,</pc> då höga <placeName>Norden</placeName></l>           
+                  <l>Skall vinna sjelfbestånd<pc type="colon">:</pc> När inhemsk kraft är vorden</l>
+                  <l>Nog för sig sjelf<pc type="fullStop">.</pc></l> 
+               </lg>
+               <lg>
+                  <l>Och <persName><hi rend="uppercase">GUSTAF ADOLF</hi></persName><pc type="comma">,</pc> sänd att <placeName>Nordens</placeName> hopp bevaka<pc type="comma">,</pc></l>       
+                  <l>Beslöt<pc type="comma">,</pc> förrän han föll i sina Segrars glans<pc type="comma">,</pc></l>            
+                  <l>Att ge åt <placeName>Sverges</placeName> Haf dess skattfrihet tillbaka<pc type="comma">,</pc></l>           
+                  <l>Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc></l>
+               </lg>
             <p>
                <note xml:id="note1"><hi rend="font-size: smaller;">*) Ställen bredvid öfversta höjden af <placeName>Götha Canal</placeName>.</hi><lb/></note>
             </p>
@@ -483,35 +484,35 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </num>
             </hi>
          </metamark>
-         <p>
-            I Seklers längd och under stora skiften<pc type="comma">,</pc><lb/>             
-            De två <persName><forename><hi rend="uppercase">GUSTAVER</hi></forename></persName> bott i griften<pc type="comma">,</pc><lb/>           
-            När Svenska Folket bröt de band<pc type="comma">,</pc><lb/>             
-            Som häftat kring dess fosterland<pc type="fullStop">.</pc><lb/>             
-            Då flög en tanke<pc type="comma">,</pc> <persName>Mimers</persName> like<pc type="comma">,</pc><lb/>          
-            Utöfver <placeName>Svithiods</placeName> hela rike<pc type="colon">:</pc><lb/>           
-            Att leda genom dal och lund<lb/>          
-            Ett långt<pc type="comma">,</pc> ett lugnt<pc type="comma">,</pc> ett eget Sund<pc type="fullStop">.</pc><lb/>          
-            Från <placeName>Wenerns</placeName> brant till <placeName>Roxens</placeName> slätter<pc type="comma">,</pc><lb/>          
-            Ett enda läger sträckes ut<pc type="semiColon">;</pc><lb/>           
-            Och krigarn gör ett lyckligt slut<lb/>          
-            På <placeName>Nordens</placeName> sista tvist<pc type="comma">,</pc> <pc type="emDash">—</pc> naturens oförrätter<pc type="fullStop">.</pc><lb/>          
-            För sådan krigsplan<pc type="comma">,</pc> stor och djerf<pc type="comma">,</pc><lb/>         
-            Hvad rustningar<pc type="comma">,</pc> hvad drift<pc type="comma">,</pc> på fält<pc type="comma">,</pc> i skog och hytta<pc type="exclamationMark">!</pc><lb/>         
-            Hvem är den medborgsman<pc type="comma">,</pc> som icke ger sin skärf<pc type="comma">,</pc><lb/>          
-            Att till sin åkers rand en segelled förflytta<pc type="comma">,</pc><lb/>        
-            Dit handeln bringar lön åt idoghetens värf<pc type="questionMark">?</pc><lb/> 
-         </p>
-         <p>
-            Så skapelsen af nya floder<lb/>            
-            Ger väg åt skeppens fria roder<pc type="fullStop">.</pc><lb/>            
-            Ur Vesterns haf<pc type="comma">,</pc> ur Österns sjö<pc type="comma">,</pc><lb/>            
-            Emellan <placeName>Skandiens</placeName> dubbel-ö<pc type="comma">,</pc><lb/>            
-            De mötas vid <placeName>Carlsgraf</placeName><pc type="comma">,</pc> på lugn och tryggad bölja<pc type="fullStop">.</pc><lb/> 
-            Så <persName><hi rend="uppercase">CARL DEN TRETTONDES</hi></persName> och Svenske Mäns beslut<pc type="comma">,</pc><lb/>           
-            Som af <persName><hi rend="uppercase">CARL JOHANS</hi></persName> kraft till målet fördes ut<pc type="comma">,</pc><lb/>          
-            Skall till odödlighet med Carla-namnet följa<pc type="fullStop">.</pc><lb/>
-         </p>
+            <lg>
+               <l>I Seklers längd och under stora skiften<pc type="comma">,</pc></l>              
+               <l>De två <persName><forename><hi rend="uppercase">GUSTAVER</hi></forename></persName> bott i griften<pc type="comma">,</pc></l> 
+               <l>När Svenska Folket bröt de band<pc type="comma">,</pc></l>              
+               <l>Som häftat kring dess fosterland<pc type="fullStop">.</pc></l>             
+               <l>Då flög en tanke<pc type="comma">,</pc> <persName>Mimers</persName> like<pc type="comma">,</pc></l>          
+               <l>Utöfver <placeName>Svithiods</placeName> hela rike<pc type="colon">:</pc></l>           
+               <l>Att leda genom dal och lund</l>          
+               <l>Ett långt<pc type="comma">,</pc> ett lugnt<pc type="comma">,</pc> ett eget Sund<pc type="fullStop">.</pc></l>          
+               <l>Från <placeName>Wenerns</placeName> brant till <placeName>Roxens</placeName> slätter<pc type="comma">,</pc></l>           
+               <l>Ett enda läger sträckes ut<pc type="semiColon">;</pc></l>            
+               <l>Och krigarn gör ett lyckligt slut</l>          
+               <l>På <placeName>Nordens</placeName> sista tvist<pc type="comma">,</pc> <pc type="emDash">—</pc> naturens oförrätter<pc type="fullStop">.</pc></l>         
+               <l>För sådan krigsplan<pc type="comma">,</pc> stor och djerf<pc type="comma">,</pc></l>         
+               <l>Hvad rustningar<pc type="comma">,</pc> hvad drift<pc type="comma">,</pc> på fält<pc type="comma">,</pc> i skog och hytta<pc type="exclamationMark">!</pc></l>          
+               <l>Hvem är den medborgsman<pc type="comma">,</pc> som icke ger sin skärf<pc type="comma">,</pc></l>          
+               <l>Att till sin åkers rand en segelled förflytta<pc type="comma">,</pc></l>        
+               <l>Dit handeln bringar lön åt idoghetens värf<pc type="questionMark">?</pc></l> 
+            </lg>
+            <lg>
+               <l>Så skapelsen af nya floder</l>            
+               <l>Ger väg åt skeppens fria roder<pc type="fullStop">.</pc></l>             
+               <l>Ur Vesterns haf<pc type="comma">,</pc> ur Österns sjö<pc type="comma">,</pc></l>            
+               <l>Emellan <placeName>Skandiens</placeName> dubbel-ö<pc type="comma">,</pc></l>             
+               <l>De mötas vid <placeName>Carlsgraf</placeName><pc type="comma">,</pc> på lugn och tryggad bölja<pc type="fullStop">.</pc></l> 
+               <l>Så <persName><hi rend="uppercase">CARL DEN TRETTONDES</hi></persName> och Svenske Mäns beslut<pc type="comma">,</pc></l>      
+               <l>Som af <persName><hi rend="uppercase">CARL JOHANS</hi></persName> kraft till målet fördes ut<pc type="comma">,</pc></l>       
+               <l>Skall till odödlighet med Carla-namnet följa<pc type="fullStop">.</pc></l> 
+            </lg>
          </div>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
             <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
@@ -527,81 +528,81 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <hi rend="bold center">SÅNG.</hi>
                   </stage>
                </p>
-            <p>
-               Förgäfves styrkans åska rullar<lb/>            
-               Med bördighet kring våra berg<pc type="comma">,</pc><lb/>               
-               Så länge <placeName>Skandiens</placeName> flit förtullar<lb/>            
-               Till andras vinning kraft och merg<pc type="fullStop">.</pc><lb/>           
-               Nej<pc type="comma">,</pc> frigjord hvifte hafvens flagga<pc type="exclamationMark">!</pc><lb/>         
-               Lik svan<pc type="comma">,</pc> som våra sjöar vagga<pc type="comma">,</pc><lb/>         
-               Här söderns ättling söke värn<pc type="comma">,</pc><lb/>       
-               Och nordisk frihet<pc type="comma">,</pc> nordiskt jern<pc type="fullStop">.</pc><lb/> 
-            </p>
-            <p>
-               En viking-stam med christna dygder<lb/>            
-               Är Svenska folket<pc type="fullStop">.</pc> Ingens slaf<pc type="comma">,</pc><lb/>              
-               Ej engång Nordans i dess bygder<pc type="comma">,</pc><lb/>              
-               Det längtar till sitt fria haf<pc type="fullStop">.</pc><lb/>             
-               Stig ned med tämda vattenfallen<pc type="fullStop">.</pc><lb/>            
-               Dröj på din klippa som korallen<pc type="comma">,</pc><lb/>            
-               Att vågen<pc type="comma">,</pc> af sin rikdom full<pc type="comma">,</pc><lb/>         
-               Må föra till dig söderns gull<pc type="fullStop">.</pc><lb/> 
-            </p>
-            <p>
-               Men kommer viking ifrån vester<pc type="comma">,</pc><lb/>            
-               Men landar viking östanfrån<pc type="semiColon">;</pc><lb/>               
-               Då <pc type="emDash">—</pc> mottag de obudne gäster<pc type="comma">,</pc><lb/>             
-               Som fordom<pc type="comma">,</pc> <pc type="emDash">—</pc> värdigt <placeName>nordens</placeName> son<pc type="exclamationMark">!</pc><lb/>            
-               Då svärd och kulor icke spara<pc type="exclamationMark">!</pc><lb/>            
-               Lär hur ett folk kan sig försvara<pc type="comma">,</pc><lb/>           
-               Som har sin frihet fått i arf<lb/>           
-               Från tidehvarf till tidehvarf<pc type="fullStop">.</pc><lb/> 
-            </p>
-         </div>
+               <lg>
+                  <l>Förgäfves styrkans åska rullar</l>            
+                  <l>Med bördighet kring våra berg<pc type="comma">,</pc></l>               
+                  <l>Så länge <placeName>Skandiens</placeName> flit förtullar</l>            
+                  <l>Till andras vinning kraft och merg<pc type="fullStop">.</pc></l>           
+                  <l>Nej<pc type="comma">,</pc> frigjord hvifte hafvens flagga<pc type="exclamationMark">!</pc></l>        
+                  <l>Lik svan<pc type="comma">,</pc> som våra sjöar vagga<pc type="comma">,</pc></l>         
+                  <l>Här söderns ättling söke värn<pc type="comma">,</pc></l>       
+                  <l>Och nordisk frihet<pc type="comma">,</pc> nordiskt jern<pc type="fullStop">.</pc></l> 
+               </lg>
+               <lg>
+                  <l>En viking-stam med christna dygder</l>             
+                  <l>Är Svenska folket<pc type="fullStop">.</pc> Ingens slaf<pc type="comma">,</pc></l>              
+                  <l>Ej engång Nordans i dess bygder<pc type="comma">,</pc></l>              
+                  <l>Det längtar till sitt fria haf<pc type="fullStop">.</pc></l>             
+                  <l>Stig ned med tämda vattenfallen<pc type="fullStop">.</pc></l>             
+                  <l>Dröj på din klippa som korallen<pc type="comma">,</pc></l>             
+                  <l>Att vågen<pc type="comma">,</pc> af sin rikdom full<pc type="comma">,</pc></l>          
+                  <l>Må föra till dig söderns gull<pc type="fullStop">.</pc></l> 
+               </lg>
+               <lg>
+                  <l>Men kommer viking ifrån vester<pc type="comma">,</pc></l>            
+                  <l>Men landar viking östanfrån<pc type="semiColon">;</pc></l>               
+                  <l>Då <pc type="emDash">—</pc> mottag de obudne gäster<pc type="comma">,</pc></l>             
+                  <l>Som fordom<pc type="comma">,</pc> <pc type="emDash">—</pc> värdigt <placeName>nordens</placeName> son<pc type="exclamationMark">!</pc></l>            
+                  <l>Då svärd och kulor icke spara<pc type="exclamationMark">!</pc></l>            
+                  <l>Lär hur ett folk kan sig försvara<pc type="comma">,</pc></l>           
+                  <l>Som har sin frihet fått i arf</l>           
+                  <l>Från tidehvarf till tidehvarf<pc type="fullStop">.</pc></l>
+               </lg>
+            </div>
          </div>
          <div type="page" facs="#B6-Sangtext-sida-sex-sju">
-         <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
-         <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
-         <metamark function="pagenumber" place="top-center">
-            <hi rend="-">
-               <num>
-                  6
-               </num>
-            </hi>
-         </metamark>
-            <p>
-               <stage>
-                  <hi rend="bold center">RECITATIV.</hi>
-               </stage>
-            </p>
-            <p>
-               Men<pc type="comma">,</pc> <placeName>Svea</placeName><pc type="exclamationMark">!</pc> när i dag<pc type="comma">,</pc> i ekbekrönta nejder<pc type="comma">,</pc><lb/>               
-               Du ser din idoghet<pc type="comma">,</pc> din frihet mera trygg<pc type="semiColon">;</pc><lb/>           
-               Ej bäfvande för öpna fejder<pc type="comma">,</pc><lb/>           
-               Försvarad af <placeName>Carlsborg</placeName> och fjällar i din rygg<pc type="fullStop">.</pc><lb/>           
-               En enda ovän står dig åter<pc type="comma">,</pc><lb/>          
-               En son af köld och missväxt-år<pc type="fullStop">.</pc><lb/>           
-               Gå<pc type="comma">,</pc> möt hans bleka hamn med skördar i ditt spår<pc type="comma">,</pc><lb/>            
-               Som du från inledd våg kring bygden falla låter<pc type="comma">,</pc><lb/>           
-               Att nöden aldrig mer en nordisk koja når<pc type="fullStop">.</pc><lb/>        
-               Då skall välsignelsen och friden<lb/>       
-               Bekransa stränderna af <placeName>Göthers</placeName> jätte-flod<pc type="semiColon">;</pc><lb/>       
-               Och våra ättlingar besjunga konstens mod<pc type="comma">,</pc><lb/>      
-               När denna dag är längst förliden<pc type="fullStop">.</pc><lb/>       
-               Då skall från <placeName>Warnhems</placeName> graf den fromme <persName><hi rend="uppercase">INGO</hi></persName> se<lb/>      
-               Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc><lb/>     
-               Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> bifall ge<lb/>      
-               Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc><lb/>      
-               Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc><lb/> 
-            </p>
-            <p>
-               Och Han<pc type="comma">,</pc> som hvilar lugn i sina mödors graf<pc type="comma">,</pc><lb/>          
-               I skötet af det Verk<pc type="comma">,</pc> hvars framgång han besvurit<pc type="comma">,</pc><lb/>            
-               Med vård af den granit<pc type="comma">,</pc> hans egna händer skurit<pc type="comma">,</pc><lb/>          
-               Skall af en framtid få den lön hans tid ej gaf<pc type="fullStop">.</pc><lb/>            
-               En tid<pc type="comma">,</pc> åt hvilkens gunst han inga offer burit<pc type="comma">,</pc><lb/>            
-               Blott härdig för sitt mål<pc type="comma">,</pc> <pc type="emDash">—</pc> att närma tvenne haf<pc type="fullStop">.</pc><lb/> 
-            </p>
+            <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
+               <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+               <metamark function="pagenumber" place="top-center">
+                  <hi rend="-">
+                     <num>
+                        6
+                     </num>
+                  </hi>
+               </metamark>
+               <p>
+                  <stage>
+                     <hi rend="bold center">RECITATIV.</hi>
+                  </stage>
+               </p>
+               <lg>
+                  <l>Men<pc type="comma">,</pc> <placeName>Svea</placeName><pc type="exclamationMark">!</pc> när i dag<pc type="comma">,</pc> i ekbekrönta nejder<pc type="comma">,</pc></l>              
+                  <l>Du ser din idoghet<pc type="comma">,</pc> din frihet mera trygg<pc type="semiColon">;</pc></l>          
+                  <l>Ej bäfvande för öpna fejder<pc type="comma">,</pc></l>          
+                  <l>Försvarad af <placeName>Carlsborg</placeName> och fjällar i din rygg<pc type="fullStop">.</pc></l>          
+                  <l>En enda ovän står dig åter<pc type="comma">,</pc></l>          
+                  <l>En son af köld och missväxt-år<pc type="fullStop">.</pc></l>          
+                  <l>Gå<pc type="comma">,</pc> möt hans bleka hamn med skördar i ditt spår<pc type="comma">,</pc></l>            
+                  <l>Som du från inledd våg kring bygden falla låter<pc type="comma">,</pc></l>           
+                  <l>Att nöden aldrig mer en nordisk koja når<pc type="fullStop">.</pc></l>       
+                  <l>Då skall välsignelsen och friden</l>       
+                  <l>Bekransa stränderna af <placeName>Göthers</placeName> jätte-flod<pc type="semiColon">;</pc></l>       
+                  <l>Och våra ättlingar besjunga konstens mod<pc type="comma">,</pc></l>      
+                  <l>När denna dag är längst förliden<pc type="fullStop">.</pc></l>      
+                  <l>Då skall från <placeName>Warnhems</placeName> graf den fromme <persName><hi rend="uppercase">INGO</hi></persName> se</l>   
+                  <l>Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc></l>    
+                  <l>Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> bifall ge</l>     
+                  <l>Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc></l>      
+                  <l>Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc></l>
+               </lg>
+               <lg>
+                  <l>Och Han<pc type="comma">,</pc> som hvilar lugn i sina mödors graf<pc type="comma">,</pc></l>          
+                  <l>I skötet af det Verk<pc type="comma">,</pc> hvars framgång han besvurit<pc type="comma">,</pc></l>            
+                  <l>Med vård af den granit<pc type="comma">,</pc> hans egna händer skurit<pc type="comma">,</pc></l>          
+                  <l>Skall af en framtid få den lön hans tid ej gaf<pc type="fullStop">.</pc></l>           
+                  <l>En tid<pc type="comma">,</pc> åt hvilkens gunst han inga offer burit<pc type="comma">,</pc></l>            
+                  <l>Blott härdig för sitt mål<pc type="comma">,</pc> <pc type="emDash">—</pc> att närma tvenne haf<pc type="fullStop">.</pc></l> 
+               </lg>
             <p>
                <note xml:id="note2"><hi rend="font-size: smaller;">*) <placeName>Wadstena</placeName> slott.</hi><lb/></note>
             </p>
@@ -615,23 +616,23 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </num>
                </hi>
             </metamark>
-            <p>
-               Du dem förenat<pc type="semiColon">;</pc> <pc type="emDash">—</pc> gå<pc type="comma">,</pc> att gagna när du stiger<pc type="comma">,</pc><lb/>             
-               Du <placeName>Nordens</placeName> ebb och flod<pc type="exclamationMark">!</pc> att gagna i ditt fall<pc type="fullStop">.</pc><lb/>               
-               Bär genom landets bredd en agtad böljas svall<pc type="exclamationMark">!</pc><lb/>              
-               Och dig <persName><hi rend="uppercase">CARL JOHANS</hi></persName> hand åt Häfderna inviger<pc type="fullStop">.</pc> <pc type="emDash">—</pc><lb/>              
-               Blif hafvens Salu-Torg<pc type="comma">,</pc> välmågans nederlag<pc type="exclamationMark">!</pc><lb/>            
-               Och här<pc type="comma">,</pc> vid hafvets port<pc type="comma">,</pc> vår fria hyllning tag<pc type="exclamationMark">!</pc><lb/>            
-               Som du sprängt jordens sköt och klipporna derunder<pc type="comma">,</pc><lb/>           
-               Så <persName>Ehrensvärdska</persName> vapnets dunder <ref target="#note3"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>          
-               Dig helsar med sin röst<pc type="comma">,</pc> vid folkets fest i dag<pc type="fullStop">.</pc><lb/> 
-            </p>
-            <p>
-               Vid folkets fröjdefest<pc type="comma">,</pc> att se i sina trakter<lb/>             
-               Sin <hi rend="uppercase">KONUNG</hi> och <hi rend="uppercase">HANS ÄTT</hi><pc type="comma">,</pc> mål för sitt trogna hopp<pc type="colon">:</pc><lb/>         
-               En trohet hög och stark<pc type="comma">,</pc> som flodens katarakter<pc type="comma">,</pc><lb/>        
-               Och en förhoppning<pc type="comma">,</pc> trygg som flodens lugna lopp<pc type="fullStop">.</pc><lb/> 
-            </p>
+               <lg>
+                  <l>Du dem förenat<pc type="semiColon">;</pc> <pc type="emDash">—</pc> gå<pc type="comma">,</pc> att gagna när du stiger<pc type="comma">,</pc></l>             
+                  <l>Du <placeName>Nordens</placeName> ebb och flod<pc type="exclamationMark">!</pc> att gagna i ditt fall<pc type="fullStop">.</pc></l>               
+                  <l>Bär genom landets bredd en agtad böljas svall<pc type="exclamationMark">!</pc></l>              
+                  <l>Och dig <persName><hi rend="uppercase">CARL JOHANS</hi></persName> hand åt Häfderna inviger<pc type="fullStop">.</pc> <pc type="emDash">—</pc></l>              
+                  <l>Blif hafvens Salu-Torg<pc type="comma">,</pc> välmågans nederlag<pc type="exclamationMark">!</pc></l>           
+                  <l>Och här<pc type="comma">,</pc> vid hafvets port<pc type="comma">,</pc> vår fria hyllning tag<pc type="exclamationMark">!</pc></l>            
+                  <l>Som du sprängt jordens sköt och klipporna derunder<pc type="comma">,</pc></l>           
+                  <l>Så <persName>Ehrensvärdska</persName> vapnets dunder <ref target="#note3"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc></l>         
+                  <l>Dig helsar med sin röst<pc type="comma">,</pc> vid folkets fest i dag<pc type="fullStop">.</pc></l> 
+               </lg>
+               <lg>
+                  <l>Vid folkets fröjdefest<pc type="comma">,</pc> att se i sina trakter</l>             
+                  <l>Sin <hi rend="uppercase">KONUNG</hi> och <hi rend="uppercase">HANS ÄTT</hi><pc type="comma">,</pc> mål för sitt trogna hopp<pc type="colon">:</pc></l>         
+                  <l>En trohet hög och stark<pc type="comma">,</pc> som flodens katarakter<pc type="comma">,</pc></l>       
+                  <l>Och en förhoppning<pc type="comma">,</pc> trygg som flodens lugna lopp<pc type="fullStop">.</pc></l> 
+               </lg>
             <p>
                <note xml:id="note3"><hi rend="font-size: smaller;">*) Kanon-Slupar, så väl från <placeName>Stockholms</placeName> som <placeName>Götheborgs</placeName> Stationer,<lb/>       
                   voro beordrade att mötas vid invignings-stället, sedan de, på Cana-<lb/> 
@@ -654,24 +655,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <hi rend="bold center">SLUT-CHOR.</hi>
                </stage>
             </p>
-         <p>
-            Hell<pc type="comma">,</pc> <placeName>Skandia</placeName><pc type="exclamationMark">!</pc> bryt jorden<pc type="comma">,</pc> bryt bergets malm<pc type="comma">,</pc><lb/>         
-            Der jernet ligger begrafvet<pc type="fullStop">.</pc><lb/>          
-            Smid Lia till gyllene skördars halm<pc type="fullStop">.</pc><lb/>         
-            Plöj våg genom landet till hafvet<pc type="fullStop">.</pc><lb/>         
-            Smid äfven ett Svärd<pc type="comma">,</pc> <pc type="emDash">—</pc> blott att skära en palm<pc type="comma">,</pc><lb/>         
-            På <placeName>Lützen</placeName><pc type="comma">,</pc> på <placeName>Dennewitz-fälten</placeName><lb/>          
-            Till offer åt fridsälla Hjelten<pc type="fullStop">.</pc><lb/> 
-         </p>
-         <p>
-            Må dagens Högtid<pc type="comma">,</pc> från folkprydd strand<pc type="comma">,</pc><lb/>           
-            Genljuda till vårdande <hi rend="uppercase">STÄNDER</hi><pc type="exclamationMark">!</pc><lb/> 
-            Till hvarje vän af vårt fosterland<pc type="comma">,</pc><lb/>            
-            Till Segrarn på <placeName>Motala</placeName> stränder<pc type="semiColon">;</pc><lb/>            
-            Och jublande kalla från Allfaders hand<lb/>            
-            Välsignelse ned öfver <placeName>Norden</placeName><pc type="comma">,</pc><lb/>           
-            Likt regnet på tacksamma jorden<pc type="exclamationMark">!</pc><lb/> 
-         </p>
+            <lg>
+               <l>Hell<pc type="comma">,</pc> <placeName>Skandia</placeName><pc type="exclamationMark">!</pc> bryt jorden<pc type="comma">,</pc> bryt bergets malm<pc type="comma">,</pc></l>         
+               <l>Der jernet ligger begrafvet<pc type="fullStop">.</pc></l>          
+               <l>Smid Lia till gyllene skördars halm<pc type="fullStop">.</pc></l>         
+               <l>Plöj våg genom landet till hafvet<pc type="fullStop">.</pc></l>         
+               <l>Smid äfven ett Svärd<pc type="comma">,</pc> <pc type="emDash">—</pc> blott att skära en palm<pc type="comma">,</pc></l>      
+               <l>På <placeName>Lützen</placeName><pc type="comma">,</pc> på <placeName>Dennewitz-fälten</placeName></l>          
+               <l>Till offer åt fridsälla Hjelten<pc type="fullStop">.</pc></l>
+            </lg>
+            <lg>
+               <l>Må dagens Högtid<pc type="comma">,</pc> från folkprydd strand<pc type="comma">,</pc></l>          
+               <l>Genljuda till vårdande <hi rend="uppercase">STÄNDER</hi><pc type="exclamationMark">!</pc></l>
+               <l>Till hvarje vän af vårt fosterland<pc type="comma">,</pc></l>           
+               <l>Till Segrarn på <placeName>Motala</placeName> stränder<pc type="semiColon">;</pc></l>           
+               <l>Och jublande kalla från Allfaders hand</l>           
+               <l>Välsignelse ned öfver <placeName>Norden</placeName><pc type="comma">,</pc></l>           
+               <l>Likt regnet på tacksamma jorden<pc type="exclamationMark">!</pc></l>
+            </lg>
          <p>
             <note type="tryckeri"><placeName>STOCKHOLM</placeName>,<lb/>
                TRYCKT HOS <orgName>P. A. NORSTEDT &amp; SÖNER</orgName>, <date>1832</date>.<lb/></note> 
