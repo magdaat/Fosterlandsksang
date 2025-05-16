@@ -19,7 +19,7 @@
             Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande"
          </h1>
       </header>
-      <nav><!-- Navigeringsmeny -->
+      <nav aria-label="Huvudnavigering"><!-- Navigeringsmeny -->
          <a href="index.html">Om projektet</a> | 
          <a href="sanghafte.html">Sånghäfte</a> | 
          <a href="sangtext.html">Sångtext</a> | 
@@ -38,7 +38,7 @@
                         <br/><br/>Projektet har genomförts som en del av kursen <em>Digitalisering för bevarande och tillgänglighet</em>, som ges inom masterprogrammet <em>Biblioteks- och informationsvetenskap</em> vid <em>Borås Högskola</em>, våren 2025. Vi som genomfört projektet och är ansvariga för digitaliseringen och webbplatsen heter Marie Gyll, Jessica Hultengren, Susanne Landén och Magdalena af Trolle.
                      </p>
                   <p>
-                     Vill du komma i kontakt med oss? Klicka <a href="mailto:magdalenaaftrolle@gmail.com,s2412484@student.hb.se,s2407899@student.hb.se,s2410885@student.hb.se">här</a>
+                     Vill du komma i kontakt med oss? Kontakta oss via <a href="mailto:magdalenaaftrolle@gmail.com,s2412484@student.hb.se,s2407899@student.hb.se,s2410885@student.hb.se" aria-label="Skicka e-post till hela projektgruppen">e-post</a>
                   </p>
                   </article>
                   </div>
@@ -49,8 +49,8 @@
                         <p>På denna webbplats kan du ta del av flera olika delar av projektet.</p>
                         <ul>
                            <li>
-                              <a href="index.html">Om projektet</a>
-                              <p>Här kan du läsa mer om digitaliseringsprojektet.</p>
+                              <a href="index.html">Om projektet</a><br> <!-- Tydligen så är det ett semantiskt problem att ha <p> direkt efter länkar i <li>. Blir otydligt för vissa skärmläsare och parserverktyg -->
+                              Här kan du läsa mer om digitaliseringsprojektet.
                            </li>
                            <li>
                               <a href="sanghafte.html">Sånghäfte</a>
@@ -79,15 +79,15 @@
                         <p>Här hittar du länkar relaterade till vårt digitaliseringsprojekt. De leder till externa webbplatser som öppnas i ett nytt fönster eller flik.</p>
                         <ul>
                            <li>
-                              <a href="https://github.com/magdaat/Fosterlandsksang" target="_blank">GitHub</a>
+                              <a href="https://github.com/magdaat/Fosterlandsksang" target="_blank" rel="noopener" aria-label="GitHub, öppnas i ny flik">GitHub</a>
                               <p>Här finns projektets kod och resurser tillgängliga.</p>
                            </li>
                            <li>
-                              <a href="https://liu.se/biblioteket" target="_blank">Vallabiblioteket, Linköpings universitetsbibliotek</a>
+                              <a href="https://liu.se/biblioteket" target="_blank" aria-label="Vallabiblioteket, öppnas i ny flik">Vallabiblioteket, Linköpings universitetsbibliotek</a>
                               <p>Ägare till det fysiska material som digitaliserats.</p>
                            </li>
                            <li>
-                              <a href="https://www.hb.se/" target="_blank">Borås högskola</a>
+                              <a href="https://www.hb.se/" target="_blank" aria-label="Borås högskola, öppnas i ny flik">Borås högskola</a>
                               <p>Digitaliseringsprojektet har utförts av studenter vid denna högskola.</p>
                            </li>
                            </ul>

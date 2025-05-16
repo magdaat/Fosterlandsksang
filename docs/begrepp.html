@@ -19,7 +19,7 @@
             Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande"
          </h1>
       </header>
-      <nav><!-- Navigeringsmeny -->
+      <nav aria-label="Huvudmeny"><!-- Navigeringsmeny -->
          <a href="index.html">Om projektet</a> |
          <a href="sanghafte.html">Sånghäfte</a> |
          <a href="sangtext.html">Sångtext</a> |
@@ -36,8 +36,8 @@
                <p class="center-text"> <!-- Centrerar text -->
                   Begreppen är ett urval för att få förståelse för innehållet. De presenteras i bokstavordning.
                </p>
-               <table class="table table-borderless"> <!-- och aria-describedby="table-description"> följt av
-               <caption id="table-description">En tabell med begrepp och deras förklaringar som används på webbplatsen och i resursen.</caption> --> 
+               <table class="table table-borderless"> 
+                  <caption class="visually-hidden">En tabell med begrepp och deras förklaringar som används på webbplatsen och i resursen.</caption>
                   <!-- En caption som beskriver tabellen för e.g. skärmläsare. MEN syns även på skärmen - känns lite over-kill? -->
                <!-- Rubrikrad för Begrepp och Förklaring -->
                <thead>
@@ -72,6 +72,7 @@
                      <td>Digitalisering</td>
                      <td>Ett fysiskt material som görs tillgängligt i digital form så att det sedan kan användas via dator, mobil eller webben.</td>
                      <!-- Begrepp 5 + Förklaring 5 -->
+                     <!-- </tr> ? Ur tillgänglighetssynpunkt bör de vara stängda..-->
                   <tr>
                      <td>Digital faksimil</td>
                      <td>Ett fysiskt material skannas eller fotograferas så att det ser ut som originalet. Hänsyn tas till detaljer så som teckensnitt, färg och layout.</td>
