@@ -81,7 +81,12 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    <xsl:template match="tei:lg"><!-- tei lg ska vara html p -->
+    <xsl:template match="tei:lg"><!-- tei lg ska vara html lg -->
+        <lg>
+            <xsl:apply-templates/>
+        </lg> 
+    </xsl:template>
+    <xsl:template match="tei:p"><!-- tei p ska vara html p -->
         <p>
             <xsl:apply-templates/>
         </p> 
