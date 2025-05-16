@@ -471,7 +471,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Att ge åt <placeName>Sverges</placeName> Haf dess skattfrihet tillbaka<pc type="comma">,</pc></l>           
                   <l>Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc></l>
                </lg>
-            <p>
+            <p style="italic">
                <note xml:id="note1"><hi rend="font-size: smaller;">*) Ställen bredvid öfversta höjden af <placeName>Götha Canal</placeName>.</hi><lb/><lb/></note>
             </p>
          </div>
