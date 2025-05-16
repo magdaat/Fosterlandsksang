@@ -87,6 +87,7 @@
         </p> 
     </xsl:template>
     <xsl:template match="tei:l"><!-- tei l ska vara html br -->
+        <xsl:apply-templates/>
         <br/>
     </xsl:template>
     <xsl:template match="text()"><!-- textnoder utom element i XML till HTML -->
