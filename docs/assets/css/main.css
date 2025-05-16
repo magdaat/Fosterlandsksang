@@ -258,9 +258,8 @@ padding: 0;
 padding: 2% 20% 2% 20%; /* Responsiv padding övre, höger, undre, vänster */
 }
 
-
-.note-style {
-font-size: 0.5vw; /* Responsiv textstorlek */
+#note1{
+font-style: italic;
 }
 
 button { /* Knapp för utskrift */
