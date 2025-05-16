@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+type="application/xml"
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- TEI dokument -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- (TEI header) Ger beskrivande och förklarande metadata till resursen. (TEI guidelines) -->
+   <teiHeader>
+      <!-- (file description) Bibliografisk beskrivning av den elektroniska filen. (TEI guidelines) -->
+      <fileDesc>
+         <!-- (title statement) Information om verkets titel och om vilka som är ansvariga för verkets innehåll. (TEI guidelines) -->        
+         <titleStmt>
+            <!-- (title) titeln på projektet som är webbplatsens titel. Inkluderar del av verkets titel inom citattecken. (TEI guidelines) -->
+            <title>
+               Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande"
+            </title>
+            <!-- (author) Författarnamn (TEI guidelines) -->
+            <author>
+               <!-- (name, proper noun) egennamn. (TEI guidelines) -->
+               <name>
+                  <!-- (personal name)egennamn, möjligt att inkludera flera av personens förnamn, efternamn m.m. (TEI guidelines) -->
+                  <!-- Länk till auktoritetspost i Libris -->
+                  <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">
+                     Magnus Martin af Pontin
+                  </persName>
+               </name>
+            </author>
+            <!-- (statement of responsibility) Redovisa vilka som ansvarar för textens intellektuella innehåll (används då de specialiserade element för ex. författare inte är tillräckliga). Går även att använda för att redovisa information om vilka individer och/eller organisationer som medverkat i produktion eller distribution av ett bibliografiskt verk. (TEI guidelines) -->
+            <respStmt>
+               <!-- (responsibility) beskriv vilket intellektuellt ansvar och vilken roll i produktion eller distribution person och/eller organisation har. -->
+               <resp>
+                  Digitalisering av kulturarvsmaterial som uppgift inom masterprogrammet Biblioteks- och informationsvetenskap vid:
+                  <orgName>
+                     Borås högskola
+                  </orgName>
+                  Digitaliseringen är utförd av:
+               </resp>
+               <persName>
+                  Marie Gyll
+               </persName>
+               <persName>
+                  Jessica Hultengren
+               </persName>
+               <persName>
+                  Susanne Landén
+               </persName>
+               <persName>
+                  Magdalena af Trolle
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <!-- (publication statement) Grupperar information om publicering eller distribution av text. (TEI guidelines)-->
+         <publicationStmt>
+            <!-- (release authority) Namn på person/organisation som ansvarar för att göra ett verk tillgängligt. (TEI guidelines) -->
+            <authority>
+               Linköpings universitetsbibliotek
+            </authority>
+            <date>
+               Maj 2025
+            </date>
+            <!-- (availability) Information om tillgången till texten, begränsningar för användning och distribution, upphovsrätt, licenser. (TEI guidelines) -->
+            <availability>
+               <!-- licence: Information om de licenser eller juridiska avtal som är tillämpliga för texten. (TEI guidelines) -->
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Materialet distribueras under en CC-BY-SA 4.0-licens.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <!-- (source description) En bibliografisk beskrivning av den elektroniska textens källa. (TEI guidelines) -->
+         <sourceDesc>
+            <!-- Bibliographic citation är en löst strukturerad bibliografi. (TEI guidelines) -->
+            <bibl>
+               <!-- Är den bibliografiska nivån för en titel. M = monografi. -->
+               <title level="m">
+                  Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
+               </title>
+               <author>
+                  <name>
+                     <!-- Länk till auktoritetspost i Libris -->
+                     <persName ref="https://libris.kb.se/wt79cx1f277vf8z#it">
+                        Magnus Martin af Pontin
+                     </persName>
+                  </name>
+               </author>
+               <!-- uppgift om tryckeri -->
+               <note type="printedBy">
+                  P. A. Norstedt &amp; söner
+               </note>
+               <date>
+                  1832
+               </date>
+               <pubPlace>
+                  Stockholm
+               </pubPlace>
+            </bibl>
+            <!-- (manuscript description) Beskrivning av enskild identifierbar handskrift eller annat textbärande föremål (TEI guidelines) -->
+            <msDesc>
+               <!-- (manuscript identifier) Ska innehålla den information som behövs för att identifiera skriften. (TEI guidelines) -->
+               <msIdentifier>
+                  <!-- (repository) Namnet på det repositorium där objektet lagras. (TEI guidelines) -->
+                  <repository>
+                     Vallabiblioteket, Linköpings universitetsbibliotek
+                  </repository>
+                  <!-- (collection) Namn på samling objekt (TEI guidelines) -->
+                  <collection>
+                     Bokladan
+                  </collection>
+               </msIdentifier>
+               <!-- (history) Gruppering av element som beskriver resursens historia. (TEI guidelines) -->
+               <history>
+                  <!-- (provenance) Beskrivande information om enskild identifierbar episod i resursens historia. (TEI guidelines) -->
+                  <provenance>
+                     Har varit i
+                     <orgName>
+                        Kungliga vattenfallsstyrelsens
+                     </orgName>
+                     ägo, enligt etikett.
+                  </provenance>
+                  <provenance>
+                     Har varit i ytterligare en persons ägo, indikerat av etikett där det står Ex Libris och initialer.
+                  </provenance>
+               </history>
+               <!-- (physDesc) Beskrivning av hur objektet ser ut. (TEI guidelines) -->
+               <physDesc>
+                  <objectDesc form="codex"> <!-- codex = strukturerad som en bok och består därför av flera blad. -->
+                     <supportDesc material="papper">
+                        <support>
+                           <p>
+                              <material>Papper</material> Omslaget, det vill säga häftets fram- och baksida, har en tydlig orange ton som skiljer sig från det inre innehållets neutrala men gulnande färg.
+                              Texten är tryckt med svart bläck. Häftet är trådbundet med ett limmat omslag.
+                           </p>
+                        </support>
+                        <extent>
+                           8 sidor
+                           <dimensions scope="all" type="leaf" 
+                              unit="cm"> <!-- (scope="all" type="leaf") Att dimensionerna gäller alla sidor i objektet. -->
+                              <height>
+                                 20,4
+                              </height>
+                              <width>
+                                 12
+                              </width>
+                           </dimensions>
+                        </extent>
+                        <!-- (condition) Beskrivning av objektets fysiska skick. (TEI guidelines) -->
+                        <condition>
+                           <p>
+                           Häftet är något slitet i kanterna, särskilt på fram- och baksidan.
+                           Sidorna i häftet är aningen fläckiga och har en gulnad ton, vilket tyder på ålder och hantering över tid.
+                           Häftet upplevs vara limmat och trådbundet med god hållbarhet som gör att sidorna är ordentligt sammanhållna men ändå lätta att öppna.
+                           </p>
+                        </condition>
+                     </supportDesc>
+                     <!-- (layoutDesc) Layoutbeskrivning av objektet. (TEI guidelines) -->
+                     <layoutDesc>
+                        <layout columns="1">
+                           <p>
+                              Texten är organiserad i en kolumn.
+                              Texten är i versform och indelad i stycken, där antalet rader varierar per stycke. 
+                              Styckena i kolumnen är inte jämnt fördelade utan kan börja längre till vänster eller mer centrerat, vilket skapar en oregelbunden layout.
+                              Verserna varierar i radlängd. Några rader är kortare medan andra är längre.
+                           </p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- (decoDesc) Beskrivning av dekoration i objektet. (TEI guidelines) -->
+                  <decoDesc>
+                     <p>
+                        Titeln på första och andra uppslaget är tryckt med versaler och är typografiskt varierad.
+                        Resten av texten är tryckt med samma serif-typsnitt.
+                     </p>     
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
+      <profileDesc>
+         <!-- (language usage) beskriv textens språk och underspråk (TEI guidelines) -->
+         <langUsage>
+            <!-- (language) språk eller underspråk som använts (TEI guidelines) -->
+            <language ident="sv">
+               Svenska
+            </language>
+         </langUsage>
+         <!-- (setting description) beskriv miljöerna då språkinteraktioner sker eller beskriv de andra miljöer texterna refererar till. (TEI guidelines) -->
+         <settingDesc>
+            <p>
+               Invigning av Göta kanal.
+            </p>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <!-- Representation av källan i form av bilder i stället för som transkriberad eller kodad text. (TEI guidelines) -->
+   <facsimile>
+      <surface xml:id="B1-Framsida-omslag">
+         <!-- (figure) Gruppering av element med  grafisk information. (TEI guidelines) -->
+         <figure>
+            <!-- (label) Innehåller den etikett eller rubrik som krävs för att identifiera en del av en text. (TEI guidelines) -->
+            <label>
+               Framsida omslag
+            </label>
+            <!-- (description of figure) Ska innehålla en kortfattad beskrivning av utseende eller innehåll i den grafiska figuren. (TEI guidelines) -->
+            <figDesc>
+               En skannad bild på framsidan av resursens omslag.
+            </figDesc>
+            <!-- (graphic) Ange på vilken plats en  grafik eller illustration hittas. (TEI guidelines) -->
+            <graphic xml:id="B1-Framsida-omslag_full"
+               url="assets/img/documents/B1-Framsida-omslag.png"/>
+            <graphic xml:id="B1-Framsida-omslag_thumb"
+               url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B2-Insida-omslag-och-titelblad">
+         <figure>
+            <label>
+               Insida omslag och titelblad
+            </label>
+            <figDesc>
+               En skannad bild av insida omslag och titelblad. Insidan på framsidans omslag
+               innehåller två etiketter och handskrift. Titelbladet innehåller sångens titel, två
+               handskrivna signaturer varav den ena är överstruken och ett handskrivet
+               ord.
+            </figDesc>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_full"
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb"
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida">
+         <figure>
+            <label>
+               Blankt blad och sångens första sida
+            </label>
+            <figDesc>
+               En skannad bild av ett blankt blad till vänster och sångens första sida till
+               höger.
+            </figDesc>
+            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_full"
+               url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.png"/>
+            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_thumb"
+               url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B4-Sangtext-sida-tva-tre">
+         <figure>
+            <label>
+               Sångtext, sida två-tre
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens andra och tredje sida.
+            </figDesc>
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_full"
+               url="assets/img/documents/B4-Sangtext-sida-tva-tre.png"/>
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_thumb"
+               url="assets/img/documents/B4-Sangtext-sida-tva-tre_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B5-Sangtext-sida-fyra-fem">
+         <figure>
+            <label>
+               Sångtext, sida fyra-fem
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens fjärde och femte sida.
+            </figDesc>
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_full"
+               url="assets/img/documents/B5-Sangtext-sida-fyra-fem.png"/>
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_thumb"
+               url="assets/img/documents/B5-Sangtext-sida-fyra-fem_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B6-Sangtext-sida-sex-sju">
+         <figure>
+            <label>
+               Sångtext, sida sex-sju
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens sjätte och sjunde sida.
+            </figDesc>
+            <graphic xml:id="B6-Sangtext-sida-sex-sju_full"
+               url="assets/img/documents/B6-Sangtext-sida-sex-sju.png"/>
+            <graphic xml:id="B6-Sangtext-sida-sex-sju_thumb"
+               url="assets/img/documents/B6-Sangtext-sida-sex-sju_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida">
+         <figure>
+            <label>
+               Åttonde sidans sångtext och en blank sida
+            </label>
+            <figDesc>
+               En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
+            </figDesc>
+            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_full"
+               url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.png"/>
+            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb"
+               url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="B8-Baksida-omslag">
+         <figure>
+            <label>
+               Baksida omslag
+            </label>
+            <figDesc>
+               En skannad bild på baksidan av resursens omslag.
+            </figDesc>
+            <graphic xml:id="B8-Baksida-omslag_full"
+               url="assets/img/documents/B8-Baksida-omslag.png"/>
+            <graphic xml:id="B8-Baksida-omslag_thumb"
+               url="assets/img/documents/B8-Baksida-omslag_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   <text>
+      <!-- Dold från sangtext.html. (front matter) Ska innehålla all inledande text i början av dokumentet före sången. (TEI guidelines) -->
+      <front>
+         <!-- (text division) Indelning av texten som framsida, brödtext eller baksida. (TEI guidelines) -->
+         <div type="page" facs="#B1-Framsida-omslag">
+         </div>
+         <div type="page" facs="#B2-Insida-omslag-och-titelblad">
+            <p>
+               Kungl Vattenfalls Styrelsen BIBLIOTEKET Löp. N:o 2028 Reg. N:o
+            </p>
+            <p>
+               <note>
+                  oläslig handskrift
+               </note>
+            </p>
+            <p>
+               EX Libris Gn
+            </p>
+            <p>
+               Fosterländsk sång vid Götha Canals Öpnande i hans Maj:t Konungens och den Kongl. Famillens Närvaro, den 26 september 1832.
+            </p>
+            <p>
+               oläslig handskrift delvis överstruken
+            </p>
+            <p hand="#MMP"> 
+               M.M. af Pontin
+            </p>
+         </div>
+      </front>
+      <!-- Ska synas på sangtext.html. (text body) Ska innehåller all brödtext efter front och innan baksida (TEI guidelines). -->
+      <body>
+         <div type="page" facs="#B3-Blankt-blad-och-sangens-första-sida">
+            <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
+            <head>
+               <hi rend="different font center">Fosterländsk Sång</hi><lb/>
+               <hi rend="uppercase bold center">VID</hi><lb/>
+               <hi rend="uppercase bold center">GÖTHA CANALS FULLBORDAN.</hi><lb/>
+               <hi rend="bold center">År 1832.</hi>
+            </head>     
+            <p>
+               <stage>
+                  <hi rend="bold center">CHOR.</hi>
+               </stage>
+            </p>
+            <p>
+               <hi rend="font-size: larger;">D</hi>u bröt dina bojor<pc type="comma">,</pc> du fria Nord<pc type="exclamationMark">!</pc><lb/>
+               De sista<pc type="comma">,</pc> de enda dig tryckte<pc type="colon">:</pc><lb/>
+               De klippor<pc type="comma">,</pc> som stängde din bördiga jord<pc type="comma">,</pc><lb/>
+               De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc><lb/>
+               Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord<lb/>
+               Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc><lb/>
+               Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc><lb/>
+            </p>
+            <p>Då skyndar den högländta källans språng<lb/>
+               Ur hjertat af <placeName>Skandiens</placeName> dalar<pc type="comma">,</pc><lb/>
+               Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc><lb/>
+               Om inlandets trefnad hon talar<pc type="semiColon">;</pc><lb/>
+               Der Odlarn och Bergsmannen höja sin sång<lb/>
+               Och Krigarne sjunga i tälten<pc type="comma">,</pc><lb/>
+               Till ära för segrande Hjelten<pc type="fullStop">.</pc><lb/>
+            </p>
+         </div>
+         </div>
+         <div type="page" facs="#B4-Sangtext-sida-tva-tre_full">
+            <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
+            <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+            <metamark function="pagenumber" place="top-center">
+               <hi rend="-">
+                  <num>
+                     2
+                  </num>
+               </hi>
+            </metamark>
+            <p>
+               <stage>
+                  <hi rend="bold center">RECITATIV.</hi>
+               </stage>
+            </p>
+            <p>
+               Ja<pc type="comma">,</pc> en Segerfest är din fullbordan<pc type="comma">,</pc><lb/>
+               Jätte-verk af <placeName>Sveas</placeName> starka arm<pc type="exclamationMark">!</pc><lb/>
+               Blåse Vestan eller storme Nordan<pc type="comma">,</pc><lb/>
+               Trygg hon möter dem med härdad barm<pc type="fullStop">.</pc><lb/>
+               Lik en flod-gud uppå egna vågor<lb/>
+               Går hon<pc type="comma">,</pc> och på strand dess Lejon-par<pc type="semiColon">;</pc><lb/>
+               Bjuder tiden svara på de frågor<pc type="comma">,</pc><lb/>
+               Der blott vinning fordrar svar<pc type="fullStop">.</pc><lb/>
+            </p>
+            <p>
+               Mellan berg och brådjup trädd i dagen<pc type="comma">,</pc><lb/>
+               <placeName>Nordens</placeName> kraft du speglar i ditt bryn<pc type="comma">,</pc><lb/>
+               Stolta Flod<pc type="exclamationMark">!</pc> ur Sveas fjällbarm dragen<pc type="comma">,</pc><lb/>
+               Vintergatan lik<pc type="comma">,</pc> som famnar skyn<pc type="fullStop">.</pc><lb/>
+               Ut till hafvet vill din fria bana<pc type="comma">,</pc><lb/>
+               Sen du gästat <placeName>Göthers</placeName> blomstergård<pc type="fullStop">.</pc><lb/>
+               Hvarje Flagg du bär blir segerfana<pc type="comma">,</pc><lb/>
+               Hvarje Sluss <pc type="emDash">—</pc> en minnesvård<pc type="fullStop">.</pc><lb/>
+            </p>
+            <p>
+               Allt stort och fosterländskt<pc type="comma">,</pc> i tanke eller bragd<pc type="comma">,</pc><lb/>
+               Vann Svenska Folkets lof<pc type="comma">,</pc> vann hyllning alla tider<pc type="semiColon">;</pc><lb/>
+               Och denna Högtidsdag<pc type="comma">,</pc> af häfden förutsagd<pc type="comma">,</pc><lb/>
+               Ser tankens djerfva plan till handling förd omsider<pc type="fullStop">.</pc><lb/>
+               Re<pc>'</pc>n Heden-timas Sago-brått<pc type="comma">,</pc><lb/>
+               För den som runorna förstått<pc type="comma">,</pc><lb/>
+               Har tydt <placeName>Wafthrudners</placeName> spådoms-anda<pc type="colon">:</pc><lb/>
+            </p>
+            </div>
+            <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
+            <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+            <metamark function="pagenumber" place="top-center">
+               <hi rend="-">
+                  <num>
+                     3
+                  </num>
+               </hi>
+            </metamark>
+            <p>
+               Att <placeName>Manhem</placeName> aldrig förr skall njuta fridens lott<pc type="comma">,</pc><lb/>             
+               Än <placeName>Vetterns</placeName> vågor sig med båda hafven blanda<pc type="fullStop">.</pc><lb/>              
+               Ej Saga trodde<pc type="comma">,</pc> att<pc type="comma">,</pc> en tid<pc type="comma">,</pc><lb/>           
+               Dess gåta<pc type="comma">,</pc> syftande på evig fejd och strid<pc type="comma">,</pc><lb/>          
+               Af möjligheten skulle tydas<pc type="comma">,</pc><lb/>        
+               Och konsten af naturen lydas<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               Men <persName><hi rend="uppercase">WASA</hi></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog<lb/>        
+               Till <placeName>Varge-vad</placeName> och <placeName>Orma-skog</placeName> <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>              
+               Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc><lb/>              
+               Förblöda under lejda händer<pc type="comma">,</pc><lb/>               
+               I brist af endrägt<pc type="comma">,</pc> brist af hamn<pc type="comma">,</pc> <pc type="emDash">—</pc><lb/>           
+               Försvarets hjerta<pc type="comma">,</pc> lagdt i egna fjällars famn<pc type="fullStop">.</pc><lb/>           
+               Då skar han med sitt Svärd i kalla fosterjorden<pc type="comma">,</pc><lb/>      
+               Ett tecken<pc type="comma">,</pc> långsåt <placeName>Götha-älf</placeName><pc type="comma">,</pc><lb/>            
+               Och sade minnesvärda orden<pc type="colon">:</pc><lb/>             
+               Den dagen gryr<pc type="comma">,</pc> då höga <placeName>Norden</placeName><lb/>           
+               Skall vinna sjelfbestånd<pc type="colon">:</pc> När inhemsk kraft är vorden<lb/> 
+               Nog för sig sjelf<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               Och <persName><hi rend="uppercase">GUSTAF ADOLF</hi></persName><pc type="comma">,</pc> sänd att <placeName>Nordens</placeName> hopp bevaka<pc type="comma">,</pc><lb/>       
+               Beslöt<pc type="comma">,</pc> förrän han föll i sina Segrars glans<pc type="comma">,</pc><lb/>             
+               Att ge åt <placeName>Sverges</placeName> Haf dess skattfrihet tillbaka<pc type="comma">,</pc><lb/>           
+               Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               <note xml:id="note1"><hi rend="font-size: smaller;">*) Ställen bredvid öfversta höjden af <placeName>Götha Canal</placeName>.</hi><lb/></note>
+            </p>
+         </div>
+         </div>
+         <div type="page" facs="#B5-Sangtext-sida-fyra-fem">
+         <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
+         <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+         <metamark function="pagenumber" place="top-center">
+            <hi rend="-">
+               <num>
+                  4
+               </num>
+            </hi>
+         </metamark>
+         <p>
+            I Seklers längd och under stora skiften<pc type="comma">,</pc><lb/>             
+            De två <persName><hi rend="uppercase">GUSTAVER</hi></persName> bott i griften<pc type="comma">,</pc><lb/>           
+            När Svenska Folket bröt de band<pc type="comma">,</pc><lb/>             
+            Som häftat kring dess fosterland<pc type="fullStop">.</pc><lb/>             
+            Då flög en tanke<pc type="comma">,</pc> <persName>Mimers</persName> like<pc type="comma">,</pc><lb/>          
+            Utöfver <placeName>Svithiods</placeName> hela rike<pc type="colon">:</pc><lb/>           
+            Att leda genom dal och lund<lb/>          
+            Ett långt<pc type="comma">,</pc> ett lugnt<pc type="comma">,</pc> ett eget Sund<pc type="fullStop">.</pc><lb/>          
+            Från <placeName>Wenerns</placeName> brant till <placeName>Roxens slätter</placeName><pc type="comma">,</pc><lb/>          
+            Ett enda läger sträckes ut<pc type="semiColon">;</pc><lb/>           
+            Och krigarn gör ett lyckligt slut<lb/>          
+            På <placeName>Nordens</placeName> sista tvist<pc type="comma">,</pc> <pc type="emDash">—</pc> naturens oförrätter<pc type="fullStop">.</pc><lb/>          
+            För sådan krigsplan<pc type="comma">,</pc> stor och djerf<pc type="comma">,</pc><lb/>         
+            Hvad rustningar<pc type="comma">,</pc> hvad drift<pc type="comma">,</pc> på fält<pc type="comma">,</pc> i skog och hytta<pc type="exclamationMark">!</pc><lb/>         
+            Hvem är den medborgsman<pc type="comma">,</pc> som icke ger sin skärf<pc type="comma">,</pc><lb/>          
+            Att till sin åkers rand en segelled förflytta<pc type="comma">,</pc><lb/>        
+            Dit handeln bringar lön åt idoghetens värf<pc type="questionMark">?</pc><lb/> 
+         </p>
+         <p>
+            Så skapelsen af nya floder<lb/>            
+            Ger väg åt skeppens fria roder<pc type="fullStop">.</pc><lb/>            
+            Ur Vesterns haf<pc type="comma">,</pc> ur Österns sjö<pc type="comma">,</pc><lb/>            
+            Emellan <placeName>Skandiens</placeName> dubbel-ö<pc type="comma">,</pc><lb/>            
+            De mötas vid <placeName>Carlsgraf</placeName><pc type="comma">,</pc> på lugn och tryggad bölja<pc type="fullStop">.</pc><lb/>            
+            Så <persName><hi rend="uppercase">CARL DEN TRETTONDES</hi></persName> och Svenske Mäns beslut<pc type="comma">,</pc><lb/>           
+            Som af <persName><hi rend="uppercase">CARL JOHANS</hi></persName> kraft till målet fördes ut<pc type="comma">,</pc><lb/>          
+            Skall till odödlighet med Carla-namnet följa<pc type="fullStop">.</pc><lb/>
+         </p>
+         </div>
+            <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
+            <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+            <metamark function="pagenumber" place="top-center">
+               <hi rend="-">
+                  <num>
+                     5
+                  </num>
+               </hi>
+            </metamark>
+               <p>
+                  <stage>
+                     <hi rend="bold center">SÅNG.</hi>
+                  </stage>
+               </p>
+            <p>
+               Förgäfves styrkans åska rullar<lb/>            
+               Med bördighet kring våra berg<pc type="comma">,</pc><lb/>               
+               Så länge <placeName>Skandiens</placeName> flit förtullar<lb/>            
+               Till andras vinning kraft och merg<pc type="fullStop">.</pc><lb/>           
+               Nej<pc type="comma">,</pc> frigjord hvifte hafvens flagga<pc type="exclamationMark">!</pc><lb/>         
+               Lik svan<pc type="comma">,</pc> som våra sjöar vagga<pc type="comma">,</pc><lb/>         
+               Här söderns ättling söke värn<pc type="comma">,</pc><lb/>       
+               Och nordisk frihet<pc type="comma">,</pc> nordiskt jern<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               En viking-stam med christna dygder<lb/>            
+               Är Svenska folket<pc type="fullStop">.</pc> Ingens slaf<pc type="comma">,</pc><lb/>              
+               Ej engång Nordans i dess bygder<pc type="comma">,</pc><lb/>              
+               Det längtar till sitt fria haf<pc type="fullStop">.</pc><lb/>             
+               Stig ned med tämda vattenfallen<pc type="fullStop">.</pc><lb/>            
+               Dröj på din klippa som korallen<pc type="comma">,</pc><lb/>            
+               Att vågen<pc type="comma">,</pc> af sin rikdom full<pc type="comma">,</pc><lb/>         
+               Må föra till dig söderns gull<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               Men kommer viking ifrån vester<pc type="comma">,</pc><lb/>            
+               Men landar viking östanfrån<pc type="semiColon">;</pc><lb/>               
+               Då <pc type="emDash">—</pc> mottag de obudne gäster<pc type="comma">,</pc><lb/>             
+               Som fordom<pc type="comma">,</pc> <pc type="emDash">—</pc> värdigt <placeName>nordens</placeName> son<pc type="exclamationMark">!</pc><lb/>            
+               Då svärd och kulor icke spara<pc type="exclamationMark">!</pc><lb/>            
+               Lär hur ett folk kan sig försvara<pc type="comma">,</pc><lb/>           
+               Som har sin frihet fått i arf<lb/>           
+               Från tidehvarf till tidehvarf<pc type="fullStop">.</pc><lb/> 
+            </p>
+         </div>
+         </div>
+         <div type="page" facs="#B6-Sangtext-sida-sex-sju">
+         <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
+         <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+         <metamark function="pagenumber" place="top-center">
+            <hi rend="-">
+               <num>
+                  6
+               </num>
+            </hi>
+         </metamark>
+            <p>
+               <stage>
+                  <hi rend="bold center">RECITATIV.</hi>
+               </stage>
+            </p>
+            <p>
+               Men<pc type="comma">,</pc> <placeName>Svea</placeName><pc type="exclamationMark">!</pc> när i dag<pc type="comma">,</pc> i ekbekrönta nejder<pc type="comma">,</pc><lb/>               
+               Du ser din idoghet<pc type="comma">,</pc> din frihet mera trygg<pc type="semiColon">;</pc><lb/>           
+               Ej bäfvande för öpna fejder<pc type="comma">,</pc><lb/>           
+               Försvarad af <placeName>Carlsborg</placeName> och fjällar i din rygg<pc type="fullStop">.</pc><lb/>           
+               En enda ovän står dig åter<pc type="comma">,</pc><lb/>          
+               En son af köld och missväxt-år<pc type="fullStop">.</pc><lb/>           
+               Gå<pc type="comma">,</pc> möt hans bleka hamn med skördar i ditt spår<pc type="comma">,</pc><lb/>            
+               Som du från inledd våg kring bygden falla låter<pc type="comma">,</pc><lb/>           
+               Att nöden aldrig mer en nordisk koja når<pc type="fullStop">.</pc><lb/>        
+               Då skall välsignelsen och friden<lb/>       
+               Bekransa stränderna af <placeName>Göthers</placeName> jätte-flod<pc type="semiColon">;</pc><lb/>       
+               Och våra ättlingar besjunga konstens mod<pc type="comma">,</pc><lb/>      
+               När denna dag är längst förliden<pc type="fullStop">.</pc><lb/>       
+               Då skall från <placeName>Warnhems</placeName> graf den fromme <persName><hi rend="uppercase">INGO</hi></persName> se<lb/>      
+               Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc><lb/>     
+               Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName><hi rend="uppercase">WASA</hi></persName> bifall ge<lb/>      
+               Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc><lb/>      
+               Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               Och Han<pc type="comma">,</pc> som hvilar lugn i sina mödors graf<pc type="comma">,</pc><lb/>          
+               I skötet af det Verk<pc type="comma">,</pc> hvars framgång han besvurit<pc type="comma">,</pc><lb/>            
+               Med vård af den granit<pc type="comma">,</pc> hans egna händer skurit<pc type="comma">,</pc><lb/>          
+               Skall af en framtid få den lön hans tid ej gaf<pc type="fullStop">.</pc><lb/>            
+               En tid<pc type="comma">,</pc> åt hvilkens gunst han inga offer burit<pc type="comma">,</pc><lb/>            
+               Blott härdig för sitt mål<pc type="comma">,</pc> <pc type="emDash">—</pc> att närma tvenne haf<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               <note xml:id="note2"><hi rend="font-size: smaller;">*) <placeName>Wadstena</placeName> slott.</hi><lb/></note>
+            </p>
+            </div>
+            <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
+            <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+            <metamark function="pagenumber" place="top-center">
+               <hi rend="-">
+                  <num>
+                     7
+                  </num>
+               </hi>
+            </metamark>
+            <p>
+               Du dem förenat<pc type="semiColon">;</pc> <pc type="emDash">—</pc> gå<pc type="comma">,</pc> att gagna när du stiger<pc type="comma">,</pc><lb/>             
+               Du <placeName>Nordens</placeName> ebb och flod<pc type="exclamationMark">!</pc> att gagna i ditt fall<pc type="fullStop">.</pc><lb/>               
+               Bär genom landets bredd en agtad böljas svall<pc type="exclamationMark">!</pc><lb/>              
+               Och dig <persName><hi rend="uppercase">CARL JOHANS</hi></persName> hand åt Häfderna inviger<pc type="fullStop">.</pc> <pc type="emDash">—</pc><lb/>              
+               Blif hafvens Salu-Torg<pc type="comma">,</pc> välmågans nederlag<pc type="exclamationMark">!</pc><lb/>            
+               Och här<pc type="comma">,</pc> vid hafvets port<pc type="comma">,</pc> vår fria hyllning tag<pc type="exclamationMark">!</pc><lb/>            
+               Som du sprängt jordens sköt och klipporna derunder<pc type="comma">,</pc><lb/>           
+               Så <persName>Ehrensvärdska</persName> vapnets dunder <ref target="#note3"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>          
+               Dig helsar med sin röst<pc type="comma">,</pc> vid folkets fest i dag<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               Vid folkets fröjdefest<pc type="comma">,</pc> att se i sina trakter<lb/>             
+               Sin <hi rend="uppercase">KONUNG</hi> och <hi rend="uppercase">HANS ÄTT</hi><pc type="comma">,</pc> mål för sitt trogna hopp<pc type="colon">:</pc><lb/>         
+               En trohet hög och stark<pc type="comma">,</pc> som flodens katarakter<pc type="comma">,</pc><lb/>        
+               Och en förhoppning<pc type="comma">,</pc> trygg som flodens lugna lopp<pc type="fullStop">.</pc><lb/> 
+            </p>
+            <p>
+               <note xml:id="note3"><hi rend="font-size: smaller;">*) Kanon-Slupar, så väl från <placeName>Stockholms</placeName> som <placeName>Götheborgs</placeName> Stationer,<lb/>       
+                  voro beordrade att mötas vid invignings-stället, sedan de, på Cana-<lb/> 
+                  lens hela längd, sålunda genomfarit landet.</hi><lb/></note>
+            </p>
+         </div>
+         </div>
+         <div type="page" facs="#B7-Attonde-sidan-sangtext-och-en-blank-sida">
+         <div type="left"> <!-- Texten är på vänster uppslag i sånghäftet. -->
+         <!-- metamark: Beskriv funktioner som bestämmer hur texten ska läsas. -->
+         <metamark function="pagenumber" place="top-center">
+            <hi rend="-">
+               <num>
+                  8
+               </num>
+            </hi>
+         </metamark>
+            <p>
+               <stage>
+                  <hi rend="bold center">SLUT-CHOR.</hi>
+               </stage>
+            </p>
+         <p>
+            Hell<pc type="comma">,</pc> <placeName>Skandia</placeName><pc type="exclamationMark">!</pc> bryt jorden<pc type="comma">,</pc> bryt bergets malm<pc type="comma">,</pc><lb/>         
+            Der jernet ligger begrafvet<pc type="fullStop">.</pc><lb/>          
+            Smid Lia till gyllene skördars halm<pc type="fullStop">.</pc><lb/>         
+            Plöj våg genom landet till hafvet<pc type="fullStop">.</pc><lb/>         
+            Smid äfven ett Svärd<pc type="comma">,</pc> <pc type="emDash">—</pc> blott att skära en palm<pc type="comma">,</pc><lb/>         
+            På <placeName>Lützen</placeName><pc type="comma">,</pc> på <placeName>Dennewitz-fälten</placeName><lb/>          
+            Till offer åt fridsälla Hjelten<pc type="fullStop">.</pc><lb/> 
+         </p>
+         <p>
+            Må dagens Högtid<pc type="comma">,</pc> från folkprydd strand<pc type="comma">,</pc><lb/>           
+            Genljuda till vårdande <hi rend="uppercase">STÄNDER</hi><pc type="exclamationMark">!</pc><lb/> 
+            Till hvarje vän af vårt fosterland<pc type="comma">,</pc><lb/>            
+            Till Segrarn på <placeName>Motala</placeName> stränder<pc type="semiColon">;</pc><lb/>            
+            Och jublande kalla från Allfaders hand<lb/>            
+            Välsignelse ned öfver <placeName>Norden</placeName><pc type="comma">,</pc><lb/>           
+            Likt regnet på tacksamma jorden<pc type="exclamationMark">!</pc><lb/> 
+         </p>
+         <p>
+            <note type="tryckeri"><placeName>STOCKHOLM</placeName>,<lb/>
+               TRYCKT HOS <orgName>P. A. NORSTEDT &amp; SÖNER</orgName>, <date>1832</date>.<lb/></note> 
+         </p>
+         </div>
+         </div>
+         <div type="page" facs="#B8-Baksida-omslag"/>
+      </body>
+      <back/>
+   </text>
+</TEI>
