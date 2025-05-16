@@ -367,15 +367,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <hi rend="bold center">CHOR.</hi>
                </stage>
             </p>
-            <p>
-               <hi rend="font-size: larger;">D</hi>u bröt dina bojor<pc type="comma">,</pc> du fria Nord<pc type="exclamationMark">!</pc><lb/>
-               De sista<pc type="comma">,</pc> de enda dig tryckte<pc type="colon">:</pc><lb/>
-               De klippor<pc type="comma">,</pc> som stängde din bördiga jord<pc type="comma">,</pc><lb/>
-               De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc><lb/>
-               Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord<lb/>
-               Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc><lb/>
-               Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc><lb/>
-            </p>
+            <lg>
+            <l><hi rend="font-size: larger;">D</hi>u bröt dina bojor<pc type="comma">,</pc> du fria Nord<pc type="exclamationMark">!</pc></l>
+               <l>De sista<pc type="comma">,</pc> de enda dig tryckte<pc type="colon">:</pc></l>
+                  <l>De klippor<pc type="comma">,</pc> som stängde din bördiga jord<pc type="comma">,</pc></l>
+                     <l>De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc></l>
+                        <l>Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord</l>
+                           <l>Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc></l>
+                              <l>Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc></l>
+            </lg>
             <p>Då skyndar den högländta källans språng<lb/>
                Ur hjertat af <placeName>Skandiens</placeName> dalar<pc type="comma">,</pc><lb/>
                Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc><lb/>
