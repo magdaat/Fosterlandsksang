@@ -164,6 +164,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               Texten är i versform och indelad i stycken, där antalet rader varierar per stycke. 
                               Styckena i kolumnen är inte jämnt fördelade utan kan börja längre till vänster eller mer centrerat, vilket skapar en oregelbunden layout.
                               Verserna varierar i radlängd. Några rader är kortare medan andra är längre.
+                              På sidor där fotnoter förekommer, föregås de av en kortare horisontell linje.
+                              På sidan där namnet på tryckeriet förekommer, föregås den av en längre horisontell linje.
+                              En kortare, centrerad, horisontell linje är placerad strax under sångtiteln, före sångtextens början.
                            </p>
                         </layout>
                      </layoutDesc>
@@ -173,6 +176,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <p>
                         Titeln på första och andra uppslaget är tryckt med versaler och är typografiskt varierad.
                         Resten av texten är tryckt med samma serif-typsnitt.
+                        Horisontella linjer med särskild typografisk utformning förekommer i början och slutet av sången.
                      </p>     
                   </decoDesc>
                </physDesc>
@@ -356,7 +360,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <hi rend="different font center">Fosterländsk Sång</hi><lb/>
                <hi rend="uppercase bold center">VID</hi><lb/>
                <hi rend="uppercase bold center">GÖTHA CANALS FULLBORDAN.</hi><lb/>
-               <hi rend="bold center">År 1832.</hi>
+               <date when="1832"><hi rend="uppercase bold">År 1832</hi></date>
             </head>     
             <p>
                <stage>
@@ -410,7 +414,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>
                Mellan berg och brådjup trädd i dagen<pc type="comma">,</pc><lb/>
                <placeName>Nordens</placeName> kraft du speglar i ditt bryn<pc type="comma">,</pc><lb/>
-               Stolta Flod<pc type="exclamationMark">!</pc> ur Sveas fjällbarm dragen<pc type="comma">,</pc><lb/>
+               Stolta Flod<pc type="exclamationMark">!</pc> ur <placeName>Sveas</placeName> fjällbarm dragen<pc type="comma">,</pc><lb/>
                Vintergatan lik<pc type="comma">,</pc> som famnar skyn<pc type="fullStop">.</pc><lb/>
                Ut till hafvet vill din fria bana<pc type="comma">,</pc><lb/>
                Sen du gästat <placeName>Göthers</placeName> blomstergård<pc type="fullStop">.</pc><lb/>
@@ -424,7 +428,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Ser tankens djerfva plan till handling förd omsider<pc type="fullStop">.</pc><lb/>
                Re<pc>'</pc>n Heden-timas Sago-brått<pc type="comma">,</pc><lb/>
                För den som runorna förstått<pc type="comma">,</pc><lb/>
-               Har tydt <placeName>Wafthrudners</placeName> spådoms-anda<pc type="colon">:</pc><lb/>
+               Har tydt <persName>Wafthrudners</persName> spådoms-anda<pc type="colon">:</pc><lb/>
             </p>
             </div>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
@@ -445,7 +449,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                Och konsten af naturen lydas<pc type="fullStop">.</pc><lb/> 
             </p>
             <p>
-               Men <persName><hi rend="uppercase">WASA</hi></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog<lb/>        
+               Men <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog<lb/>        
                Till <placeName>Varge-vad</placeName> och <placeName>Orma-skog</placeName> <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc><lb/>              
                Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc><lb/>              
                Förblöda under lejda händer<pc type="comma">,</pc><lb/>               
@@ -481,14 +485,14 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          </metamark>
          <p>
             I Seklers längd och under stora skiften<pc type="comma">,</pc><lb/>             
-            De två <persName><hi rend="uppercase">GUSTAVER</hi></persName> bott i griften<pc type="comma">,</pc><lb/>           
+            De två <persName><forename><hi rend="uppercase">GUSTAVER</hi></forename></persName> bott i griften<pc type="comma">,</pc><lb/>           
             När Svenska Folket bröt de band<pc type="comma">,</pc><lb/>             
             Som häftat kring dess fosterland<pc type="fullStop">.</pc><lb/>             
             Då flög en tanke<pc type="comma">,</pc> <persName>Mimers</persName> like<pc type="comma">,</pc><lb/>          
             Utöfver <placeName>Svithiods</placeName> hela rike<pc type="colon">:</pc><lb/>           
             Att leda genom dal och lund<lb/>          
             Ett långt<pc type="comma">,</pc> ett lugnt<pc type="comma">,</pc> ett eget Sund<pc type="fullStop">.</pc><lb/>          
-            Från <placeName>Wenerns</placeName> brant till <placeName>Roxens slätter</placeName><pc type="comma">,</pc><lb/>          
+            Från <placeName>Wenerns</placeName> brant till <placeName>Roxens</placeName> slätter<pc type="comma">,</pc><lb/>          
             Ett enda läger sträckes ut<pc type="semiColon">;</pc><lb/>           
             Och krigarn gör ett lyckligt slut<lb/>          
             På <placeName>Nordens</placeName> sista tvist<pc type="comma">,</pc> <pc type="emDash">—</pc> naturens oförrätter<pc type="fullStop">.</pc><lb/>          
@@ -503,7 +507,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             Ger väg åt skeppens fria roder<pc type="fullStop">.</pc><lb/>            
             Ur Vesterns haf<pc type="comma">,</pc> ur Österns sjö<pc type="comma">,</pc><lb/>            
             Emellan <placeName>Skandiens</placeName> dubbel-ö<pc type="comma">,</pc><lb/>            
-            De mötas vid <placeName>Carlsgraf</placeName><pc type="comma">,</pc> på lugn och tryggad bölja<pc type="fullStop">.</pc><lb/>            
+            De mötas vid <placeName>Carlsgraf</placeName><pc type="comma">,</pc> på lugn och tryggad bölja<pc type="fullStop">.</pc><lb/> 
             Så <persName><hi rend="uppercase">CARL DEN TRETTONDES</hi></persName> och Svenske Mäns beslut<pc type="comma">,</pc><lb/>           
             Som af <persName><hi rend="uppercase">CARL JOHANS</hi></persName> kraft till målet fördes ut<pc type="comma">,</pc><lb/>          
             Skall till odödlighet med Carla-namnet följa<pc type="fullStop">.</pc><lb/>
@@ -586,7 +590,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                När denna dag är längst förliden<pc type="fullStop">.</pc><lb/>       
                Då skall från <placeName>Warnhems</placeName> graf den fromme <persName><hi rend="uppercase">INGO</hi></persName> se<lb/>      
                Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc><lb/>     
-               Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName><hi rend="uppercase">WASA</hi></persName> bifall ge<lb/>      
+               Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> bifall ge<lb/>      
                Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc><lb/>      
                Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc><lb/> 
             </p>
