@@ -6,7 +6,7 @@ font-family: "Garamond", "Georgia", "serif";
 body {
 background-color: #F8F8FF;
 width: 100%;
-margin: 0;
+margin: 0; /* ingen marginal på body */
 padding: 5vw; /* Responsiv padding på body */
 overflow-x: hidden;
 text-align: left;
@@ -49,9 +49,9 @@ margin-bottom: 2vw;
 
 article { /* article element finns på index, historia, begrepp  */
 background-color: white;
-padding: 2.5vw; /* Responsiv padding */
+padding: 2.5vw; /* Inrepadding i article elementet */
+margin: 2vw 0; /* vertikal marginal mellan article element */
 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-margin: 0 auto;
 width: 100%;
 }
 
