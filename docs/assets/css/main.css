@@ -361,7 +361,7 @@ size: A4 portrait;
 
 /* Styling för historia */
 .page-historia .container {
-background-color: white !important;
+background-color: white;
 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 width: 100%;
 padding: 2.5vw;
@@ -420,7 +420,7 @@ box-sizing: border-box;
 overflow-x: auto;
 }
 
-.page-begrepp .tabell {
+.page-begrepp .table {
 table-layout: fixed; /* fast layout*/
 border-spacing: 0 2.5vw;
 width: 100%; /* tabellbredd*/
