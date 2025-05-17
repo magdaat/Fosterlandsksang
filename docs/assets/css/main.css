@@ -234,8 +234,9 @@ padding: 0;
 }
 .carousel-control-prev { left: 5px;  /* Vänster pils placering från ytterkant */ }
 .carousel-control-next { right: 5px;  /* Höger pils placering från ytterkant */ }
+
 /* När det är mobil får bilden ta upp 100% av skärmstorleken*/
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 .custom-size { max-width: 100%; /* Gör bilderna större på små skärmar */ }
 }
 
@@ -310,8 +311,8 @@ button:hover {
   }
 }
 
-/* För riktigt smala skärmar: centrera knappen och minska sidopadding? */
-@media (max-width: 600px) {
+/* Små skärmar: centrera knappen och minska sidopadding */
+@media (max-width: 800px) {
   .button-container {
     justify-content: center;
     padding: 1em 4vw;
