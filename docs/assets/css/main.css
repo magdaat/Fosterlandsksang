@@ -314,7 +314,7 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 
 /* För mellanbreda skärmar, flytta in knappen lite */
 @media (max-width : 992px) {
-    .page-sangtext .button-container {
+.page-sangtext .button-container {
         padding-right: 6vw;
     }
 }
@@ -340,14 +340,8 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     footer,
     button,
     .copyright_text {
-        display: none !important; /* Döljer titel, navigering, fot, knappen och copyright-texter vid utskrift */
+    display: none !important; /* Döljer titel, navigering, fot, knappen och copyright-texter vid utskrift */
     }
-}
-
-/* Justera marginaler och typsnitt för bättre utskriftslayout */
-body {
-    margin: 0;
-    font-size: 12pt;
 }
 
 @page {
