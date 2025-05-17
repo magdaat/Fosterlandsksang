@@ -8,9 +8,6 @@ background-color: #F8F8FF;
 height: 100%;
 width: 100%;
 margin: 0;
-display: flex;
-justify-content: center; /* horisontell centrering */
-align-items: center; /* vertikal centrering */
 padding: 5vw; /* Responsiv padding på body */
 overflow-x: hidden;
 text-align: left;
@@ -150,8 +147,8 @@ padding: 3vw; /* mer padding*/
 .footer-content {
 flex-direction: column; /* vertikal layout*/
 align-items: center;
-gap: 1.5vw;
 font-size: 1.5vw;
+gap: 1.5vw;
 }
 
 .copyright_logos img {
@@ -186,7 +183,7 @@ button:hover {
 .row {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
-width: 91.5vw; 
+width: 100vw; 
 gap: 1.5vw;
 margin: 0;
 }
@@ -194,7 +191,7 @@ margin: 0;
 .textbox {
 box-sizing: border-box;
 min-height: 45vw;
-width: 45vw;
+width: 42vw;
 margin: 0;
 padding: 1vw
 }
@@ -285,6 +282,8 @@ padding: 0;
 .container {
 width: 50%; /* textbredd */
 text-align: left;
+justify-content: center;  /* Centrerar horisontellt */
+align-items: center;      /* Centrerar vertikalt */
 margin: 0 auto; /* Centreras */
 }
 
