@@ -304,41 +304,28 @@ button:hover {
   justify-content: flex-end; /* Flyttar innehåll (knappen) till höger */
   padding: 1em 9vw 1em 1em; /* padding-right: 9vw; Flyttar in knappen från kanten */
 }
-/* För mellanbreda skärmar, flytta in knappen lite */
-@media (max-width: 992px) {
-  .button-container {
-    padding-right: 6vw;
-  }
-}
 
 /* Små skärmar: centrera knappen och minska sidopadding */
 @media (max-width: 800px) {
-  .button-container {
-    justify-content: center;
-    padding: 1em 4vw;
-  }
-  button {
-    width: 100%;
-    max-width: 300px;
-  }
+.button-container {
+justify-content: center;
+padding: 1em 4vw;
+}
+button {
+width: 100%;
+max-width: 300px;
+}
 }
 @media print { /* Utskriftsdel */
-  nav,
-  .nav-links,
-  .footer,
-  footer,
-  button,
-  .copyright_text {
-    display: none !important; /* Döljer navigering, fot, knappen och copyright-texter vid utskrift */
-  }
+nav,
+.nav-links,
+.footer,
+footer,
+button,
+.copyright_text {
+display: none !important; /* Döljer navigering, fot, knappen och copyright-texter vid utskrift */
+}
 
-  /* Justera marginaler och typsnitt för bättre utskriftslayout */
-  body {
-    margin: 2cm;
-    font-size: 12pt;
-    color: #000;
-    background: none; /* Tar bort bakgrundsfärger eller bilder */
-  }
 @page {
   size: A4 portrait;
 }
