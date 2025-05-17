@@ -47,14 +47,6 @@ border-bottom: 0.15vw solid #999; /* grå undre list */
 margin-bottom: 2vw;
 }
 
-article { /* article element finns på index, historia, begrepp  */
-background-color: white;
-padding: 2.5vw; /* Inrepadding i article elementet */
-margin: 2vw 0; /* vertikal marginal mellan article element */
-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
-width: 100%;
-}
-
 footer {
 padding: 1.5vw;
 border-top: 0.15vw solid #999; /* grå list */
@@ -159,6 +151,7 @@ margin-bottom: 2vw
 
 
 
+
 /* Styling för index (om projektet) */
 
 /* Styling länkar */
@@ -182,17 +175,20 @@ button:hover {
 .row {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
-width: 91.5vw; 
-gap: 1.5vw;
+width: 100%; 
+gap: 1vw;
 margin: 0;
 }
 
 .textbox {
+background-color: white;
+padding: 2.5vw; /* Inre padding i boxarna */
+margin: 1vw 0; /* vertikal marginal mellan boxarna*/
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 box-sizing: border-box;
 min-height: 45vw;
-width: 45vw;
-margin: 0;
-padding: 1vw
+width: auto;
+flex: 1 1 45%; /* flexbox, rutorna blir smalare om det inte finns utrymme */
 }
 
 /* Mindre skärm, tex mobil, liten platta */
@@ -203,8 +199,7 @@ gap: 2vw;
 }
 .textbox
 {
-width: 90vw;
-min-height: 20vh;
+min-height: 20vw;
 margin-bottom: 2vw;
 }
 }
@@ -277,14 +272,26 @@ padding: 0;
 
 
 /* Styling för sangtext */
-.page-sangtext
-.container {
-width: 50%; /* textbredd */
-text-align: left;
-margin: 0 auto; /* Centreras */
+.page-sangtext .container {
+background-color: white;
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+width: 100%;
+/* Inre padding i containern */
+padding-top: 2.5vw;
+padding-right: 20vw;
+padding-bottom: 2.5vw;
+padding-left: 20vw;
+display: flex; /* flexbox */
+flex-direction: column;
+justify-content: center;
+box-sizing: border-box; 
 }
 
-button { /* Knapp för utskrift */
+.page-sangtext .container > * {
+text-align: left;
+}
+
+.page-sangtext button { /* Knapp för utskrift */
   background-color: #dcdcf2;
   color: #2c2c2c;
   padding: 0.5em 1em;
@@ -292,80 +299,101 @@ button { /* Knapp för utskrift */
   font-family: Georgia, serif;
   cursor: pointer; /* Visar en hand-ikon när man hovrar över knappen */
   margin: 1em 0;
-  border-radius: 4px; /* Rundade hörn - bara något jag testade för att se */
+  border-radius: 4px; /* Rundade hörn */
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #c2c2e0; /* Ändrar bakgrundsfärg när muspekaren är över knappen */
+.page-sangtext button:hover {
+background-color: #c2c2e0; /* Ändrar bakgrundsfärg när muspekaren är över knappen */
 }
-.button-container {
-  display: flex;
-  justify-content: flex-end; /* Flyttar innehåll (knappen) till höger */
-  padding: 1em 9vw 1em 1em; /* padding-right: 9vw; Flyttar in knappen från kanten */
+.page-sangtext .button-container {
+display: flex;
+justify-content: flex-end; /* Flyttar innehåll (knappen) till höger */
+padding: 1em 9vw 1em 1em; /* padding-right: 9vw; Flyttar in knappen från kanten */
 }
+
 /* För mellanbreda skärmar, flytta in knappen lite */
 @media (max-width: 992px) {
-  .button-container {
-    padding-right: 6vw;
-  }
+.page-sangtext .button-container {
+padding-right: 6vw;
+}
 }
 
 /* Små skärmar: centrera knappen och minska sidopadding */
 @media (max-width: 800px) {
-.button-container {
+.page-sangtext .button-container {
 justify-content: center;
 padding: 1em 4vw;
 }
-button {
+
+.page-sangtext button {
 width: 100%;
 max-width: 300px;
 }
 }
-@media print { /* Utskriftsdel */
-  h1, 
-  nav,
-  .nav-links,
-  .footer,
-  footer,
-  button,
-  .copyright_text {
-    display: none !important; /* Döljer titel, navigering, fot, knappen och copyright-texter vid utskrift */
-  }
 
-  /* Justera marginaler och typsnitt för bättre utskriftslayout */
-  body {
-    margin: 2cm;
-    font-size: 12pt;
-    color: #000;
-    background: none; /* Tar bort bakgrundsfärger eller bilder */
-  }
+@media print { /* Utskriftsdel */ 
+h1,
+nav,
+.nav-links,
+.footer,
+footer,
+button,
+.copyright_text {
+display: none !important; /* Döljer titel, navigering, fot, knappen och copyright-texter vid utskrift */
+}
+
+/* Justera marginaler och typsnitt för bättre utskriftslayout */
+body {
+margin: 0;
+font-size: 12pt;
+background: none; /* Tar bort bakgrundsfärger eller bilder */
+}
+
 @page {
-  size: A4 portrait;
+size: A4 portrait;
 }
 
 
+
+
+
 /* Styling för historia */
-.page-historia
-.referenser {
+.page-historia .container {
+background-color: white !important;
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+width: 100%;
+padding: 2.5vw;
+display: flex; /* flexbox */
+flex-direction: column;
+justify-content: center;
+box-sizing: border-box; 
+}
+
+.page-historia .container > * {
+text-align: left;
+}
+
+.page-historia .referenser {
 font-size: 1vw; /* Responsiv textstorlek */
 line-height: 1vw;
 margin-top: 2vw;
 margin-bottom: 2vw;
 }
 
-.image-block {
+.page-historia .image-block {
 text-align: center; /* Centrerar bilden inom sitt block */
 }
 
-.image-block img {
+.page-historia .image-block img {
 display: inline-block; /* Gör att bilden fungerar som inline-element för att centreras */
 max-width: 100%; /* Bilden får max 100% bredd av sin container */
 height: auto; /* Bilden behåller sina proportioner */
 margin-left: auto;
 margin-right: auto;
 }
-.bildtext {
+
+.page-historia .bildtext {
 text-align: left; /* Gör texten vänsterställd */
 font-size: 1vw; /* Responsiv textstorlek */
 line-height: 1.5vw; /* Justerar radavståndet för texten */
@@ -376,29 +404,44 @@ max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker 
 }
 
 
+
+
+
 /* Styling för begrepp */
-.page-begrepp,
-.table {
+.page-begrepp .table-responsive {
+background-color: white !important;
+box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+width: 100%;
+padding: 2.5vw;
+display: flex; /* flexbox */
+flex-direction: column;
+justify-content: center;
+box-sizing: border-box; 
+}
+
+.page-begrepp .table {
     table-layout: fixed; /* fast layout*/
     border-spacing: 0;
     width: 100%; /* tabellbredd*/
 }
 
-p.center-text {
+.page-begrepp .center-text {
    text-align: center;  /* Centrerar texten horisontellt */
 }
 
 /* kolumnbredd */
+.page-begrepp
 .table th:nth-child(1),
 .table td:nth-child(1){
 width: 20%; /* kolumn 1 (begreppen) */
 }
+.page-begrepp
 .table th:nth-child(2),
 .table td:nth-child(2) {
 width: 80%; /* kolumn 2 (förklaring) */
 }
 
-.divider {
+.page-begrepp .divider {
     border-top: 2px solid #808080;  
 }
 }

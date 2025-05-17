@@ -27,10 +27,12 @@
                         /><!-- h1elementet fylls med title från tei-->
                     </h1>
                 </header>
-                <nav role="navigation" aria-label="Huvudmeny"><!-- Navigeringsmeny -->
-                    <a href="index.html">Om projektet</a> | <a href="sanghafte.html">Sånghäfte</a> |
-                        <a href="sangtext.html">Sångtext</a> | <a href="historia.html">Historia</a>
-                    | <a href="begrepp.html">Begrepp</a>
+                <nav aria-label="Huvudnavigering"><!-- Navigeringsmeny -->
+                    <a href="index.html">Om projektet</a> | 
+                    <a href="sanghafte.html">Sånghäfte</a> | 
+                    <a href="sangtext.html">Sångtext</a> | 
+                    <a href="historia.html">Historia</a> | 
+                    <a href="begrepp.html">Begrepp</a>
                 </nav>
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
                 <main id="lyrics">
