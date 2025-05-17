@@ -342,6 +342,7 @@ button,
 .copyright_text {
 display: none !important; /* Döljer titel, navigering, fot, knappen och copyright-texter vid utskrift */
 }
+}
 
 /* Justera marginaler och typsnitt för bättre utskriftslayout */
 body {
@@ -408,40 +409,39 @@ max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker 
 
 
 /* Styling för begrepp */
+
 .page-begrepp .table-responsive {
-background-color: white !important;
+background-color: white;
 box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
 width: 100%;
+/* Inre padding */
 padding: 2.5vw;
-display: flex; /* flexbox */
-flex-direction: column;
-justify-content: center;
-box-sizing: border-box; 
+box-sizing: border-box;
+overflow-x: auto;
 }
 
-.page-begrepp .table {
-    table-layout: fixed; /* fast layout*/
-    border-spacing: 0;
-    width: 100%; /* tabellbredd*/
-}
-
-.page-begrepp .center-text {
-   text-align: center;  /* Centrerar texten horisontellt */
+.page-begrepp .tabell {
+table-layout: fixed; /* fast layout*/
+border-spacing: 0 2.5vw;
+width: 100%; /* tabellbredd*/
 }
 
 /* kolumnbredd */
-.page-begrepp
-.table th:nth-child(1),
-.table td:nth-child(1){
-width: 20%; /* kolumn 1 (begreppen) */
+.page-begrepp .table th:nth-child(1),
+.page-begrepp .table td:nth-child(1) {
+width: 30%; /* kolumn 1 (begreppen) */
+padding: 1vw 0;
 }
-.page-begrepp
-.table th:nth-child(2),
-.table td:nth-child(2) {
-width: 80%; /* kolumn 2 (förklaring) */
+.page-begrepp .table th:nth-child(2),
+.page-begrepp .table td:nth-child(2) {
+width: 60%; /* kolumn 2 (förklaring) */
+word-wrap: break-word;
+}
+
+.page-begrepp .center-text {
+text-align: center;  /* Centrerar texten horisontellt */
 }
 
 .page-begrepp .divider {
-    border-top: 2px solid #808080;  
-}
+border-top: 2px solid #808080;  
 }
