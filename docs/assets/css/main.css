@@ -316,6 +316,7 @@ max-width: 300px;
 }
 }
 @media print { /* Utskriftsdel */
+.title
 nav,
 .nav-links,
 .footer,
