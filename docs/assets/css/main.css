@@ -108,35 +108,35 @@ a:focus, button:focus, input:focus, textarea:focus {
 }
 
 
+
 /* Mindre skärm, tex mobil, liten platta */
 @media (max-width: 800px) {
 body {
 padding: 2.5vw; /* mindre reponsiv padding på liten skärm*/
 font-size: 3vw; /* större text på liten skärm */
-line-height: 3em; /* större radavstånd på liten skärm */
 }
 
 h1 {
-font-size: 6vw; /* större text på liten skärm */
+font-size: 4.5vw; /* större text på liten skärm */
 }
 
 h2 {
-font-size: 5vw; /* större text på liten skärm */
+font-size: 3.75vw; /* större text på liten skärm */
 margin-bottom: 0.5vw; /* mindre marginal på liten skärm */
 }
 
 h3 {
-font-size: 4vw; /* större text på liten skärm */
-font-weight: bold; 
-}
-
-h4 {
 font-size: 3vw; /* större text på liten skärm */
 }
 
+h4 {
+font-size: 2.25vw; /* större text på liten skärm */
+}
+
 nav { /* länkarna till webbplatsens olika sidor */
+flex-direction: column; /* vertikal layout*/
 gap: 0.5vw; /* Mellanrum mellan länkarna */
-font-size: 3.5vw; /* Responsiv textstorlek */
+font-size: 2.5vw; /* Responsiv textstorlek */
 padding: 0.5vw;
 margin-bottom: 0.5vw;
 }
