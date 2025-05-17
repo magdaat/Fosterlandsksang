@@ -151,6 +151,7 @@ padding: 3vw; /* mer padding*/
 flex-direction: column; /* vertikal layout*/
 align-items: center;
 gap: 1.5vw;
+font-size: 1.5vw;
 }
 
 .copyright_logos img {
