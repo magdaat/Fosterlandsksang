@@ -98,8 +98,49 @@ opacity: 0.8;
 transform: scale(1.05);
 }
 
-/* mobilskärm */
-@media (max-width: 600px) {
+/* Styling för element när de får fokus  - när användaren klickar på en länk, knapp etc.*/
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: none;  /* Tar bort standard konturfärgen runt fokuserade element */
+    outline-offset: 2px; /* Sätter ett avstånd mellan elementet och den borttagna outline-konturen */
+    box-shadow: 0 0 3px 2px rgba(0, 102, 204, 0.6); /* Skugga runt elementet för att indikera fokus - bra för navigering via tagentbordet & adnra hjälpmedel */
+    background-color: #e6e6fa;   /* Ljusblå bakgrund för fokus */
+    color: #003366;               /* Mörk textfärg för kontrast */
+}
+
+
+/* Mindre skärm, tex mobil, liten platta */
+@media (max-width: 800px) {
+body {
+padding: 2.5vw; /* mindre reponsiv padding på liten skärm*/
+font-size: 3vw; /* större text på liten skärm */
+line-height: 3em; /* större radavstånd på liten skärm */
+}
+
+h1 {
+font-size: 6vw; /* större text på liten skärm */
+}
+
+h2 {
+font-size: 5vw; /* större text på liten skärm */
+margin-bottom: 0.5vw; /* mindre marginal på liten skärm */
+}
+
+h3 {
+font-size: 4vw; /* större text på liten skärm */
+font-weight: bold; 
+}
+
+h4 {
+font-size: 3vw; /* större text på liten skärm */
+}
+
+nav { /* länkarna till webbplatsens olika sidor */
+gap: 0.5vw; /* Mellanrum mellan länkarna */
+font-size: 3.5vw; /* Responsiv textstorlek */
+padding: 0.5vw;
+margin-bottom: 0.5vw;
+}
+
 footer {
 padding: 3vw; /* mer padding*/
 font-size: 3vw; /* större text*/
@@ -116,14 +157,8 @@ margin-right: 0
 }
 }
 
-/* Styling för element när de får fokus  - när användaren klickar på en länk, knapp etc.*/
-a:focus, button:focus, input:focus, textarea:focus {
-    outline: none;  /* Tar bort standard konturfärgen runt fokuserade element */
-    outline-offset: 2px; /* Sätter ett avstånd mellan elementet och den borttagna outline-konturen */
-    box-shadow: 0 0 3px 2px rgba(0, 102, 204, 0.6); /* Skugga runt elementet för att indikera fokus - bra för navigering via tagentbordet & adnra hjälpmedel */
-    background-color: #e6e6fa;   /* Ljusblå bakgrund för fokus */
-    color: #003366;               /* Mörk textfärg för kontrast */
-}
+
+
 
 /* Styling för index (om projektet) */
 
@@ -162,22 +197,16 @@ padding: 1vw
 }
 
 /* Mindre skärm, tex mobil, liten platta */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+.row {
+flex-direction: column;
+gap: 2vw;
+}
 .textbox
 {
-min-height: 48vh;
-width: 98vw;
-}
-}
-
-/* Större skärm, tex platta, laptop*/
-@media (min-width: 601px){
-.textbox {
-box-sizing: border-box;
-min-height: 45vw;
-width: 45vw;
-margin: 0;
-padding: 1vw
+width: 90vw;
+min-height: 20vh;
+margin-bottom: 2vw;
 }
 }
 
