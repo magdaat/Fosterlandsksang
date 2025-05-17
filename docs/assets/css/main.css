@@ -141,7 +141,7 @@ margin-bottom: 0.5vw;
 
 footer {
 padding: 3vw; /* mer padding*/
-font-size: 3vw; /* större text*/
+font-size: 1.5vw;
 }
 
 .footer-content {
@@ -182,7 +182,7 @@ button:hover {
 .row {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
-width: 100vw; 
+width: 91.5vw; 
 gap: 1.5vw;
 margin: 0;
 }
@@ -323,6 +323,7 @@ max-width: 300px;
 }
 }
 @media print { /* Utskriftsdel */
+  title, 
   nav,
   .nav-links,
   .footer,
