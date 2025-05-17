@@ -186,7 +186,7 @@ button:hover {
 .row {
 display: flex;
 flex-wrap: wrap; /* för fyrfältare*/
-width: 100vw; 
+width: 91.5vw; 
 gap: 1.5vw;
 margin: 0;
 }
@@ -321,7 +321,7 @@ max-width: 300px;
 }
 }
 @media print { /* Utskriftsdel */
-.title
+title,
 nav,
 .nav-links,
 .footer,
