@@ -163,7 +163,7 @@ button:hover {
 /* Styling listor */
 .page-index .nav-links li {
     list-style: none; /* Ingen formatering */
-    margin: 1vw 0px 1vw 0px;
+    margin: 0.5vw 0px 0.5vw 0px;
 }
 
 /* Styling textrutor */
@@ -357,7 +357,11 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     background-color: white;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
-    padding: 2.5vw;
+    /* Inre padding i containern */
+    padding-top: 2.5vw;
+    padding-right: 5vw;
+    padding-bottom: 2.5vw;
+    padding-left: 5vw;
     display: flex; /* flexbox */
     flex-direction: column;
     justify-content: center;
@@ -408,7 +412,10 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
     /* Inre padding */
-    padding: 2.5vw;
+    padding-top: 2.5vw;
+    padding-right: 5vw;
+    padding-bottom: 2.5vw;
+    padding-left: 5vw;
     box-sizing: border-box;
     overflow-x: auto;
 }
