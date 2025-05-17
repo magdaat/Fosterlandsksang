@@ -5,8 +5,12 @@ font-family: "Garamond", "Georgia", "serif";
 
 body {
 background-color: #F8F8FF;
+height: 100%;
 width: 100%;
 margin: 0;
+display: flex;
+justify-content: center; /* horisontell centrering */
+align-items: center; /* vertikal centrering */
 padding: 5vw; /* Responsiv padding på body */
 overflow-x: hidden;
 text-align: left;
