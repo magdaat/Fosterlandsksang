@@ -323,14 +323,14 @@ max-width: 300px;
 }
 }
 @media print { /* Utskriftsdel */
-  title, 
+  .title, 
   nav,
   .nav-links,
   .footer,
   footer,
   button,
   .copyright_text {
-    display: none !important; /* Döljer navigering, fot, knappen och copyright-texter vid utskrift */
+    display: none !important; /* Döljer titel, navigering, fot, knappen och copyright-texter vid utskrift */
   }
 
   /* Justera marginaler och typsnitt för bättre utskriftslayout */
