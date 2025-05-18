@@ -370,20 +370,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <lg>
             <l><hi rend="font-size: larger;">D</hi>u bröt dina bojor<pc type="comma">,</pc> du fria Nord<pc type="exclamationMark">!</pc></l>
                <l>De sista<pc type="comma">,</pc> de enda dig tryckte<pc type="colon">:</pc></l>
-                  <l>De klippor<pc type="comma">,</pc> som stängde din bördiga jord<pc type="comma">,</pc></l>
-                     <l>De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc></l>
-                        <l>Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord</l>
-                           <l>Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc></l>
-                              <l>Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc></l>
+               <l>De klippor<pc type="comma">,</pc> som stängde din bördiga jord<pc type="comma">,</pc></l>
+               <l>De fjäll<pc type="comma">,</pc> som begränsat ditt rykte<pc type="fullStop">.</pc></l>
+               <l>Nu leder du<pc type="comma">,</pc> fridsam<pc type="comma">,</pc> den vestliga fjord</l>
+               <l>Till fjärdarna inanför <placeName>Bälten</placeName><pc type="comma">,</pc></l>
+               <l>Att helsas af Konunga-Hjelten<pc type="fullStop">.</pc></l>
             </lg>
-            <p>Då skyndar den högländta källans språng<lb/>
-               Ur hjertat af <placeName>Skandiens</placeName> dalar<pc type="comma">,</pc><lb/>
-               Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc><lb/>
-               Om inlandets trefnad hon talar<pc type="semiColon">;</pc><lb/>
-               Der Odlarn och Bergsmannen höja sin sång<lb/>
-               Och Krigarne sjunga i tälten<pc type="comma">,</pc><lb/>
-               Till ära för segrande Hjelten<pc type="fullStop">.</pc><lb/>
-            </p>
+            <lg>
+               <l>Då skyndar den högländta källans språng</l>
+               <l>Ur hjertat af <placeName>Skandiens</placeName> dalar<pc type="comma">,</pc></l>
+                  <l>Och<pc type="comma">,</pc> mötande salta vågens gång<pc type="comma">,</pc></l>
+                     <l>Om inlandets trefnad hon talar<pc type="semiColon">;</pc></l>
+                        <l>Der Odlarn och Bergsmannen höja sin sång</l>
+                           <l>Och Krigarne sjunga i tälten<pc type="comma">,</pc></l>
+                              <l>Till ära för segrande Hjelten<pc type="fullStop">.</pc></l>
+            </lg>
          </div>
          </div>
          <div type="page" facs="#B4-Sangtext-sida-tva-tre_full">
