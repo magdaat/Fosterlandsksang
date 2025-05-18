@@ -128,7 +128,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <!-- (physDesc) Beskrivning av hur objektet ser ut. (TEI guidelines) -->
                <physDesc>
                   <objectDesc form="codex"> <!-- codex = strukturerad som en bok och består därför av flera blad. -->
-                     <supportDesc material="papper">
+                     <supportDesc material="paper">
                         <support>
                            <p>
                               <material>Papper</material> Omslaget, det vill säga häftets fram- och baksida, har en tydlig orange ton som skiljer sig från det inre innehållets neutrala men gulnande färg.
@@ -167,6 +167,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               På sidor där fotnoter förekommer, föregås de av en kortare horisontell linje.
                               På sidan där namnet på tryckeriet förekommer, föregås den av en längre horisontell linje.
                               En kortare, centrerad, horisontell linje är placerad strax under sångtiteln, före sångtextens början.
+                              Fåtalet ord i sångtexten är skrivna med längre mellanrum mellan bokstäverna.
                            </p>
                         </layout>
                      </layoutDesc>
@@ -183,6 +184,16 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <!--(encoding description)taxonomi för persName (TEI guidelines) -->
+      <encodingDesc>
+      <projectDesc>
+         <p>
+            I detta projekt används elementet <gi>persName</gi> för att ange personkategori. I de flesta av elementen <gi>placeName</gi> används attributet <att>type</att>. Följande värden för attributet förekommer:
+            mythological = används för att markera mytologiska gestalter.
+            monarch = används för att markera en kung som regerat över ett rike. 
+         </p>
+      </projectDesc>
+      </encodingDesc>
       <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
       <profileDesc>
          <!-- (language usage) beskriv textens språk och underspråk (TEI guidelines) -->
@@ -454,7 +465,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Ser tankens djerfva plan till handling förd omsider<pc type="fullStop">.</pc></l>
                   <l>Re<pc>'</pc>n Heden-timas Sago-brått<pc type="comma">,</pc></l>
                   <l>För den som runorna förstått<pc type="comma">,</pc></l>
-                  <l>Har tydt <persName>Wafthrudners</persName> spådoms-anda<pc type="colon">:</pc></l>
+                  <l>Har tydt <persName type="mythological">Wafthrudners</persName> spådoms-anda<pc type="colon">:</pc></l>
                </lg>
             </div>
             <div type="right"> <!-- Texten är på höger uppslag i sånghäftet. -->
@@ -475,7 +486,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Och konsten af naturen lydas<pc type="fullStop">.</pc></l> 
                </lg>
                <lg>
-                  <l>Men <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog</l>       
+                  <l>Men <persName type="monarch"><surname><hi rend="uppercase">WASA</hi></surname></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog</l>       
                   <l>Till <placeName>Varge-vad</placeName> och <placeName>Orma-skog</placeName> <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc></l>              
                   <l>Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc></l>             
                   <l>Förblöda under lejda händer<pc type="comma">,</pc></l>              
@@ -489,7 +500,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Nog för sig sjelf<pc type="fullStop">.</pc></l> 
                </lg>
                <lg>
-                  <l>Och <persName><hi rend="uppercase">GUSTAF ADOLF</hi></persName><pc type="comma">,</pc> sänd att <placeName>Nordens</placeName> hopp bevaka<pc type="comma">,</pc></l>       
+                  <l>Och <persName type="monarch"><hi rend="uppercase">GUSTAF ADOLF</hi></persName><pc type="comma">,</pc> sänd att <placeName>Nordens</placeName> hopp bevaka<pc type="comma">,</pc></l>       
                   <l>Beslöt<pc type="comma">,</pc> förrän han föll i sina Segrars glans<pc type="comma">,</pc></l>            
                   <l>Att ge åt <placeName>Sverges</placeName> Haf dess skattfrihet tillbaka<pc type="comma">,</pc></l>           
                   <l>Och sluta ett fördrag som ej med svärdet vanns<pc type="fullStop">.</pc></l>
@@ -514,7 +525,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <l>De två <persName><forename><hi rend="uppercase">GUSTAVER</hi></forename></persName> bott i griften<pc type="comma">,</pc></l> 
                <l>När Svenska Folket bröt de band<pc type="comma">,</pc></l>              
                <l>Som häftat kring dess fosterland<pc type="fullStop">.</pc></l>             
-               <l>Då flög en tanke<pc type="comma">,</pc> <persName>Mimers</persName> like<pc type="comma">,</pc></l>          
+               <l>Då flög en tanke<pc type="comma">,</pc> <persName type="mythological">Mimers</persName> like<pc type="comma">,</pc></l>          
                <l>Utöfver <placeName>Svithiods</placeName> hela rike<pc type="colon">:</pc></l>           
                <l>Att leda genom dal och lund</l>          
                <l>Ett långt<pc type="comma">,</pc> ett lugnt<pc type="comma">,</pc> ett eget Sund<pc type="fullStop">.</pc></l>          
@@ -534,8 +545,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <l>Ur Vesterns haf<pc type="comma">,</pc> ur Österns sjö<pc type="comma">,</pc></l>            
                <l>Emellan <placeName>Skandiens</placeName> dubbel-ö<pc type="comma">,</pc></l>             
                <l>De mötas vid <placeName>Carlsgraf</placeName><pc type="comma">,</pc> på lugn och tryggad bölja<pc type="fullStop">.</pc></l> 
-               <l>Så <persName><hi rend="uppercase">CARL DEN TRETTONDES</hi></persName> och Svenske Mäns beslut<pc type="comma">,</pc></l>      
-               <l>Som af <persName><hi rend="uppercase">CARL JOHANS</hi></persName> kraft till målet fördes ut<pc type="comma">,</pc></l>       
+               <l>Så <persName type="monarch"><hi rend="uppercase">CARL DEN TRETTONDES</hi></persName> och Svenske Mäns beslut<pc type="comma">,</pc></l>      
+               <l>Som af <persName type="monarch"><hi rend="uppercase">CARL JOHANS</hi></persName> kraft till målet fördes ut<pc type="comma">,</pc></l>       
                <l>Skall till odödlighet med Carla-namnet följa<pc type="fullStop">.</pc></l> 
             </lg>
          </div>
@@ -616,9 +627,9 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Bekransa stränderna af <placeName>Göthers</placeName> jätte-flod<pc type="semiColon">;</pc></l>       
                   <l>Och våra ättlingar besjunga konstens mod<pc type="comma">,</pc></l>      
                   <l>När denna dag är längst förliden<pc type="fullStop">.</pc></l>      
-                  <l>Då skall från <placeName>Warnhems</placeName> graf den fromme <persName><hi rend="uppercase">INGO</hi></persName> se</l>   
+                  <l>Då skall från <placeName>Warnhems</placeName> graf den fromme <persName type="monarch"><hi rend="uppercase">INGO</hi></persName> se</l>   
                   <l>Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc></l>    
-                  <l>Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName><surname><hi rend="uppercase">WASA</hi></surname></persName> bifall ge</l>     
+                  <l>Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName type="monarch"><surname><hi rend="uppercase">WASA</hi></surname></persName> bifall ge</l>     
                   <l>Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc></l>      
                   <l>Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc></l>
                </lg>
@@ -647,7 +658,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Du dem förenat<pc type="semiColon">;</pc> <pc type="emDash">—</pc> gå<pc type="comma">,</pc> att gagna när du stiger<pc type="comma">,</pc></l>             
                   <l>Du <placeName>Nordens</placeName> ebb och flod<pc type="exclamationMark">!</pc> att gagna i ditt fall<pc type="fullStop">.</pc></l>               
                   <l>Bär genom landets bredd en agtad böljas svall<pc type="exclamationMark">!</pc></l>              
-                  <l>Och dig <persName><hi rend="uppercase">CARL JOHANS</hi></persName> hand åt Häfderna inviger<pc type="fullStop">.</pc> <pc type="emDash">—</pc></l>              
+                  <l>Och dig <persName type="monarch"><hi rend="uppercase">CARL JOHANS</hi></persName> hand åt Häfderna inviger<pc type="fullStop">.</pc> <pc type="emDash">—</pc></l>              
                   <l>Blif hafvens Salu-Torg<pc type="comma">,</pc> välmågans nederlag<pc type="exclamationMark">!</pc></l>           
                   <l>Och här<pc type="comma">,</pc> vid hafvets port<pc type="comma">,</pc> vår fria hyllning tag<pc type="exclamationMark">!</pc></l>            
                   <l>Som du sprängt jordens sköt och klipporna derunder<pc type="comma">,</pc></l>           
