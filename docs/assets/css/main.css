@@ -276,7 +276,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     background-color: white;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
-    /* Inre padding i containern */
     padding: 2.5vw;
     display: flex; /* flexbox */
     flex-direction: column;
