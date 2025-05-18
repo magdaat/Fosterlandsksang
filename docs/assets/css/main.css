@@ -277,10 +277,7 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
     /* Inre padding i containern */
-    padding-top: 2.5vw;
-    padding-right: 1.5vw;
-    padding-bottom: 2.5vw;
-    padding-left: 25vw;
+    padding: 2.5vw;
     display: flex; /* flexbox */
     flex-direction: column;
     justify-content: center;
