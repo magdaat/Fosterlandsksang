@@ -278,9 +278,9 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     width: 100%;
     /* Inre padding i containern */
     padding-top: 2.5vw;
-    padding-right: 15vw;
+    padding-right: 1.5vw;
     padding-bottom: 2.5vw;
-    padding-left: 15vw;
+    padding-left: 25vw;
     display: flex; /* flexbox */
     flex-direction: column;
     justify-content: center;
@@ -321,12 +321,50 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 
 /* Små skärmar: centrera knappen och minska sidopadding */
 @media (max-width : 800px) {
-    .page-sangtext .button-container {
+.page-sangtext body {
+        font-size: 2vw; /* större text på liten skärm */
+    }
+
+.page-sangtext h1 {
+        font-size: 4.5vw; /* större text på liten skärm */
+    }
+
+.page-sangtext h2 {
+        font-size: 3.75vw; /* större text på liten skärm */
+    }
+
+.page-sangtext h3 {
+        font-size: 3vw; /* större text på liten skärm */
+    }
+
+.page-sangtext h4 {
+        font-size: 2.25vw; /* större text på liten skärm */
+    }
+
+.page-sangtext nav { /* länkarna till webbplatsens olika sidor */
+        gap: 1vw; /* Mellanrum mellan länkarna */
+        font-size: 2.5vw; /* Responsiv textstorlek */
+    }
+
+.page-sangtext footer {
+        font-size: 1.5vw;
+    }
+
+.page-sangtext .footer-content {
+        flex-direction: column; /* vertikal layout*/
+        align-items: center;
+    }
+
+.page-sangtext .copyright_logos img {
+        height: 4vw; /* Större bilder på små skärmar */
+    }
+
+.page-sangtext .button-container {
         justify-content: center;
         padding: 1em 4vw;
     }
 
-    .page-sangtext button {
+.page-sangtext button {
         width: 100%;
         max-width: 300px;
     }
