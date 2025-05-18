@@ -27,10 +27,12 @@
                         /><!-- h1elementet fylls med title från tei-->
                     </h1>
                 </header>
-                <nav><!-- Navigeringsmeny -->
-                    <a href="index.html">Om projektet</a> | <a href="sanghafte.html">Sånghäfte</a> |
-                        <a href="sangtext.html">Sångtext</a> | <a href="historia.html">Historia</a>
-                    | <a href="begrepp.html">Begrepp</a>
+                <nav aria-label="Huvudnavigering"><!-- Navigeringsmeny -->
+                    <a href="index.html">Om projektet</a> | 
+                    <a href="sanghafte.html">Sånghäfte</a> | 
+                    <a href="sangtext.html">Sångtext</a> | 
+                    <a href="historia.html">Historia</a> | 
+                    <a href="begrepp.html">Begrepp</a>
                 </nav>
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
                 <main id="lyrics">
@@ -44,9 +46,12 @@
                                 </div>
                             </xsl:for-each>
                         </div>
+                        <div class="button-container">
+                            <button onclick="window.print()" aria-label="Skriv ut sidan">Skriv ut texten</button><!--utskriftsknapp -->
+                        </div>
                     </article>
                 </main>
-                <footer><!-- innehåller upphovsrättsinformation och länk till licens -->
+                <footer role="contentinfo"><!-- innehåller upphovsrättsinformation och länk till licens -->
                     <div class="footer-row">
                         <div class="footer-content">
                             <div class="copyright_logos">
@@ -62,13 +67,6 @@
                         </div>
                     </div>
                 </footer>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                    crossorigin="anonymous"></script>
-                <div type="page" facs="#B8-Baksida-omslag"/>
-                <div class="button-container">
-                    <button onclick="window.print()">Skriv ut texten</button><!--utskriftsknapp -->
-                </div>
             </body>
         </html>
     </xsl:template>
@@ -81,19 +79,30 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
+    <xsl:template match="tei:p"><!-- tei p ska vara html p -->
+        <p>
+            <xsl:apply-templates/>
+        </p> 
+    </xsl:template>
     <xsl:template match="tei:lg"><!-- tei lg ska vara html p -->
         <p>
             <xsl:apply-templates/>
         </p> 
     </xsl:template>
+    <xsl:template match="tei:lb"><!-- tei lb ska vara html br -->
+        <br/>
+    </xsl:template>
     <xsl:template match="tei:l"><!-- tei l ska vara html br -->
+        <xsl:apply-templates/>
         <br/>
     </xsl:template>
     <xsl:template match="text()"><!-- textnoder utom element i XML till HTML -->
         <xsl:value-of select="."/>
     </xsl:template>
     <xsl:template match="tei:metamark[@place]"><!-- tei metamark med attribut @place ska vara html span med specificerad css och textsträng Sid. -->
-        <span style="position:absolute ; left:-3em"> Sid. <xsl:apply-templates/>
+        <span style="position:absolute ; left:-3em">
+            Sid.
+            <xsl:apply-templates/>
         </span>
     </xsl:template>
 </xsl:stylesheet>
