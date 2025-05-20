@@ -184,15 +184,21 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <!--(encoding description)taxonomi för persName (TEI guidelines) -->
-      <encodingDesc>
-      <projectDesc>
-         <p>
-            I detta projekt används elementet <gi>persName</gi> för att ange personkategori. I de flesta av elementen <gi>placeName</gi> används attributet <att>type</att>. Följande värden för attributet förekommer:
-            mythological = används för att markera mytologiska gestalter.
-            monarch = används för att markera en kung som regerat över ett rike. 
-         </p>
-      </projectDesc>
+      <encodingDesc> 
+         <!--(editorial practice declaration) beskrivning av hur texten är uppmärkt (TEI guidelines) -->
+         <editorialDecl>
+            <p>
+               Interpunktion, versrader och versstycken markeras i texten för att bevara textens ursprungliga struktur och ge vägledning vid framförande, särskilt gällande rytm och semantik.
+               Typografiska avvikelser, såsom versaler eller ändrad textstorlek på bokstäver och ord, markeras för att spegla originalets visuella utformning.
+               Elementet <gi>placeName</gi> används för att markera ord som refererar till en plats, vilket hjälper till att sätta innehållet i ett kontextuellt sammanhang.
+               Elementet <gi>persName</gi> används för att ange en personkategori, vilket gör det möjligt att sätta innehållet i texten i ett kontextuellt sammanhang.
+               I de flesta av elementen <gi>persName</gi> används attributet <att>type</att>. Följande värden för attributet förekommer:
+               <list>
+                  <item>mythological = används för att markera mytologiska gestalter</item>
+                  <item>monarch = används för att markera en kung som har regerat över ett rike</item>
+               </list>
+            </p>
+         </editorialDecl>
       </encodingDesc>
       <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
       <profileDesc>
@@ -486,7 +492,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>Och konsten af naturen lydas<pc type="fullStop">.</pc></l> 
                </lg>
                <lg>
-                  <l>Men <persName type="monarch"><surname><hi rend="uppercase">WASA</hi></surname></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog</l>       
+                  <l>Men <persName type="monarch"><hi rend="uppercase">WASA</hi></persName> det förstod<pc type="comma">,</pc> när han<pc type="comma">,</pc> som fridlös<pc type="comma">,</pc> drog</l>       
                   <l>Till <placeName>Varge-vad</placeName> och <placeName>Orma-skog</placeName> <ref target="#note1"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref><pc type="comma">,</pc></l>              
                   <l>Och såg sitt fosterland<pc type="comma">,</pc> af våldet på dess stränder<pc type="comma">,</pc></l>             
                   <l>Förblöda under lejda händer<pc type="comma">,</pc></l>              
@@ -525,7 +531,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <l>De två <persName><forename><hi rend="uppercase">GUSTAVER</hi></forename></persName> bott i griften<pc type="comma">,</pc></l> 
                <l>När Svenska Folket bröt de band<pc type="comma">,</pc></l>              
                <l>Som häftat kring dess fosterland<pc type="fullStop">.</pc></l>             
-               <l>Då flög en tanke<pc type="comma">,</pc> <persName type="mythological">Mimers</persName> like<pc type="comma">,</pc></l>          
+               <l>Då flög en tanke<pc type="comma">,</pc> <persName type="mythological">Mimers</persName> like<pc type="comma">,</pc></l> 
                <l>Utöfver <placeName>Svithiods</placeName> hela rike<pc type="colon">:</pc></l>           
                <l>Att leda genom dal och lund</l>          
                <l>Ett långt<pc type="comma">,</pc> ett lugnt<pc type="comma">,</pc> ett eget Sund<pc type="fullStop">.</pc></l>          
@@ -629,7 +635,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <l>När denna dag är längst förliden<pc type="fullStop">.</pc></l>      
                   <l>Då skall från <placeName>Warnhems</placeName> graf den fromme <persName type="monarch"><hi rend="uppercase">INGO</hi></persName> se</l>   
                   <l>Sin fordna öde slätt beprydd med skörd och hydda<pc type="comma">,</pc></l>    
-                  <l>Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName type="monarch"><surname><hi rend="uppercase">WASA</hi></surname></persName> bifall ge</l>     
+                  <l>Och från sitt Riddar-slott<ref target="#note2"><pc type="asterisk">*</pc><pc type="closeParenthesis">)</pc></ref> skall <persName type="monarch"><hi rend="uppercase">WASA</hi></persName> bifall ge</l>     
                   <l>Till andra strandens Borg<pc type="colon">:</pc> <pc type="emDash">—</pc> två minnen<pc type="comma">,</pc> frejdade<pc type="comma">,</pc></l>      
                   <l>Af tid som inne är<pc type="comma">,</pc> af tider redan flydda<pc type="fullStop">.</pc></l>
                </lg>
