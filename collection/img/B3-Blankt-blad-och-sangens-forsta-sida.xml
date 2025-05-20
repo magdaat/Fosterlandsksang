@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+
+<rdf:Description rdf:about='C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img/B3-Blankt-blad-och-sangens-forsta-sida.tiff'
+  xmlns:et='http://ns.exiftool.org/1.0/' et:toolkit='Image::ExifTool 13.29'
+  xmlns:ExifTool='http://ns.exiftool.org/ExifTool/1.0/'
+  xmlns:System='http://ns.exiftool.org/File/System/1.0/'
+  xmlns:File='http://ns.exiftool.org/File/1.0/'
+  xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
+  xmlns:XMP-x='http://ns.exiftool.org/XMP/XMP-x/1.0/'
+  xmlns:XMP-photoshop='http://ns.exiftool.org/XMP/XMP-photoshop/1.0/'
+  xmlns:XMP-xmpRights='http://ns.exiftool.org/XMP/XMP-xmpRights/1.0/'
+  xmlns:XMP-xmp='http://ns.exiftool.org/XMP/XMP-xmp/1.0/'
+  xmlns:XMP-xmpMM='http://ns.exiftool.org/XMP/XMP-xmpMM/1.0/'
+  xmlns:XMP-dc='http://ns.exiftool.org/XMP/XMP-dc/1.0/'
+  xmlns:XMP-iptcCore='http://ns.exiftool.org/XMP/XMP-iptcCore/1.0/'
+  xmlns:IPTC='http://ns.exiftool.org/IPTC/IPTC/1.0/'
+  xmlns:Photoshop='http://ns.exiftool.org/Photoshop/Photoshop/1.0/'
+  xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
+ <ExifTool:ExifToolVersion>13.29</ExifTool:ExifToolVersion>
+ <System:FileName>B3-Blankt-blad-och-sangens-forsta-sida.tiff</System:FileName>
+ <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img</System:Directory>
+ <System:FileSize>6.4 MB</System:FileSize>
+ <System:FileModifyDate>2025:05:20 22:46:12+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:20 22:50:13+02:00</System:FileAccessDate>
+ <System:FileCreateDate>2025:04:23 11:40:51+02:00</System:FileCreateDate>
+ <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
+ <File:FileType>TIFF</File:FileType>
+ <File:FileTypeExtension>tif</File:FileTypeExtension>
+ <File:MIMEType>image/tiff</File:MIMEType>
+ <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
+ <File:CurrentIPTCDigest>35557ce31a23678701818c9e0ce1b0d2</File:CurrentIPTCDigest>
+ <File:PageCount>2</File:PageCount>
+ <IFD0:SubfileType>Single page of multi-page image</IFD0:SubfileType>
+ <IFD0:OldSubfileType>Single page of multi-page image</IFD0:OldSubfileType>
+ <IFD0:ImageWidth>6616</IFD0:ImageWidth>
+ <IFD0:ImageHeight>4677</IFD0:ImageHeight>
+ <IFD0:BitsPerSample>1</IFD0:BitsPerSample>
+ <IFD0:Compression>T6/Group 4 Fax</IFD0:Compression>
+ <IFD0:PhotometricInterpretation>WhiteIsZero</IFD0:PhotometricInterpretation>
+ <IFD0:Thresholding>No dithering or halftoning</IFD0:Thresholding>
+ <IFD0:FillOrder>Reversed</IFD0:FillOrder>
+ <IFD0:ImageDescription>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IFD0:ImageDescription>
+ <IFD0:Make>RICOH</IFD0:Make>
+ <IFD0:StripOffsets>300</IFD0:StripOffsets>
+ <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
+ <IFD0:SamplesPerPixel>1</IFD0:SamplesPerPixel>
+ <IFD0:RowsPerStrip>4677</IFD0:RowsPerStrip>
+ <IFD0:StripByteCounts>6371239</IFD0:StripByteCounts>
+ <IFD0:MinSampleValue>0</IFD0:MinSampleValue>
+ <IFD0:MaxSampleValue>1</IFD0:MaxSampleValue>
+ <IFD0:XResolution>400</IFD0:XResolution>
+ <IFD0:YResolution>400</IFD0:YResolution>
+ <IFD0:T6Options>(none)</IFD0:T6Options>
+ <IFD0:ResolutionUnit>inches</IFD0:ResolutionUnit>
+ <IFD0:PageNumber>0 1</IFD0:PageNumber>
+ <IFD0:Artist>Marie Gyll; Jessica Hultengren; Susanne Landén; Magdalena af Trolle.</IFD0:Artist>
+ <IFD0:Copyright>CC BY (version 4.0)</IFD0:Copyright>
+ <XMP-x:XMPToolkit>Adobe XMP Core 9.1-c002 165.59ab891, 2024/09/18-09:57:10        </XMP-x:XMPToolkit>
+ <XMP-photoshop:Headline>Andra uppslaget, blankt blad och sångens första sida.</XMP-photoshop:Headline>
+ <XMP-photoshop:Source>Fosterländsk sång vid Götha Canals öpnande, 1832</XMP-photoshop:Source>
+ <XMP-xmpRights:Marked>True</XMP-xmpRights:Marked>
+ <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
+ <XMP-xmpRights:UsageTerms>I enlighet med Creative Commons-licens CC BY (version 4.0)</XMP-xmpRights:UsageTerms>
+ <XMP-xmp:MetadataDate>2025:05:20 22:46:12+02:00</XMP-xmp:MetadataDate>
+ <XMP-xmpMM:InstanceID>xmp.iid:9be7fcf3-3a66-dc4c-a983-37caede2af68</XMP-xmpMM:InstanceID>
+ <XMP-xmpMM:DocumentID>xmp.did:2d5f4de0-ba1a-ea4f-8ebb-696bcbed0536</XMP-xmpMM:DocumentID>
+ <XMP-xmpMM:OriginalDocumentID>xmp.did:2d5f4de0-ba1a-ea4f-8ebb-696bcbed0536</XMP-xmpMM:OriginalDocumentID>
+ <XMP-xmpMM:HistoryAction>
+  <rdf:Bag>
+   <rdf:li>saved</rdf:li>
+   <rdf:li>saved</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryAction>
+ <XMP-xmpMM:HistoryInstanceID>
+  <rdf:Bag>
+   <rdf:li>xmp.iid:2d5f4de0-ba1a-ea4f-8ebb-696bcbed0536</rdf:li>
+   <rdf:li>xmp.iid:9be7fcf3-3a66-dc4c-a983-37caede2af68</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryInstanceID>
+ <XMP-xmpMM:HistoryWhen>
+  <rdf:Bag>
+   <rdf:li>2025:05:16 08:46:03+02:00</rdf:li>
+   <rdf:li>2025:05:20 22:46:12+02:00</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryWhen>
+ <XMP-xmpMM:HistorySoftwareAgent>
+  <rdf:Bag>
+   <rdf:li>Adobe Bridge 2025</rdf:li>
+   <rdf:li>Adobe Bridge 2025</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistorySoftwareAgent>
+ <XMP-xmpMM:HistoryChanged>
+  <rdf:Bag>
+   <rdf:li>/metadata</rdf:li>
+   <rdf:li>/metadata</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryChanged>
+ <XMP-dc:Creator>
+  <rdf:Bag>
+   <rdf:li>Marie Gyll</rdf:li>
+   <rdf:li>Jessica Hultengren</rdf:li>
+   <rdf:li>Susanne Landén</rdf:li>
+   <rdf:li>Magdalena af Trolle.</rdf:li>
+  </rdf:Bag>
+ </XMP-dc:Creator>
+ <XMP-dc:Subject>
+  <rdf:Bag>
+   <rdf:li>Kanalbyggnad</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Kanalbyggnad</rdf:li>
+   <rdf:li>Invigningar</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Invigningar</rdf:li>
+   <rdf:li>Sångtexter</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/S%C3%A5ngtexter</rdf:li>
+   <rdf:li>Sverige - Göta kanal</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Sverige--G%C3%B6ta%20kanal</rdf:li>
+   <rdf:li>1800-talet</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/1800-talet</rdf:li>
+   <rdf:li>Infrastruktur</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Infrastruktur</rdf:li>
+   <rdf:li>kanaler</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Kanaler</rdf:li>
+   <rdf:li>slussar</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Slussar</rdf:li>
+  </rdf:Bag>
+ </XMP-dc:Subject>
+ <XMP-dc:Rights>CC BY (version 4.0)</XMP-dc:Rights>
+ <XMP-dc:Description>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</XMP-dc:Description>
+ <XMP-iptcCore:AltTextAccessibility>Andra uppslaget på sånghäfte &quot;Fosterländsk sång vid Götha Canals öpnande&quot;. Blankt blad till vänster och sångtext till höger.</XMP-iptcCore:AltTextAccessibility>
+ <IPTC:CodedCharacterSet>UTF8</IPTC:CodedCharacterSet>
+ <IPTC:ApplicationRecordVersion>4</IPTC:ApplicationRecordVersion>
+ <IPTC:Keywords>
+  <rdf:Bag>
+   <rdf:li>Kanalbyggnad</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Kanalbyggnad</rdf:li>
+   <rdf:li>Invigningar</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Invigningar</rdf:li>
+   <rdf:li>Sångtexter</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/S%C3%A5ngtexter</rdf:li>
+   <rdf:li>Sverige - Göta kanal</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Sverige--G%C3%B6ta%20kanal</rdf:li>
+   <rdf:li>1800-talet</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/1800-talet</rdf:li>
+   <rdf:li>Infrastruktur</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Infrastruktur</rdf:li>
+   <rdf:li>kanaler</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Kanaler</rdf:li>
+   <rdf:li>slussar</rdf:li>
+   <rdf:li>https://id.kb.se/term/sao/Slussar</rdf:li>
+  </rdf:Bag>
+ </IPTC:Keywords>
+ <IPTC:By-line>
+  <rdf:Bag>
+   <rdf:li>Marie Gyll</rdf:li>
+   <rdf:li>Jessica Hultengren</rdf:li>
+   <rdf:li>Susanne Landén</rdf:li>
+   <rdf:li>Magdalena af Trolle.</rdf:li>
+  </rdf:Bag>
+ </IPTC:By-line>
+ <IPTC:Headline>Andra uppslaget, blankt blad och sångens första sida.</IPTC:Headline>
+ <IPTC:Source>Fosterländsk sång vid Götha C</IPTC:Source>
+ <IPTC:CopyrightNotice>CC BY (version 4.0)</IPTC:CopyrightNotice>
+ <IPTC:Caption-Abstract>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IPTC:Caption-Abstract>
+ <Photoshop:CopyrightFlag>True</Photoshop:CopyrightFlag>
+ <Photoshop:URL>https://creativecommons.org/licenses/by/4.0/</Photoshop:URL>
+ <Photoshop:IPTCDigest>35557ce31a23678701818c9e0ce1b0d2</Photoshop:IPTCDigest>
+ <Composite:ImageSize>6616x4677</Composite:ImageSize>
+ <Composite:Megapixels>30.9</Composite:Megapixels>
+</rdf:Description>
+</rdf:RDF>
