@@ -19,7 +19,7 @@
             Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande"
          </h1>
       </header>
-      <nav aria-label="Huvudmeny"><!-- Navigeringsmeny -->
+     <nav aria-label="Huvudmeny"><!-- Navigeringsmeny. Aria-label för att underlätta navigering för tekniska hjälpmedel -->
          <a href="index.html">Om projektet</a> | 
          <a href="sanghafte.html">Sånghäfte</a> | 
          <a href="sangtext.html">Sångtext</a> | 
@@ -141,7 +141,7 @@
       img.style.transform = `scale(${scale}) translate(${translate.x / scale}px, ${translate.y / scale}px)`;
     }
 
-    // Dubbelklick för att zooma in där man klickar
+    // Klicka på bilden för att zooma in - där man klickar
     img.addEventListener('click', e => {
       const rect = img.getBoundingClientRect();
       const offsetX = e.clientX - rect.left;
