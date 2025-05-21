@@ -400,13 +400,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     margin-bottom: 2vw;
 }
 
-.page-historia .image-block img {
-    max-width: 100%; /* Bilden får max 100% bredd av sin container */
-    height: auto; /* Bilden behåller sina proportioner */
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .page-historia .bildtext {
     font-size: 1.25vw; /* Responsiv textstorlek */
     line-height: 1.5vw; /* Justerar radavståndet för texten */
