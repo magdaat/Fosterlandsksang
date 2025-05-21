@@ -213,8 +213,8 @@ button:hover {
     transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
     background-color: rgba(0, 0, 0, 0.7); /* Färg cirkel runt pilen */
     border-radius: 50%; /* cirkel */
-    width: 25px; /* cirkelns bredd */
-    height: 25px; /* cirkels höjd */
+    width: 25vw; /* cirkelns bredd */
+    height: 25vw; /* cirkels höjd */
     display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
     justify-content: center; /* pilen hamnar i mitten horisontelt */
     align-items: center; /* pilen hamnar i mitten vertikalt */
