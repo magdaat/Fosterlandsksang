@@ -213,8 +213,8 @@ button:hover {
     transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
     background-color: rgba(0, 0, 0, 0.7); /* Färg cirkel runt pilen */
     border-radius: 50%; /* cirkel */
-    width: 25vw; /* cirkelns bredd */
-    height: 25vw; /* cirkelns höjd */
+    width: 5vw; /* cirkelns bredd */
+    height: 5vw; /* cirkelns höjd */
     display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
     justify-content: center; /* pilen hamnar i mitten horisontelt */
     align-items: center; /* pilen hamnar i mitten vertikalt */
@@ -222,10 +222,10 @@ button:hover {
     padding: 0;
 }
 .page-sanghafte .carousel-control-prev {
-    left: 5px; /* Vänster pils placering från ytterkant */
+    left: 5vw; /* Vänster pils placering från ytterkant */
 }
 .page-sanghafte .carousel-control-next {
-    right: 5px; /* Höger pils placering från ytterkant */
+    right: 5vw; /* Höger pils placering från ytterkant */
 }
 
 /* När det är mobil får bilden ta upp 100% av skärmstorleken*/
@@ -401,7 +401,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 }
 
 .page-historia .image-block img {
-    display: inline-block; /* Gör att bilden fungerar som inline-element för att centreras */
     max-width: 100%; /* Bilden får max 100% bredd av sin container */
     height: auto; /* Bilden behåller sina proportioner */
     margin-left: auto;
@@ -416,9 +415,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     margin-top: 0.5vw; /* Lite utrymme ovanför bildtexten */
     max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker sig över hela sidan */
 }
-
-
-
 
 
 /* Styling för begrepp */
