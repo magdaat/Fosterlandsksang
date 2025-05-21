@@ -214,7 +214,7 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.7); /* Färg cirkel runt pilen */
     border-radius: 50%; /* cirkel */
     width: 25vw; /* cirkelns bredd */
-    height: 25vw; /* cirkels höjd */
+    height: 25vw; /* cirkelns höjd */
     display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
     justify-content: center; /* pilen hamnar i mitten horisontelt */
     align-items: center; /* pilen hamnar i mitten vertikalt */
@@ -308,12 +308,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     padding: 1em 9vw 1em 1em; /* padding-right: 9vw; Flyttar in knappen från kanten */
 }
 
-/* För mellanbreda skärmar, flytta in knappen lite */
-@media (max-width : 992px) {
-.page-sangtext .button-container {
-        padding-right: 6vw;
-    }
-}
 
 /* Små skärmar: centrera knappen och minska sidopadding */
 @media (max-width : 800px) {
@@ -383,9 +377,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 }
 
 
-
-
-
 /* Styling för historia */
 .page-historia .container {
     background-color: white;
@@ -402,9 +393,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     box-sizing: border-box;
 }
 
-.page-historia .container > * {
-    text-align: left;
-}
 
 .page-historia .referenser {
     font-size: 1.25vw; /* Responsiv textstorlek */
@@ -414,7 +402,7 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 }
 
 .page-historia .image-block {
-    text-align: center; /* Centrerar bilden inom sitt block */
+    text-align: left; /* Centrerar bilden inom sitt block */
 }
 
 .page-historia .image-block img {
