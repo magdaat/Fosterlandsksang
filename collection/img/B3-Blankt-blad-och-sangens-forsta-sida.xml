@@ -21,15 +21,15 @@
  <System:FileName>B3-Blankt-blad-och-sangens-forsta-sida.tiff</System:FileName>
  <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img</System:Directory>
  <System:FileSize>6.4 MB</System:FileSize>
- <System:FileModifyDate>2025:05:20 22:46:12+02:00</System:FileModifyDate>
- <System:FileAccessDate>2025:05:20 22:50:13+02:00</System:FileAccessDate>
+ <System:FileModifyDate>2025:05:21 09:12:02+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:21 09:17:39+02:00</System:FileAccessDate>
  <System:FileCreateDate>2025:04:23 11:40:51+02:00</System:FileCreateDate>
  <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
  <File:FileType>TIFF</File:FileType>
  <File:FileTypeExtension>tif</File:FileTypeExtension>
  <File:MIMEType>image/tiff</File:MIMEType>
  <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
- <File:CurrentIPTCDigest>35557ce31a23678701818c9e0ce1b0d2</File:CurrentIPTCDigest>
+ <File:CurrentIPTCDigest>7384410c32730f169208cf0d8b447d9e</File:CurrentIPTCDigest>
  <File:PageCount>2</File:PageCount>
  <IFD0:SubfileType>Single page of multi-page image</IFD0:SubfileType>
  <IFD0:OldSubfileType>Single page of multi-page image</IFD0:OldSubfileType>
@@ -58,12 +58,11 @@
  <IFD0:Copyright>CC BY (version 4.0)</IFD0:Copyright>
  <XMP-x:XMPToolkit>Adobe XMP Core 9.1-c002 165.59ab891, 2024/09/18-09:57:10        </XMP-x:XMPToolkit>
  <XMP-photoshop:Headline>Andra uppslaget, blankt blad och sångens första sida.</XMP-photoshop:Headline>
- <XMP-photoshop:Source>Fosterländsk sång vid Götha Canals öpnande, 1832</XMP-photoshop:Source>
  <XMP-xmpRights:Marked>True</XMP-xmpRights:Marked>
  <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
  <XMP-xmpRights:UsageTerms>I enlighet med Creative Commons-licens CC BY (version 4.0)</XMP-xmpRights:UsageTerms>
- <XMP-xmp:MetadataDate>2025:05:20 22:46:12+02:00</XMP-xmp:MetadataDate>
- <XMP-xmpMM:InstanceID>xmp.iid:9be7fcf3-3a66-dc4c-a983-37caede2af68</XMP-xmpMM:InstanceID>
+ <XMP-xmp:MetadataDate>2025:05:21 09:12:02+02:00</XMP-xmp:MetadataDate>
+ <XMP-xmpMM:InstanceID>xmp.iid:f6d7aa3e-ec1e-ce45-b184-42aced1a27b7</XMP-xmpMM:InstanceID>
  <XMP-xmpMM:DocumentID>xmp.did:2d5f4de0-ba1a-ea4f-8ebb-696bcbed0536</XMP-xmpMM:DocumentID>
  <XMP-xmpMM:OriginalDocumentID>xmp.did:2d5f4de0-ba1a-ea4f-8ebb-696bcbed0536</XMP-xmpMM:OriginalDocumentID>
  <XMP-xmpMM:HistoryAction>
@@ -75,13 +74,13 @@
  <XMP-xmpMM:HistoryInstanceID>
   <rdf:Bag>
    <rdf:li>xmp.iid:2d5f4de0-ba1a-ea4f-8ebb-696bcbed0536</rdf:li>
-   <rdf:li>xmp.iid:9be7fcf3-3a66-dc4c-a983-37caede2af68</rdf:li>
+   <rdf:li>xmp.iid:f6d7aa3e-ec1e-ce45-b184-42aced1a27b7</rdf:li>
   </rdf:Bag>
  </XMP-xmpMM:HistoryInstanceID>
  <XMP-xmpMM:HistoryWhen>
   <rdf:Bag>
    <rdf:li>2025:05:16 08:46:03+02:00</rdf:li>
-   <rdf:li>2025:05:20 22:46:12+02:00</rdf:li>
+   <rdf:li>2025:05:21 09:12:02+02:00</rdf:li>
   </rdf:Bag>
  </XMP-xmpMM:HistoryWhen>
  <XMP-xmpMM:HistorySoftwareAgent>
@@ -158,12 +157,11 @@
   </rdf:Bag>
  </IPTC:By-line>
  <IPTC:Headline>Andra uppslaget, blankt blad och sångens första sida.</IPTC:Headline>
- <IPTC:Source>Fosterländsk sång vid Götha C</IPTC:Source>
  <IPTC:CopyrightNotice>CC BY (version 4.0)</IPTC:CopyrightNotice>
  <IPTC:Caption-Abstract>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IPTC:Caption-Abstract>
  <Photoshop:CopyrightFlag>True</Photoshop:CopyrightFlag>
  <Photoshop:URL>https://creativecommons.org/licenses/by/4.0/</Photoshop:URL>
- <Photoshop:IPTCDigest>35557ce31a23678701818c9e0ce1b0d2</Photoshop:IPTCDigest>
+ <Photoshop:IPTCDigest>7384410c32730f169208cf0d8b447d9e</Photoshop:IPTCDigest>
  <Composite:ImageSize>6616x4677</Composite:ImageSize>
  <Composite:Megapixels>30.9</Composite:Megapixels>
 </rdf:Description>

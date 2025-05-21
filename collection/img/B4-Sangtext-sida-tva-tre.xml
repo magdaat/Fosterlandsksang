@@ -21,15 +21,15 @@
  <System:FileName>B4-Sangtext-sida-tva-tre.tiff</System:FileName>
  <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img</System:Directory>
  <System:FileSize>16 MB</System:FileSize>
- <System:FileModifyDate>2025:05:20 22:55:39+02:00</System:FileModifyDate>
- <System:FileAccessDate>2025:05:20 22:55:39+02:00</System:FileAccessDate>
+ <System:FileModifyDate>2025:05:21 09:12:12+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:21 09:17:39+02:00</System:FileAccessDate>
  <System:FileCreateDate>2025:04:23 11:40:52+02:00</System:FileCreateDate>
  <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
  <File:FileType>TIFF</File:FileType>
  <File:FileTypeExtension>tif</File:FileTypeExtension>
  <File:MIMEType>image/tiff</File:MIMEType>
  <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
- <File:CurrentIPTCDigest>0580b7ec2cf6f34e16eaf3913f1bf596</File:CurrentIPTCDigest>
+ <File:CurrentIPTCDigest>6ba104e56661b9a91fce3b572d791782</File:CurrentIPTCDigest>
  <File:PageCount>2</File:PageCount>
  <IFD0:SubfileType>Single page of multi-page image</IFD0:SubfileType>
  <IFD0:OldSubfileType>Single page of multi-page image</IFD0:OldSubfileType>
@@ -58,12 +58,11 @@
  <IFD0:Copyright>CC BY (version 4.0)</IFD0:Copyright>
  <XMP-x:XMPToolkit>Adobe XMP Core 9.1-c002 165.59ab891, 2024/09/18-09:57:10        </XMP-x:XMPToolkit>
  <XMP-photoshop:Headline>Tredje uppslaget, sångens andra och tredje sida.</XMP-photoshop:Headline>
- <XMP-photoshop:Source>Fosterländsk sång vid Götha Canals öpnande, 1832</XMP-photoshop:Source>
  <XMP-xmpRights:Marked>True</XMP-xmpRights:Marked>
  <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
  <XMP-xmpRights:UsageTerms>I enlighet med Creative Commons-licens CC BY (version 4.0)</XMP-xmpRights:UsageTerms>
- <XMP-xmp:MetadataDate>2025:05:20 22:55:39+02:00</XMP-xmp:MetadataDate>
- <XMP-xmpMM:InstanceID>xmp.iid:2b31bf64-7209-a743-8458-89c2e8b57682</XMP-xmpMM:InstanceID>
+ <XMP-xmp:MetadataDate>2025:05:21 09:12:12+02:00</XMP-xmp:MetadataDate>
+ <XMP-xmpMM:InstanceID>xmp.iid:129376f7-dfa5-af49-8673-c9c31f9ff39d</XMP-xmpMM:InstanceID>
  <XMP-xmpMM:DocumentID>xmp.did:96548725-768a-ce46-8c0d-a673233a585e</XMP-xmpMM:DocumentID>
  <XMP-xmpMM:OriginalDocumentID>xmp.did:96548725-768a-ce46-8c0d-a673233a585e</XMP-xmpMM:OriginalDocumentID>
  <XMP-xmpMM:HistoryAction>
@@ -75,13 +74,13 @@
  <XMP-xmpMM:HistoryInstanceID>
   <rdf:Bag>
    <rdf:li>xmp.iid:96548725-768a-ce46-8c0d-a673233a585e</rdf:li>
-   <rdf:li>xmp.iid:2b31bf64-7209-a743-8458-89c2e8b57682</rdf:li>
+   <rdf:li>xmp.iid:129376f7-dfa5-af49-8673-c9c31f9ff39d</rdf:li>
   </rdf:Bag>
  </XMP-xmpMM:HistoryInstanceID>
  <XMP-xmpMM:HistoryWhen>
   <rdf:Bag>
    <rdf:li>2025:05:16 08:46:42+02:00</rdf:li>
-   <rdf:li>2025:05:20 22:55:39+02:00</rdf:li>
+   <rdf:li>2025:05:21 09:12:12+02:00</rdf:li>
   </rdf:Bag>
  </XMP-xmpMM:HistoryWhen>
  <XMP-xmpMM:HistorySoftwareAgent>
@@ -158,12 +157,11 @@
   </rdf:Bag>
  </IPTC:By-line>
  <IPTC:Headline>Tredje uppslaget, sångens andra och tredje sida.</IPTC:Headline>
- <IPTC:Source>Fosterländsk sång vid Götha C</IPTC:Source>
  <IPTC:CopyrightNotice>CC BY (version 4.0)</IPTC:CopyrightNotice>
  <IPTC:Caption-Abstract>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IPTC:Caption-Abstract>
  <Photoshop:CopyrightFlag>True</Photoshop:CopyrightFlag>
  <Photoshop:URL>https://creativecommons.org/licenses/by/4.0/</Photoshop:URL>
- <Photoshop:IPTCDigest>0580b7ec2cf6f34e16eaf3913f1bf596</Photoshop:IPTCDigest>
+ <Photoshop:IPTCDigest>6ba104e56661b9a91fce3b572d791782</Photoshop:IPTCDigest>
  <Composite:ImageSize>9928x7016</Composite:ImageSize>
  <Composite:Megapixels>69.7</Composite:Megapixels>
 </rdf:Description>
