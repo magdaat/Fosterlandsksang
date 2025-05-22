@@ -213,8 +213,8 @@ button:hover {
     transform: translateY(-50%); /* Pilarna ska vara i centrum av den vertikala bildytan */
     background-color: rgba(0, 0, 0, 0.7); /* Färg cirkel runt pilen */
     border-radius: 50%; /* cirkel */
-    width: 25px; /* cirkelns bredd */
-    height: 25px; /* cirkels höjd */
+    width: 5vw; /* cirkelns bredd */
+    height: 5vw; /* cirkelns höjd */
     display: flex; /* gör det enklare att få pilen att hamna i mitten av cirkeln */
     justify-content: center; /* pilen hamnar i mitten horisontelt */
     align-items: center; /* pilen hamnar i mitten vertikalt */
@@ -222,10 +222,10 @@ button:hover {
     padding: 0;
 }
 .page-sanghafte .carousel-control-prev {
-    left: 5px; /* Vänster pils placering från ytterkant */
+    left: 5vw; /* Vänster pils placering från ytterkant */
 }
 .page-sanghafte .carousel-control-next {
-    right: 5px; /* Höger pils placering från ytterkant */
+    right: 5vw; /* Höger pils placering från ytterkant */
 }
 
 /* När det är mobil får bilden ta upp 100% av skärmstorleken*/
@@ -308,12 +308,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     padding: 1em 9vw 1em 1em; /* padding-right: 9vw; Flyttar in knappen från kanten */
 }
 
-/* För mellanbreda skärmar, flytta in knappen lite */
-@media (max-width : 992px) {
-.page-sangtext .button-container {
-        padding-right: 6vw;
-    }
-}
 
 /* Små skärmar: centrera knappen och minska sidopadding */
 @media (max-width : 800px) {
@@ -383,9 +377,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 }
 
 
-
-
-
 /* Styling för historia */
 .page-historia .container {
     background-color: white;
@@ -402,10 +393,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     box-sizing: border-box;
 }
 
-.page-historia .container > * {
-    text-align: left;
-}
-
 .page-historia .referenser {
     font-size: 1.25vw; /* Responsiv textstorlek */
     line-height: 1vw;
@@ -413,20 +400,7 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     margin-bottom: 2vw;
 }
 
-.page-historia .image-block {
-    text-align: center; /* Centrerar bilden inom sitt block */
-}
-
-.page-historia .image-block img {
-    display: inline-block; /* Gör att bilden fungerar som inline-element för att centreras */
-    max-width: 100%; /* Bilden får max 100% bredd av sin container */
-    height: auto; /* Bilden behåller sina proportioner */
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .page-historia .bildtext {
-    text-align: left; /* Gör texten vänsterställd */
     font-size: 1.25vw; /* Responsiv textstorlek */
     line-height: 1.5vw; /* Justerar radavståndet för texten */
     color: #6c757d; /* Färgen på texten */
@@ -434,9 +408,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
     margin-top: 0.5vw; /* Lite utrymme ovanför bildtexten */
     max-width: 90%; /* Begränsar bredden på bildtexten så att den inte sträcker sig över hela sidan */
 }
-
-
-
 
 
 /* Styling för begrepp */

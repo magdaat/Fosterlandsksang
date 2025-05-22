@@ -27,7 +27,7 @@
                         /><!-- h1elementet fylls med title från tei-->
                     </h1>
                 </header>
-                <nav aria-label="Huvudnavigering"><!-- Navigeringsmeny -->
+                <nav aria-label="Huvudnavigering"><!-- Navigeringsmeny. Aria-label för att underlätta navigering för tekniska hjälpmedel -->
                     <a href="index.html">Om projektet</a> | 
                     <a href="sanghafte.html">Sånghäfte</a> | 
                     <a href="sangtext.html">Sångtext</a> | 
