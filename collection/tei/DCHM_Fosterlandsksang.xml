@@ -219,7 +219,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <!-- Representation av källan i form av bilder i stället för som transkriberad eller kodad text. (TEI guidelines) -->
    <facsimile>
-      <surface xml:id="B1-Framsida-omslag">
+      <!-- (corresp) pekar till element som korresponderar till det aktuella elementet på något sätt. (TEI guidelines) -->
+      <surface xml:id="B1-Framsida-omslag" corresp="collection/img/XML TIFF/B1-Framsida-omslag.xml">
          <!-- (figure) Gruppering av element med  grafisk information. (TEI guidelines) -->
          <figure>
             <!-- (label) Innehåller den etikett eller rubrik som krävs för att identifiera en del av en text. (TEI guidelines) -->
@@ -237,7 +238,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B2-Insida-omslag-och-titelblad">
+      <surface xml:id="B2-Insida-omslag-och-titelblad" corresp="collection/img/XML TIFF/B2-Insida-omslag-och-titelblad.xml">
          <figure>
             <label>
                Insida omslag och titelblad
@@ -254,7 +255,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida">
+      <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida" corresp="collection/img/XML TIFF/B3-Blankt-blad-och-sangens-forsta-sida.xml">
          <figure>
             <label>
                Blankt blad och sångens första sida
@@ -269,7 +270,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B4-Sangtext-sida-tva-tre">
+      <surface xml:id="B4-Sangtext-sida-tva-tre" corresp="collection/img/XML TIFF/B4-Sangtext-sida-tva-tre.xml">
          <figure>
             <label>
                Sångtext, sida två-tre
@@ -283,7 +284,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B4-Sangtext-sida-tva-tre_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B5-Sangtext-sida-fyra-fem">
+      <surface xml:id="B5-Sangtext-sida-fyra-fem" corresp="collection/img/XML TIFF/B5-Sangtext-sida-fyra-fem.xml">
          <figure>
             <label>
                Sångtext, sida fyra-fem
@@ -297,7 +298,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B5-Sangtext-sida-fyra-fem_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B6-Sangtext-sida-sex-sju">
+      <surface xml:id="B6-Sangtext-sida-sex-sju" corresp="collection/img/XML TIFF/B6-Sangtext-sida-sex-sju.xml">
          <figure>
             <label>
                Sångtext, sida sex-sju
@@ -311,7 +312,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B6-Sangtext-sida-sex-sju_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida">
+      <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida" corresp="collection/img/XML TIFF/B7-Attonde-sidan-sangtext-och-en-blank-sida.xml">
          <figure>
             <label>
                Åttonde sidans sångtext och en blank sida
@@ -325,7 +326,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb.png"/>
          </figure>
       </surface>
-      <surface xml:id="B8-Baksida-omslag">
+      <surface xml:id="B8-Baksida-omslag" corresp="collection/img/XML TIFF/B8-Baksida-omslag.xml">
          <figure>
             <label>
                Baksida omslag
