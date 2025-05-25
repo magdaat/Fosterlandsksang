@@ -14,6 +14,7 @@
      <link rel="stylesheet" href="assets/css/main.css">
    </head>
    <body class="page-sanghafte">
+     <a href="#bildspel" class="skip-link">Hoppa till huvudinnehåll</a>
       <header>
          <h1>
             Digitaliserad version av "Fosterländsk sång vid Götha Canals öpnande"
@@ -26,9 +27,10 @@
          <a href="historia.html">Historia</a> | 
          <a href="begrepp.html">Begrepp</a>
       </nav>
+     <main id="bildspel">
       <div class="container-fluid">
         <p class="visually-hidden">Klicka på en bild för att zooma in. Använd musen eller fingret för att panorera.</p> <!-- Instruktioner för användare - skärmläsare -->
-         <div id="myCarousel" class="carousel slide" data-bs-interval="false"> <!-- Skapar en karusell-komponent från bootstrap -->
+         <div id="myCarousel" class="carousel slide" data-bs-interval="false" aria-label="Bildspel med faksimilens sidor"> <!-- Skapar en karusell-komponent från bootstrap -->
             <div class="carousel-inner"> <!-- Innehåller själva slidesen. -->
                <!-- Slide 1 --> <!-- Ett Bootstrap-bildspel som visar digitaliserade sidor ur sånghäftet. Bilderna har img-fluid och w-50, vilket betyder att de är responsiva och visas i halva fönstrets bredd. -->
                <div class="carousel-item active"> <!-- Detta är första bilden i karusellen. Active = denna visas först. -->
@@ -109,6 +111,7 @@
             </button>
          </div>
       </div>
+     </main>
      <footer><!-- innehåller upphovsrättsinformation och länk till licens -->
          <div class="footer-row">
             <div class="footer-content">

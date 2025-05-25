@@ -23,6 +23,7 @@
                 </link>
             </head>
             <body class="page-sangtext">
+                <a href="#sangtext" class="skip-link">Hoppa till huvudinnehåll</a>
                 <header>
                     <h1>
                         <xsl:apply-templates select="//tei:titleStmt/tei:title"
@@ -37,7 +38,7 @@
                     <a href="begrepp.html">Begrepp</a>
                 </nav>
                 <!-- värdet i (main) ska representera textens huvudsakliga innehåll -->
-                <main id="lyrics">
+                <main id="sangtext">
                     <article><!-- Article, för att skapa en fristående del -->
                         <div class="container">
                             <!-- div element med @facs attribut i tei blir separata divelement i html -->
