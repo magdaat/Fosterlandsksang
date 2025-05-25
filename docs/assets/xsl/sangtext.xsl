@@ -52,7 +52,7 @@
                         </div>
                     </article>
                 </main>
-                <footer role="contentinfo"><!-- innehåller upphovsrättsinformation och länk till licens -->
+                <footer><!-- innehåller upphovsrättsinformation och länk till licens -->
                     <div class="footer-row">
                         <div class="footer-content">
                             <div class="copyright_logos">
