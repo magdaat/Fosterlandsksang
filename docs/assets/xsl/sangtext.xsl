@@ -18,7 +18,8 @@
                     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
                     crossorigin="anonymous"/>
                 <!-- egen CSS-fil -->
-                <link rel="stylesheet" href="assets/css/main.css"/>
+                <link rel="stylesheet" href="assets/css/main.css">
+                </link>
             </head>
             <body class="page-sangtext">
                 <header>
