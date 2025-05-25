@@ -19,8 +19,7 @@
                     crossorigin="anonymous">
                 </link>
                 <!-- egen CSS-fil -->
-                <link rel="stylesheet" href="assets/css/main.css">
-                </link>
+                <link rel="stylesheet" href="assets/css/main.css"/>
             </head>
             <body class="page-sangtext">
                 <a href="#sangtext" class="skip-link">Hoppa till huvudinnehåll</a>

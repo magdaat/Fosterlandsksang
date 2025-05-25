@@ -466,7 +466,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 .page-begrepp .table td:nth-child(2) {
     width: 75%;
     overflow-wrap: break-word; /* rätt värde */
-    word-break: break-word;
 }
 
 .page-begrepp .center-text {
