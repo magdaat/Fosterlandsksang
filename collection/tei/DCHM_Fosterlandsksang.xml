@@ -255,7 +255,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                handskrivna signaturer varav den ena är överstruken och ett handskrivet
                ord.
             </figDesc>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad.tiff"
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_tiff"
                url="collection/img/TIFF/B2-Insida-omslag-och-titelblad.tiff"/>
             <graphic xml:id="B2-Insida-omslag-och-titelblad_PDFA"            
                url="collection/img/PDFA/B2-Insida-omslag-och-titelblad.pdf"/>      
@@ -272,7 +272,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                En skannad bild av ett blankt blad till vänster och sångens första sida till
                höger.
             </figDesc>
-            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida.tiff"
+            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_tiff"
                url="collection/img/TIFF/B3-Blankt-blad-och-sangens-forsta-sida.tiff"/>
             <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_PDFA"            
                url="collection/img/PDFA/B3-Blankt-blad-och-sangens-forsta-sida.pdf"/>      
@@ -288,7 +288,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens andra och tredje sida.
             </figDesc>
-            <graphic xml:id="B4-Sangtext-sida-tva-tre.tiff"
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_tiff"
                url="collection/img/TIFF/B4-Sangtext-sida-tva-tre.tiff"/>
             <graphic xml:id="B4-Sangtext-sida-tva-tre_PDFA"            
                url="collection/img/PDFA/B4-Sangtext-sida-tva-tre.pdf"/>      
@@ -304,7 +304,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens fjärde och femte sida.
             </figDesc>
-            <graphic xml:id="B5-Sangtext-sida-fyra-fem.tiff"
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_tiff"
                url="collection/img/TIFF/B5-Sangtext-sida-fyra-fem.tiff"/>
             <graphic xml:id="B5-Sangtext-sida-fyra-fem_PDFA"            
                url="collection/img/PDFA/B5-Sangtext-sida-fyra-fem.pdf"/>      
@@ -320,7 +320,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens sjätte och sjunde sida.
             </figDesc>            
-            <graphic xml:id="B6-Sangtext-sida-sex-sju.tiff"
+            <graphic xml:id="B6-Sangtext-sida-sex-sju_tiff"
                url="collection/img/TIFF/B6-Sangtext-sida-sex-sju.tiff"/>
             <graphic xml:id="B6-Sangtext-sida-sex-sju_PDFA"            
                url="collection/img/PDFA/B6-Sangtext-sida-sex-sju.pdf"/>      
@@ -336,7 +336,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
             </figDesc>
-            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida.tiff"
+            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_tiff"
                url="collection/img/TIFF/B7-Attonde-sidan-sangtext-och-en-blank-sida.tiff"/>
             <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_PDFA"            
                url="collection/img/PDFA/B7-Attonde-sidan-sangtext-och-en-blank-sida.pdf"/>      
@@ -352,7 +352,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild på baksidan av resursens omslag.
             </figDesc>
-            <graphic xml:id="B8-Baksida-omslag.tiff"
+            <graphic xml:id="B8-Baksida-omslag_tiff"
                url="collection/img/TIFF/B8-Baksida-omslag.tiff"/>
             <graphic xml:id="B8-Baksida-omslag_PDFA"            
                url="collection/img/PDFA/B8-Baksida-omslag.pdf"/>      
