@@ -223,8 +223,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
    </teiHeader>
    <!-- Representation av källan i form av bilder i stället för som transkriberad eller kodad text. (TEI guidelines) -->
    <facsimile>
-      <!-- (corresp) pekar till element som korresponderar till det aktuella elementet på något sätt. (TEI guidelines) -->
-      <surface xml:id="B1-Framsida-omslag" corresp="collection/img/XML TIFF/B1-Framsida-omslag.xml">
+      <!-- (corresp) pekar till element som korresponderar till det aktuella elementet. (TEI guidelines) -->
+      <surface xml:id="B1-Framsida-omslag" corresp="collection/img/XML metadata TIFF/B1-Framsida-omslag-metadata.xml">
          <!-- (figure) Gruppering av element med  grafisk information. (TEI guidelines) -->
          <figure>
             <!-- (label) Innehåller den etikett eller rubrik som krävs för att identifiera en del av en text. (TEI guidelines) -->
@@ -236,13 +236,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                En skannad bild på framsidan av resursens omslag.
             </figDesc>
             <!-- (graphic) Ange på vilken plats en  grafik eller illustration hittas. (TEI guidelines) -->
-            <graphic xml:id="B1-Framsida-omslag_full"
-               url="assets/img/documents/B1-Framsida-omslag.png"/>
-            <graphic xml:id="B1-Framsida-omslag_thumb"
-               url="assets/img/documents/B1-Framsida-omslag_thumb.png"/>
+            <graphic xml:id="B1-Framsida-omslag_tiff"
+               url="collection/img/TIFF/B1-Framsida-omslag.tiff"/>
+            <graphic xml:id="B1-Framsida-omslag_PDFA"            
+               url="collection/img/PDFA/B1-Framsida-omslag.pdf"/>      
+            <graphic xml:id="B1-Framsida-omslag_jpeg"       
+               url="assets/img/documents/B1-Framsida-omslag.jpeg"/> 
          </figure>
       </surface>
-      <surface xml:id="B2-Insida-omslag-och-titelblad" corresp="collection/img/XML TIFF/B2-Insida-omslag-och-titelblad.xml">
+      <surface xml:id="B2-Insida-omslag-och-titelblad" corresp="collection/img/XML metadata TIFF/B2-Insida-omslag-och-titelblad-metadata.xml">
          <figure>
             <label>
                Insida omslag och titelblad
@@ -253,13 +255,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                handskrivna signaturer varav den ena är överstruken och ett handskrivet
                ord.
             </figDesc>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad_full"
-               url="assets/img/documents/B2-Insida-omslag-och-titelblad.png"/>
-            <graphic xml:id="B2-Insida-omslag-och-titelblad_thumb"
-               url="assets/img/documents/B2-Insida-omslag-och-titelblad_thumb.png"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad.tiff"
+               url="collection/img/TIFF/B2-Insida-omslag-och-titelblad.tiff"/>
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_PDFA"            
+               url="collection/img/PDFA/B2-Insida-omslag-och-titelblad.pdf"/>      
+            <graphic xml:id="B2-Insida-omslag-och-titelblad_jpeg"       
+               url="assets/img/documents/B2-Insida-omslag-och-titelblad.jpeg"/> 
          </figure>
       </surface>
-      <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida" corresp="collection/img/XML TIFF/B3-Blankt-blad-och-sangens-forsta-sida.xml">
+      <surface xml:id="B3-Blankt-blad-och-sangens-forsta-sida" corresp="collection/img/XML metadata TIFF/B3-Blankt-blad-och-sangens-forsta-sida-metadata.xml">
          <figure>
             <label>
                Blankt blad och sångens första sida
@@ -268,13 +272,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                En skannad bild av ett blankt blad till vänster och sångens första sida till
                höger.
             </figDesc>
-            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_full"
-               url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.png"/>
-            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_thumb"
-               url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida_thumb.png"/>
+            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida.tiff"
+               url="collection/img/TIFF/B3-Blankt-blad-och-sangens-forsta-sida.tiff"/>
+            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_PDFA"            
+               url="collection/img/PDFA/B3-Blankt-blad-och-sangens-forsta-sida.pdf"/>      
+            <graphic xml:id="B3-Blankt-blad-och-sangens-forsta-sida_jpeg"       
+               url="assets/img/documents/B3-Blankt-blad-och-sangens-forsta-sida.jpeg"/> 
          </figure>
       </surface>
-      <surface xml:id="B4-Sangtext-sida-tva-tre" corresp="collection/img/XML TIFF/B4-Sangtext-sida-tva-tre.xml">
+      <surface xml:id="B4-Sangtext-sida-tva-tre" corresp="collection/img/XML metadata TIFF/B4-Sangtext-sida-tva-tre-metadata.xml">
          <figure>
             <label>
                Sångtext, sida två-tre
@@ -282,13 +288,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens andra och tredje sida.
             </figDesc>
-            <graphic xml:id="B4-Sangtext-sida-tva-tre_full"
-               url="assets/img/documents/B4-Sangtext-sida-tva-tre.png"/>
-            <graphic xml:id="B4-Sangtext-sida-tva-tre_thumb"
-               url="assets/img/documents/B4-Sangtext-sida-tva-tre_thumb.png"/>
+            <graphic xml:id="B4-Sangtext-sida-tva-tre.tiff"
+               url="collection/img/TIFF/B4-Sangtext-sida-tva-tre.tiff"/>
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_PDFA"            
+               url="collection/img/PDFA/B4-Sangtext-sida-tva-tre.pdf"/>      
+            <graphic xml:id="B4-Sangtext-sida-tva-tre_jpeg"       
+               url="assets/img/documents/B4-Sangtext-sida-tva-tre.jpeg"/>
          </figure>
       </surface>
-      <surface xml:id="B5-Sangtext-sida-fyra-fem" corresp="collection/img/XML TIFF/B5-Sangtext-sida-fyra-fem.xml">
+      <surface xml:id="B5-Sangtext-sida-fyra-fem" corresp="collection/img/XML metadata TIFF/B5-Sangtext-sida-fyra-fem-metadata.xml">
          <figure>
             <label>
                Sångtext, sida fyra-fem
@@ -296,27 +304,31 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens fjärde och femte sida.
             </figDesc>
-            <graphic xml:id="B5-Sangtext-sida-fyra-fem_full"
-               url="assets/img/documents/B5-Sangtext-sida-fyra-fem.png"/>
-            <graphic xml:id="B5-Sangtext-sida-fyra-fem_thumb"
-               url="assets/img/documents/B5-Sangtext-sida-fyra-fem_thumb.png"/>
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem.tiff"
+               url="collection/img/TIFF/B5-Sangtext-sida-fyra-fem.tiff"/>
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_PDFA"            
+               url="collection/img/PDFA/B5-Sangtext-sida-fyra-fem.pdf"/>      
+            <graphic xml:id="B5-Sangtext-sida-fyra-fem_jpeg"       
+               url="assets/img/documents/B5-Sangtext-sida-fyra-fem.jpeg"/>
          </figure>
       </surface>
-      <surface xml:id="B6-Sangtext-sida-sex-sju" corresp="collection/img/XML TIFF/B6-Sangtext-sida-sex-sju.xml">
+      <surface xml:id="B6-Sangtext-sida-sex-sju" corresp="collection/img/XML metadata TIFF/B6-Sangtext-sida-sex-sju-metadata.xml">
          <figure>
             <label>
                Sångtext, sida sex-sju
             </label>
             <figDesc>
                En skannad bild av sångtextens sjätte och sjunde sida.
-            </figDesc>
-            <graphic xml:id="B6-Sangtext-sida-sex-sju_full"
-               url="assets/img/documents/B6-Sangtext-sida-sex-sju.png"/>
-            <graphic xml:id="B6-Sangtext-sida-sex-sju_thumb"
-               url="assets/img/documents/B6-Sangtext-sida-sex-sju_thumb.png"/>
+            </figDesc>            
+            <graphic xml:id="B6-Sangtext-sida-sex-sju.tiff"
+               url="collection/img/TIFF/B6-Sangtext-sida-sex-sju.tiff"/>
+            <graphic xml:id="B6-Sangtext-sida-sex-sju_PDFA"            
+               url="collection/img/PDFA/B6-Sangtext-sida-sex-sju.pdf"/>      
+            <graphic xml:id="B6-Sangtext-sida-sex-sju_jpeg"       
+               url="assets/img/documents/B6-Sangtext-sida-sex-sju.jpeg"/>
          </figure>
       </surface>
-      <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida" corresp="collection/img/XML TIFF/B7-Attonde-sidan-sangtext-och-en-blank-sida.xml">
+      <surface xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida" corresp="collection/img/XML metadata TIFF/B7-Attonde-sidan-sangtext-och-en-blank-sida-metadata.xml">
          <figure>
             <label>
                Åttonde sidans sångtext och en blank sida
@@ -324,13 +336,15 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild av sångtextens sista sida till vänster och en blank sida till höger.
             </figDesc>
-            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_full"
-               url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.png"/>
-            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb"
-               url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida_thumb.png"/>
+            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida.tiff"
+               url="collection/img/TIFF/B7-Attonde-sidan-sangtext-och-en-blank-sida.tiff"/>
+            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_PDFA"            
+               url="collection/img/PDFA/B7-Attonde-sidan-sangtext-och-en-blank-sida.pdf"/>      
+            <graphic xml:id="B7-Attonde-sidan-sangtext-och-en-blank-sida_jpeg"       
+               url="assets/img/documents/B7-Attonde-sidan-sangtext-och-en-blank-sida.jpeg"/>
          </figure>
       </surface>
-      <surface xml:id="B8-Baksida-omslag" corresp="collection/img/XML TIFF/B8-Baksida-omslag.xml">
+      <surface xml:id="B8-Baksida-omslag" corresp="collection/img/XML metadata TIFF/B8-Baksida-omslag-metadata.xml">
          <figure>
             <label>
                Baksida omslag
@@ -338,10 +352,12 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <figDesc>
                En skannad bild på baksidan av resursens omslag.
             </figDesc>
-            <graphic xml:id="B8-Baksida-omslag_full"
-               url="assets/img/documents/B8-Baksida-omslag.png"/>
-            <graphic xml:id="B8-Baksida-omslag_thumb"
-               url="assets/img/documents/B8-Baksida-omslag_thumb.png"/>
+            <graphic xml:id="B8-Baksida-omslag.tiff"
+               url="collection/img/TIFF/B8-Baksida-omslag.tiff"/>
+            <graphic xml:id="B8-Baksida-omslag_PDFA"            
+               url="collection/img/PDFA/B8-Baksida-omslag.pdf"/>      
+            <graphic xml:id="B8-Baksida-omslag_jpeg"       
+               url="assets/img/documents/B8-Baksida-omslag.jpeg"/>
          </figure>
       </surface>
    </facsimile>
