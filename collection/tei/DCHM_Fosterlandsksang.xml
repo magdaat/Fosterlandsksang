@@ -184,21 +184,25 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc> 
-         <!--(editorial practice declaration) beskrivning av hur texten är uppmärkt (TEI guidelines) -->
-         <editorialDecl>
-            <p>
-               Interpunktion, versrader och versstycken markeras i texten för att bevara textens ursprungliga struktur och ge vägledning vid framförande, särskilt gällande rytm och semantik.
-               Typografiska avvikelser, såsom versaler eller ändrad textstorlek på bokstäver och ord, markeras för att spegla originalets visuella utformning.
-               Elementet <gi>placeName</gi> används för att markera ord som refererar till en plats, vilket hjälper till att sätta innehållet i ett kontextuellt sammanhang.
-               Elementet <gi>persName</gi> används för att ange en personkategori, vilket gör det möjligt att sätta innehållet i texten i ett kontextuellt sammanhang.
-               I de flesta av elementen <gi>persName</gi> används attributet <att>type</att>. Följande värden för attributet förekommer:
-               <list>
-                  <item>mythological = används för att markera mytologiska gestalter</item>
-                  <item>monarch = används för att markera en kung som har regerat över ett rike</item>
-               </list>
-            </p>
-         </editorialDecl>
+      <!--(encoding description) innehåller beskrivning av uppmärkning och taxonomi (TEI guidelines) -->
+      <encodingDesc>
+         <p>
+            Interpunktion, versrader och versstycken markeras i texten för att bevara dess ursprungliga struktur och ge vägledning vid framförande, särskilt med avseende på rytm och semantik.
+            Typografiska avvikelser, såsom versaler eller ändrad textstorlek på bokstäver och ord, markeras för att spegla originalets visuella utformning.
+            Elementet <gi>placeName</gi> används för att markera ord som refererar till en plats, vilket bidrar till att sätta innehållet i ett kontextuellt sammanhang.
+            Elementet <gi>persName</gi> används för att ange personer eller personkategorier, vilket gör det möjligt att kontextualisera innehållet i texten.
+            I de flesta <gi>persName</gi>-element används attributet <att>type</att> med värdena <val>mythological</val> eller <val>monarch</val>.
+         </p>
+         <classDecl>
+            <taxonomy xml:id="personTypes">
+               <category xml:id="mythological">
+                  <catDesc>En mytologisk gestalt.</catDesc>
+               </category>
+               <category xml:id="monarch">
+                  <catDesc>En kung som har regerat över ett rike.</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
       </encodingDesc>
       <!-- beskriv icke-bibliografiska aspekter (TEI guidelines) -->
       <profileDesc>
