@@ -433,9 +433,6 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 
 
 /* Styling för begrepp */
-
-/* Styling för begrepp */
-
 .page-begrepp .table-responsive {
     background-color: white;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
