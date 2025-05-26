@@ -1,35 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
 
-<rdf:Description rdf:about='C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img/B4-Sangtext-sida-tva-tre.tiff'
+<rdf:Description rdf:about='C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img/TIFF/B4-Sangtext-sida-tva-tre.tiff'
   xmlns:et='http://ns.exiftool.org/1.0/' et:toolkit='Image::ExifTool 13.29'
   xmlns:ExifTool='http://ns.exiftool.org/ExifTool/1.0/'
   xmlns:System='http://ns.exiftool.org/File/System/1.0/'
   xmlns:File='http://ns.exiftool.org/File/1.0/'
   xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
   xmlns:XMP-x='http://ns.exiftool.org/XMP/XMP-x/1.0/'
+  xmlns:XMP-iptcCore='http://ns.exiftool.org/XMP/XMP-iptcCore/1.0/'
+  xmlns:XMP-iptcExt='http://ns.exiftool.org/XMP/XMP-iptcExt/1.0/'
+  xmlns:XMP-dc='http://ns.exiftool.org/XMP/XMP-dc/1.0/'
   xmlns:XMP-photoshop='http://ns.exiftool.org/XMP/XMP-photoshop/1.0/'
-  xmlns:XMP-xmpRights='http://ns.exiftool.org/XMP/XMP-xmpRights/1.0/'
   xmlns:XMP-xmp='http://ns.exiftool.org/XMP/XMP-xmp/1.0/'
   xmlns:XMP-xmpMM='http://ns.exiftool.org/XMP/XMP-xmpMM/1.0/'
-  xmlns:XMP-dc='http://ns.exiftool.org/XMP/XMP-dc/1.0/'
-  xmlns:XMP-iptcCore='http://ns.exiftool.org/XMP/XMP-iptcCore/1.0/'
+  xmlns:XMP-xmpRights='http://ns.exiftool.org/XMP/XMP-xmpRights/1.0/'
   xmlns:IPTC='http://ns.exiftool.org/IPTC/IPTC/1.0/'
   xmlns:Photoshop='http://ns.exiftool.org/Photoshop/Photoshop/1.0/'
   xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
  <ExifTool:ExifToolVersion>13.29</ExifTool:ExifToolVersion>
  <System:FileName>B4-Sangtext-sida-tva-tre.tiff</System:FileName>
- <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img</System:Directory>
+ <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img/TIFF</System:Directory>
  <System:FileSize>16 MB</System:FileSize>
- <System:FileModifyDate>2025:05:21 09:12:12+02:00</System:FileModifyDate>
- <System:FileAccessDate>2025:05:21 09:17:39+02:00</System:FileAccessDate>
- <System:FileCreateDate>2025:04:23 11:40:52+02:00</System:FileCreateDate>
+ <System:FileModifyDate>2025:05:25 20:27:04+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:25 20:27:07+02:00</System:FileAccessDate>
+ <System:FileCreateDate>2025:05:23 23:19:52+02:00</System:FileCreateDate>
  <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
  <File:FileType>TIFF</File:FileType>
  <File:FileTypeExtension>tif</File:FileTypeExtension>
  <File:MIMEType>image/tiff</File:MIMEType>
  <File:ExifByteOrder>Little-endian (Intel, II)</File:ExifByteOrder>
- <File:CurrentIPTCDigest>6ba104e56661b9a91fce3b572d791782</File:CurrentIPTCDigest>
+ <File:CurrentIPTCDigest>5ae7f9ae14ec4c6dda50f5e1bd2da7ec</File:CurrentIPTCDigest>
  <File:PageCount>2</File:PageCount>
  <IFD0:SubfileType>Single page of multi-page image</IFD0:SubfileType>
  <IFD0:OldSubfileType>Single page of multi-page image</IFD0:OldSubfileType>
@@ -42,7 +43,7 @@
  <IFD0:FillOrder>Reversed</IFD0:FillOrder>
  <IFD0:ImageDescription>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IFD0:ImageDescription>
  <IFD0:Make>RICOH</IFD0:Make>
- <IFD0:StripOffsets>300</IFD0:StripOffsets>
+ <IFD0:StripOffsets>8830</IFD0:StripOffsets>
  <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
  <IFD0:SamplesPerPixel>1</IFD0:SamplesPerPixel>
  <IFD0:RowsPerStrip>7016</IFD0:RowsPerStrip>
@@ -54,55 +55,25 @@
  <IFD0:T6Options>(none)</IFD0:T6Options>
  <IFD0:ResolutionUnit>inches</IFD0:ResolutionUnit>
  <IFD0:PageNumber>0 1</IFD0:PageNumber>
- <IFD0:Artist>Marie Gyll; Jessica Hultengren; Susanne Landén; Magdalena af Trolle.</IFD0:Artist>
  <IFD0:Copyright>CC BY (version 4.0)</IFD0:Copyright>
- <XMP-x:XMPToolkit>Adobe XMP Core 9.1-c002 165.59ab891, 2024/09/18-09:57:10        </XMP-x:XMPToolkit>
- <XMP-photoshop:Headline>Tredje uppslaget, sångens andra och tredje sida.</XMP-photoshop:Headline>
- <XMP-xmpRights:Marked>True</XMP-xmpRights:Marked>
- <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
- <XMP-xmpRights:UsageTerms>I enlighet med Creative Commons-licens CC BY (version 4.0)</XMP-xmpRights:UsageTerms>
- <XMP-xmp:MetadataDate>2025:05:21 09:12:12+02:00</XMP-xmp:MetadataDate>
- <XMP-xmpMM:InstanceID>xmp.iid:129376f7-dfa5-af49-8673-c9c31f9ff39d</XMP-xmpMM:InstanceID>
- <XMP-xmpMM:DocumentID>xmp.did:96548725-768a-ce46-8c0d-a673233a585e</XMP-xmpMM:DocumentID>
- <XMP-xmpMM:OriginalDocumentID>xmp.did:96548725-768a-ce46-8c0d-a673233a585e</XMP-xmpMM:OriginalDocumentID>
- <XMP-xmpMM:HistoryAction>
-  <rdf:Bag>
-   <rdf:li>saved</rdf:li>
-   <rdf:li>saved</rdf:li>
-  </rdf:Bag>
- </XMP-xmpMM:HistoryAction>
- <XMP-xmpMM:HistoryInstanceID>
-  <rdf:Bag>
-   <rdf:li>xmp.iid:96548725-768a-ce46-8c0d-a673233a585e</rdf:li>
-   <rdf:li>xmp.iid:129376f7-dfa5-af49-8673-c9c31f9ff39d</rdf:li>
-  </rdf:Bag>
- </XMP-xmpMM:HistoryInstanceID>
- <XMP-xmpMM:HistoryWhen>
-  <rdf:Bag>
-   <rdf:li>2025:05:16 08:46:42+02:00</rdf:li>
-   <rdf:li>2025:05:21 09:12:12+02:00</rdf:li>
-  </rdf:Bag>
- </XMP-xmpMM:HistoryWhen>
- <XMP-xmpMM:HistorySoftwareAgent>
-  <rdf:Bag>
-   <rdf:li>Adobe Bridge 2025</rdf:li>
-   <rdf:li>Adobe Bridge 2025</rdf:li>
-  </rdf:Bag>
- </XMP-xmpMM:HistorySoftwareAgent>
- <XMP-xmpMM:HistoryChanged>
-  <rdf:Bag>
-   <rdf:li>/metadata</rdf:li>
-   <rdf:li>/metadata</rdf:li>
-  </rdf:Bag>
- </XMP-xmpMM:HistoryChanged>
- <XMP-dc:Creator>
+ <XMP-x:XMPToolkit>Image::ExifTool 13.29</XMP-x:XMPToolkit>
+ <XMP-iptcCore:AltTextAccessibility>Tredje uppslaget på sånghäfte &quot;Fosterländsk sång vid Götha Canals öpnande&quot;. Sångtext till vänster och höger.</XMP-iptcCore:AltTextAccessibility>
+ <XMP-iptcExt:ArtworkCreator>Magnus Martin af Pontin</XMP-iptcExt:ArtworkCreator>
+ <XMP-iptcExt:ArtworkSource>Linköpings universitetsbibliotek</XMP-iptcExt:ArtworkSource>
+ <XMP-iptcExt:ArtworkTitle>Fosterländsk sång vid Götha Canals öpnande</XMP-iptcExt:ArtworkTitle>
+ <XMP-dc:Contributor>
   <rdf:Bag>
    <rdf:li>Marie Gyll</rdf:li>
    <rdf:li>Jessica Hultengren</rdf:li>
    <rdf:li>Susanne Landén</rdf:li>
-   <rdf:li>Magdalena af Trolle.</rdf:li>
+   <rdf:li>Magdalena af Trolle</rdf:li>
   </rdf:Bag>
- </XMP-dc:Creator>
+ </XMP-dc:Contributor>
+ <XMP-dc:Creator>Magnus Martin af Pontin</XMP-dc:Creator>
+ <XMP-dc:Date>1832</XMP-dc:Date>
+ <XMP-dc:Description>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</XMP-dc:Description>
+ <XMP-dc:Rights>CC BY (version 4.0)</XMP-dc:Rights>
+ <XMP-dc:Source>Fosterländsk sång vid Götha Canals öpnande</XMP-dc:Source>
  <XMP-dc:Subject>
   <rdf:Bag>
    <rdf:li>Kanalbyggnad</rdf:li>
@@ -123,9 +94,45 @@
    <rdf:li>https://id.kb.se/term/sao/Slussar</rdf:li>
   </rdf:Bag>
  </XMP-dc:Subject>
- <XMP-dc:Rights>CC BY (version 4.0)</XMP-dc:Rights>
- <XMP-dc:Description>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</XMP-dc:Description>
- <XMP-iptcCore:AltTextAccessibility>Tredje uppslaget på sånghäfte &quot;Fosterländsk sång vid Götha Canals öpnande&quot;. Sångtext till vänster och höger.</XMP-iptcCore:AltTextAccessibility>
+ <XMP-photoshop:CaptionWriter>Marie Gyll; Jessica Hultengren; Susanne Landén; Magdalena af Trolle.</XMP-photoshop:CaptionWriter>
+ <XMP-photoshop:Headline>Tredje uppslaget, sångens andra och tredje sida.</XMP-photoshop:Headline>
+ <XMP-xmp:MetadataDate>2025:05:25 19:48:30+02:00</XMP-xmp:MetadataDate>
+ <XMP-xmpMM:DocumentID>xmp.did:96548725-768a-ce46-8c0d-a673233a585e</XMP-xmpMM:DocumentID>
+ <XMP-xmpMM:HistoryAction>
+  <rdf:Bag>
+   <rdf:li>saved</rdf:li>
+   <rdf:li>saved</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryAction>
+ <XMP-xmpMM:HistoryChanged>
+  <rdf:Bag>
+   <rdf:li>/metadata</rdf:li>
+   <rdf:li>/metadata</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryChanged>
+ <XMP-xmpMM:HistoryInstanceID>
+  <rdf:Bag>
+   <rdf:li>xmp.iid:96548725-768a-ce46-8c0d-a673233a585e</rdf:li>
+   <rdf:li>xmp.iid:1a043ea3-c3d1-4044-adce-6b7daa5b8030</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryInstanceID>
+ <XMP-xmpMM:HistorySoftwareAgent>
+  <rdf:Bag>
+   <rdf:li>Adobe Bridge 2025</rdf:li>
+   <rdf:li>Adobe Bridge 2025</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistorySoftwareAgent>
+ <XMP-xmpMM:HistoryWhen>
+  <rdf:Bag>
+   <rdf:li>2025:05:16 08:46:42+02:00</rdf:li>
+   <rdf:li>2025:05:25 19:48:30+02:00</rdf:li>
+  </rdf:Bag>
+ </XMP-xmpMM:HistoryWhen>
+ <XMP-xmpMM:InstanceID>xmp.iid:1a043ea3-c3d1-4044-adce-6b7daa5b8030</XMP-xmpMM:InstanceID>
+ <XMP-xmpMM:OriginalDocumentID>xmp.did:96548725-768a-ce46-8c0d-a673233a585e</XMP-xmpMM:OriginalDocumentID>
+ <XMP-xmpRights:Marked>True</XMP-xmpRights:Marked>
+ <XMP-xmpRights:UsageTerms>I enlighet med Creative Commons-licens CC BY (version 4.0)</XMP-xmpRights:UsageTerms>
+ <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
  <IPTC:CodedCharacterSet>UTF8</IPTC:CodedCharacterSet>
  <IPTC:ApplicationRecordVersion>4</IPTC:ApplicationRecordVersion>
  <IPTC:Keywords>
@@ -148,20 +155,13 @@
    <rdf:li>https://id.kb.se/term/sao/Slussar</rdf:li>
   </rdf:Bag>
  </IPTC:Keywords>
- <IPTC:By-line>
-  <rdf:Bag>
-   <rdf:li>Marie Gyll</rdf:li>
-   <rdf:li>Jessica Hultengren</rdf:li>
-   <rdf:li>Susanne Landén</rdf:li>
-   <rdf:li>Magdalena af Trolle.</rdf:li>
-  </rdf:Bag>
- </IPTC:By-line>
  <IPTC:Headline>Tredje uppslaget, sångens andra och tredje sida.</IPTC:Headline>
  <IPTC:CopyrightNotice>CC BY (version 4.0)</IPTC:CopyrightNotice>
  <IPTC:Caption-Abstract>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IPTC:Caption-Abstract>
+ <IPTC:Writer-Editor>Marie Gyll; Jessica Hultengren; </IPTC:Writer-Editor>
  <Photoshop:CopyrightFlag>True</Photoshop:CopyrightFlag>
  <Photoshop:URL>https://creativecommons.org/licenses/by/4.0/</Photoshop:URL>
- <Photoshop:IPTCDigest>6ba104e56661b9a91fce3b572d791782</Photoshop:IPTCDigest>
+ <Photoshop:IPTCDigest>5ae7f9ae14ec4c6dda50f5e1bd2da7ec</Photoshop:IPTCDigest>
  <Composite:ImageSize>9928x7016</Composite:ImageSize>
  <Composite:Megapixels>69.7</Composite:Megapixels>
 </rdf:Description>
