@@ -417,7 +417,7 @@ max-width: 100%; /* Gör bilderna större på små skärmar */
 
 .page-historia .referenser {
     font-size: 1.25vw; /* Responsiv textstorlek */
-    line-height: 1vw;
+    line-height: 1.4em;
     margin-top: 2vw;
     margin-bottom: 2vw;
 }
