@@ -8,13 +8,13 @@
   xmlns:File='http://ns.exiftool.org/File/1.0/'
   xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
   xmlns:XMP-x='http://ns.exiftool.org/XMP/XMP-x/1.0/'
+  xmlns:XMP-iptcCore='http://ns.exiftool.org/XMP/XMP-iptcCore/1.0/'
+  xmlns:XMP-iptcExt='http://ns.exiftool.org/XMP/XMP-iptcExt/1.0/'
   xmlns:XMP-dc='http://ns.exiftool.org/XMP/XMP-dc/1.0/'
   xmlns:XMP-photoshop='http://ns.exiftool.org/XMP/XMP-photoshop/1.0/'
   xmlns:XMP-xmp='http://ns.exiftool.org/XMP/XMP-xmp/1.0/'
   xmlns:XMP-xmpMM='http://ns.exiftool.org/XMP/XMP-xmpMM/1.0/'
   xmlns:XMP-xmpRights='http://ns.exiftool.org/XMP/XMP-xmpRights/1.0/'
-  xmlns:XMP-iptcCore='http://ns.exiftool.org/XMP/XMP-iptcCore/1.0/'
-  xmlns:XMP-iptcExt='http://ns.exiftool.org/XMP/XMP-iptcExt/1.0/'
   xmlns:IPTC='http://ns.exiftool.org/IPTC/IPTC/1.0/'
   xmlns:Photoshop='http://ns.exiftool.org/Photoshop/Photoshop/1.0/'
   xmlns:Composite='http://ns.exiftool.org/Composite/1.0/'>
@@ -22,8 +22,8 @@
  <System:FileName>B1-Framsida-omslag.tiff</System:FileName>
  <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img/TIFF</System:Directory>
  <System:FileSize>11 MB</System:FileSize>
- <System:FileModifyDate>2025:05:25 22:08:29+02:00</System:FileModifyDate>
- <System:FileAccessDate>2025:05:25 22:11:16+02:00</System:FileAccessDate>
+ <System:FileModifyDate>2025:05:27 06:16:31+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:27 06:16:33+02:00</System:FileAccessDate>
  <System:FileCreateDate>2025:05:23 23:19:51+02:00</System:FileCreateDate>
  <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
  <File:FileType>TIFF</File:FileType>
@@ -43,7 +43,7 @@
  <IFD0:FillOrder>Reversed</IFD0:FillOrder>
  <IFD0:ImageDescription>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IFD0:ImageDescription>
  <IFD0:Make>RICOH</IFD0:Make>
- <IFD0:StripOffsets>8824</IFD0:StripOffsets>
+ <IFD0:StripOffsets>8818</IFD0:StripOffsets>
  <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
  <IFD0:SamplesPerPixel>1</IFD0:SamplesPerPixel>
  <IFD0:RowsPerStrip>4677</IFD0:RowsPerStrip>
@@ -57,20 +57,24 @@
  <IFD0:PageNumber>0 1</IFD0:PageNumber>
  <IFD0:Artist>Magnus Martin af Pontin</IFD0:Artist>
  <IFD0:Copyright>CC BY (version 4.0)</IFD0:Copyright>
- <XMP-x:XMPToolkit>Adobe XMP Core 9.1-c002 165.59ab891, 2024/09/18-09:57:10        </XMP-x:XMPToolkit>
- <XMP-dc:Source>Fosterländsk sång vid Götha Canals öpnande</XMP-dc:Source>
+ <XMP-x:XMPToolkit>Image::ExifTool 13.29</XMP-x:XMPToolkit>
+ <XMP-iptcCore:AltTextAccessibility>Orange framsida på sånghäfte &quot;Fosterländsk sång vid Götha Canals öpnande&quot;.</XMP-iptcCore:AltTextAccessibility>
+ <XMP-iptcExt:ArtworkCreator>Magnus Martin af Pontin</XMP-iptcExt:ArtworkCreator>
+ <XMP-iptcExt:ArtworkSource>Linköpings universitetsbibliotek</XMP-iptcExt:ArtworkSource>
+ <XMP-iptcExt:ArtworkTitle>Fosterländsk sång vid Götha Canals öpnande</XMP-iptcExt:ArtworkTitle>
  <XMP-dc:Contributor>
   <rdf:Bag>
-   <rdf:li>Marie Gyll</rdf:li>
-   <rdf:li>Jessica Hultengren</rdf:li>
-   <rdf:li>Susanne Landén</rdf:li>
-   <rdf:li>Magdalena af Trolle</rdf:li>
+   <rdf:li>Gyll, Marie</rdf:li>
+   <rdf:li>Hultengren, Jessica</rdf:li>
+   <rdf:li>Landén, Susanne</rdf:li>
+   <rdf:li>Trolle, Magdalena af</rdf:li>
   </rdf:Bag>
  </XMP-dc:Contributor>
- <XMP-dc:Creator>Magnus Martin af Pontin</XMP-dc:Creator>
+ <XMP-dc:Creator>Pontin, Magnus, Martin af</XMP-dc:Creator>
  <XMP-dc:Date>1832</XMP-dc:Date>
  <XMP-dc:Description>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</XMP-dc:Description>
  <XMP-dc:Rights>CC BY (version 4.0) </XMP-dc:Rights>
+ <XMP-dc:Source>Fosterländsk sång vid Götha Canals öpnande</XMP-dc:Source>
  <XMP-dc:Subject>
   <rdf:Bag>
    <rdf:li>Kanalbyggnad</rdf:li>
@@ -95,8 +99,6 @@
  <XMP-photoshop:Headline>Framsida på sånghäftet</XMP-photoshop:Headline>
  <XMP-xmp:MetadataDate>2025:05:25 22:08:29+02:00</XMP-xmp:MetadataDate>
  <XMP-xmpMM:DocumentID>xmp.did:ec206531-2817-6046-8a38-c7bd98960bff</XMP-xmpMM:DocumentID>
- <XMP-xmpMM:InstanceID>xmp.iid:f6415ea9-4103-984b-b111-9ac8727e43d3</XMP-xmpMM:InstanceID>
- <XMP-xmpMM:OriginalDocumentID>xmp.did:ec206531-2817-6046-8a38-c7bd98960bff</XMP-xmpMM:OriginalDocumentID>
  <XMP-xmpMM:HistoryAction>
   <rdf:Bag>
    <rdf:li>saved</rdf:li>
@@ -127,13 +129,11 @@
    <rdf:li>2025:05:25 22:08:29+02:00</rdf:li>
   </rdf:Bag>
  </XMP-xmpMM:HistoryWhen>
+ <XMP-xmpMM:InstanceID>xmp.iid:f6415ea9-4103-984b-b111-9ac8727e43d3</XMP-xmpMM:InstanceID>
+ <XMP-xmpMM:OriginalDocumentID>xmp.did:ec206531-2817-6046-8a38-c7bd98960bff</XMP-xmpMM:OriginalDocumentID>
  <XMP-xmpRights:Marked>True</XMP-xmpRights:Marked>
- <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
  <XMP-xmpRights:UsageTerms>I enlighet med Creative Commons-licens CC BY (version 4.0)</XMP-xmpRights:UsageTerms>
- <XMP-iptcCore:AltTextAccessibility>Orange framsida på sånghäfte &quot;Fosterländsk sång vid Götha Canals öpnande&quot;.</XMP-iptcCore:AltTextAccessibility>
- <XMP-iptcExt:ArtworkSource>Linköpings universitetsbibliotek</XMP-iptcExt:ArtworkSource>
- <XMP-iptcExt:ArtworkCreator>Magnus Martin af Pontin</XMP-iptcExt:ArtworkCreator>
- <XMP-iptcExt:ArtworkTitle>Fosterländsk sång vid Götha Canals öpnande</XMP-iptcExt:ArtworkTitle>
+ <XMP-xmpRights:WebStatement>https://creativecommons.org/licenses/by/4.0/</XMP-xmpRights:WebStatement>
  <IPTC:CodedCharacterSet>UTF8</IPTC:CodedCharacterSet>
  <IPTC:ApplicationRecordVersion>4</IPTC:ApplicationRecordVersion>
  <IPTC:Keywords>

@@ -22,8 +22,8 @@
  <System:FileName>B7-Attonde-sidan-sangtext-och-en-blank-sida.tiff</System:FileName>
  <System:Directory>C:/Users/mjaur/Documents/GitHub/Fosterlandsksang/collection/img/TIFF</System:Directory>
  <System:FileSize>6.8 MB</System:FileSize>
- <System:FileModifyDate>2025:05:25 20:44:40+02:00</System:FileModifyDate>
- <System:FileAccessDate>2025:05:25 20:44:42+02:00</System:FileAccessDate>
+ <System:FileModifyDate>2025:05:27 06:44:09+02:00</System:FileModifyDate>
+ <System:FileAccessDate>2025:05:27 06:44:11+02:00</System:FileAccessDate>
  <System:FileCreateDate>2025:05:25 20:42:18+02:00</System:FileCreateDate>
  <System:FilePermissions>-rw-rw-rw-</System:FilePermissions>
  <File:FileType>TIFF</File:FileType>
@@ -43,7 +43,7 @@
  <IFD0:FillOrder>Reversed</IFD0:FillOrder>
  <IFD0:ImageDescription>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</IFD0:ImageDescription>
  <IFD0:Make>RICOH</IFD0:Make>
- <IFD0:StripOffsets>8866</IFD0:StripOffsets>
+ <IFD0:StripOffsets>8872</IFD0:StripOffsets>
  <IFD0:Orientation>Horizontal (normal)</IFD0:Orientation>
  <IFD0:SamplesPerPixel>1</IFD0:SamplesPerPixel>
  <IFD0:RowsPerStrip>4677</IFD0:RowsPerStrip>
@@ -63,13 +63,13 @@
  <XMP-iptcExt:ArtworkTitle>Fosterländsk sång vid Götha Canals öpnande</XMP-iptcExt:ArtworkTitle>
  <XMP-dc:Contributor>
   <rdf:Bag>
-   <rdf:li>Marie Gyll</rdf:li>
-   <rdf:li>Jessica Hultengren</rdf:li>
-   <rdf:li>Susanne Landén</rdf:li>
-   <rdf:li>Magdalena af Trolle</rdf:li>
+   <rdf:li>Gyll, Marie</rdf:li>
+   <rdf:li>Hultengren, Jessica</rdf:li>
+   <rdf:li>Landén, Susanne</rdf:li>
+   <rdf:li>Trolle, Magdalena af</rdf:li>
   </rdf:Bag>
  </XMP-dc:Contributor>
- <XMP-dc:Creator>Magnus Martin af Pontin</XMP-dc:Creator>
+ <XMP-dc:Creator>Pontin, Magnus, Martin af</XMP-dc:Creator>
  <XMP-dc:Date>1832</XMP-dc:Date>
  <XMP-dc:Description>Skannad bild av ett uppslag ur Fosterländsk sång vid Götha Canals öpnande av Magnus Martin af Pontin.</XMP-dc:Description>
  <XMP-dc:Rights>CC BY (version 4.0)</XMP-dc:Rights>
